@@ -1,21 +1,24 @@
 'use client';
 
 import * as React from 'react';
-import * as CommandPrimitive from '@radix-ui/react-command';
+import { Command as CommandPrimitive } from 'cmdk';
 import { clsx } from 'clsx';
 import { MagnifyingGlassIcon } from '@radix-ui/react-icons';
 
 export const Command = React.forwardRef<
-  React.ElementRef<typeof CommandPrimitive.Root>,
-  React.ComponentPropsWithoutRef<typeof CommandPrimitive.Root>
+  React.ElementRef<typeof CommandPrimitive>,
+  React.ComponentPropsWithoutRef<typeof CommandPrimitive>
 >(({ className, ...props }, ref) => (
-  <CommandPrimitive.Root
+  <CommandPrimitive
     ref={ref}
-    className={clsx('flex h-full w-full flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-xl', className)}
+    className={clsx(
+      'flex h-full w-full flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-xl',
+      className
+    )}
     {...props}
   />
 ));
-Command.displayName = CommandPrimitive.Root.displayName;
+Command.displayName = CommandPrimitive.displayName;
 
 export const CommandInput = React.forwardRef<
   React.ElementRef<typeof CommandPrimitive.Input>,
