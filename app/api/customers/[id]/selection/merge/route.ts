@@ -1,0 +1,34 @@
+import { NextResponse } from 'next/server';
+import { z } from 'zod';
+import { mergeDallasIntoWorking } from '@/lib/selections/store';
+import { revalidateTag } from 'next/cache';
+
+const paramsSchema = z.object({
+  id: z.string().min(1),
+});
+
+const payloadSchema = z.object({
+  snapshotId: z.string().min(1),
+  strategy: z.enum(['addOnlyNew', 'sumQuantities', 'preferDallas']),
+});
+
+export async function POST(request: Request, context: { params: { id: string } }) {
+  const params = paramsSchema.safeParse(context.params);
+  if (!params.success) {
+    return NextResponse.json({ error: 'Invalid customer id' }, { status: 400 });
+  }
+
+  const body = await request.json().catch(() => null);
+  const parsed = payloadSchema.safeParse(body);
+  if (!parsed.success) {
+    return NextResponse.json({ error: parsed.error.flatten() }, { status: 400 });
+  }
+
+  try {
+    const selection = await mergeDallasIntoWorking(params.data.id, parsed.data.snapshotId, parsed.data.strategy);
+    await revalidateTag(`customer-working-${params.data.id}`);
+    return NextResponse.json({ selectionId: selection.id, version: selection.version });
+  } catch (error) {
+    return NextResponse.json({ error: (error as Error).message }, { status: 400 });
+  }
+}

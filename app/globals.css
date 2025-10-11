@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-background text-foreground;
+}
+
+a {
+  @apply text-primary underline-offset-4 hover:underline;
+}
+
+.card-shadow {
+  box-shadow: 0 20px 40px -24px rgba(15, 23, 42, 0.3);
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "sku": "AR-GLW-201",
+    "name": "Aurora Glow Pendant",
+    "list": 425.0,
+    "image": null
+  },
+  {
+    "sku": "LN-SIL-118",
+    "name": "Lumen Silver Sconce",
+    "list": 280.0
+  },
+  {
+    "sku": "HL-ARC-305",
+    "name": "Halo Arc Floor Lamp",
+    "list": 630.0
+  },
+  {
+    "sku": "VL-CRL-502",
+    "name": "Velo Crystal Chandelier",
+    "list": 1890.0
+  },
+  {
+    "sku": "MB-TBL-223",
+    "name": "Marble Bloom Table Lamp",
+    "list": 350.0
+  },
+  {
+    "sku": "PL-LNE-415",
+    "name": "Parallel Linear Suspension",
+    "list": 1450.0
+  },
+  {
+    "sku": "SC-LFT-142",
+    "name": "Sculpt Loft Wall Washer",
+    "list": 520.0
+  },
+  {
+    "sku": "DL-ORB-901",
+    "name": "Duo Orbital Statement Fixture",
+    "list": 2300.0
+  }
+]

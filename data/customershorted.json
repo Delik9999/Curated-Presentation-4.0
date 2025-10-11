@@ -1,0 +1,23 @@
+[
+  {
+    "id": "demo",
+    "name": "Luminous Interiors",
+    "city": "Dallas",
+    "region": "TX",
+    "slug": "luminous-interiors"
+  },
+  {
+    "id": "aurora-hospitality",
+    "name": "Aurora Hospitality Group",
+    "city": "Austin",
+    "region": "TX",
+    "slug": "aurora-hospitality"
+  },
+  {
+    "id": "gallery-one",
+    "name": "Gallery One Residences",
+    "city": "Chicago",
+    "region": "IL",
+    "slug": "gallery-one"
+  }
+]
