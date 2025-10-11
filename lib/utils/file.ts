@@ -6,13 +6,17 @@ export async function readJsonFile<T>(relativePath: string, fallback: T): Promis
   try {
     const file = await fs.readFile(fullPath, 'utf-8');
     return JSON.parse(file) as T;
-  } catch (error: any) {
-    if (error.code === 'ENOENT') {
+  } catch (error: unknown) {
+    if (isNodeError(error) && error.code === 'ENOENT') {
       await writeJsonFile(relativePath, fallback);
       return fallback;
     }
     throw error;
   }
+}
+
+function isNodeError(error: unknown): error is NodeJS.ErrnoException {
+  return typeof error === 'object' && error !== null && 'code' in error;
 }
 
 export async function writeJsonFile<T>(relativePath: string, data: T): Promise<void> {

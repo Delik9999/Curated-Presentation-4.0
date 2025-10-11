@@ -39,7 +39,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     return (
       <Comp
         className={clsx(buttonVariants({ variant, size }), className)}
-        ref={ref as any}
+        ref={ref}
         {...props}
       />
     );

@@ -24,7 +24,7 @@ export type Selection = {
   isPublished: boolean;
   version: number;
   items: SelectionItem[];
-  metadata?: Record<string, any>;
+  metadata?: Record<string, unknown>;
   createdAt: string;
   updatedAt: string;
 };

@@ -128,10 +128,11 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
         });
         setItems([]);
       },
-      onError: (error: any) => {
+      onError: (error: unknown) => {
+        const message = error instanceof Error ? error.message : String(error);
         toast({
           title: 'Unable to publish snapshot',
-          description: String(error.message ?? error),
+          description: message,
           variant: 'destructive',
         });
       },
@@ -210,21 +211,21 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
             const response = await fetch(`/api/catalog/search?query=${encodeURIComponent(sku)}`);
             if (!response.ok) return null;
             const data = (await response.json()) as { results: CatalogResult[] };
-            return data.results.find((item) => item.sku.toLowerCase() === sku.toLowerCase()) ?? null;
+            const catalog = data.results.find((item) => item.sku.toLowerCase() === sku.toLowerCase());
+            return catalog ? { catalog, qty } : null;
           })
         );
-        matches.filter((m): m is CatalogResult => Boolean(m)).forEach((catalogItem, index) => {
+        matches.filter((m): m is { catalog: CatalogResult; qty: number } => Boolean(m)).forEach(({ catalog, qty }) => {
           setItems((current) => {
-            if (current.some((item) => item.sku === catalogItem.sku)) {
+            if (current.some((item) => item.sku === catalog.sku)) {
               return current;
             }
-            const qty = result.ok[index]?.qty ?? 1;
             return [
               ...current,
               {
-                sku: catalogItem.sku,
-                name: catalogItem.name,
-                unitList: catalogItem.list,
+                sku: catalog.sku,
+                name: catalog.name,
+                unitList: catalog.list,
                 qty: qty > 0 ? qty : 1,
                 programDisc: 0,
                 tags: [],
@@ -239,10 +240,11 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
         setBulkInput('');
         setIsBulkOpen(false);
       }
-    } catch (error: any) {
+    } catch (error: unknown) {
+      const message = error instanceof Error ? error.message : String(error);
       toast({
         title: 'Unable to process bulk input',
-        description: String(error.message ?? error),
+        description: message,
         variant: 'destructive',
       });
     }

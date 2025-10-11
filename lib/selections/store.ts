@@ -74,7 +74,7 @@ export type SaveDallasSnapshotInput = {
     netUnit?: number;
     extendedNet?: number;
   })[];
-  metadata?: Record<string, any>;
+  metadata?: Record<string, unknown>;
 };
 
 export async function saveDallasSnapshot(
@@ -156,7 +156,7 @@ export async function createWorkingFromSnapshot(
   customerId: string,
   snapshotId: string,
   name?: string,
-  metadata?: Record<string, any>
+  metadata?: Record<string, unknown>
 ): Promise<Selection> {
   const selections = await loadSelections();
   const snapshot = selections.find((selection) => selection.id === snapshotId && selection.status === 'snapshot');
@@ -300,7 +300,7 @@ export async function updateWorkingSelection(
   updates: {
     items: { sku: string; qty: number; notes?: string }[];
     name?: string;
-    metadata?: Record<string, any>;
+    metadata?: Record<string, unknown>;
   }
 ): Promise<Selection> {
   const selections = await loadSelections();
