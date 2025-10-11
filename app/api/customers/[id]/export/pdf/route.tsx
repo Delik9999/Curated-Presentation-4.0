@@ -43,29 +43,26 @@ export async function GET(request: Request, context: { params: { id: string } })
   const document = <SelectionPdfDocument selection={selection} customerName={customer.name} heading={heading} />;
   const pdfStream = (await renderToStream(document)) as Readable;
 
-  const webStream =
-    typeof Readable.toWeb === 'function'
-      ? Readable.toWeb(pdfStream)
-      : new ReadableStream<Uint8Array>({
-          start(controller) {
-            pdfStream.on('data', (chunk: Buffer) => {
-              controller.enqueue(new Uint8Array(chunk));
-            });
+  const webStream = new ReadableStream<Uint8Array>({
+    start(controller) {
+      pdfStream.on('data', (chunk: Buffer) => {
+        controller.enqueue(new Uint8Array(chunk));
+      });
 
-            pdfStream.once('end', () => {
-              controller.close();
-            });
+      pdfStream.once('end', () => {
+        controller.close();
+      });
 
-            pdfStream.once('error', (error: unknown) => {
-              controller.error(error);
-            });
-          },
-          cancel(reason) {
-            if (typeof pdfStream.destroy === 'function') {
-              pdfStream.destroy(reason instanceof Error ? reason : undefined);
-            }
-          },
-        });
+      pdfStream.once('error', (error: unknown) => {
+        controller.error(error);
+      });
+    },
+    cancel(reason) {
+      if (typeof (pdfStream as Readable & { destroy?: (error?: Error) => void }).destroy === 'function') {
+        pdfStream.destroy(reason instanceof Error ? reason : undefined);
+      }
+    },
+  });
   const filename = `${customer.name.replace(/\s+/g, '_')}_${type}_${selection.version}.pdf`;
 
   return new NextResponse(webStream, {
