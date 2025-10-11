@@ -13,6 +13,16 @@ import { formatCurrency } from '@/lib/utils/currency';
 import { useToast } from '@/components/ui/use-toast';
 import { ChevronDownIcon, DownloadIcon, ShuffleIcon } from '@radix-ui/react-icons';
 
+type MarketOrderSummary = {
+  id: string;
+  name: string;
+  sourceEventId: string;
+  sourceYear: number;
+  marketMonth: 'January' | 'June';
+  version: number;
+  createdAt: string;
+};
+
 export type DallasApiResponse = {
   snapshot: Selection | null;
   versions: { id: string; name: string; version: number; createdAt: string }[];
@@ -38,6 +48,15 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
   const [showImportDecision, setShowImportDecision] = useState(false);
   const [replaceConfirmation, setReplaceConfirmation] = useState('');
 
+  const historyQuery = useQuery<{ history: MarketOrderSummary[] }>({
+    queryKey: ['dallas-history', customer.id],
+    queryFn: async () => {
+      const response = await fetch(`/api/rep/dallas/history?customerId=${encodeURIComponent(customer.id)}`);
+      if (!response.ok) throw new Error('Failed to load history');
+      return response.json();
+    },
+  });
+
   const snapshotQuery = useQuery<DallasApiResponse>({
     queryKey: ['customer-dallas', customer.id, selectedSnapshotId],
     queryFn: async () => {
@@ -53,7 +72,6 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
   });
 
   const snapshot = snapshotQuery.data?.snapshot ?? null;
-  const versions = snapshotQuery.data?.versions ?? [];
 
   const importMutation = useMutation<
     { selectionId: string; version: number },
@@ -161,32 +179,36 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
         <div>
           <CardTitle>Dallas Market Selection</CardTitle>
           <CardDescription>
-            Read-only snapshot from Dallas. Import or merge into your working selection to continue fine-tuning.
+            Showing {snapshot.marketMonth} {snapshot.sourceYear} market order.{' '}
+            {historyQuery.data && historyQuery.data.history.length > 1 &&
+              `View ${historyQuery.data.history.length - 1} other market order${historyQuery.data.history.length > 2 ? 's' : ''} using the dropdown.`}
           </CardDescription>
         </div>
         <div className="flex flex-wrap items-center gap-3">
-          <div className="flex items-center gap-2">
-            <span className="text-sm font-medium text-slate-500">Version</span>
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <Button variant="outline" size="sm">
-                  v{snapshot.version} <ChevronDownIcon className="ml-2 h-4 w-4" />
-                </Button>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent align="end">
-                {versions.map((version) => (
-                  <DropdownMenuItem
-                    key={version.id}
-                    onSelect={() => {
-                      setSelectedSnapshotId(version.id);
-                    }}
-                  >
-                    v{version.version} · {new Date(version.createdAt).toLocaleDateString()}
-                  </DropdownMenuItem>
-                ))}
-              </DropdownMenuContent>
-            </DropdownMenu>
-          </div>
+          {historyQuery.data && historyQuery.data.history.length > 1 && (
+            <div className="flex items-center gap-2">
+              <span className="text-sm font-medium text-slate-500">Market Order</span>
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="outline" size="sm">
+                    {snapshot.marketMonth} {snapshot.sourceYear} <ChevronDownIcon className="ml-2 h-4 w-4" />
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end">
+                  {historyQuery.data.history.map((order) => (
+                    <DropdownMenuItem
+                      key={order.id}
+                      onSelect={() => {
+                        setSelectedSnapshotId(order.id);
+                      }}
+                    >
+                      {order.marketMonth} {order.sourceYear} (v{order.version}) · {new Date(order.createdAt).toLocaleDateString()}
+                    </DropdownMenuItem>
+                  ))}
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </div>
+          )}
           {exportMenu}
           <Button size="sm" onClick={() => importMutation.mutate('auto')} disabled={importMutation.isPending}>
             Import to Selection
