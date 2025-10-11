@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import type { Readable } from 'stream';
 import { z } from 'zod';
 import { resolveSelection } from '@/lib/selections/resolvers';
 import { findCustomer } from '@/lib/customers/loadCustomers';
@@ -40,23 +41,25 @@ export async function GET(request: Request, context: { params: { id: string } })
 
   const heading = `${customer.name} • ${type === 'dallas' ? 'Dallas Market Selection' : 'Working Selection'} (${selection.name})`;
   const document = <SelectionPdfDocument selection={selection} customerName={customer.name} heading={heading} />;
-  const pdfStream = await renderToStream(document);
+  const pdfStream = (await renderToStream(document)) as unknown as Readable;
   const webStream = new ReadableStream<Uint8Array>({
     start(controller) {
       pdfStream.on('data', (chunk: Buffer) => {
         controller.enqueue(new Uint8Array(chunk));
       });
 
-      pdfStream.on('end', () => {
+      pdfStream.once('end', () => {
         controller.close();
       });
 
-      pdfStream.on('error', (error: unknown) => {
+      pdfStream.once('error', (error: unknown) => {
         controller.error(error);
       });
     },
-    cancel() {
-      pdfStream.destroy();
+    cancel(reason) {
+      if (typeof pdfStream.destroy === 'function') {
+        pdfStream.destroy(reason instanceof Error ? reason : undefined);
+      }
     },
   });
   const filename = `${customer.name.replace(/\s+/g, '_')}_${type}_${selection.version}.pdf`;
