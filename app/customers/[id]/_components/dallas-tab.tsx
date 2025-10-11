@@ -59,8 +59,8 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
     { selectionId: string; version: number },
     Error,
     'auto' | 'createNew' | 'replace'
-  >(
-    async (mode) => {
+  >({
+    mutationFn: async (mode) => {
       if (!snapshot) throw new Error('No Dallas snapshot to import');
       const response = await fetch(`/api/customers/${customer.id}/selection/import`, {
         method: 'POST',
@@ -77,26 +77,24 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
       }
       return response.json() as Promise<{ selectionId: string; version: number }>;
     },
-    {
-      onSuccess: () => {
-        toast({ title: 'Selection created', description: 'Working selection updated with Dallas content.' });
-        queryClient.invalidateQueries(['customer-working', customer.id]);
-        setShowImportDecision(false);
-        setReplaceConfirmation('');
-      },
-      onError: (error) => {
-        if (error.message.includes('already exists')) return;
-        toast({ title: 'Import failed', description: error.message, variant: 'destructive' });
-      },
-    }
-  );
+    onSuccess: () => {
+      toast({ title: 'Selection created', description: 'Working selection updated with Dallas content.' });
+      queryClient.invalidateQueries({ queryKey: ['customer-working', customer.id] });
+      setShowImportDecision(false);
+      setReplaceConfirmation('');
+    },
+    onError: (error) => {
+      if (error.message.includes('already exists')) return;
+      toast({ title: 'Import failed', description: error.message, variant: 'destructive' });
+    },
+  });
 
   const mergeMutation = useMutation<
     { selectionId: string; version: number },
     Error,
     'addOnlyNew' | 'sumQuantities' | 'preferDallas'
-  >(
-    async (strategy) => {
+  >({
+    mutationFn: async (strategy) => {
       if (!snapshot) throw new Error('No Dallas snapshot to merge');
       const response = await fetch(`/api/customers/${customer.id}/selection/merge`, {
         method: 'POST',
@@ -109,16 +107,14 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
       }
       return response.json() as Promise<{ selectionId: string; version: number }>;
     },
-    {
-      onSuccess: () => {
-        toast({ title: 'Selection merged', description: 'Working selection version updated.' });
-        queryClient.invalidateQueries(['customer-working', customer.id]);
-      },
-      onError: (error) => {
-        toast({ title: 'Merge failed', description: error.message, variant: 'destructive' });
-      },
-    }
-  );
+    onSuccess: () => {
+      toast({ title: 'Selection merged', description: 'Working selection version updated.' });
+      queryClient.invalidateQueries({ queryKey: ['customer-working', customer.id] });
+    },
+    onError: (error) => {
+      toast({ title: 'Merge failed', description: error.message, variant: 'destructive' });
+    },
+  });
 
   const totals = useMemo(() => {
     if (!snapshot) return { subtotal: 0, discount: 0, net: 0 };
