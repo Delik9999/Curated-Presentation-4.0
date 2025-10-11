@@ -11,8 +11,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 import { Badge } from '@/components/ui/badge';
 import { formatCurrency } from '@/lib/utils/currency';
 import { useToast } from '@/components/ui/use-toast';
-import { ArrowDownTrayIcon, ArrowsRightLeftIcon } from '@heroicons/react/24/outline';
-import { ChevronDownIcon } from '@radix-ui/react-icons';
+import { ChevronDownIcon, DownloadIcon, ShuffleIcon } from '@radix-ui/react-icons';
 
 export type DallasApiResponse = {
   snapshot: Selection | null;
@@ -137,7 +136,7 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="outline" size="sm">
-          <ArrowDownTrayIcon className="mr-2 h-4 w-4" /> Export
+          <DownloadIcon className="mr-2 h-4 w-4" /> Export
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
@@ -193,7 +192,7 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="secondary" size="sm">
-                <ArrowsRightLeftIcon className="mr-2 h-4 w-4" /> Merge into Selection
+                <ShuffleIcon className="mr-2 h-4 w-4" /> Merge into Selection
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">

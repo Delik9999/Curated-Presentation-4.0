@@ -3,7 +3,7 @@
 import * as React from 'react';
 import * as DialogPrimitive from '@radix-ui/react-dialog';
 import { clsx } from 'clsx';
-import { XMarkIcon } from '@heroicons/react/24/outline';
+import { Cross2Icon } from '@radix-ui/react-icons';
 
 export const Dialog = DialogPrimitive.Root;
 export const DialogTrigger = DialogPrimitive.Trigger;
@@ -39,7 +39,7 @@ export const DialogContent = React.forwardRef<
       {children}
       <DialogPrimitive.Close className="absolute right-4 top-4 text-slate-400 hover:text-slate-600">
         <span className="sr-only">Close</span>
-        <XMarkIcon className="h-5 w-5" />
+        <Cross2Icon className="h-5 w-5" />
       </DialogPrimitive.Close>
     </DialogPrimitive.Content>
   </DialogPortal>

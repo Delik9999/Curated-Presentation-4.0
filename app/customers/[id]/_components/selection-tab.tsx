@@ -13,7 +13,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 import { Badge } from '@/components/ui/badge';
 import { useToast } from '@/components/ui/use-toast';
 import { formatCurrency } from '@/lib/utils/currency';
-import { ArrowDownTrayIcon } from '@heroicons/react/24/outline';
+import { DownloadIcon } from '@radix-ui/react-icons';
 
 import type { DallasApiResponse } from './dallas-tab';
 
@@ -139,7 +139,7 @@ export default function SelectionTab({ customer, dallasData, workingData }: Sele
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="outline" size="sm">
-                <ArrowDownTrayIcon className="mr-2 h-4 w-4" /> Export
+                <DownloadIcon className="mr-2 h-4 w-4" /> Export
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">

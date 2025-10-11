@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { XMarkIcon } from '@heroicons/react/24/outline';
+import { Cross2Icon } from '@radix-ui/react-icons';
 import { clsx } from 'clsx';
 import { ToastRoot, ToastTitle, ToastDescription, ToastViewport, ToastClose, useToast } from './use-toast';
 
@@ -30,7 +30,7 @@ function ToastContainer() {
             </div>
             <ToastClose className="text-slate-400 transition hover:text-slate-600">
               <span className="sr-only">Dismiss</span>
-              <XMarkIcon className="h-4 w-4" />
+              <Cross2Icon className="h-4 w-4" />
             </ToastClose>
           </div>
           {toast.action}

@@ -16,8 +16,7 @@ import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 import { useToast } from '@/components/ui/use-toast';
 import { formatCurrency } from '@/lib/utils/currency';
-import { MagnifyingGlassIcon, PlusCircledIcon } from '@radix-ui/react-icons';
-import { UploadIcon, TrashIcon } from '@heroicons/react/24/outline';
+import { MagnifyingGlassIcon, PlusCircledIcon, TrashIcon, UploadIcon } from '@radix-ui/react-icons';
 import Link from 'next/link';
 
 const DallasYears = Array.from({ length: 5 }).map((_, idx) => new Date().getFullYear() + idx);
