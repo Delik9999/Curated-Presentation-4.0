@@ -4,7 +4,6 @@ import { resolveSelection } from '@/lib/selections/resolvers';
 import { findCustomer } from '@/lib/customers/loadCustomers';
 import { SelectionPdfDocument } from '@/lib/selections/pdf';
 import { renderToStream } from '@react-pdf/renderer';
-import { Readable } from 'stream';
 
 const paramsSchema = z.object({ id: z.string().min(1) });
 const querySchema = z.object({
@@ -42,7 +41,24 @@ export async function GET(request: Request, context: { params: { id: string } })
   const heading = `${customer.name} • ${type === 'dallas' ? 'Dallas Market Selection' : 'Working Selection'} (${selection.name})`;
   const document = <SelectionPdfDocument selection={selection} customerName={customer.name} heading={heading} />;
   const pdfStream = await renderToStream(document);
-  const webStream = Readable.toWeb(pdfStream as unknown as Readable);
+  const webStream = new ReadableStream<Uint8Array>({
+    start(controller) {
+      pdfStream.on('data', (chunk: Buffer) => {
+        controller.enqueue(new Uint8Array(chunk));
+      });
+
+      pdfStream.on('end', () => {
+        controller.close();
+      });
+
+      pdfStream.on('error', (error: unknown) => {
+        controller.error(error);
+      });
+    },
+    cancel() {
+      pdfStream.destroy();
+    },
+  });
   const filename = `${customer.name.replace(/\s+/g, '_')}_${type}_${selection.version}.pdf`;
 
   return new NextResponse(webStream, {
