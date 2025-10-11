@@ -29,9 +29,9 @@ export async function GET(request: Request) {
     if (a.sourceYear !== b.sourceYear) {
       return (b.sourceYear ?? 0) - (a.sourceYear ?? 0);
     }
-    const monthOrder = { January: 0, June: 1 };
-    const aMonth = monthOrder[a.marketMonth ?? 'January'];
-    const bMonth = monthOrder[b.marketMonth ?? 'January'];
+    const monthOrder: Record<string, number> = { January: 0, June: 1 };
+    const aMonth = monthOrder[a.marketMonth ?? 'January'] ?? 0;
+    const bMonth = monthOrder[b.marketMonth ?? 'June'] ?? 1;
     if (aMonth !== bMonth) {
       return bMonth - aMonth;
     }
