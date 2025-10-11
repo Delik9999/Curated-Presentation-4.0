@@ -26,7 +26,6 @@ const styles = StyleSheet.create({
     marginTop: 4,
   },
   table: {
-    display: 'table',
     width: 'auto',
     borderStyle: 'solid',
     borderWidth: 1,
