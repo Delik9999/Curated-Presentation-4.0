@@ -15,6 +15,7 @@ const itemSchema = z.object({
 const payloadSchema = z.object({
   customerId: z.string().min(1),
   sourceYear: z.number().int(),
+  marketMonth: z.union([z.literal('January'), z.literal('June')]),
   sourceEventId: z.string().min(1),
   name: z.string().optional(),
   items: z.array(itemSchema).min(1),
@@ -28,7 +29,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: parsed.error.flatten() }, { status: 400 });
   }
 
-  const { customerId, items, ...rest } = parsed.data;
+  const { customerId, items, sourceYear, marketMonth, sourceEventId, name } = parsed.data;
   const enrichedItems = [] as {
     sku: string;
     name: string;
@@ -62,9 +63,11 @@ export async function POST(request: Request) {
 
   const snapshot = await saveDallasSnapshot({
     customerId,
+    sourceYear,
+    marketMonth,
+    sourceEventId,
+    name: name ?? `${marketMonth} ${sourceYear} Market Order`,
     items: enrichedItems,
-    ...rest,
-    name: rest.name ?? `${rest.sourceEventId} Snapshot`,
   });
 
   await revalidateTag(`customer-dallas-${customerId}`);

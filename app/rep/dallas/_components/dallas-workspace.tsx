@@ -180,22 +180,9 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
       return response.json() as Promise<{ snapshotId: string; version: number }>;
     },
     onSuccess: (data) => {
-      const customerSlug = selectedCustomerRecord?.slug ?? selectedCustomerRecord?.id;
       toast({
         title: 'Market order saved',
-        description: (
-          <div className="space-y-2">
-            <p>{marketMonth} {year} market order v{data.version} saved successfully.</p>
-            {customerSlug && (
-              <Link
-                href={`/customers/${customerSlug}?tab=dallas`}
-                className="inline-flex items-center text-sm font-medium text-primary hover:underline"
-              >
-                View on customer site →
-              </Link>
-            )}
-          </div>
-        ),
+        description: `${marketMonth} ${year} market order v${data.version} saved successfully.`,
       });
       setItems([]);
       queryClient.invalidateQueries({ queryKey: ['dallas-history', selectedCustomer] });
@@ -736,7 +723,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                               {(item.notes || item.tags.length > 0) && (
                                 <div className="mt-1 flex flex-wrap items-center gap-1">
                                   {item.tags.slice(0, 2).map((tag) => (
-                                    <Badge key={`${item.sku}-${tag}`} variant="secondary" className="text-xs px-1.5 py-0">
+                                    <Badge key={`${item.sku}-${tag}`} variant="muted" className="text-xs px-1.5 py-0">
                                       {tag}
                                     </Badge>
                                   ))}
@@ -827,7 +814,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                                       <Label className="text-sm font-medium">Tags</Label>
                                       <div className="flex flex-wrap gap-1.5">
                                         {item.tags.map((tag) => (
-                                          <Badge key={`${item.sku}-${tag}`} variant="secondary">
+                                          <Badge key={`${item.sku}-${tag}`} variant="muted">
                                             {tag}
                                           </Badge>
                                         ))}
@@ -953,7 +940,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                           <TableCell className="py-3 text-center text-sm">{order.itemCount}</TableCell>
                           <TableCell className="py-3 text-right text-sm font-medium">{formatCurrency(order.totalNet)}</TableCell>
                           <TableCell className="py-3 text-center">
-                            <Badge variant="secondary" className="text-xs">
+                            <Badge variant="muted" className="text-xs">
                               v{order.version}
                             </Badge>
                           </TableCell>
@@ -1046,11 +1033,11 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
       <Sheet>
         <SheetTrigger className="fixed bottom-6 right-6 z-50 inline-flex h-14 items-center gap-2 rounded-full bg-primary px-6 text-base font-semibold text-primary-foreground shadow-lg lg:hidden">
           <span>Review Order</span>
-          <Badge variant="secondary" className="bg-white/20 text-white">
+          <Badge variant="default" className="bg-white/20 text-white">
             {items.length}
           </Badge>
         </SheetTrigger>
-        <SheetContent side="bottom" className="h-[85vh]">
+        <SheetContent side="right" className="overflow-y-auto">
           <SheetHeader>
             <SheetTitle>Review Market Order</SheetTitle>
           </SheetHeader>
