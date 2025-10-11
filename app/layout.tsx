@@ -1,9 +1,6 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 import './globals.css';
 import { Providers } from './providers';
-
-const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 export const metadata: Metadata = {
   title: 'Curated Presentation',
@@ -17,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="bg-background text-foreground">
-      <body className={`${inter.className} min-h-screen antialiased bg-background`}> 
+      <body className="min-h-screen font-sans antialiased bg-background">
         <Providers>
           <div className="min-h-screen bg-gradient-to-b from-white via-white to-muted">
             {children}

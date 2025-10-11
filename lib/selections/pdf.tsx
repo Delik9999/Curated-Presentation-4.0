@@ -1,20 +1,12 @@
 import React from 'react';
-import { Document, Font, Page, StyleSheet, Text, View } from '@react-pdf/renderer';
+import { Document, Page, StyleSheet, Text, View } from '@react-pdf/renderer';
 import type { Selection } from '@/lib/selections/types';
 import { calculateTotals } from '@/lib/utils/selections';
 import { formatCurrency } from '@/lib/utils/currency';
 
-Font.register({
-  family: 'Inter',
-  fonts: [
-    { src: 'https://fonts.gstatic.com/s/inter/v12/UcCO3FwrKOB5GkXabzyY14E.ttf' },
-    { src: 'https://fonts.gstatic.com/s/inter/v12/UcCM3FwrKOB5GkXWszw.ttf', fontWeight: 600 },
-  ],
-});
-
 const styles = StyleSheet.create({
   page: {
-    fontFamily: 'Inter',
+    fontFamily: 'Helvetica',
     padding: 32,
     fontSize: 11,
     color: '#1f2937',
