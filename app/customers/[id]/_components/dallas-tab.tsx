@@ -188,7 +188,7 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
             </DropdownMenu>
           </div>
           {exportMenu}
-          <Button size="sm" onClick={() => importMutation.mutate('auto')} disabled={importMutation.isLoading}>
+          <Button size="sm" onClick={() => importMutation.mutate('auto')} disabled={importMutation.isPending}>
             Import to Selection
           </Button>
           <DropdownMenu>
@@ -275,7 +275,7 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
               Create a new working version to preserve the current iteration, or replace it entirely. Replacement requires confirmation.
             </p>
             <div className="mt-4 flex flex-col gap-3 md:flex-row">
-              <Button variant="outline" onClick={() => importMutation.mutate('createNew')} disabled={importMutation.isLoading}>
+              <Button variant="outline" onClick={() => importMutation.mutate('createNew')} disabled={importMutation.isPending}>
                 Create New Working Selection
               </Button>
               <div className="flex flex-1 items-center gap-2">
@@ -287,7 +287,7 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
                 />
                 <Button
                   variant="secondary"
-                  disabled={replaceConfirmation !== 'REPLACE' || importMutation.isLoading}
+                  disabled={replaceConfirmation !== 'REPLACE' || importMutation.isPending}
                   onClick={() => importMutation.mutate('replace')}
                 >
                   Replace

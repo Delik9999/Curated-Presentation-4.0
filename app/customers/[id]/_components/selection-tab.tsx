@@ -45,20 +45,18 @@ export default function SelectionTab({ customer, dallasData, workingData }: Sele
   const { toast } = useToast();
   const [draftItems, setDraftItems] = useState<DraftWorkingItem[]>([]);
 
-  const workingQuery = useQuery<WorkingResponse>(
-    ['customer-working', customer.id],
-    async () => {
+  const workingQuery = useQuery<WorkingResponse>({
+    queryKey: ['customer-working', customer.id],
+    queryFn: async () => {
       const response = await fetch(`/api/customers/${customer.id}/selection/working`, { cache: 'no-store' });
       if (!response.ok) {
         throw new Error('Unable to load selection');
       }
       return response.json();
     },
-    {
-      initialData: workingData,
-      refetchOnWindowFocus: false,
-    }
-  );
+    initialData: workingData,
+    refetchOnWindowFocus: false,
+  });
 
   const selection = workingQuery.data?.selection ?? null;
 
@@ -80,11 +78,8 @@ export default function SelectionTab({ customer, dallasData, workingData }: Sele
     return { subtotal, net, discount: subtotal - net };
   }, [selection, draftItems]);
 
-  const updateMutation = useMutation<
-    { selectionId: string; version: number },
-    Error
-  >(
-    async () => {
+  const updateMutation = useMutation<{ selectionId: string; version: number }, Error, void>({
+    mutationFn: async () => {
       if (!selection) throw new Error('No selection to update');
       const response = await fetch(`/api/customers/${customer.id}/selection/update`, {
         method: 'POST',
@@ -100,16 +95,14 @@ export default function SelectionTab({ customer, dallasData, workingData }: Sele
       }
       return response.json() as Promise<{ selectionId: string; version: number }>;
     },
-    {
-      onSuccess: () => {
-        toast({ title: 'Selection updated', description: 'Working selection saved.' });
-        workingQuery.refetch();
-      },
-      onError: (error) => {
-        toast({ title: 'Unable to update selection', description: error.message, variant: 'destructive' });
-      },
-    }
-  );
+    onSuccess: () => {
+      toast({ title: 'Selection updated', description: 'Working selection saved.' });
+      workingQuery.refetch();
+    },
+    onError: (error) => {
+      toast({ title: 'Unable to update selection', description: error.message, variant: 'destructive' });
+    },
+  });
 
   if (!selection) {
     return (
@@ -157,8 +150,8 @@ export default function SelectionTab({ customer, dallasData, workingData }: Sele
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
-          <Button onClick={() => updateMutation.mutate()} disabled={updateMutation.isLoading}>
-            {updateMutation.isLoading ? 'Saving…' : 'Save Updates'}
+          <Button onClick={() => updateMutation.mutate(undefined)} disabled={updateMutation.isPending}>
+            {updateMutation.isPending ? 'Saving…' : 'Save Updates'}
           </Button>
         </div>
       </CardHeader>

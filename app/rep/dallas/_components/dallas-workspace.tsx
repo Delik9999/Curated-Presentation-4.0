@@ -61,18 +61,26 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
   }, [year]);
 
   const [searchQuery, setSearchQuery] = useState('');
-  const searchResults = useQuery<{ results: CatalogResult[] }>(
-    ['catalog-search', searchQuery],
-    async () => {
+  const searchResults = useQuery<{ results: CatalogResult[] }>({
+    queryKey: ['catalog-search', searchQuery],
+    queryFn: async () => {
       const response = await fetch(`/api/catalog/search?query=${encodeURIComponent(searchQuery)}`);
       if (!response.ok) throw new Error('Search failed');
       return response.json();
     },
-    { enabled: searchQuery.length > 1 }
-  );
+    enabled: searchQuery.length > 1,
+  });
 
-  const bulkValidateMutation = useMutation(
-    async (payload: { lines: string }) => {
+  const bulkValidateMutation = useMutation<
+    {
+      ok: { sku: string; qty: number }[];
+      duplicate: { sku: string }[];
+      unknown: { sku: string }[];
+    },
+    Error,
+    { lines: string }
+  >({
+    mutationFn: async (payload) => {
       const response = await fetch('/api/rep/dallas/validate-bulk', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -86,11 +94,11 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
         duplicate: { sku: string }[];
         unknown: { sku: string }[];
       }>;
-    }
-  );
+    },
+  });
 
-  const saveMutation = useMutation(
-    async () => {
+  const saveMutation = useMutation<{ snapshotId: string; version: number }, Error, void>({
+    mutationFn: async () => {
       if (!selectedCustomer) {
         throw new Error('Select a customer before publishing');
       }
@@ -120,24 +128,22 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
       }
       return response.json() as Promise<{ snapshotId: string; version: number }>;
     },
-    {
-      onSuccess: (data) => {
-        toast({
-          title: 'Snapshot published',
-          description: `Dallas snapshot saved (v${data.version}).`,
-        });
-        setItems([]);
-      },
-      onError: (error: unknown) => {
-        const message = error instanceof Error ? error.message : String(error);
-        toast({
-          title: 'Unable to publish snapshot',
-          description: message,
-          variant: 'destructive',
-        });
-      },
-    }
-  );
+    onSuccess: (data) => {
+      toast({
+        title: 'Snapshot published',
+        description: `Dallas snapshot saved (v${data.version}).`,
+      });
+      setItems([]);
+    },
+    onError: (error: unknown) => {
+      const message = error instanceof Error ? error.message : String(error);
+      toast({
+        title: 'Unable to publish snapshot',
+        description: message,
+        variant: 'destructive',
+      });
+    },
+  });
 
   const selectedCustomerRecord = customers.find((customer) => customer.id === selectedCustomer);
 
@@ -264,7 +270,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
     };
   }, [items]);
 
-  const disabled = !selectedCustomer || items.length === 0 || saveMutation.isLoading;
+  const disabled = !selectedCustomer || items.length === 0 || saveMutation.isPending;
 
   const summaryContent = (
     <div className="space-y-6">
@@ -292,8 +298,8 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
         <p>Qualification: Add ${Math.max(0, 5000 - totalsDisplay.netTotal).toFixed(0)} to reach Tier 1.</p>
         <p>Version will increment automatically when publishing a new snapshot.</p>
       </div>
-      <Button className="w-full" size="lg" disabled={disabled} onClick={() => saveMutation.mutate()}>
-        {saveMutation.isLoading ? 'Publishing…' : 'Save Dallas Snapshot'}
+      <Button className="w-full" size="lg" disabled={disabled} onClick={() => saveMutation.mutate(undefined)}>
+        {saveMutation.isPending ? 'Publishing…' : 'Save Dallas Snapshot'}
       </Button>
       {selectedCustomerRecord && (
         <Button asChild variant="outline" className="w-full" size="sm">
@@ -382,8 +388,8 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                     placeholder={`AR-GLW-201, 2\nLN-SIL-118`}
                   />
                   <div className="flex justify-end">
-                    <Button onClick={handleBulkAdd} disabled={bulkValidateMutation.isLoading}>
-                      {bulkValidateMutation.isLoading ? 'Processing…' : 'Add items'}
+                    <Button onClick={handleBulkAdd} disabled={bulkValidateMutation.isPending}>
+                      {bulkValidateMutation.isPending ? 'Processing…' : 'Add items'}
                     </Button>
                   </div>
                 </DialogContent>
