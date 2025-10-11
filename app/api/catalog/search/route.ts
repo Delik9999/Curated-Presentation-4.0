@@ -29,7 +29,7 @@ export async function GET(request: Request) {
     .filter((item) => item.score > 0)
     .sort((a, b) => b.score - a.score || a.name.localeCompare(b.name))
     .slice(0, 15)
-    .map(({ score, ...item }) => item);
+    .map(({ score: _score, ...item }) => item);
 
   return NextResponse.json({ results });
 }

@@ -68,7 +68,7 @@ export default function SelectionTab({ customer, dallasData, workingData }: Sele
     } else {
       setDraftItems([]);
     }
-  }, [selection?.id]);
+  }, [selection]);
 
   const totals = useMemo(() => {
     if (!selection) return { subtotal: 0, discount: 0, net: 0 };
@@ -80,7 +80,10 @@ export default function SelectionTab({ customer, dallasData, workingData }: Sele
     return { subtotal, net, discount: subtotal - net };
   }, [selection, draftItems]);
 
-  const updateMutation = useMutation(
+  const updateMutation = useMutation<
+    { selectionId: string; version: number },
+    Error
+  >(
     async () => {
       if (!selection) throw new Error('No selection to update');
       const response = await fetch(`/api/customers/${customer.id}/selection/update`, {
@@ -102,8 +105,8 @@ export default function SelectionTab({ customer, dallasData, workingData }: Sele
         toast({ title: 'Selection updated', description: 'Working selection saved.' });
         workingQuery.refetch();
       },
-      onError: (error: any) => {
-        toast({ title: 'Unable to update selection', description: String(error.message ?? error), variant: 'destructive' });
+      onError: (error) => {
+        toast({ title: 'Unable to update selection', description: error.message, variant: 'destructive' });
       },
     }
   );

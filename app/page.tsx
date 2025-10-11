@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { ArrowRightIcon } from '@radix-ui/react-icons';
 import { Button } from '@/components/ui/button';
 
 export default function HomePage() {

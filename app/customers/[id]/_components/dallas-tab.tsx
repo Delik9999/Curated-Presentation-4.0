@@ -57,8 +57,12 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
   const snapshot = snapshotQuery.data?.snapshot ?? null;
   const versions = snapshotQuery.data?.versions ?? [];
 
-  const importMutation = useMutation(
-    async (mode: 'auto' | 'createNew' | 'replace') => {
+  const importMutation = useMutation<
+    { selectionId: string; version: number },
+    Error,
+    'auto' | 'createNew' | 'replace'
+  >(
+    async (mode) => {
       if (!snapshot) throw new Error('No Dallas snapshot to import');
       const response = await fetch(`/api/customers/${customer.id}/selection/import`, {
         method: 'POST',
@@ -82,15 +86,19 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
         setShowImportDecision(false);
         setReplaceConfirmation('');
       },
-      onError: (error: any) => {
-        if (String(error.message).includes('already exists')) return;
-        toast({ title: 'Import failed', description: String(error.message ?? error), variant: 'destructive' });
+      onError: (error) => {
+        if (error.message.includes('already exists')) return;
+        toast({ title: 'Import failed', description: error.message, variant: 'destructive' });
       },
     }
   );
 
-  const mergeMutation = useMutation(
-    async (strategy: 'addOnlyNew' | 'sumQuantities' | 'preferDallas') => {
+  const mergeMutation = useMutation<
+    { selectionId: string; version: number },
+    Error,
+    'addOnlyNew' | 'sumQuantities' | 'preferDallas'
+  >(
+    async (strategy) => {
       if (!snapshot) throw new Error('No Dallas snapshot to merge');
       const response = await fetch(`/api/customers/${customer.id}/selection/merge`, {
         method: 'POST',
@@ -108,8 +116,8 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
         toast({ title: 'Selection merged', description: 'Working selection version updated.' });
         queryClient.invalidateQueries(['customer-working', customer.id]);
       },
-      onError: (error: any) => {
-        toast({ title: 'Merge failed', description: String(error.message ?? error), variant: 'destructive' });
+      onError: (error) => {
+        toast({ title: 'Merge failed', description: error.message, variant: 'destructive' });
       },
     }
   );
