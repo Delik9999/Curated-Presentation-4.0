@@ -11,7 +11,7 @@ const payloadSchema = z.object({
   snapshotId: z.string().min(1),
   name: z.string().optional(),
   mode: z.enum(['auto', 'createNew', 'replace']).optional(),
-  metadata: z.record(z.any()).optional(),
+  metadata: z.record(z.unknown()).optional(),
 });
 
 export async function POST(request: Request, context: { params: { id: string } }) {

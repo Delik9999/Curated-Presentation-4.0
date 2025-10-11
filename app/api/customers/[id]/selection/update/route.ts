@@ -15,7 +15,7 @@ const payloadSchema = z.object({
     )
     .min(1),
   name: z.string().optional(),
-  metadata: z.record(z.any()).optional(),
+  metadata: z.record(z.unknown()).optional(),
 });
 
 export async function POST(request: Request, context: { params: { id: string } }) {

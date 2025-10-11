@@ -23,7 +23,7 @@ export const selectionSchema = z.object({
   isPublished: z.boolean(),
   version: z.number().int().positive(),
   items: z.array(selectionItemSchema),
-  metadata: z.record(z.any()).optional(),
+  metadata: z.record(z.unknown()).optional(),
   createdAt: z.string(),
   updatedAt: z.string(),
 });
