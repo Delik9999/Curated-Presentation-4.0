@@ -4,14 +4,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import DallasTab from './_components/dallas-tab';
 import SelectionTab from './_components/selection-tab';
 import CollectionsTab from './_components/collections-tab';
+import { getRequestBaseUrl } from '@/lib/utils/url';
 
-const deploymentUrl =
-  process.env.NEXT_PUBLIC_APP_URL ??
-  process.env.NEXT_PUBLIC_BASE_URL ??
-  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : null);
-const baseUrl = deploymentUrl ?? 'http://localhost:3000';
-
-async function fetchDallasData(customerId: string) {
+async function fetchDallasData(baseUrl: string, customerId: string) {
   const response = await fetch(`${baseUrl}/api/customers/${customerId}/dallas/latest`, {
     cache: 'no-store',
     next: { tags: [`customer-dallas-${customerId}`] },
@@ -22,7 +17,7 @@ async function fetchDallasData(customerId: string) {
   return response.json();
 }
 
-async function fetchWorkingSelection(customerId: string) {
+async function fetchWorkingSelection(baseUrl: string, customerId: string) {
   const response = await fetch(`${baseUrl}/api/customers/${customerId}/selection/working`, {
     cache: 'no-store',
     next: { tags: [`customer-working-${customerId}`] },
@@ -46,9 +41,10 @@ export default async function CustomerPresentationPage({
   }
 
   const activeTab = searchParams.tab ?? 'collections';
+  const baseUrl = getRequestBaseUrl();
   const [dallasData, workingData] = await Promise.all([
-    fetchDallasData(customer.id),
-    fetchWorkingSelection(customer.id),
+    fetchDallasData(baseUrl, customer.id),
+    fetchWorkingSelection(baseUrl, customer.id),
   ]);
 
   return (
