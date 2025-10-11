@@ -38,9 +38,9 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
   const [showImportDecision, setShowImportDecision] = useState(false);
   const [replaceConfirmation, setReplaceConfirmation] = useState('');
 
-  const snapshotQuery = useQuery<DallasApiResponse>(
-    ['customer-dallas', customer.id, selectedSnapshotId],
-    async () => {
+  const snapshotQuery = useQuery<DallasApiResponse>({
+    queryKey: ['customer-dallas', customer.id, selectedSnapshotId],
+    queryFn: async () => {
       const url = `/api/customers/${customer.id}/dallas/latest${selectedSnapshotId ? `?snapshotId=${selectedSnapshotId}` : ''}`;
       const response = await fetch(url, { cache: 'no-store' });
       if (!response.ok) {
@@ -48,11 +48,9 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
       }
       return response.json();
     },
-    {
-      initialData: data,
-      refetchOnWindowFocus: false,
-    }
-  );
+    initialData: data,
+    refetchOnWindowFocus: false,
+  });
 
   const snapshot = snapshotQuery.data?.snapshot ?? null;
   const versions = snapshotQuery.data?.versions ?? [];
