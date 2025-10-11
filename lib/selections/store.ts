@@ -57,6 +57,39 @@ export async function listSnapshots(customerId: string): Promise<Selection[]> {
   );
 }
 
+export async function listDallasMarketOrders(customerId: string): Promise<Selection[]> {
+  const selections = await loadSelections();
+  const dallasSnapshots = selections.filter(
+    (selection) =>
+      selection.customerId === customerId &&
+      selection.status === 'snapshot' &&
+      selection.source === 'dallas' &&
+      selection.isPublished
+  );
+
+  // Group by sourceEventId and return the latest version of each market order
+  const grouped = new Map<string, Selection>();
+  dallasSnapshots.forEach((snapshot) => {
+    const eventId = snapshot.sourceEventId ?? '';
+    const existing = grouped.get(eventId);
+    if (!existing || snapshot.version > existing.version) {
+      grouped.set(eventId, snapshot);
+    }
+  });
+
+  // Sort by year and month, most recent first
+  return Array.from(grouped.values()).sort((a, b) => {
+    if (a.sourceYear !== b.sourceYear) {
+      return (b.sourceYear ?? 0) - (a.sourceYear ?? 0);
+    }
+    // June comes after January in the same year
+    const monthOrder = { January: 0, June: 1 };
+    const aMonth = monthOrder[a.marketMonth ?? 'January'];
+    const bMonth = monthOrder[b.marketMonth ?? 'January'];
+    return bMonth - aMonth;
+  });
+}
+
 export async function getLatestDallas(customerId: string): Promise<Selection | null> {
   const snapshots = await listSnapshots(customerId);
   if (snapshots.length === 0) return null;
@@ -65,9 +98,27 @@ export async function getLatestDallas(customerId: string): Promise<Selection | n
     .sort((a, b) => b.version - a.version || b.createdAt.localeCompare(a.createdAt))[0] ?? null;
 }
 
+/**
+ * Get the market order that is marked as visible to the customer.
+ * Returns the market order where isVisibleToCustomer === true.
+ * If multiple are visible, returns the most recent one.
+ * If none are visible, returns null.
+ */
+export async function getActiveDallas(customerId: string): Promise<Selection | null> {
+  const marketOrders = await listDallasMarketOrders(customerId);
+  if (marketOrders.length === 0) return null;
+
+  // Find orders marked as visible to customer
+  const visibleOrders = marketOrders.filter((order) => order.isVisibleToCustomer === true);
+
+  // Return the most recent visible order (already sorted by listDallasMarketOrders)
+  return visibleOrders[0] ?? null;
+}
+
 export type SaveDallasSnapshotInput = {
   customerId: string;
   sourceYear: number;
+  marketMonth: 'January' | 'June';
   sourceEventId: string;
   name: string;
   items: (Omit<SelectionItem, 'netUnit' | 'extendedNet'> & {
@@ -118,7 +169,9 @@ export async function saveDallasSnapshot(
     source: 'dallas',
     sourceEventId: input.sourceEventId,
     sourceYear: input.sourceYear,
+    marketMonth: input.marketMonth,
     isPublished: true,
+    isVisibleToCustomer: false,
     version,
     items: computedItems.map((item) => selectionItemSchema.parse(item)),
     metadata: input.metadata,
@@ -293,6 +346,44 @@ export async function getSelectionById(selectionId: string): Promise<Selection |
 export async function listWorkingHistory(customerId: string): Promise<Selection[]> {
   const selections = await loadSelections();
   return selections.filter((selection) => selection.customerId === customerId && selection.source !== 'dallas');
+}
+
+export async function toggleDallasVisibility(
+  selectionId: string,
+  customerId: string
+): Promise<Selection> {
+  const selections = await loadSelections();
+  const selection = selections.find((s) => s.id === selectionId && s.customerId === customerId);
+
+  if (!selection || selection.source !== 'dallas' || selection.status !== 'snapshot') {
+    throw new Error('Dallas market order not found');
+  }
+
+  const now = nextTimestamp();
+  const newVisibility = !selection.isVisibleToCustomer;
+
+  // If setting to visible, unmark all other Dallas orders for this customer
+  const updatedSelections = selections.map((s) => {
+    if (s.id === selectionId) {
+      return selectionSchema.parse({
+        ...s,
+        isVisibleToCustomer: newVisibility,
+        updatedAt: now,
+      });
+    }
+    // Unmark other Dallas orders if we're marking this one as visible
+    if (newVisibility && s.customerId === customerId && s.source === 'dallas' && s.status === 'snapshot' && s.isVisibleToCustomer) {
+      return selectionSchema.parse({
+        ...s,
+        isVisibleToCustomer: false,
+        updatedAt: now,
+      });
+    }
+    return s;
+  });
+
+  await persistSelections(updatedSelections);
+  return updatedSelections.find((s) => s.id === selectionId)!;
 }
 
 export async function updateWorkingSelection(

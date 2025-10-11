@@ -21,7 +21,9 @@ export type Selection = {
   source: SelectionSource;
   sourceEventId?: string;
   sourceYear?: number;
+  marketMonth?: 'January' | 'June';
   isPublished: boolean;
+  isVisibleToCustomer?: boolean;
   version: number;
   items: SelectionItem[];
   metadata?: Record<string, unknown>;
