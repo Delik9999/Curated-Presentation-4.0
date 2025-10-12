@@ -590,12 +590,25 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
             </div>
 
             <div className="flex gap-2">
-              <Dialog open={isAddSkuOpen} onOpenChange={setIsAddSkuOpen}>
-                <DialogTrigger asChild>
-                  <Button size="default" className="h-10">
-                    <PlusCircledIcon className="mr-2 h-4 w-4" /> Add SKU
-                  </Button>
-                </DialogTrigger>
+              {items.length === 0 ? (
+                <Button
+                  size="default"
+                  className="h-10"
+                  onClick={() => {
+                    // Simply show the Add SKU dialog to start building
+                    setIsAddSkuOpen(true);
+                  }}
+                >
+                  <PlusCircledIcon className="mr-2 h-4 w-4" /> Create New Market Selection
+                </Button>
+              ) : (
+                <>
+                  <Dialog open={isAddSkuOpen} onOpenChange={setIsAddSkuOpen}>
+                    <DialogTrigger asChild>
+                      <Button size="default" className="h-10">
+                        <PlusCircledIcon className="mr-2 h-4 w-4" /> Add SKU
+                      </Button>
+                    </DialogTrigger>
                 <DialogContent>
                   <DialogHeader>
                     <DialogTitle>Add catalog items</DialogTitle>
@@ -668,6 +681,8 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                   </div>
                 </DialogContent>
               </Dialog>
+                </>
+              )}
             </div>
           </div>
         </Card>
