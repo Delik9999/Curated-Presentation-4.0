@@ -254,7 +254,7 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
               <TableHead>SKU</TableHead>
               <TableHead>Name</TableHead>
               <TableHead>Qty</TableHead>
-              <TableHead>Unit List</TableHead>
+              <TableHead>Unit WSP</TableHead>
               <TableHead>Disc</TableHead>
               <TableHead>Net</TableHead>
               <TableHead>Extended</TableHead>

@@ -162,7 +162,7 @@ export default function SelectionTab({ customer, dallasData, workingData }: Sele
               <TableHead>SKU</TableHead>
               <TableHead>Name</TableHead>
               <TableHead>Qty</TableHead>
-              <TableHead>Unit List</TableHead>
+              <TableHead>Unit WSP</TableHead>
               <TableHead>Net</TableHead>
               <TableHead>Extended</TableHead>
               <TableHead>Notes</TableHead>

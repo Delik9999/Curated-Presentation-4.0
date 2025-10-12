@@ -647,7 +647,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                         >
                           <span className="text-sm font-semibold text-foreground">{item.sku}</span>
                           <span className="text-sm text-muted-foreground">{item.name}</span>
-                          <span className="text-xs text-muted-foreground">List {formatCurrency(item.list)}</span>
+                          <span className="text-xs text-muted-foreground">WSP {formatCurrency(item.list)}</span>
                         </button>
                       ))}
                     </div>
@@ -716,7 +716,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                     <TableRow className="border-t">
                       <TableHead className="w-48">SKU & Product</TableHead>
                       <TableHead className="w-24 text-center">Qty</TableHead>
-                      <TableHead className="w-28 text-right">Unit List</TableHead>
+                      <TableHead className="w-28 text-right">Unit WSP</TableHead>
                       <TableHead className="w-20 text-right">Disc</TableHead>
                       <TableHead className="w-28 text-right">Net</TableHead>
                       <TableHead className="w-32 text-right">Extended</TableHead>
