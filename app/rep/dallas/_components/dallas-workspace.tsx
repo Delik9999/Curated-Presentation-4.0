@@ -590,25 +590,25 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
             </div>
 
             <div className="flex gap-2">
-              {items.length === 0 ? (
-                <Button
-                  size="default"
-                  className="h-10"
-                  onClick={() => {
-                    // Simply show the Add SKU dialog to start building
-                    setIsAddSkuOpen(true);
-                  }}
-                >
-                  <PlusCircledIcon className="mr-2 h-4 w-4" /> Create New Market Selection
-                </Button>
-              ) : (
-                <>
-                  <Dialog open={isAddSkuOpen} onOpenChange={setIsAddSkuOpen}>
-                    <DialogTrigger asChild>
-                      <Button size="default" className="h-10">
-                        <PlusCircledIcon className="mr-2 h-4 w-4" /> Add SKU
-                      </Button>
-                    </DialogTrigger>
+              <Dialog open={isAddSkuOpen} onOpenChange={setIsAddSkuOpen}>
+                {items.length === 0 ? (
+                  <Button
+                    size="default"
+                    className="h-10"
+                    onClick={() => {
+                      // Simply show the Add SKU dialog to start building
+                      setIsAddSkuOpen(true);
+                    }}
+                  >
+                    <PlusCircledIcon className="mr-2 h-4 w-4" /> Create New Market Selection
+                  </Button>
+                ) : (
+                  <DialogTrigger asChild>
+                    <Button size="default" className="h-10">
+                      <PlusCircledIcon className="mr-2 h-4 w-4" /> Add SKU
+                    </Button>
+                  </DialogTrigger>
+                )}
                 <DialogContent>
                   <DialogHeader>
                     <DialogTitle>Add catalog items</DialogTitle>
@@ -654,34 +654,34 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                   </div>
                 </DialogContent>
               </Dialog>
-              <Dialog open={isBulkOpen} onOpenChange={setIsBulkOpen}>
-                <DialogTrigger asChild>
-                  <Button size="default" variant="outline" className="h-10">
-                    <UploadIcon className="mr-2 h-4 w-4" /> Bulk add
-                  </Button>
-                </DialogTrigger>
-                <DialogContent>
-                  <DialogHeader>
-                    <DialogTitle>Bulk add SKUs</DialogTitle>
-                    <DialogDescription>Paste SKU[, qty] per line. Unknown SKUs will be flagged.</DialogDescription>
-                  </DialogHeader>
-                  <Textarea
-                    value={bulkInput}
-                    onChange={(event) => setBulkInput(event.target.value)}
-                    placeholder={`10101-01, 2\n10102-01`}
-                    rows={8}
-                  />
-                  <div className="flex justify-end gap-2">
-                    <Button variant="outline" onClick={() => setIsBulkOpen(false)}>
-                      Cancel
+              {items.length > 0 && (
+                <Dialog open={isBulkOpen} onOpenChange={setIsBulkOpen}>
+                  <DialogTrigger asChild>
+                    <Button size="default" variant="outline" className="h-10">
+                      <UploadIcon className="mr-2 h-4 w-4" /> Bulk add
                     </Button>
-                    <Button onClick={handleBulkAdd} disabled={bulkValidateMutation.isPending}>
-                      {bulkValidateMutation.isPending ? 'Processing…' : 'Add items'}
-                    </Button>
-                  </div>
-                </DialogContent>
-              </Dialog>
-                </>
+                  </DialogTrigger>
+                  <DialogContent>
+                    <DialogHeader>
+                      <DialogTitle>Bulk add SKUs</DialogTitle>
+                      <DialogDescription>Paste SKU[, qty] per line. Unknown SKUs will be flagged.</DialogDescription>
+                    </DialogHeader>
+                    <Textarea
+                      value={bulkInput}
+                      onChange={(event) => setBulkInput(event.target.value)}
+                      placeholder={`10101-01, 2\n10102-01`}
+                      rows={8}
+                    />
+                    <div className="flex justify-end gap-2">
+                      <Button variant="outline" onClick={() => setIsBulkOpen(false)}>
+                        Cancel
+                      </Button>
+                      <Button onClick={handleBulkAdd} disabled={bulkValidateMutation.isPending}>
+                        {bulkValidateMutation.isPending ? 'Processing…' : 'Add items'}
+                      </Button>
+                    </div>
+                  </DialogContent>
+                </Dialog>
               )}
             </div>
           </div>
