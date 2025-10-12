@@ -2,6 +2,7 @@ import type { Config } from 'tailwindcss';
 import defaultTheme from 'tailwindcss/defaultTheme';
 
 const config: Config = {
+  darkMode: 'class',
   content: [
     './app/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
@@ -18,22 +19,22 @@ const config: Config = {
         ],
       },
       colors: {
-        background: 'hsl(210 40% 98%)',
-        foreground: 'hsl(222 47% 11%)',
-        muted: 'hsl(210 16% 93%)',
-        border: 'hsl(214 32% 91%)',
+        background: 'hsl(var(--background))',
+        foreground: 'hsl(var(--foreground))',
+        muted: 'hsl(var(--muted))',
+        border: 'hsl(var(--border))',
         card: {
-          DEFAULT: 'hsl(0 0% 100%)',
-          foreground: 'hsl(222 47% 11%)',
+          DEFAULT: 'hsl(var(--card))',
+          foreground: 'hsl(var(--card-foreground))',
         },
-        accent: 'hsl(25 85% 55%)',
+        accent: 'hsl(var(--accent))',
         primary: {
-          DEFAULT: 'hsl(222 47% 20%)',
-          foreground: 'hsl(210 40% 98%)',
+          DEFAULT: 'hsl(var(--primary))',
+          foreground: 'hsl(var(--primary-foreground))',
         },
         secondary: {
-          DEFAULT: 'hsl(210 25% 96%)',
-          foreground: 'hsl(222 47% 20%)',
+          DEFAULT: 'hsl(var(--secondary))',
+          foreground: 'hsl(var(--secondary-foreground))',
         },
       },
       borderRadius: {

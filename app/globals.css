@@ -4,6 +4,32 @@
 
 :root {
   color-scheme: light;
+  --background: 210 40% 98%;
+  --foreground: 222 47% 11%;
+  --muted: 210 16% 93%;
+  --border: 214 32% 91%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --accent: 25 85% 55%;
+  --primary: 222 47% 20%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 210 25% 96%;
+  --secondary-foreground: 222 47% 20%;
+}
+
+.dark {
+  color-scheme: dark;
+  --background: 222 47% 11%;
+  --foreground: 210 40% 98%;
+  --muted: 217 33% 17%;
+  --border: 217 33% 24%;
+  --card: 222 47% 14%;
+  --card-foreground: 210 40% 98%;
+  --accent: 25 85% 55%;
+  --primary: 210 40% 98%;
+  --primary-foreground: 222 47% 11%;
+  --secondary: 217 33% 24%;
+  --secondary-foreground: 210 40% 98%;
 }
 
 body {
@@ -16,4 +42,8 @@ a {
 
 .card-shadow {
   box-shadow: 0 20px 40px -24px rgba(15, 23, 42, 0.3);
+}
+
+.dark .card-shadow {
+  box-shadow: 0 20px 40px -24px rgba(0, 0, 0, 0.5);
 }
