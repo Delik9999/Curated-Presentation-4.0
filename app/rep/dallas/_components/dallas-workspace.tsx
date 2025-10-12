@@ -358,22 +358,22 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
     <div className="space-y-6">
       <div>
         <h2 className="text-xl font-semibold text-foreground">Summary</h2>
-        <p className="mt-1 text-sm text-slate-600">
+        <p className="mt-1 text-sm text-muted-foreground">
           {marketMonth} {year}
         </p>
       </div>
 
       {/* Financial summary */}
-      <div className="space-y-4 rounded-xl bg-slate-50 p-5">
+      <div className="space-y-4 rounded-xl bg-muted p-5">
         <div className="flex items-center justify-between">
-          <span className="text-sm text-slate-600">Subtotal</span>
+          <span className="text-sm text-muted-foreground">Subtotal</span>
           <span className="text-base font-medium text-foreground">{formatCurrency(totalsDisplay.subtotal)}</span>
         </div>
         <div className="flex items-center justify-between">
-          <span className="text-sm text-slate-600">Program Discounts</span>
+          <span className="text-sm text-muted-foreground">Program Discounts</span>
           <span className="text-base font-medium text-red-600">-{formatCurrency(totalsDisplay.discount)}</span>
         </div>
-        <div className="flex items-center justify-between border-t border-slate-200 pt-4">
+        <div className="flex items-center justify-between border-t border-border pt-4">
           <span className="text-base font-semibold">Net Total</span>
           <span className="text-2xl font-bold text-foreground">{formatCurrency(totalsDisplay.netTotal)}</span>
         </div>
@@ -390,10 +390,10 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
             </div>
             <div>
               <p className="text-sm font-semibold text-green-700">Qualifies for Tier 1</p>
-              <p className="mt-1 text-xs text-slate-600">
+              <p className="mt-1 text-xs text-muted-foreground">
                 <button
                   type="button"
-                  className="underline hover:text-slate-900"
+                  className="underline hover:text-foreground"
                   onClick={() => toast({ title: 'Program details', description: 'Tier 1: $5,000+ minimum order value' })}
                 >
                   View program details
@@ -410,10 +410,10 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
             </div>
             <div>
               <p className="text-sm font-semibold text-amber-700">Add {formatCurrency(qualificationGap)} to reach Tier 1</p>
-              <p className="mt-1 text-xs text-slate-600">
+              <p className="mt-1 text-xs text-muted-foreground">
                 <button
                   type="button"
-                  className="underline hover:text-slate-900"
+                  className="underline hover:text-foreground"
                   onClick={() => toast({ title: 'Program details', description: 'Tier 1: $5,000+ minimum order value' })}
                 >
                   View program details
@@ -471,13 +471,13 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
           <div className="flex items-start justify-between gap-4">
             <div>
               <h1 className="text-2xl font-semibold text-foreground">Dallas Market Order</h1>
-              <p className="mt-1 text-sm text-slate-600">
+              <p className="mt-1 text-sm text-muted-foreground">
                 Build and save a Dallas snapshot for this customer. Customers see snapshots as read-only.
               </p>
             </div>
             <Popover>
               <PopoverTrigger asChild>
-                <Button variant="ghost" size="sm" className="text-slate-500 hover:text-slate-900" aria-label="Keyboard shortcuts">
+                <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground" aria-label="Keyboard shortcuts">
                   <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                   </svg>
@@ -488,16 +488,16 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                   <h4 className="font-semibold text-sm">Keyboard Shortcuts</h4>
                   <div className="space-y-2 text-xs">
                     <div className="flex items-center justify-between">
-                      <span className="text-slate-600">Add SKU</span>
-                      <kbd className="rounded bg-slate-100 px-2 py-1 font-mono">A</kbd>
+                      <span className="text-muted-foreground">Add SKU</span>
+                      <kbd className="rounded bg-muted px-2 py-1 font-mono">A</kbd>
                     </div>
                     <div className="flex items-center justify-between">
-                      <span className="text-slate-600">Bulk add</span>
-                      <kbd className="rounded bg-slate-100 px-2 py-1 font-mono">B</kbd>
+                      <span className="text-muted-foreground">Bulk add</span>
+                      <kbd className="rounded bg-muted px-2 py-1 font-mono">B</kbd>
                     </div>
                     <div className="flex items-center justify-between">
-                      <span className="text-slate-600">Save market order</span>
-                      <kbd className="rounded bg-slate-100 px-2 py-1 font-mono">⌘S</kbd>
+                      <span className="text-muted-foreground">Save market order</span>
+                      <kbd className="rounded bg-muted px-2 py-1 font-mono">⌘S</kbd>
                     </div>
                   </div>
                 </div>
@@ -510,7 +510,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
         <Card>
           <div className="flex flex-wrap items-end gap-4">
             <div className="flex-1 space-y-2">
-              <Label htmlFor="customer-select" className="text-xs font-medium uppercase tracking-wider text-slate-500">
+              <Label htmlFor="customer-select" className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
                 Customer
               </Label>
               <Popover>
@@ -540,7 +540,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                           >
                             <div>
                               <p className="text-sm font-medium text-foreground">{customer.name}</p>
-                              <p className="text-xs text-slate-500">{customer.city ?? '—'}, {customer.region ?? ''}</p>
+                              <p className="text-xs text-muted-foreground">{customer.city ?? '—'}, {customer.region ?? ''}</p>
                             </div>
                           </CommandItem>
                         ))}
@@ -552,7 +552,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
             </div>
 
             <div className="w-32 space-y-2">
-              <Label htmlFor="month-select" className="text-xs font-medium uppercase tracking-wider text-slate-500">
+              <Label htmlFor="month-select" className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
                 Month
               </Label>
               <select
@@ -571,7 +571,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
             </div>
 
             <div className="w-28 space-y-2">
-              <Label htmlFor="year-select" className="text-xs font-medium uppercase tracking-wider text-slate-500">
+              <Label htmlFor="year-select" className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
                 Year
               </Label>
               <select
@@ -612,15 +612,15 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                     />
                     <div className="max-h-[320px] space-y-1 overflow-y-auto rounded-lg border border-border p-2">
                       {searchQuery.length <= 1 && (
-                        <p className="px-3 py-6 text-center text-sm text-slate-500">
+                        <p className="px-3 py-6 text-center text-sm text-muted-foreground">
                           Type at least two characters to search the catalog.
                         </p>
                       )}
                       {searchResults.isFetching && (
-                        <p className="px-3 py-6 text-center text-sm text-slate-500">Searching…</p>
+                        <p className="px-3 py-6 text-center text-sm text-muted-foreground">Searching…</p>
                       )}
                       {searchResults.data?.results?.length === 0 && !searchResults.isFetching && searchQuery.length > 1 && (
-                        <p className="px-3 py-6 text-center text-sm text-slate-500">No matches yet.</p>
+                        <p className="px-3 py-6 text-center text-sm text-muted-foreground">No matches yet.</p>
                       )}
                       {searchResults.data?.results?.map((item) => (
                         <button
@@ -633,8 +633,8 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                           className="flex w-full flex-col items-start rounded-lg px-3 py-2 text-left transition hover:bg-secondary/60"
                         >
                           <span className="text-sm font-semibold text-foreground">{item.sku}</span>
-                          <span className="text-sm text-slate-600">{item.name}</span>
-                          <span className="text-xs text-slate-500">List {formatCurrency(item.list)}</span>
+                          <span className="text-sm text-muted-foreground">{item.name}</span>
+                          <span className="text-xs text-muted-foreground">List {formatCurrency(item.list)}</span>
                         </button>
                       ))}
                     </div>
@@ -683,7 +683,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                 </CardDescription>
               </div>
               {items.length > 0 && (
-                <div className="text-sm text-slate-600">
+                <div className="text-sm text-muted-foreground">
                   {items.length} {items.length === 1 ? 'item' : 'items'}
                 </div>
               )}
@@ -691,7 +691,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
           </CardHeader>
           <CardContent className="p-0">
             {items.length === 0 ? (
-              <div className="rounded-xl border border-dashed border-border p-12 text-center text-slate-500 m-6">
+              <div className="rounded-xl border border-dashed border-border p-12 text-center text-muted-foreground m-6">
                 <p className="text-sm">Start by adding SKUs from the catalog or paste a list.</p>
               </div>
             ) : (
@@ -713,11 +713,11 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                       const netUnit = item.unitList * (1 - (item.programDisc ?? 0));
                       const extended = netUnit * item.qty;
                       return (
-                        <TableRow key={item.sku} className="group hover:bg-slate-50/50">
+                        <TableRow key={item.sku} className="group hover:bg-muted/50">
                           <TableCell className="py-3">
                             <div>
                               <p className="font-semibold text-foreground text-sm">{item.sku}</p>
-                              <p className="text-xs text-slate-600 truncate max-w-[200px]" title={item.name}>
+                              <p className="text-xs text-muted-foreground truncate max-w-[200px]" title={item.name}>
                                 {item.name}
                               </p>
                               {(item.notes || item.tags.length > 0) && (
@@ -741,7 +741,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                               <button
                                 type="button"
                                 onClick={() => updateQty(item.sku, Math.max(0, item.qty - 1))}
-                                className="h-7 w-7 rounded border border-border bg-background hover:bg-slate-100 transition-colors flex items-center justify-center text-slate-600 hover:text-slate-900"
+                                className="h-7 w-7 rounded border border-border bg-background hover:bg-muted transition-colors flex items-center justify-center text-muted-foreground hover:text-foreground"
                                 aria-label="Decrease quantity"
                               >
                                 −
@@ -757,7 +757,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                               <button
                                 type="button"
                                 onClick={() => updateQty(item.sku, item.qty + 1)}
-                                className="h-7 w-7 rounded border border-border bg-background hover:bg-slate-100 transition-colors flex items-center justify-center text-slate-600 hover:text-slate-900"
+                                className="h-7 w-7 rounded border border-border bg-background hover:bg-muted transition-colors flex items-center justify-center text-muted-foreground hover:text-foreground"
                                 aria-label="Increase quantity"
                               >
                                 +
@@ -769,7 +769,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                             {item.programDisc ? (
                               <span className="text-orange-600 font-medium">{Math.round(item.programDisc * 100)}%</span>
                             ) : (
-                              <span className="text-slate-400">—</span>
+                              <span className="text-muted-foreground">—</span>
                             )}
                           </TableCell>
                           <TableCell className="py-3 text-right text-sm font-medium">{formatCurrency(netUnit)}</TableCell>
@@ -780,7 +780,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                                 <SheetTrigger asChild>
                                   <button
                                     type="button"
-                                    className="h-7 w-7 rounded hover:bg-slate-100 transition-colors flex items-center justify-center text-slate-500 hover:text-slate-900"
+                                    className="h-7 w-7 rounded hover:bg-muted transition-colors flex items-center justify-center text-muted-foreground hover:text-foreground"
                                     aria-label="Edit notes"
                                   >
                                     <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -795,7 +795,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                                   <div className="mt-6 space-y-4">
                                     <div>
                                       <p className="text-sm font-semibold">{item.sku}</p>
-                                      <p className="text-xs text-slate-600">{item.name}</p>
+                                      <p className="text-xs text-muted-foreground">{item.name}</p>
                                     </div>
                                     <div className="space-y-2">
                                       <Label htmlFor={`notes-${item.sku}`} className="text-sm font-medium">
@@ -819,7 +819,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                                           </Badge>
                                         ))}
                                         {item.tags.length === 0 && (
-                                          <p className="text-xs text-slate-500">No tags</p>
+                                          <p className="text-xs text-muted-foreground">No tags</p>
                                         )}
                                       </div>
                                     </div>
@@ -829,7 +829,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                               <button
                                 type="button"
                                 onClick={() => removeItem(item.sku)}
-                                className="h-7 w-7 rounded hover:bg-rose-50 transition-colors flex items-center justify-center text-slate-400 hover:text-rose-600"
+                                className="h-7 w-7 rounded hover:bg-rose-50 transition-colors flex items-center justify-center text-muted-foreground hover:text-rose-600"
                                 aria-label="Remove item"
                               >
                                 <TrashIcon className="h-3.5 w-3.5" />
@@ -842,18 +842,18 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                   </TableBody>
                 </Table>
                 {/* Table footer with mini totals */}
-                <div className="border-t border-border bg-slate-50/50 px-6 py-3">
+                <div className="border-t border-border bg-muted/50 px-6 py-3">
                   <div className="flex items-center justify-end gap-8 text-sm">
                     <div className="flex items-center gap-2">
-                      <span className="text-slate-600">Subtotal:</span>
+                      <span className="text-muted-foreground">Subtotal:</span>
                       <span className="font-medium">{formatCurrency(totalsDisplay.subtotal)}</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <span className="text-slate-600">Discounts:</span>
+                      <span className="text-muted-foreground">Discounts:</span>
                       <span className="font-medium text-orange-600">-{formatCurrency(totalsDisplay.discount)}</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <span className="text-slate-600">Net:</span>
+                      <span className="text-muted-foreground">Net:</span>
                       <span className="font-semibold text-lg">{formatCurrency(totalsDisplay.netTotal)}</span>
                     </div>
                   </div>
@@ -878,7 +878,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                       type="button"
                       onClick={() => setHistoryFilter('all')}
                       className={`rounded px-3 py-1 text-xs font-medium transition-colors ${
-                        historyFilter === 'all' ? 'bg-primary text-primary-foreground' : 'text-slate-600 hover:text-slate-900'
+                        historyFilter === 'all' ? 'bg-primary text-primary-foreground' : 'text-muted-foreground hover:text-foreground'
                       }`}
                     >
                       All
@@ -887,7 +887,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                       type="button"
                       onClick={() => setHistoryFilter('visible')}
                       className={`rounded px-3 py-1 text-xs font-medium transition-colors ${
-                        historyFilter === 'visible' ? 'bg-primary text-primary-foreground' : 'text-slate-600 hover:text-slate-900'
+                        historyFilter === 'visible' ? 'bg-primary text-primary-foreground' : 'text-muted-foreground hover:text-foreground'
                       }`}
                     >
                       Visible
@@ -896,7 +896,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                       type="button"
                       onClick={() => setHistoryFilter('hidden')}
                       className={`rounded px-3 py-1 text-xs font-medium transition-colors ${
-                        historyFilter === 'hidden' ? 'bg-primary text-primary-foreground' : 'text-slate-600 hover:text-slate-900'
+                        historyFilter === 'hidden' ? 'bg-primary text-primary-foreground' : 'text-muted-foreground hover:text-foreground'
                       }`}
                     >
                       Hidden
@@ -927,13 +927,13 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                         return true;
                       })
                       .map((order) => (
-                        <TableRow key={order.id} className="hover:bg-slate-50/50">
+                        <TableRow key={order.id} className="hover:bg-muted/50">
                           <TableCell className="py-3">
                             <div>
                               <p className="font-semibold text-foreground text-sm">
                                 {order.marketMonth} {order.sourceYear}
                               </p>
-                              <p className="text-xs text-slate-500">{order.sourceEventId}</p>
+                              <p className="text-xs text-muted-foreground">{order.sourceEventId}</p>
                             </div>
                           </TableCell>
                           <TableCell className="py-3 text-sm">{new Date(order.createdAt).toLocaleDateString()}</TableCell>
@@ -952,7 +952,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                               className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-medium transition-colors ${
                                 order.isVisibleToCustomer
                                   ? 'bg-green-100 text-green-700 hover:bg-green-200'
-                                  : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                                  : 'bg-muted text-muted-foreground hover:bg-muted'
                               }`}
                               aria-label={order.isVisibleToCustomer ? 'Hide from customer' : 'Show to customer'}
                             >

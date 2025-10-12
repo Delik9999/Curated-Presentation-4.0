@@ -19,10 +19,10 @@ export default async function CollectionsTab({ customer }: { customer: Customer 
           </div>
           <div className="space-y-1">
             <h3 className="text-lg font-semibold text-foreground">{item.name}</h3>
-            <p className="text-sm text-slate-500">SKU {item.sku}</p>
+            <p className="text-sm text-muted-foreground">SKU {item.sku}</p>
           </div>
-          <p className="text-sm text-slate-600">List {item.list.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</p>
-          <p className="text-xs text-slate-500">
+          <p className="text-sm text-muted-foreground">List {item.list.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</p>
+          <p className="text-xs text-muted-foreground">
             Featured for {customer.name}. Blend this with the Dallas selection to create a bespoke presentation.
           </p>
         </article>

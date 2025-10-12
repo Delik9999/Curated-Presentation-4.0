@@ -187,7 +187,7 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
         <div className="flex flex-wrap items-center gap-3">
           {historyQuery.data && historyQuery.data.history.length > 1 && (
             <div className="flex items-center gap-2">
-              <span className="text-sm font-medium text-slate-500">Market Order</span>
+              <span className="text-sm font-medium text-muted-foreground">Market Order</span>
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <Button variant="outline" size="sm">
@@ -236,15 +236,15 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
       <CardContent className="space-y-8">
         <div className="grid gap-6 md:grid-cols-3">
           <div>
-            <p className="text-xs uppercase tracking-[0.3em] text-slate-400">Source Event</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Source Event</p>
             <p className="text-lg font-semibold text-foreground">{snapshot.sourceEventId ?? 'Dallas Market'}</p>
           </div>
           <div>
-            <p className="text-xs uppercase tracking-[0.3em] text-slate-400">Published</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Published</p>
             <p className="text-lg font-semibold text-foreground">{new Date(snapshot.createdAt).toLocaleDateString()}</p>
           </div>
           <div>
-            <p className="text-xs uppercase tracking-[0.3em] text-slate-400">Total Net</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Total Net</p>
             <p className="text-lg font-semibold text-foreground">{formatCurrency(totals.net)}</p>
           </div>
         </div>
@@ -273,7 +273,7 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
                 <TableCell>{formatCurrency(item.extendedNet)}</TableCell>
                 <TableCell>
                   <div className="flex flex-col gap-1">
-                    {item.notes ? <span className="text-sm text-slate-600">{item.notes}</span> : <span className="text-xs text-slate-400">No notes</span>}
+                    {item.notes ? <span className="text-sm text-muted-foreground">{item.notes}</span> : <span className="text-xs text-muted-foreground">No notes</span>}
                     {item.tags?.map((tag) => (
                       <Badge key={`${item.sku}-${tag}`} variant="muted" className="w-max">
                         {tag}
@@ -285,7 +285,7 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
             ))}
           </TableBody>
         </Table>
-        <div className="flex flex-col gap-2 rounded-2xl bg-secondary/60 p-4 text-sm text-slate-600 md:flex-row md:items-center md:justify-between">
+        <div className="flex flex-col gap-2 rounded-2xl bg-secondary/60 p-4 text-sm text-muted-foreground md:flex-row md:items-center md:justify-between">
           <span>Subtotal {formatCurrency(totals.subtotal)}</span>
           <span>Program Discounts -{formatCurrency(totals.discount)}</span>
           <span className="font-semibold text-foreground">Net {formatCurrency(totals.net)}</span>
@@ -293,7 +293,7 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
         {showImportDecision && (
           <div className="rounded-2xl border border-border bg-card p-6">
             <h3 className="text-lg font-semibold text-foreground">An in-progress selection already exists.</h3>
-            <p className="mt-2 text-sm text-slate-600">
+            <p className="mt-2 text-sm text-muted-foreground">
               Create a new working version to preserve the current iteration, or replace it entirely. Replacement requires confirmation.
             </p>
             <div className="mt-4 flex flex-col gap-3 md:flex-row">

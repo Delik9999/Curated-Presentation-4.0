@@ -50,9 +50,9 @@ export default async function CustomerPresentationPage({
   return (
     <main className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-6 py-16">
       <div className="space-y-3">
-        <p className="text-sm uppercase tracking-[0.3em] text-slate-400">Curated Presentation</p>
+        <p className="text-sm uppercase tracking-[0.3em] text-muted-foreground">Curated Presentation</p>
         <h1 className="text-4xl font-semibold text-foreground">{customer.name}</h1>
-        <p className="text-base text-slate-600">
+        <p className="text-base text-muted-foreground">
           Explore curated lighting selections crafted for {customer.city ?? customer.name}. Export-ready snapshots keep your team aligned.
         </p>
       </div>

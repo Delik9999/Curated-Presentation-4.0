@@ -129,7 +129,7 @@ export default function SelectionTab({ customer, dallasData, workingData }: Sele
           <CardDescription>
             Adjust quantities and notes tailored for {customer.name}. Exports reflect these working values.
           </CardDescription>
-          {provenance && <p className="mt-2 text-sm text-slate-500">{provenance}</p>}
+          {provenance && <p className="mt-2 text-sm text-muted-foreground">{provenance}</p>}
         </div>
         <div className="flex flex-wrap items-center gap-3">
           <DropdownMenu>
@@ -226,7 +226,7 @@ export default function SelectionTab({ customer, dallasData, workingData }: Sele
             })}
           </TableBody>
         </Table>
-        <div className="flex flex-col gap-2 rounded-2xl bg-secondary/60 p-4 text-sm text-slate-600 md:flex-row md:items-center md:justify-between">
+        <div className="flex flex-col gap-2 rounded-2xl bg-secondary/60 p-4 text-sm text-muted-foreground md:flex-row md:items-center md:justify-between">
           <span>Subtotal {formatCurrency(totals.subtotal)}</span>
           <span>Program Discounts -{formatCurrency(totals.discount)}</span>
           <span className="font-semibold text-foreground">Net {formatCurrency(totals.net)}</span>

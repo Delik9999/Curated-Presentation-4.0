@@ -21,7 +21,10 @@ const config: Config = {
       colors: {
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
-        muted: 'hsl(var(--muted))',
+        muted: {
+          DEFAULT: 'hsl(var(--muted))',
+          foreground: 'hsl(var(--muted-foreground))',
+        },
         border: 'hsl(var(--border))',
         card: {
           DEFAULT: 'hsl(var(--card))',
