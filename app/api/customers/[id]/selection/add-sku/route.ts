@@ -53,12 +53,11 @@ export async function POST(
     // Update working selection
     await updateWorkingSelection(customerId, {
       items,
-      vendor,
       metadata: {
         updatedVia: 'sku-search',
         wasModified: true,
       },
-    });
+    }, vendor);
 
     return NextResponse.json({ success: true, sku });
   } catch (error) {
