@@ -46,14 +46,14 @@ export async function GET(request: NextRequest) {
           const config = selectedCollectionsMap.get(collectionName);
 
           if (config?.includeAllYears || !config?.years || config.years.length === 0) {
-            return [collectionName, products] as const;
+            return [collectionName, products];
           }
 
           const filteredProducts = products.filter((product) => {
             return product.year && config.years?.includes(product.year);
           });
 
-          return [collectionName, filteredProducts] as const;
+          return [collectionName, filteredProducts];
         })
         .filter(([, products]) => products.length > 0);
     }
