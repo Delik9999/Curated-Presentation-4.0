@@ -28,7 +28,7 @@ export async function GET(request: Request, context: { params: { id: string } })
         return {
           ...item,
           unitList: catalogItem.list, // Always use current catalog price
-          imageUrl: catalogItem.image, // Use image from catalog
+          imageUrl: catalogItem.image ?? undefined, // Use image from catalog
         };
       }
       return item;
