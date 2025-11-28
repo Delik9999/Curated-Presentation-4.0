@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { getActiveDallas, getWorkingSelection, createWorkingFromSnapshot, getPromotionConfig, getActivePresentation } from '@/lib/selections/store';
 import { loadCatalog } from '@/lib/catalog/loadCatalog';
 import { groupProductsByVariants } from '@/lib/catalog/groupVariants';

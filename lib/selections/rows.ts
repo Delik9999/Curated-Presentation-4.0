@@ -1,5 +1,4 @@
 import type { Selection } from '@/lib/selections/types';
-import { calculateTotals } from '@/lib/utils/selections';
 
 export function buildSelectionRows(selection: Selection) {
   const rows: Array<Record<string, string | number>> = [];
