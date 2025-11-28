@@ -42,7 +42,7 @@ export async function GET(request: NextRequest) {
 
       filteredCollections = Object.entries(groupedByCollection)
         .filter(([collectionName]) => selectedCollectionsMap.has(collectionName))
-        .map(([collectionName, products]) => {
+        .map(([collectionName, products]): [string, typeof productsWithVariants] => {
           const config = selectedCollectionsMap.get(collectionName);
 
           if (config?.includeAllYears || !config?.years || config.years.length === 0) {
