@@ -35,7 +35,7 @@ export interface SelectionPanelProps {
 
 export function SelectionPanel({
   items,
-  customerId,
+  customerId: _customerId,
   title = 'My Selection',
   onUpdateQuantity,
   onRemoveItem,
@@ -187,7 +187,7 @@ export function SelectionPanel({
                     Your selection is empty
                   </h3>
                   <p className="text-sm text-neutral-500 dark:text-neutral-400 max-w-[280px]">
-                    Browse collections and click "Add to Selection" to build your lighting package
+                    Browse collections and click &quot;Add to Selection&quot; to build your lighting package
                   </p>
                 </div>
               ) : (
@@ -202,6 +202,7 @@ export function SelectionPanel({
                     >
                       {/* Thumbnail */}
                       {item.imageUrl && (
+                        // eslint-disable-next-line @next/next/no-img-element
                         <img
                           src={item.imageUrl}
                           alt={item.name}

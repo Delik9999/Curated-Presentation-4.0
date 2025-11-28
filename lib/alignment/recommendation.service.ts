@@ -1,7 +1,5 @@
 import { MarketBaselineService } from './market-baseline.service';
 import { getWorkingSelection } from '../selections/store';
-import type { Customer } from '../customers/loadCustomers';
-import type { Selection } from '../selections/types';
 import type { AlignmentReport, AddSuggestion, TradeUpSuggestion } from './types';
 
 export class RecommendationService {
@@ -110,7 +108,7 @@ export class RecommendationService {
     };
   }
 
-  private generateAddReason(ranking: any): string {
+  private generateAddReason(ranking: { vendorRank?: number; marketRank?: number }): string {
     if (ranking.vendorRank && ranking.marketRank) {
       return `Ranked #${ranking.vendorRank} by vendor, #${ranking.marketRank} by market. Strong performer.`;
     } else if (ranking.vendorRank) {
