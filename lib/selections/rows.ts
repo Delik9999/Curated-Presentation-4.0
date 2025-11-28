@@ -61,9 +61,7 @@ export function buildSelectionRows(selection: Selection) {
 }
 
 export function buildSelectionSummary(selection: Selection) {
-  const totals = calculateTotals(selection.items);
-
-  // Calculate promotion-aware totals
+  // Calculate promotion-aware totals (using inline calculation instead of totals variable)
   let subtotal = 0;
   let net = 0;
 

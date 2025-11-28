@@ -1,7 +1,6 @@
 import React from 'react';
 import { Document, Page, StyleSheet, Text, View } from '@react-pdf/renderer';
 import type { Selection } from '@/lib/selections/types';
-import { calculateTotals } from '@/lib/utils/selections';
 import { formatCurrency } from '@/lib/utils/currency';
 
 const styles = StyleSheet.create({

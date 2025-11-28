@@ -79,7 +79,7 @@ export async function updateActivity(): Promise<void> {
 export async function logActivity(
   customerId: string,
   type: ActivityEventType,
-  metadata: Record<string, any> = {}
+  metadata: Record<string, unknown> = {}
 ): Promise<void> {
   if (!currentSessionId) {
     console.warn('No active session. Call initSession first.');
@@ -112,7 +112,7 @@ export async function logSelectionChange(
   customerId: string,
   selectionId: string,
   changeType: SelectionChangeType,
-  changes: Record<string, any> = {},
+  changes: Record<string, unknown> = {},
   userId?: string,
   userName?: string,
   userRole?: 'customer' | 'rep'

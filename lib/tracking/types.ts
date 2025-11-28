@@ -44,7 +44,7 @@ export type ActivityEvent = {
     exportFormat?: 'csv' | 'json' | 'pdf';
     tabName?: string;
     vendor?: string;
-    [key: string]: any;
+    [key: string]: string | number | boolean | undefined;
   };
 };
 
@@ -69,7 +69,7 @@ export type SelectionChange = {
     newOrder?: number;
     oldNotes?: string;
     newNotes?: string;
-    [key: string]: any;
+    [key: string]: string | number | boolean | undefined;
   };
 };
 

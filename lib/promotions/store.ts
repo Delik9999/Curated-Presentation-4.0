@@ -122,8 +122,8 @@ export async function createPromotion(input: CreatePromotionInput): Promise<Prom
     summaryBullets: input.summaryBullets,
     pdfUrl: input.pdfUrl,
     termsAndConditions: input.termsAndConditions,
-    uploadedPromotionUrl: (input as any).uploadedPromotionUrl,
-    uploadedPromotionType: (input as any).uploadedPromotionType,
+    uploadedPromotionUrl: (input as Record<string, unknown>).uploadedPromotionUrl as string | undefined,
+    uploadedPromotionType: (input as Record<string, unknown>).uploadedPromotionType as string | undefined,
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
   };
