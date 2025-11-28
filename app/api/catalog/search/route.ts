@@ -36,7 +36,7 @@ export async function GET(request: Request) {
 
   // Filter catalog by selected collections if promotion config exists
   let filteredCatalog = catalog;
-  if (promotionConfig && promotionConfig.collections.length > 0) {
+  if (promotionConfig && promotionConfig.collections && promotionConfig.collections.length > 0) {
     filteredCatalog = catalog.filter((item) => {
       if (!item.collectionName) return false;
 
