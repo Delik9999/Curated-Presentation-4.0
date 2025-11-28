@@ -106,6 +106,15 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       );
     }
 
+    // Extract conflicting event handlers that are incompatible with framer-motion
+    const {
+      onDrag: _onDrag,
+      onDragStart: _onDragStart,
+      onDragEnd: _onDragEnd,
+      onAnimationStart: _onAnimationStart,
+      ...restProps
+    } = props;
+
     return (
       <motion.button
         ref={ref}
@@ -113,7 +122,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         whileTap={{ scale: disabled || loading ? 1 : 0.98 }}
         className={cn(buttonVariants({ variant, size, fullWidth, className }))}
         disabled={disabled || loading}
-        {...props}
+        {...restProps}
       >
         {loading && <Loader2 className="h-4 w-4 animate-spin" />}
         {!loading && icon && <span className="flex-shrink-0">{icon}</span>}

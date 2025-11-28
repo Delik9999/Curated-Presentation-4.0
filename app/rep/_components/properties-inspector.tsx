@@ -219,7 +219,7 @@ export function PropertiesInspector({
                   <div key={item.id} className="flex items-center gap-2 text-xs p-2 rounded bg-muted/30">
                     <span className="text-muted-foreground font-mono">{index + 1}.</span>
                     <span className="flex-1 truncate">{item.collectionData?.collectionName}</span>
-                    <Badge variant="secondary" className="text-xs shrink-0">
+                    <Badge variant="muted" className="text-xs shrink-0">
                       {item.collectionData?.productCount || 0} items
                     </Badge>
                   </div>
@@ -501,7 +501,7 @@ export function PropertiesInspector({
 
                               {/* Badge Count */}
                               {badgeCount > 0 && (
-                                <Badge variant="secondary" className="text-xs shrink-0">
+                                <Badge variant="muted" className="text-xs shrink-0">
                                   {badgeCount} {badgeCount === 1 ? 'badge' : 'badges'}
                                 </Badge>
                               )}

@@ -894,7 +894,7 @@ export default function CollectionsTabClient({
     const convertToTuples = (collections: typeof presentationData.allCollections): [string, ProductWithVariants[]][] => {
       return collections.map(collection => [
         collection.collectionName,
-        collection.products as ProductWithVariants[]
+        collection.products as unknown as ProductWithVariants[]
       ] as [string, ProductWithVariants[]]);
     };
 
@@ -941,8 +941,8 @@ export default function CollectionsTabClient({
 
   // Refs for GSAP ScrollTrigger animations
   const heroRefs = React.useRef<Map<string, HTMLDivElement>>(new Map());
-  const macroRefs = React.useRef<Map<string, HTMLDivElement>>(new Map());
-  const contentRefs = React.useRef<Map<string, HTMLDivElement>>(new Map());
+  const macroRefs = React.useRef<Map<string, HTMLElement>>(new Map());
+  const contentRefs = React.useRef<Map<string, HTMLElement>>(new Map());
 
   // Create a Set of SKUs currently in selection for O(1) lookup
   const selectedSkus = React.useMemo(() => {
@@ -1581,7 +1581,7 @@ export default function CollectionsTabClient({
   const selectedCollectionsTuples = React.useMemo(() => {
     return presentationData.selectedCollections.map(collection => [
       collection.collectionName,
-      collection.products as ProductWithVariants[]
+      collection.products as unknown as ProductWithVariants[]
     ] as [string, ProductWithVariants[]]);
   }, [presentationData.selectedCollections]);
 
@@ -1597,7 +1597,7 @@ export default function CollectionsTabClient({
       .filter(collection => recommendedCollectionNames.has(collection.collectionName))
       .map(collection => [
         collection.collectionName,
-        collection.products as ProductWithVariants[]
+        collection.products as unknown as ProductWithVariants[]
       ] as [string, ProductWithVariants[]]);
   }, [presentationData.otherCollections, recommendedCollectionNames]);
 
@@ -1606,7 +1606,7 @@ export default function CollectionsTabClient({
       .filter(collection => !recommendedCollectionNames.has(collection.collectionName))
       .map(collection => [
         collection.collectionName,
-        collection.products as ProductWithVariants[]
+        collection.products as unknown as ProductWithVariants[]
       ] as [string, ProductWithVariants[]]);
   }, [presentationData.otherCollections, recommendedCollectionNames]);
 
@@ -1615,7 +1615,7 @@ export default function CollectionsTabClient({
     if (!presentationData.bestSellerCollections) return [];
     return presentationData.bestSellerCollections.map(collection => [
       collection.collectionName,
-      collection.products as ProductWithVariants[]
+      collection.products as unknown as ProductWithVariants[]
     ] as [string, ProductWithVariants[]]);
   }, [presentationData.bestSellerCollections]);
 

@@ -121,14 +121,14 @@ type CollectionWithMeta = {
   name: string;
   itemCount: number;
   years: number[];
-  vendor: string;
+  vendor?: string;
 };
 
 type FlattenedCollectionItem = {
   id: string; // unique identifier: "collectionName-year"
   collectionName: string;
   year: number;
-  vendor: string;
+  vendor?: string;
   itemCount: number;
   videoUrl: string | null;
 };
@@ -457,7 +457,7 @@ export default function CollectionsManager({ collections, customerId }: Collecti
         const slug = collection.name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '') + '-collection';
 
         // Check both new collection media and legacy videos
-        const collectionMedia = collectionMediaData[collection.vendor]?.[collection.name];
+        const collectionMedia = collection.vendor ? collectionMediaData[collection.vendor]?.[collection.name] : undefined;
         const hasNewMedia = collectionMedia?.mediaType && collectionMedia.mediaType !== 'none';
         const legacyVideoUrl = (collectionVideos as Record<string, string>)[slug];
 
@@ -499,7 +499,7 @@ export default function CollectionsManager({ collections, customerId }: Collecti
       const slug = collection.name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '') + '-collection';
 
       // Check both new collection media and legacy videos
-      const collectionMedia = collectionMediaData[collection.vendor]?.[collection.name];
+      const collectionMedia = collection.vendor ? collectionMediaData[collection.vendor]?.[collection.name] : undefined;
       const hasNewMedia = collectionMedia?.mediaType && collectionMedia.mediaType !== 'none';
       const legacyVideoUrl = (collectionVideos as Record<string, string>)[slug];
 

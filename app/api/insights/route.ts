@@ -44,7 +44,7 @@ export async function GET(request: NextRequest) {
 
       // Calculate average displays per showroom for each collection (only counting showrooms that have it)
       const marketAvgPresenceByCollection = new Map<string, number>();
-      for (const [collectionName, customerCounts] of marketPresenceByCollection) {
+      for (const [collectionName, customerCounts] of Array.from(marketPresenceByCollection.entries())) {
         if (customerCounts.size > 0) {
           const totalFaces = Array.from(customerCounts.values()).reduce((sum, count) => sum + count, 0);
           const avgPresence = totalFaces / customerCounts.size;
@@ -92,7 +92,7 @@ export async function GET(request: NextRequest) {
 
       // Calculate average months on floor per collection
       const avgMonthsOnFloor = new Map<string, number>();
-      for (const [collectionName, ages] of displayAges) {
+      for (const [collectionName, ages] of Array.from(displayAges.entries())) {
         if (ages.length > 0) {
           const avg = ages.reduce((sum, age) => sum + age, 0) / ages.length;
           avgMonthsOnFloor.set(collectionName, Math.round(avg * 10) / 10);

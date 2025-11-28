@@ -285,13 +285,13 @@ export function SelectionPanel({
                     onClick={handleSave}
                     disabled={isSaving}
                     className="flex-1"
-                    size="default"
+                    size="md"
                     variant="default"
                   >
                     <Save className="h-4 w-4 mr-2" />
                     {isSaving ? 'Saving...' : 'Save Selection'}
                   </Button>
-                  <Button onClick={() => onExport('pdf')} variant="outline" size="default">
+                  <Button onClick={() => onExport('pdf')} variant="outline" size="md">
                     <Download className="h-4 w-4" />
                   </Button>
                 </div>

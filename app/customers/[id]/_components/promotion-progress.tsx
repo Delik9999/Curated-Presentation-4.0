@@ -80,7 +80,7 @@ export function PromotionProgress({ selection, promotion }: PromotionProgressPro
         ? {
             tier: nextTier.tier,
             skusNeeded: nextTier.skusNeeded,
-            projectedSavings: nextTier.projectedSavings || 0,
+            projectedSavings: 0,
           }
         : null;
 
@@ -101,7 +101,7 @@ export function PromotionProgress({ selection, promotion }: PromotionProgressPro
         ? {
             tier: nextTier.tier,
             amountNeeded: nextTier.amountNeeded,
-            projectedSavings: nextTier.projectedSavings || 0,
+            projectedSavings: 0,
           }
         : null;
 

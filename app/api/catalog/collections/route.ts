@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { loadCatalog } from '@/lib/catalog/loadCatalog';
 
+export const dynamic = 'force-dynamic';
+
 /**
  * GET /api/catalog/collections
  *

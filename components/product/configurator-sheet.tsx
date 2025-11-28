@@ -98,7 +98,7 @@ export function ConfiguratorSheet({
   }, [selectedOptions, product.skuVariants]);
 
   const currentPrice = currentVariant?.price || product.list;
-  const priceChange = currentVariant ? currentVariant.price - product.list : 0;
+  const priceChange = currentVariant && currentVariant.price ? currentVariant.price - product.list : 0;
 
   // Communicate image updates to parent
   useEffect(() => {

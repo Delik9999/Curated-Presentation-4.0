@@ -102,6 +102,8 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
     unknown: Array<{ sku: string; qty: number }>;
     duplicate: Array<{ sku: string }>;
     totalLines: number;
+    vendor?: string;
+    submitDate?: string;
   } | null>(null);
   const [isPdfParsing, setIsPdfParsing] = useState(false);
   const [viewingSelection, setViewingSelection] = useState<{
@@ -1596,7 +1598,7 @@ export default function DallasWorkspace({ customers, initialCustomerId, initialY
                             {formatCurrency(snapshot.totalNet)}
                           </TableCell>
                           <TableCell className="py-3 text-center">
-                            <Badge variant="secondary" className="text-xs font-medium">
+                            <Badge variant="muted" className="text-xs font-medium">
                               v{snapshot.version}
                             </Badge>
                           </TableCell>

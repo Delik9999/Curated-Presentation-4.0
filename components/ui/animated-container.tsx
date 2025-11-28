@@ -166,7 +166,7 @@ export function Bounce({ children, trigger = false, className, ...props }: Bounc
     y: [0, -20, 0],
     transition: {
       duration: 0.5,
-      ease: [0.36, 0, 0.66, -0.56],
+      ease: [0.36, 0, 0.66, -0.56] as [number, number, number, number],
     },
   };
 
@@ -272,7 +272,7 @@ export interface MagneticProps extends React.HTMLAttributes<HTMLDivElement> {
   strength?: number;
 }
 
-export function Magnetic({ children, strength = 0.3, className, ...props }: MagneticProps) {
+export function Magnetic({ children, strength = 0.3, className }: MagneticProps) {
   const ref = React.useRef<HTMLDivElement>(null);
   const [position, setPosition] = React.useState({ x: 0, y: 0 });
 
@@ -299,7 +299,6 @@ export function Magnetic({ children, strength = 0.3, className, ...props }: Magn
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
       className={className}
-      {...props}
     >
       {children}
     </motion.div>

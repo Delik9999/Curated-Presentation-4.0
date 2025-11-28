@@ -165,6 +165,8 @@ export type CollectionMedia = {
   youtubeStartTime?: number; // seconds
   youtubeEndTime?: number; // seconds
   mp4Url?: string;
+  mp4StartTime?: number; // seconds
+  mp4EndTime?: number; // seconds
   photos?: PhotoSlide[];
   slideDuration?: number; // seconds, global for all photos
   photoLayoutMode?: PhotoLayoutMode; // layout strategy for photo slideshow
@@ -186,7 +188,7 @@ export type CollectionData = {
   collectionName: string;
   productCount?: number;
   heroVideoUrl?: string;
-  vendor: string;
+  vendor?: string;
   includeAllYears?: boolean;
   years?: number[];
 };

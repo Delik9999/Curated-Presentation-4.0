@@ -32,7 +32,7 @@ export async function GET(request: NextRequest) {
     // Try multiple extraction methods
 
     // Method 1: Extract from ytInitialPlayerResponse
-    const playerResponseMatch = html.match(/var ytInitialPlayerResponse\s*=\s*({.+?});/s);
+    const playerResponseMatch = html.match(/var ytInitialPlayerResponse\s*=\s*({[\s\S]+?});/);
     if (playerResponseMatch) {
       try {
         const playerResponse = JSON.parse(playerResponseMatch[1]);
@@ -62,7 +62,7 @@ export async function GET(request: NextRequest) {
 
     // Method 2: Extract from ytInitialData (fallback)
     if (chapters.length === 0) {
-      const initialDataMatch = html.match(/var ytInitialData\s*=\s*({.+?});/s);
+      const initialDataMatch = html.match(/var ytInitialData\s*=\s*({[\s\S]+?});/);
       if (initialDataMatch) {
         try {
           const initialData = JSON.parse(initialDataMatch[1]);

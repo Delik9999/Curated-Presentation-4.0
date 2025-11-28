@@ -75,7 +75,7 @@ export async function GET(request: NextRequest) {
       variantsStep: {
         abbottCount: abbottInVariants.length,
         abbottSample: abbottInVariants[0],
-        allCollections: [...new Set(productsWithVariants.map(p => p.collection))].sort(),
+        allCollections: Array.from(new Set(productsWithVariants.map(p => p.collection))).sort(),
         totalVariantGroups: productsWithVariants.length
       },
       groupedByCollection: {

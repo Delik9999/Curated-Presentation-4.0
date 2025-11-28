@@ -398,7 +398,7 @@ export default function MarketManagement() {
                   <TableRow key={item.selection.id}>
                     <TableCell className="font-medium">{item.customerName}</TableCell>
                     <TableCell>
-                      <Badge variant="secondary">{item.itemCount} items</Badge>
+                      <Badge variant="muted">{item.itemCount} items</Badge>
                     </TableCell>
                     <TableCell className="text-sm text-muted-foreground">
                       {new Date(item.createdAt).toLocaleDateString()}

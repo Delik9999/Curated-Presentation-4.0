@@ -69,7 +69,7 @@ export function PromotionStatusStrip({ promotion, calculation, selection }: Prom
   const potentialSavings = useMemo(() => {
     if (!nextTier) return 0;
 
-    if (hasSkuTiers && nextTier.skusNeeded !== undefined) {
+    if (hasSkuTiers && 'skusNeeded' in nextTier) {
       // Estimate average item value
       const avgItemValue = calculation.displaySubtotal / Math.max(calculation.uniqueDisplaySkus, 1);
       // Estimate additional items needed
@@ -81,7 +81,7 @@ export function PromotionStatusStrip({ promotion, calculation, selection }: Prom
 
       // Savings on new items + increased savings on existing items
       return (additionalValue * nextDiscountRate) + (calculation.displaySubtotal * additionalDiscountRate);
-    } else if (hasDollarTiers && nextTier.amountNeeded !== undefined) {
+    } else if (hasDollarTiers && 'amountNeeded' in nextTier) {
       const nextDiscountRate = nextTier.tier.discountPercent / 100;
       const currentDiscountRate = calculation.bestTierDiscount / 100;
       const additionalDiscountRate = nextDiscountRate - currentDiscountRate;
@@ -157,7 +157,7 @@ export function PromotionStatusStrip({ promotion, calculation, selection }: Prom
 
                 {/* Next Tier CTA - MORE MOTIVATING */}
                 <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">
-                  {hasSkuTiers && nextTier.skusNeeded !== undefined && (
+                  {hasSkuTiers && 'skusNeeded' in nextTier && (
                     <span>
                       Just <span className="font-bold text-blue-600 dark:text-blue-400">
                         {nextTier.skusNeeded} more {nextTier.skusNeeded === 1 ? 'SKU' : 'SKUs'}
@@ -165,7 +165,7 @@ export function PromotionStatusStrip({ promotion, calculation, selection }: Prom
                       {' '}to unlock {nextTier.tier.discountPercent}% savings!
                     </span>
                   )}
-                  {hasDollarTiers && nextTier.amountNeeded !== undefined && (
+                  {hasDollarTiers && 'amountNeeded' in nextTier && (
                     <span>
                       Just <span className="font-bold text-blue-600 dark:text-blue-400">
                         {formatCurrency(nextTier.amountNeeded)} more

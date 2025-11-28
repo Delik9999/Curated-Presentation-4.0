@@ -84,13 +84,6 @@ export function ProductCard({
     // For configurable products, check if baseSku or any variant SKU is in selection
     if (selectedSkus.has(productWithVariants.baseSku)) return true;
 
-    // Check all skuVariants if available
-    if (productWithVariants.skuVariants) {
-      if (productWithVariants.skuVariants.some(variant => selectedSkus.has(variant.sku))) {
-        return true;
-      }
-    }
-
     // Check all variants
     if (productWithVariants.variants.some(variant => selectedSkus.has(variant.sku))) {
       return true;
@@ -100,7 +93,7 @@ export function ProductCard({
     // starts with the baseSku (e.g., "271202-SKT-07-44-SF2023" starts with "271202")
     // This catches dynamically generated variant SKUs
     const baseSkuPrefix = productWithVariants.baseSku + '-';
-    for (const sku of selectedSkus) {
+    for (const sku of Array.from(selectedSkus)) {
       if (sku.startsWith(baseSkuPrefix)) {
         return true;
       }
@@ -784,7 +777,7 @@ export function ProductCard({
               "!bg-neutral-900 hover:!bg-neutral-800 !text-white dark:!bg-neutral-100 dark:!text-neutral-900 dark:hover:!bg-neutral-200"
             )
           )}
-          size="default"
+          size="md"
           variant="default"
         >
           {productWithVariants.isConfigurable ? (

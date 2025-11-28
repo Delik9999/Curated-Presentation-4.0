@@ -30,6 +30,7 @@ export interface ProductWithVariants {
   baseSku: string;
   baseProductName: string;     // Name without finish/options
   collection: string;
+  year?: number;               // Product year for filtering
   variantType: 'simple' | 'matrix' | 'none';
   dimensions: OptionDimension[];
   variants: ProductVariant[];
@@ -68,6 +69,7 @@ export function groupProductsByVariants(
     baseSku: product.sku,
     baseProductName: product.name,
     collection: product.collectionName || 'Uncategorized',
+    year: product.year,
     variantType: 'none' as const,
     dimensions: [],
     variants: [
@@ -131,6 +133,7 @@ export function groupProductsByVariants(
       baseSku,
       baseProductName,
       collection,
+      year: products[0].year,
       variantType,
       dimensions,
       variants,

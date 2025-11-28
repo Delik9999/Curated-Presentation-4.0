@@ -177,7 +177,7 @@ export default function SelectionTab({ customer, dallasData, workingData, select
           const response = await fetch(`/api/customers/${customer.id}/selection/restore`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ snapshotId: dallasData.snapshot.id }),
+            body: JSON.stringify({ snapshotId: dallasData.snapshot!.id }),
           });
           if (response.ok) {
             workingQuery.refetch();
@@ -530,8 +530,9 @@ export default function SelectionTab({ customer, dallasData, workingData, select
                 </DropdownMenuItem>
                 <div className="my-1 h-px bg-border" />
                 {dallasData.versions.map((version) => {
-                  const marketCycleLabel = version.marketCycle
-                    ? `${version.marketCycle.month} ${version.marketCycle.year}`
+                  const versionWithCycle = version as typeof version & { marketCycle?: { month: string; year: number } };
+                  const marketCycleLabel = versionWithCycle.marketCycle
+                    ? `${versionWithCycle.marketCycle.month} ${versionWithCycle.marketCycle.year}`
                     : null;
 
                   return (
@@ -813,7 +814,7 @@ export default function SelectionTab({ customer, dallasData, workingData, select
                         {item.tags && item.tags.length > 0 && (
                           <div className="flex flex-wrap gap-1 mt-1">
                             {item.tags.map((tag) => (
-                              <Badge key={`${item.sku}-${tag}`} variant="secondary" className="text-[10px] px-1.5 py-0">
+                              <Badge key={`${item.sku}-${tag}`} variant="muted" className="text-[10px] px-1.5 py-0">
                                 {tag}
                               </Badge>
                             ))}

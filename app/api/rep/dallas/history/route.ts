@@ -14,7 +14,7 @@ type MarketPeriod = {
   snapshots: Array<{
     id: string;
     name: string;
-    sourceEventId: string;
+    sourceEventId?: string;
     sourceYear: number;
     marketMonth: 'January' | 'June';
     vendor: string;

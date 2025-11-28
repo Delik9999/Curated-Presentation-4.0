@@ -38,7 +38,7 @@ export interface Transform {
 export interface VendorMapping {
   id: string;
   vendorCode: string;
-  name: string; // User-friendly name like "Lib&Co June 2025"
+  displayName: string; // User-friendly name like "Lib&Co June 2025"
   version: number;
   createdAt: string;
   updatedAt: string;

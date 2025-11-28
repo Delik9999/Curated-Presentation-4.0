@@ -177,7 +177,7 @@ export async function calculateLeaderboard(
       }
       skusPerCollection.get(collectionName)!.add(row.sku);
     }
-    for (const [collectionName, skus] of skusPerCollection) {
+    for (const [collectionName, skus] of Array.from(skusPerCollection)) {
       const data = collectionWeeklyData.get(collectionName);
       if (data) {
         data.skuCount = skus.size;
@@ -186,8 +186,8 @@ export async function calculateLeaderboard(
 
     // Get all weeks sorted
     const allWeeks = new Set<string>();
-    for (const collectionData of collectionWeeklyData.values()) {
-      for (const week of collectionData.weeks.keys()) {
+    for (const collectionData of Array.from(collectionWeeklyData.values())) {
+      for (const week of Array.from(collectionData.weeks.keys())) {
         allWeeks.add(week);
       }
     }
@@ -211,7 +211,7 @@ export async function calculateLeaderboard(
       firstSaleDate: string;
     }> = [];
 
-    for (const [collectionName, collectionData] of collectionWeeklyData) {
+    for (const [collectionName, collectionData] of Array.from(collectionWeeklyData)) {
       // Get last 6 weeks of data for sparkline
       const weeklyData: WeeklyDataPoint[] = [];
       let totalRetail = 0;

@@ -5,7 +5,7 @@ import { loadHubbardtonForgeCatalog } from './loadHubbardton';
 
 export type ConfiguratorOption = {
   optionName: string; // e.g., "Finish", "Accent Finish"
-  optionType: 'finish' | 'accent-finish' | 'glass' | 'canopy' | 'other';
+  optionType: 'finish' | 'accent-finish' | 'glass' | 'shade' | 'canopy' | 'other';
   values: string[]; // e.g., ["Black", "Bronze", "Dark Smoke", ...]
   required: boolean; // Is this option required?
 };

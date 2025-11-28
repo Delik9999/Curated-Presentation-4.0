@@ -736,7 +736,7 @@ export function PromotionForm({ promotion, onSuccess, onCancel }: PromotionFormP
             <Card key={tier.tempId} className="border-border bg-muted/50">
               <CardContent className="p-4">
                 <div className="flex gap-3 items-end">
-                  <Badge variant="secondary" className="self-start mt-7">
+                  <Badge variant="muted" className="self-start mt-7">
                     Tier {index + 1}
                   </Badge>
                   <div className="flex-1 space-y-2">
@@ -816,7 +816,7 @@ export function PromotionForm({ promotion, onSuccess, onCancel }: PromotionFormP
             <Card key={tier.tempId} className="border-border bg-muted/50">
               <CardContent className="p-4">
                 <div className="flex gap-3 items-end">
-                  <Badge variant="secondary" className="self-start mt-7">
+                  <Badge variant="muted" className="self-start mt-7">
                     Tier {index + 1}
                   </Badge>
                   <div className="flex-1 space-y-2">

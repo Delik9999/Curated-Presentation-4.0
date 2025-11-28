@@ -16,6 +16,15 @@ export const Card = React.forwardRef<HTMLDivElement, CardProps>(
     const Component = href ? Link : 'div';
     const isInteractive = !!href;
 
+    // Extract conflicting event handlers that are incompatible with framer-motion
+    const {
+      onDrag: _onDrag,
+      onDragStart: _onDragStart,
+      onDragEnd: _onDragEnd,
+      onAnimationStart: _onAnimationStart,
+      ...restProps
+    } = props;
+
     return (
       <motion.div
         ref={ref}
@@ -34,7 +43,7 @@ export const Card = React.forwardRef<HTMLDivElement, CardProps>(
           'group relative overflow-hidden rounded-2xl border border-neutral-200 bg-white p-6 transition-all',
           className
         )}
-        {...props}
+        {...restProps}
       >
         {/* Gradient hover effect */}
         <div className="absolute inset-0 bg-gradient-to-br from-primary-500/0 to-accent-500/0 opacity-0 transition-opacity group-hover:opacity-5" />

@@ -57,7 +57,7 @@ export default async function CustomerPresentationPage({
   const activeTab = searchParams.tab ?? 'collections';
 
   // Get authorized vendors
-  const authorizedVendors = customer.authorizedVendors || customer.vendors || [];
+  const authorizedVendors = customer.authorizedVendors || [];
 
   // Default to lib-and-co if customer has multiple vendors and no vendor is specified
   let selectedVendor = searchParams.vendor;

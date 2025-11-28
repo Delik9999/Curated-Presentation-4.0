@@ -12,6 +12,7 @@ interface WeeklyMomentumPoint {
   baselineMA: number;
   stockingVolume: number;
   replenishmentVolume: number;
+  projectVolume: number;
 }
 
 interface MomentumEntry {

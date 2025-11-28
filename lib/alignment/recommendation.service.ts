@@ -108,7 +108,7 @@ export class RecommendationService {
     };
   }
 
-  private generateAddReason(ranking: { vendorRank?: number; marketRank?: number }): string {
+  private generateAddReason(ranking: { vendorRank?: number | null; marketRank?: number | null }): string {
     if (ranking.vendorRank && ranking.marketRank) {
       return `Ranked #${ranking.vendorRank} by vendor, #${ranking.marketRank} by market. Strong performer.`;
     } else if (ranking.vendorRank) {

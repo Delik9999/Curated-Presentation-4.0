@@ -165,6 +165,15 @@ export interface CreatePromotionInput {
   dollarTiers: Omit<PromotionTier, 'id'>[];
   inventoryIncentive: InventoryIncentive;
   portableIncentive?: PortableIncentive;
+  // Customer-facing display fields
+  summaryTitle?: string;
+  summaryBody?: string;
+  headlineBenefit?: string;
+  summaryBullets?: string[];
+  pdfUrl?: string;
+  termsAndConditions?: string;
+  uploadedPromotionUrl?: string;
+  uploadedPromotionType?: 'pdf' | 'image';
 }
 
 export interface UpdatePromotionInput extends Partial<CreatePromotionInput> {

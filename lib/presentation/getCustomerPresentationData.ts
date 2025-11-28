@@ -117,9 +117,9 @@ export async function getCustomerPresentationData(
 
     // Group all catalog products by collection (CASE-INSENSITIVE)
     // Map: lowercase key -> { canonicalName, products }
-    const productsByCollectionMap = new Map<string, { canonicalName: string; products: CatalogItem[] }>();
+    const productsByCollectionMap = new Map<string, { canonicalName: string; products: any[] }>();
     productsWithVariants.forEach((product) => {
-      const collectionName = (product as any).collection || product.collectionName;
+      const collectionName = (product as any).collection || (product as any).collectionName;
       if (!collectionName || collectionName === 'Uncategorized' || collectionName.trim() === '') {
         return;
       }
@@ -330,7 +330,7 @@ export async function getCustomerPresentationData(
 async function buildEnrichedCollections(
   presentationItems: any[],
   legacyCollections: any[],
-  catalogProducts: CatalogItem[],
+  catalogProducts: any[], // Accepts CatalogItem[] or ProductWithVariants[]
   vendor?: string
 ): Promise<PresentationCollection[]> {
   // Load collection media configuration from file

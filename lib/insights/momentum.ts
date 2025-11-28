@@ -163,7 +163,7 @@ export async function calculateMomentum(
     // Step 2: Classify each order using Width/Depth algorithm
     type OrderType = 'STOCKING' | 'PROJECT' | 'REPLENISH';
 
-    function classifyOrder(items: { sku: string; qty: number }[]): OrderType {
+    const classifyOrder = (items: { sku: string; qty: number }[]): OrderType => {
       // Calculate "Width" (unique SKUs) and "Depth" (avg units per line item)
       const totalUnits = items.reduce((acc, item) => acc + item.qty, 0);
       const uniqueSKUs = new Set(items.map(i => i.sku)).size;
@@ -199,7 +199,7 @@ export async function calculateMomentum(
       }>;
     }>();
 
-    for (const [, order] of orderMap) {
+    for (const [, order] of Array.from(orderMap)) {
       const weekStart = getWeekStart(new Date(order.postingDate));
       const orderType = classifyOrder(order.items);
 
@@ -258,8 +258,8 @@ export async function calculateMomentum(
 
     // Get sorted weeks
     const allWeeks = new Set<string>();
-    for (const data of collectionData.values()) {
-      for (const week of data.weeks.keys()) {
+    for (const data of Array.from(collectionData.values())) {
+      for (const week of Array.from(data.weeks.keys())) {
         allWeeks.add(week);
       }
     }
@@ -284,7 +284,7 @@ export async function calculateMomentum(
       }
     } catch {
       // Use customer count as proxy if no display data
-      for (const [collectionName, data] of collectionData) {
+      for (const [collectionName, data] of Array.from(collectionData)) {
         displaysByCollection.set(collectionName, data.customers);
       }
     }
@@ -292,7 +292,7 @@ export async function calculateMomentum(
     // Calculate momentum for each collection
     const momentumData: MomentumEntry[] = [];
 
-    for (const [collectionName, data] of collectionData) {
+    for (const [collectionName, data] of Array.from(collectionData)) {
       // Ghost Filter: Skip if no revenue
       if (data.totalRevenue === 0) continue;
 

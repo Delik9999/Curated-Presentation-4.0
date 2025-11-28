@@ -24,7 +24,7 @@ export async function initSession(customerId: string): Promise<string> {
 
     const data = await response.json();
     currentSessionId = data.session.id;
-    return currentSessionId;
+    return currentSessionId || '';
   } catch (error) {
     console.error('Failed to initialize tracking session:', error);
     return '';

@@ -23,16 +23,22 @@ function convertVendorUpdateToPreview(vendorUpdate: any): ImportPreview {
   const { summary, diff } = vendorUpdate;
 
   return {
+    vendorCode: vendorUpdate.vendorCode || '',
+    effectiveFrom: vendorUpdate.effectiveFrom || new Date().toISOString(),
+    totalIncoming: summary.newProducts + summary.priceChanges + summary.unchanged,
+    totalExisting: summary.priceChanges + summary.unchanged,
+    adds: diff?.adds || [],
+    updates: diff?.updates || [],
+    priceChanges: diff?.priceChanges || [],
+    discontinuations: diff?.discontinuations || [],
     summary: {
       newProducts: summary.newProducts,
       updatedProducts: summary.newFinishes + summary.specChanges, // Combine these
       priceOnlyChanges: summary.priceChanges,
+      toDiscontinue: summary.toDiscontinue || 0,
       unchanged: summary.unchanged,
     },
-    totalIncoming: summary.newProducts + summary.priceChanges + summary.unchanged,
-    totalExisting: summary.priceChanges + summary.unchanged,
-    diff: diff, // Include raw diff for details
-  } as ImportPreview;
+  };
 }
 
 export default function PreviewDiffStep({

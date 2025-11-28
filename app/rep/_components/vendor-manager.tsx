@@ -163,7 +163,7 @@ export function VendorBadges({ authorizedVendors }: { authorizedVendors: string[
       {/* Slot 1: Always shows Vendor 1 (if exists) */}
       {slot1 && (
         <Badge
-          variant="secondary"
+          variant="muted"
           className="text-xs font-medium whitespace-nowrap"
         >
           {vendorAbbreviations[slot1] || slot1}
@@ -173,7 +173,7 @@ export function VendorBadges({ authorizedVendors }: { authorizedVendors: string[
       {/* Slot 2: Always shows Vendor 2 (if exists) */}
       {slot2 && (
         <Badge
-          variant="secondary"
+          variant="muted"
           className="text-xs font-medium whitespace-nowrap"
         >
           {vendorAbbreviations[slot2] || slot2}
@@ -184,7 +184,7 @@ export function VendorBadges({ authorizedVendors }: { authorizedVendors: string[
       {authorizedVendors.length === 3 ? (
         // Exactly 3 vendors: Show the 3rd vendor
         <Badge
-          variant="secondary"
+          variant="muted"
           className="text-xs font-medium whitespace-nowrap"
         >
           {vendorAbbreviations[slot3] || slot3}

@@ -23,7 +23,7 @@ type CollectionWithMeta = {
   name: string;
   itemCount: number;
   years: number[];
-  vendor: string;
+  vendor?: string;
 };
 
 interface CollectionVideosManagerProps {
@@ -105,7 +105,7 @@ function VideoScrubber({ videoUrl, startTime, endTime, onTimeRangeChange, vendor
         throw new Error('Failed to save');
       }
 
-      console.log('Auto-saved time range:', updatedConfig.mp4StartTime, '-', updatedConfig.mp4EndTime);
+      console.log('Auto-saved time range');
     } catch (error) {
       console.error('Auto-save failed:', error);
     } finally {
@@ -701,7 +701,7 @@ export default function CollectionVideosManager({ collections }: CollectionVideo
       // Word overlap match
       const chapterWords = new Set(chapterNorm.split(' '));
       const collectionWords = new Set(collectionNorm.split(' '));
-      const overlap = [...chapterWords].filter(w => collectionWords.has(w)).length;
+      const overlap = Array.from(chapterWords).filter(w => collectionWords.has(w)).length;
       const totalWords = Math.max(chapterWords.size, collectionWords.size);
       const overlapScore = (overlap / totalWords) * 70;
 
@@ -958,7 +958,7 @@ export default function CollectionVideosManager({ collections }: CollectionVideo
     // Load media config from API
     try {
       const response = await fetch(
-        `/api/rep/collection-media?vendor=${encodeURIComponent(collection.vendor)}&collection=${encodeURIComponent(collection.name)}`
+        `/api/rep/collection-media?vendor=${encodeURIComponent(collection.vendor || '')}&collection=${encodeURIComponent(collection.name)}`
       );
       const data = await response.json();
 
@@ -1012,10 +1012,11 @@ export default function CollectionVideosManager({ collections }: CollectionVideo
       }
 
       // Update local state to reflect the saved media
+      const vendorKey = editingCollection.vendor || '';
       setCollectionMediaData(prev => ({
         ...prev,
-        [editingCollection.vendor]: {
-          ...prev[editingCollection.vendor],
+        [vendorKey]: {
+          ...prev[vendorKey],
           [editingCollection.name]: mediaConfig,
         },
       }));
@@ -1053,10 +1054,11 @@ export default function CollectionVideosManager({ collections }: CollectionVideo
       }
 
       // Update local state to remove the media
+      const vendorKey = collection.vendor || '';
       setCollectionMediaData(prev => ({
         ...prev,
-        [collection.vendor]: {
-          ...prev[collection.vendor],
+        [vendorKey]: {
+          ...prev[vendorKey],
           [collection.name]: { mediaType: 'none' },
         },
       }));
@@ -1190,7 +1192,7 @@ export default function CollectionVideosManager({ collections }: CollectionVideo
                   filteredCollections.map((collection) => {
                     const slug = getCollectionSlug(collection.name);
                     // Check both new collection media and legacy video data
-                    const collectionMedia = collectionMediaData[collection.vendor]?.[collection.name];
+                    const collectionMedia = collection.vendor ? collectionMediaData[collection.vendor]?.[collection.name] : undefined;
                     const hasCollectionMedia = collectionMedia?.mediaType && collectionMedia.mediaType !== 'none';
                     const hasLegacyMedia = !!videoData[slug];
                     const hasMedia = hasCollectionMedia || hasLegacyMedia;
@@ -1215,12 +1217,6 @@ export default function CollectionVideosManager({ collections }: CollectionVideo
                       if (collectionMedia?.mediaType === 'youtube' && collectionMedia.youtubeUrl) {
                         const videoId = collectionMedia.youtubeUrl.replace('youtube:', '');
                         return `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
-                      }
-
-                      // For MP4 or other video types, use a generic video placeholder
-                      if (collectionMedia?.mediaType === 'mp4' || collectionMedia?.mediaType === 'video') {
-                        // Use data URI for a simple video icon placeholder
-                        return 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiMyMjIyMjIiLz4KICA8cGF0aCBkPSJNMjQgMjBMMjQgNDRMNDQgMzJMMjQgMjBaIiBmaWxsPSIjOTk5OTk5Ii8+Cjwvc3ZnPgo=';
                       }
 
                       // Check legacy video data
@@ -1277,7 +1273,7 @@ export default function CollectionVideosManager({ collections }: CollectionVideo
                         <TableCell className="font-medium">{collection.name}</TableCell>
                         <TableCell>
                           <Badge variant="outline">
-                            {vendorNames[collection.vendor] || collection.vendor}
+                            {collection.vendor ? (vendorNames[collection.vendor] || collection.vendor) : 'Unknown'}
                           </Badge>
                         </TableCell>
                         <TableCell className="text-muted-foreground">{collection.itemCount}</TableCell>
@@ -1561,7 +1557,7 @@ export default function CollectionVideosManager({ collections }: CollectionVideo
                     videoUrl={mediaConfig.mp4Url}
                     startTime={mediaConfig.mp4StartTime}
                     endTime={mediaConfig.mp4EndTime}
-                    vendor={editingCollection.vendor}
+                    vendor={editingCollection.vendor || ''}
                     collectionName={editingCollection.name}
                     mediaConfig={mediaConfig}
                     onTimeRangeChange={(start, end) => {
@@ -1674,7 +1670,7 @@ export default function CollectionVideosManager({ collections }: CollectionVideo
                 {editingCollection && (
                   <CollectionImageGallery
                     collectionName={editingCollection.name}
-                    vendor={editingCollection.vendor}
+                    vendor={editingCollection.vendor || ''}
                     onSelectImages={(urls) => {
                       const currentPhotos = mediaConfig.photos || [];
                       const nextOrder = currentPhotos.length;
@@ -1982,7 +1978,7 @@ export default function CollectionVideosManager({ collections }: CollectionVideo
                 {editingCollection && (
                   <CollectionImageGallery
                     collectionName={editingCollection.name}
-                    vendor={editingCollection.vendor}
+                    vendor={editingCollection.vendor || ''}
                     onSelectImages={(urls) => {
                       const currentPhotos = mediaConfig.photos || [];
                       const nextOrder = currentPhotos.length;
@@ -2180,7 +2176,7 @@ export default function CollectionVideosManager({ collections }: CollectionVideo
                       )}
                     </div>
                     {match.collection && (
-                      <Badge variant={match.confidence >= 80 ? 'default' : 'secondary'}>
+                      <Badge variant={match.confidence >= 80 ? 'default' : 'muted'}>
                         {match.confidence}% match
                       </Badge>
                     )}

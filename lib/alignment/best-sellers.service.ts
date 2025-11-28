@@ -259,10 +259,10 @@ export async function getCollectionYearOverYear(
   }
 
   // Calculate YoY growth
-  const allCollections = new Set([...currentMap.keys(), ...previousMap.keys()]);
+  const allCollections = new Set([...Array.from(currentMap.keys()), ...Array.from(previousMap.keys())]);
   const growth: YearOverYearGrowth[] = [];
 
-  for (const collectionName of allCollections) {
+  for (const collectionName of Array.from(allCollections)) {
     const currentRevenue = currentMap.get(collectionName) || 0;
     const previousRevenue = previousMap.get(collectionName) || 0;
     const growthAmount = currentRevenue - previousRevenue;

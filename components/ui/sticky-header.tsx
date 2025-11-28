@@ -4,7 +4,7 @@ import * as React from 'react';
 import { cn } from '@/lib/utils';
 
 export interface StickyHeaderProps {
-  children: React.ReactNode;
+  children: React.ReactNode | ((props: { isSticky: boolean; isHidden: boolean }) => React.ReactNode);
   className?: string;
   threshold?: number;
   shrinkOnScroll?: boolean;

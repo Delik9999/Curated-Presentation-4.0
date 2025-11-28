@@ -33,7 +33,7 @@ export default function MappingConfigStep({
     const mapping: VendorMapping = {
       id: '',
       vendorCode,
-      name: `${vendorCode} mapping`,
+      displayName: `${vendorCode} mapping`,
       version: 1,
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),

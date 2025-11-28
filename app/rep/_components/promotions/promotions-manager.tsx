@@ -60,13 +60,13 @@ function getStatusBadge(status: PromotionStatus) {
       );
     case 'expired':
       return (
-        <Badge variant="secondary" className="text-muted-foreground">
+        <Badge variant="muted" className="text-muted-foreground">
           <span className="mr-1.5">●</span> Expired
         </Badge>
       );
     case 'inactive':
       return (
-        <Badge variant="secondary" className="text-muted-foreground">
+        <Badge variant="muted" className="text-muted-foreground">
           <span className="mr-1.5">○</span> Inactive
         </Badge>
       );

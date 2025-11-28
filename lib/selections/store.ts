@@ -510,7 +510,7 @@ export async function addItemToWorkingSelection(
     const marketCycle = promotionConfig?.marketCycle;
 
     const itemWithConfig = {
-      ...computeFinancials(newItem),
+      ...computeFinancials(newItem as SelectionItem),
       collection: newItem.collection,
       year: newItem.year,
       configuration: newItem.configuration,
@@ -555,7 +555,7 @@ export async function addItemToWorkingSelection(
   } else {
     // Add new item (preserve configuration, collection, year)
     const newItemWithConfig = {
-      ...computeFinancials(newItem),
+      ...computeFinancials(newItem as SelectionItem),
       collection: newItem.collection,
       year: newItem.year,
       configuration: newItem.configuration,
@@ -629,8 +629,7 @@ export async function updateWorkingSelection(
         name: updateItem.sku, // Will be enriched later if needed
         collection: '',
         unitList: 0,
-        unitCost: 0,
-      });
+      } as SelectionItem);
     }
   });
 
@@ -823,6 +822,7 @@ export async function savePromotionConfig(
     vendor,
     collections,
     presentationItems,
+    presentations: [],
     createdAt: now,
     updatedAt: now,
   };
@@ -1291,10 +1291,16 @@ export async function getMarketSelectionStats(vendor?: string): Promise<{
   });
 
   return {
-    byCycle: Array.from(cycleMap.values()).sort((a, b) => {
-      if (a.year !== b.year) return b.year - a.year;
-      return a.month === 'June' ? -1 : 1;
-    }),
+    byCycle: Array.from(cycleMap.values())
+      .sort((a, b) => {
+        if (a.year !== b.year) return b.year - a.year;
+        return a.month === 'June' ? -1 : 1;
+      })
+      .map(({ year, month, total, active }) => ({
+        cycle: { year, month },
+        total,
+        active,
+      })),
     totalCustomers: customers.size,
   };
 }

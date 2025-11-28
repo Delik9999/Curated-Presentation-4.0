@@ -145,7 +145,7 @@ function extractMetadata(text: string): OrderMetadata {
   } else {
     // Fallback: Look for standalone 5-digit numbers
     // Must exclude: SO numbers, SKUs (XXXXX-XX), addresses
-    const allFiveDigit = text.matchAll(/\b(\d{5})\b/g);
+    const allFiveDigit = Array.from(text.matchAll(/\b(\d{5})\b/g));
     for (const match of allFiveDigit) {
       const num = match[1];
       const idx = match.index || 0;

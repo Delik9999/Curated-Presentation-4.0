@@ -56,8 +56,8 @@ async function loadImageMapping(): Promise<Record<string, string>> {
     const mappingPath = path.join(process.cwd(), 'data', 'hubbardton-image-map.json');
     const file = await fs.readFile(mappingPath, 'utf-8');
     imageMapping = JSON.parse(file);
-    console.log('[Hubbardton] Loaded image mapping with', Object.keys(imageMapping).length, 'entries');
-    return imageMapping;
+    console.log('[Hubbardton] Loaded image mapping with', Object.keys(imageMapping || {}).length, 'entries');
+    return imageMapping || {};
   } catch {
     console.log('[Hubbardton] No image mapping file found, using direct SKU mapping');
     return {};
@@ -164,7 +164,7 @@ export async function loadHubbardtonForgeCatalog(): Promise<CatalogItem[]> {
     const catalogItems: CatalogItem[] = [];
 
     // Process each base item group
-    for (const [baseItem, variants] of groupedByBase.entries()) {
+    for (const [baseItem, variants] of Array.from(groupedByBase.entries())) {
       if (variants.length === 0) continue;
 
       const baseRecord = variants[0];
@@ -196,7 +196,7 @@ export async function loadHubbardtonForgeCatalog(): Promise<CatalogItem[]> {
           // Build configurator options dynamically based on what's available
           const configuratorOptions: Array<{
             optionName: string;
-            optionType: string;
+            optionType: 'finish' | 'accent-finish' | 'glass' | 'shade' | 'canopy' | 'other';
             values: string[];
             required: boolean;
           }> = [];

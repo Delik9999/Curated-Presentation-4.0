@@ -197,7 +197,7 @@ export async function POST(request: Request) {
 
     const seen = new Set<string>();
 
-    for (const [sku, qty] of parsedSkus) {
+    for (const [sku, qty] of Array.from(parsedSkus)) {
       if (seen.has(sku)) {
         result.duplicate.push({ sku });
         continue;
@@ -210,8 +210,8 @@ export async function POST(request: Request) {
           sku: catalogItem.sku,
           name: catalogItem.name,
           qty,
-          unitList: catalogItem.wsp || catalogItem.listPrice || 0,
-          collection: catalogItem.collection,
+          unitList: catalogItem.list || 0,
+          collection: catalogItem.collectionName,
         });
       } else {
         result.unknown.push({ sku, qty });

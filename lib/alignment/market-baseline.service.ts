@@ -93,7 +93,7 @@ export class MarketBaselineService {
       }
 
       // Add weighted count for each unique collection
-      for (const collection of collections) {
+      for (const collection of Array.from(collections)) {
         const current = collectionCounts.get(collection) || 0;
         collectionCounts.set(collection, current + customerWeight);
       }

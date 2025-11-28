@@ -210,7 +210,7 @@ function compareSpecs(existingSpecs: Record<string, any>, incomingSpecs: Record<
   const changes: FieldChange[] = [];
   const allKeys = new Set([...Object.keys(existingSpecs), ...Object.keys(incomingSpecs)]);
 
-  for (const key of allKeys) {
+  for (const key of Array.from(allKeys)) {
     const oldValue = existingSpecs[key];
     const newValue = incomingSpecs[key];
 

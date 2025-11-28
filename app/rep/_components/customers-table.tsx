@@ -116,7 +116,7 @@ export function CustomersTable({ customers: initialCustomers }: CustomersTablePr
                           Active
                         </Badge>
                       ) : (
-                        <Badge variant="secondary">
+                        <Badge variant="muted">
                           Test
                         </Badge>
                       )}
