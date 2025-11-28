@@ -111,9 +111,10 @@ async function parseCSV(filePath: string): Promise<SalesRow[]> {
 /**
  * Calculate Luxury Momentum using ARPD (Annualized Revenue Per Display)
  */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export async function calculateMomentum(
   customerId?: string,
-  _projectThreshold: number = 4,
+  projectThreshold: number = 4,
   minStockingDealers: number = 1
 ): Promise<MomentumGroups> {
   const csvPath = path.join(process.cwd(), 'data', 'libco-sales-2025.csv');

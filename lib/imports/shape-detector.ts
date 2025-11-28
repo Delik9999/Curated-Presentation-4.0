@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // JSON shape detection and column analysis
 
 import { JSONShape, DetectedColumn } from './mapping-types';

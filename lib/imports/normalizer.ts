@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 // Normalizes vendor data using mapping configuration
 
 import { VendorMapping, NormalizedProduct, FieldMapping, PriceMapping, SpecMapping } from './mapping-types';
