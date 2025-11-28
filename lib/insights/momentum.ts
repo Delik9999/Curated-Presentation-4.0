@@ -113,7 +113,7 @@ async function parseCSV(filePath: string): Promise<SalesRow[]> {
  */
 export async function calculateMomentum(
   customerId?: string,
-  projectThreshold: number = 4,
+  _projectThreshold: number = 4,
   minStockingDealers: number = 1
 ): Promise<MomentumGroups> {
   const csvPath = path.join(process.cwd(), 'data', 'libco-sales-2025.csv');
@@ -269,7 +269,7 @@ export async function calculateMomentum(
     }
 
     // Load display data to get stocking dealer counts
-    let displaysByCollection = new Map<string, Set<string>>();
+    const displaysByCollection = new Map<string, Set<string>>();
     try {
       const displaysPath = path.join(process.cwd(), 'data', 'displays.json');
       const displaysContent = await fs.readFile(displaysPath, 'utf-8');

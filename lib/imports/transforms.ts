@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // Transform functions for data normalization
 
 import { Transform } from './mapping-types';

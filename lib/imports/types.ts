@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // Import types for JSON-based product uploads
 
 export type ImportStatus = 'staging' | 'committed' | 'failed';
