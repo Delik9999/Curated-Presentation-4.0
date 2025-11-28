@@ -1,0 +1,26 @@
+[
+  {
+    "id": "lib-and-co",
+    "name": "Lib & Co",
+    "displayName": "Lib & Co",
+    "logoUrl": null,
+    "description": "Premium lighting fixtures and home decor",
+    "active": true
+  },
+  {
+    "id": "savoy-house",
+    "name": "Savoy House",
+    "displayName": "Savoy House",
+    "logoUrl": null,
+    "description": "Decorative lighting with timeless designs",
+    "active": true
+  },
+  {
+    "id": "hubbardton-forge",
+    "name": "Hubbardton Forge",
+    "displayName": "Hubbardton Forge",
+    "logoUrl": null,
+    "description": "Handcrafted Vermont-made lighting and home accessories",
+    "active": true
+  }
+]

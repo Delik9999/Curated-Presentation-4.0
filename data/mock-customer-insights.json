@@ -1,0 +1,414 @@
+{
+  "starlight-lighting": {
+    "customerId": "starlight-lighting",
+    "customerName": "Starlight Lighting",
+    "periodLabel": "Jan 1 – Nov 4, 2025",
+    "totalUnits": 43,
+    "totalCollectionsActive": 5,
+    "topCollections": [
+      {
+        "collectionName": "Calcolo",
+        "unitsCustomer": 12,
+        "unitsTerritoryPerStore": 4.5,
+        "revenueCustomer": 8424,
+        "performanceIndex": 2.67,
+        "onDisplay": true,
+        "hasNewIntros": true
+      },
+      {
+        "collectionName": "Corato",
+        "unitsCustomer": 12,
+        "unitsTerritoryPerStore": 6.2,
+        "revenueCustomer": 7320,
+        "performanceIndex": 1.94,
+        "onDisplay": true,
+        "hasNewIntros": false
+      },
+      {
+        "collectionName": "Adelfia",
+        "unitsCustomer": 7,
+        "unitsTerritoryPerStore": 3.8,
+        "revenueCustomer": 4900,
+        "performanceIndex": 1.84,
+        "onDisplay": false,
+        "hasNewIntros": false
+      },
+      {
+        "collectionName": "Castelo",
+        "unitsCustomer": 7,
+        "unitsTerritoryPerStore": 5.1,
+        "revenueCustomer": 5600,
+        "performanceIndex": 1.37,
+        "onDisplay": true,
+        "hasNewIntros": false
+      },
+      {
+        "collectionName": "Catania",
+        "unitsCustomer": 5,
+        "unitsTerritoryPerStore": 8.3,
+        "revenueCustomer": 3280,
+        "performanceIndex": 0.60,
+        "onDisplay": true,
+        "hasNewIntros": true
+      }
+    ],
+    "ghostPerformers": [
+      {
+        "collectionName": "Adelfia",
+        "sku": "10160-01",
+        "unitsCustomer": 4
+      },
+      {
+        "collectionName": "Adelfia",
+        "sku": "10161-07",
+        "unitsCustomer": 3
+      }
+    ],
+    "swapCandidates": [
+      {
+        "collectionName": "Catania",
+        "sku": "10102-01",
+        "onDisplaySince": "2024-03-15",
+        "unitsCustomer": 0
+      },
+      {
+        "collectionName": "Castelo",
+        "sku": "10140-02",
+        "onDisplaySince": "2024-06-01",
+        "unitsCustomer": 1
+      }
+    ],
+    "displayMix": [
+      {
+        "collectionName": "Calcolo",
+        "recommendedFaces": 6
+      },
+      {
+        "collectionName": "Corato",
+        "recommendedFaces": 5
+      },
+      {
+        "collectionName": "Adelfia",
+        "recommendedFaces": 4
+      },
+      {
+        "collectionName": "Castelo",
+        "recommendedFaces": 3
+      },
+      {
+        "collectionName": "Catania",
+        "recommendedFaces": 2
+      }
+    ],
+    "newIntroRecommendations": [
+      {
+        "collectionName": "Calcolo",
+        "sku": "12127-01",
+        "shortReason": "You already sell Calcolo strongly (2.7× territory avg); this is the new 10-light linear intro."
+      },
+      {
+        "collectionName": "Catania",
+        "sku": "10108-07",
+        "shortReason": "New cluster pendant in your displayed collection; helps round out the Catania story."
+      }
+    ]
+  },
+  "signature-lighting-fans-dba-whitfield-lighting-and-furnitu": {
+    "customerId": "signature-lighting-fans-dba-whitfield-lighting-and-furnitu",
+    "customerName": "Signature Lighting",
+    "periodLabel": "Jan 1 – Nov 4, 2025",
+    "totalUnits": 156,
+    "totalCollectionsActive": 18,
+    "topCollections": [
+      {
+        "collectionName": "Baveno",
+        "unitsCustomer": 28,
+        "unitsTerritoryPerStore": 8.2,
+        "revenueCustomer": 19600,
+        "performanceIndex": 3.41,
+        "onDisplay": false,
+        "hasNewIntros": true
+      },
+      {
+        "collectionName": "Calcolo",
+        "unitsCustomer": 22,
+        "unitsTerritoryPerStore": 4.5,
+        "revenueCustomer": 15400,
+        "performanceIndex": 4.89,
+        "onDisplay": true,
+        "hasNewIntros": true
+      },
+      {
+        "collectionName": "Modena",
+        "unitsCustomer": 18,
+        "unitsTerritoryPerStore": 5.8,
+        "revenueCustomer": 12600,
+        "performanceIndex": 3.10,
+        "onDisplay": false,
+        "hasNewIntros": false
+      },
+      {
+        "collectionName": "Corato",
+        "unitsCustomer": 15,
+        "unitsTerritoryPerStore": 6.2,
+        "revenueCustomer": 9150,
+        "performanceIndex": 2.42,
+        "onDisplay": false,
+        "hasNewIntros": false
+      },
+      {
+        "collectionName": "Adelfia",
+        "unitsCustomer": 12,
+        "unitsTerritoryPerStore": 3.8,
+        "revenueCustomer": 8400,
+        "performanceIndex": 3.16,
+        "onDisplay": false,
+        "hasNewIntros": false
+      },
+      {
+        "collectionName": "Brindisi",
+        "unitsCustomer": 11,
+        "unitsTerritoryPerStore": 4.1,
+        "revenueCustomer": 7700,
+        "performanceIndex": 2.68,
+        "onDisplay": false,
+        "hasNewIntros": true
+      },
+      {
+        "collectionName": "Belluno",
+        "unitsCustomer": 10,
+        "unitsTerritoryPerStore": 3.5,
+        "revenueCustomer": 7000,
+        "performanceIndex": 2.86,
+        "onDisplay": false,
+        "hasNewIntros": false
+      },
+      {
+        "collectionName": "Castelo",
+        "unitsCustomer": 9,
+        "unitsTerritoryPerStore": 5.1,
+        "revenueCustomer": 6300,
+        "performanceIndex": 1.76,
+        "onDisplay": false,
+        "hasNewIntros": false
+      },
+      {
+        "collectionName": "Catania",
+        "unitsCustomer": 8,
+        "unitsTerritoryPerStore": 8.3,
+        "revenueCustomer": 5280,
+        "performanceIndex": 0.96,
+        "onDisplay": false,
+        "hasNewIntros": true
+      },
+      {
+        "collectionName": "Mantova",
+        "unitsCustomer": 6,
+        "unitsTerritoryPerStore": 4.0,
+        "revenueCustomer": 4200,
+        "performanceIndex": 1.50,
+        "onDisplay": false,
+        "hasNewIntros": false
+      }
+    ],
+    "ghostPerformers": [
+      {
+        "collectionName": "Adelfia",
+        "sku": "10160-01",
+        "unitsCustomer": 4
+      },
+      {
+        "collectionName": "Adelfia",
+        "sku": "10161-07",
+        "unitsCustomer": 3
+      }
+    ],
+    "swapCandidates": [
+      {
+        "collectionName": "Catania",
+        "sku": "10102-01",
+        "onDisplaySince": "2024-03-15",
+        "unitsCustomer": 0
+      },
+      {
+        "collectionName": "Castelo",
+        "sku": "10140-02",
+        "onDisplaySince": "2024-06-01",
+        "unitsCustomer": 1
+      }
+    ],
+    "displayMix": [
+      {
+        "collectionName": "Calcolo",
+        "recommendedFaces": 6
+      },
+      {
+        "collectionName": "Corato",
+        "recommendedFaces": 5
+      },
+      {
+        "collectionName": "Adelfia",
+        "recommendedFaces": 4
+      },
+      {
+        "collectionName": "Castelo",
+        "recommendedFaces": 3
+      },
+      {
+        "collectionName": "Catania",
+        "recommendedFaces": 2
+      }
+    ],
+    "newIntroRecommendations": [
+      {
+        "collectionName": "Calcolo",
+        "sku": "12127-01",
+        "shortReason": "You already sell Calcolo strongly (2.7× territory avg); this is the new 10-light linear intro."
+      },
+      {
+        "collectionName": "Catania",
+        "sku": "10108-07",
+        "shortReason": "New cluster pendant in your displayed collection; helps round out the Catania story."
+      }
+    ]
+  },
+  "C00070": {
+    "customerId": "C00070",
+    "customerName": "Signature Lighting and Fans",
+    "periodLabel": "Jan 1 – Nov 4, 2025",
+    "totalUnits": 156,
+    "totalCollectionsActive": 18,
+    "topCollections": [
+      {
+        "collectionName": "Baveno",
+        "unitsCustomer": 28,
+        "unitsTerritoryPerStore": 8.2,
+        "revenueCustomer": 19600,
+        "performanceIndex": 3.41,
+        "onDisplay": true,
+        "hasNewIntros": true
+      },
+      {
+        "collectionName": "Calcolo",
+        "unitsCustomer": 22,
+        "unitsTerritoryPerStore": 4.5,
+        "revenueCustomer": 15400,
+        "performanceIndex": 4.89,
+        "onDisplay": true,
+        "hasNewIntros": true
+      },
+      {
+        "collectionName": "Modena",
+        "unitsCustomer": 18,
+        "unitsTerritoryPerStore": 5.8,
+        "revenueCustomer": 12600,
+        "performanceIndex": 3.10,
+        "onDisplay": true,
+        "hasNewIntros": false
+      },
+      {
+        "collectionName": "Corato",
+        "unitsCustomer": 15,
+        "unitsTerritoryPerStore": 6.2,
+        "revenueCustomer": 9150,
+        "performanceIndex": 2.42,
+        "onDisplay": true,
+        "hasNewIntros": false
+      },
+      {
+        "collectionName": "Adelfia",
+        "unitsCustomer": 12,
+        "unitsTerritoryPerStore": 3.8,
+        "revenueCustomer": 8400,
+        "performanceIndex": 3.16,
+        "onDisplay": true,
+        "hasNewIntros": false
+      },
+      {
+        "collectionName": "Brindisi",
+        "unitsCustomer": 11,
+        "unitsTerritoryPerStore": 4.1,
+        "revenueCustomer": 7700,
+        "performanceIndex": 2.68,
+        "onDisplay": false,
+        "hasNewIntros": true
+      },
+      {
+        "collectionName": "Belluno",
+        "unitsCustomer": 10,
+        "unitsTerritoryPerStore": 3.5,
+        "revenueCustomer": 7000,
+        "performanceIndex": 2.86,
+        "onDisplay": true,
+        "hasNewIntros": false
+      }
+    ],
+    "ghostPerformers": [
+      {
+        "collectionName": "Brindisi",
+        "sku": "10132-01",
+        "unitsCustomer": 6
+      },
+      {
+        "collectionName": "Brindisi",
+        "sku": "10133-07",
+        "unitsCustomer": 5
+      },
+      {
+        "collectionName": "Mantova",
+        "sku": "10145-02",
+        "unitsCustomer": 4
+      }
+    ],
+    "swapCandidates": [
+      {
+        "collectionName": "Nettuno",
+        "sku": "10180-01",
+        "onDisplaySince": "2024-01-20",
+        "unitsCustomer": 0
+      }
+    ],
+    "displayMix": [
+      {
+        "collectionName": "Baveno",
+        "recommendedFaces": 8
+      },
+      {
+        "collectionName": "Calcolo",
+        "recommendedFaces": 6
+      },
+      {
+        "collectionName": "Modena",
+        "recommendedFaces": 5
+      },
+      {
+        "collectionName": "Corato",
+        "recommendedFaces": 4
+      },
+      {
+        "collectionName": "Adelfia",
+        "recommendedFaces": 4
+      },
+      {
+        "collectionName": "Brindisi",
+        "recommendedFaces": 3
+      },
+      {
+        "collectionName": "Belluno",
+        "recommendedFaces": 2
+      }
+    ],
+    "newIntroRecommendations": [
+      {
+        "collectionName": "Baveno",
+        "sku": "12148-07",
+        "shortReason": "Baveno is your #1 collection (3.4× avg); the new 13-light chandelier will expand your offering."
+      },
+      {
+        "collectionName": "Brindisi",
+        "sku": "10135-01",
+        "shortReason": "You're selling Brindisi without display (ghost performer); consider adding this new linear piece."
+      }
+    ]
+  }
+}

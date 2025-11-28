@@ -1,43 +1,4088 @@
 [
   {
-    "sku": "AR-GLW-201",
-    "name": "Aurora Glow Pendant",
-    "list": 425.0,
+    "sku": "10101-01",
+    "name": "Catania, 1 Light LED Pendant, Chrome",
+    "list": 650,
     "image": null
   },
   {
-    "sku": "LN-SIL-118",
-    "name": "Lumen Silver Sconce",
-    "list": 280.0
+    "sku": "10102-01",
+    "name": "Catania, 8 Light Round LED Chandelier, Chrome",
+    "list": 5065,
+    "image": null
   },
   {
-    "sku": "HL-ARC-305",
-    "name": "Halo Arc Floor Lamp",
-    "list": 630.0
+    "sku": "10103-01",
+    "name": "Catania, 13 Light Round LED Chandelier, Chrome",
+    "list": 7918,
+    "image": null
   },
   {
-    "sku": "VL-CRL-502",
-    "name": "Velo Crystal Chandelier",
-    "list": 1890.0
+    "sku": "10104-01",
+    "name": "Catania, 18 Light Round LED Chandelier, Chrome",
+    "list": 11155,
+    "image": null
   },
   {
-    "sku": "MB-TBL-223",
-    "name": "Marble Bloom Table Lamp",
-    "list": 350.0
+    "sku": "10105-01",
+    "name": "Catania, 7 Light Rectangular LED Chandelier, Chrome",
+    "list": 4475,
+    "image": null
   },
   {
-    "sku": "PL-LNE-415",
-    "name": "Parallel Linear Suspension",
-    "list": 1450.0
+    "sku": "10106-02",
+    "name": "Terlizzi, Large Linear LED Chandelier, Matte Black",
+    "list": 2695,
+    "image": null
   },
   {
-    "sku": "SC-LFT-142",
-    "name": "Sculpt Loft Wall Washer",
-    "list": 520.0
+    "sku": "10107-02",
+    "name": "Terlizzi, Medium Linear LED Chandelier, Matte Black",
+    "list": 2200,
+    "image": null
   },
   {
-    "sku": "DL-ORB-901",
-    "name": "Duo Orbital Statement Fixture",
-    "list": 2300.0
+    "sku": "10108-02",
+    "name": "Terlizzi, Square LED Chandelier, Matte Black",
+    "list": 1595,
+    "image": null
+  },
+  {
+    "sku": "10109-02",
+    "name": "Terlizzi, Square LED Ceiling Mount, Matte Black",
+    "list": 1045,
+    "image": null
+  },
+  {
+    "sku": "10110-02",
+    "name": "Terlizzi, Small LED Wall Mount, Matte Black",
+    "list": 908,
+    "image": null
+  },
+  {
+    "sku": "10111-02",
+    "name": "Terlizzi, Medium LED Wall Mount, Matte Black",
+    "list": 1293,
+    "image": null
+  },
+  {
+    "sku": "10112-02",
+    "name": "Terlizzi, Large LED Wall Mount , Matte Black",
+    "list": 1733,
+    "image": null
+  },
+  {
+    "sku": "10113-03",
+    "name": "Belluno, 48 Light LED Grand Chandelier, Champagne Gold",
+    "list": 16303,
+    "image": null
+  },
+  {
+    "sku": "10114-03",
+    "name": "Belluno, 15 Light LED Chandelier, Champagne gold",
+    "list": 3975,
+    "image": null
+  },
+  {
+    "sku": "10115-03",
+    "name": "Belluno, 26 Light Oval LED Chandelier, Champagne gold",
+    "list": 6800,
+    "image": null
+  },
+  {
+    "sku": "10116-03",
+    "name": "Belluno, 37 Light Oval LED Chandelier, Champagne gold",
+    "list": 9890,
+    "image": null
+  },
+  {
+    "sku": "10117-04",
+    "name": "Portofino, 1 Light LED Pendant, Satin Gold",
+    "list": 543,
+    "image": null
+  },
+  {
+    "sku": "10118-04",
+    "name": "Portofino, 7 Light Round LED Chandelier, Satin Gold",
+    "list": 3713,
+    "image": null
+  },
+  {
+    "sku": "10119-04",
+    "name": "Portofino, 13 Light Round LED Chandelier, Satin Gold",
+    "list": 7205,
+    "image": null
+  },
+  {
+    "sku": "10120-04",
+    "name": "Portofino, 7 Light Oval LED Chandelier, Satin Gold",
+    "list": 3960,
+    "image": null
+  },
+  {
+    "sku": "10121-01",
+    "name": "Vinci, 3 Light LED Wall Mount, Chrome",
+    "list": 653,
+    "image": null
+  },
+  {
+    "sku": "10121-05",
+    "name": "Vinci, 3 Light LED Wall Mount, Soft Brass",
+    "list": 685,
+    "image": null
+  },
+  {
+    "sku": "10121-06",
+    "name": "Vinci, 3 Light LED Wall Mount, Metallic Black",
+    "list": 638,
+    "image": null
+  },
+  {
+    "sku": "10122-01",
+    "name": "Vinci, 4 Light LED Wall Mount, Chrome",
+    "list": 850,
+    "image": null
+  },
+  {
+    "sku": "10122-05",
+    "name": "Vinci, 4 Light LED Wall Mount, Soft Brass",
+    "list": 885,
+    "image": null
+  },
+  {
+    "sku": "10122-06",
+    "name": "Vinci, 4 Light LED Wall Mount, Metallic Black",
+    "list": 830,
+    "image": null
+  },
+  {
+    "sku": "10123-01",
+    "name": "Vinci, 1 Light LED Wall Mount, Chrome",
+    "list": 290,
+    "image": null
+  },
+  {
+    "sku": "10123-05",
+    "name": "Vinci, 1 Light LED Wall Mount, Soft Brass",
+    "list": 300,
+    "image": null
+  },
+  {
+    "sku": "10123-06",
+    "name": "Vinci, 1 Light LED Wall Mount, Metallic Black",
+    "list": 283,
+    "image": null
+  },
+  {
+    "sku": "10124-01",
+    "name": "Ancona, Large 1 Light Ceiling / Wall Mount, Chrome",
+    "list": 365,
+    "image": null
+  },
+  {
+    "sku": "10124-05",
+    "name": "Ancona, Large 1 Light Ceiling / Wall Mount, Soft Brass",
+    "list": 375,
+    "image": null
+  },
+  {
+    "sku": "10124-06",
+    "name": "Ancona, Large 1 Light Ceiling / Wall Mount, Metallic Black",
+    "list": 355,
+    "image": null
+  },
+  {
+    "sku": "10125-01",
+    "name": "Ancona, Small 1 Light Ceiling / Wall Mount, Chrome",
+    "list": 273,
+    "image": null
+  },
+  {
+    "sku": "10125-05",
+    "name": "Ancona, Small 1 Light Ceiling / Wall Mount, Soft Brass",
+    "list": 283,
+    "image": null
+  },
+  {
+    "sku": "10125-06",
+    "name": "Ancona, Small 1 Light Ceiling / Wall Mount, Metallic Black",
+    "list": 268,
+    "image": null
+  },
+  {
+    "sku": "10126-01",
+    "name": "Dolo, Medium LED Wall Mount, Chrome",
+    "list": 393,
+    "image": null
+  },
+  {
+    "sku": "10126-05",
+    "name": "Dolo, Medium LED Wall Mount, Soft Brass",
+    "list": 440,
+    "image": null
+  },
+  {
+    "sku": "10126-06",
+    "name": "Dolo, Medium LED Wall Mount, Metallic Black",
+    "list": 373,
+    "image": null
+  },
+  {
+    "sku": "10127-01",
+    "name": "Dolo, Large LED Wall Mount, Chrome",
+    "list": 460,
+    "image": null
+  },
+  {
+    "sku": "10127-05",
+    "name": "Dolo, Large LED Wall Mount, Soft Brass",
+    "list": 520,
+    "image": null
+  },
+  {
+    "sku": "10127-06",
+    "name": "Dolo, Large LED Wall Mount, Metallic Black",
+    "list": 440,
+    "image": null
+  },
+  {
+    "sku": "10128-05",
+    "name": "Trapani, 7 Light Chandelier, Soft Brass",
+    "list": 2178,
+    "image": null
+  },
+  {
+    "sku": "10128-06",
+    "name": "Trapani, 7 Light Chandelier, Metallic Black",
+    "list": 2028,
+    "image": null
+  },
+  {
+    "sku": "10129-05",
+    "name": "Trapani, 14 Light Chandelier, Soft Brass",
+    "list": 3945,
+    "image": null
+  },
+  {
+    "sku": "10129-06",
+    "name": "Trapani, 14 Light Chandelier, Metallic Black",
+    "list": 3680,
+    "image": null
+  },
+  {
+    "sku": "10130-05",
+    "name": "Trapani, 18 Light Grand Chandelier, Soft Brass",
+    "list": 7243,
+    "image": null
+  },
+  {
+    "sku": "10130-06",
+    "name": "Trapani, 18 Light Grand Chandelier, Metallic Black",
+    "list": 6710,
+    "image": null
+  },
+  {
+    "sku": "10131-01",
+    "name": "Ragusa, Large LED Wall Mount, Chrome",
+    "list": 353,
+    "image": null
+  },
+  {
+    "sku": "10131-05",
+    "name": "Ragusa, Large LED Wall Mount, Soft Brass",
+    "list": 373,
+    "image": null
+  },
+  {
+    "sku": "10131-06",
+    "name": "Ragusa, Large LED Wall Mount, Metallic Black",
+    "list": 338,
+    "image": null
+  },
+  {
+    "sku": "10132-01",
+    "name": "Ragusa, LED Wall Mount, Chrome",
+    "list": 263,
+    "image": null
+  },
+  {
+    "sku": "10132-05",
+    "name": "Ragusa, LED Wall Mount, Soft Brass",
+    "list": 275,
+    "image": null
+  },
+  {
+    "sku": "10132-06",
+    "name": "Ragusa, LED Wall Mount, Metallic Black",
+    "list": 253,
+    "image": null
+  },
+  {
+    "sku": "10133-01",
+    "name": "Rovigo, 1 Light LED Wall Mount, Chrome",
+    "list": 205,
+    "image": null
+  },
+  {
+    "sku": "10133-02",
+    "name": "Rovigo, 1 Light LED Wall Mount, Matte Black",
+    "list": 183,
+    "image": null
+  },
+  {
+    "sku": "10133-07",
+    "name": "Rovigo, 1 Light LED Wall Mount, Plated Brushed Gold",
+    "list": 253,
+    "image": null
+  },
+  {
+    "sku": "10134-01",
+    "name": "Rovigo, 3 Light LED Wall Mount, Chrome",
+    "list": 405,
+    "image": null
+  },
+  {
+    "sku": "10134-02",
+    "name": "Rovigo, 3 Light LED Wall Mount, Matte Black",
+    "list": 363,
+    "image": null
+  },
+  {
+    "sku": "10134-07",
+    "name": "Rovigo, 3 Light LED Wall Mount, Plated Brushed Gold",
+    "list": 483,
+    "image": null
+  },
+  {
+    "sku": "10135-01",
+    "name": "Rovigo, 4 Light LED Wall Mount, Chrome",
+    "list": 530,
+    "image": null
+  },
+  {
+    "sku": "10135-02",
+    "name": "Rovigo, 4 Light LED Wall Mount, Matte Black",
+    "list": 473,
+    "image": null
+  },
+  {
+    "sku": "10135-07",
+    "name": "Rovigo, 4 Light LED Wall Mount, Plated Brushed Gold",
+    "list": 630,
+    "image": null
+  },
+  {
+    "sku": "10136-01",
+    "name": "Mola, Medium LED Wall Mount, Chrome",
+    "list": 460,
+    "image": null
+  },
+  {
+    "sku": "10136-07",
+    "name": "Mola, Medium LED Wall Mount, Plated Brushed Gold",
+    "list": 490,
+    "image": null
+  },
+  {
+    "sku": "10136-08",
+    "name": "Mola, Medium LED Wall Mount, Sand Black",
+    "list": 413,
+    "image": null
+  },
+  {
+    "sku": "10137-01",
+    "name": "Mola, Large LED Wall Mount, Chrome",
+    "list": 543,
+    "image": null
+  },
+  {
+    "sku": "10137-07",
+    "name": "Mola, Large LED Wall Mount, Plated Brushed Gold",
+    "list": 575,
+    "image": null
+  },
+  {
+    "sku": "10137-08",
+    "name": "Mola, Large LED Wall Mount, Sand Black",
+    "list": 483,
+    "image": null
+  },
+  {
+    "sku": "10138-010",
+    "name": "Ruvo, LED Wall Mount, Anodized Brushed Black",
+    "list": 235,
+    "image": null
+  },
+  {
+    "sku": "10138-011",
+    "name": "Ruvo, LED Wall Mount, Anodized Brushed Gold",
+    "list": 235,
+    "image": null
+  },
+  {
+    "sku": "10138-09",
+    "name": "Ruvo, LED Wall Mount, Anodized Brushed Aluminum",
+    "list": 230,
+    "image": null
+  },
+  {
+    "sku": "10139-012",
+    "name": "Trani, LED Wall Mount, Satin Nickel",
+    "list": 245,
+    "image": null
+  },
+  {
+    "sku": "10139-02",
+    "name": "Trani, LED Wall Mount, Matte Black",
+    "list": 255,
+    "image": null
+  },
+  {
+    "sku": "10139-07",
+    "name": "Trani, LED Wall Mount, Plated Brushed Gold",
+    "list": 293,
+    "image": null
+  },
+  {
+    "sku": "10141-02",
+    "name": "Amalfi, 1 Light LED Pendant, Matte Black",
+    "list": 248,
+    "image": null
+  },
+  {
+    "sku": "10141-07",
+    "name": "Amalfi, 1 Light LED Pendant, Plated Brushed Gold",
+    "list": 288,
+    "image": null
+  },
+  {
+    "sku": "10142-02",
+    "name": "Positano, 1 Light LED Pendant, Matte Black",
+    "list": 350,
+    "image": null
+  },
+  {
+    "sku": "10142-07",
+    "name": "Positano, 1 Light LED Pendant, Plated Brushed Gold",
+    "list": 390,
+    "image": null
+  },
+  {
+    "sku": "10143-02",
+    "name": "Amalfi, 11 Light Round LED Chandelier, Matte Black",
+    "list": 1915,
+    "image": null
+  },
+  {
+    "sku": "10143-023",
+    "name": "Amalfi, 11 Light Round LED Chandelier, Mixed",
+    "list": 2060,
+    "image": null
+  },
+  {
+    "sku": "10143-07",
+    "name": "Amalfi, 11 Light Round LED Chandelier, Plated Brushed Gold",
+    "list": 2268,
+    "image": null
+  },
+  {
+    "sku": "10144-02",
+    "name": "Positano, 11 Light Round LED Chandelier, Matte Black",
+    "list": 2473,
+    "image": null
+  },
+  {
+    "sku": "10144-023",
+    "name": "Positano, 11 Light Round LED Chandelier, Mixed",
+    "list": 2623,
+    "image": null
+  },
+  {
+    "sku": "10144-07",
+    "name": "Positano, 11 Light Round LED Chandelier, Plated Brushed Gold",
+    "list": 2828,
+    "image": null
+  },
+  {
+    "sku": "10145-02",
+    "name": "Amalfi, 25 Light Round LED Chandelier, Matte Black",
+    "list": 5653,
+    "image": null
+  },
+  {
+    "sku": "10145-023",
+    "name": "Amalfi, 25 Light Round LED Chandelier, Mixed",
+    "list": 5858,
+    "image": null
+  },
+  {
+    "sku": "10145-07",
+    "name": "Amalfi, 25 Light Round LED Chandelier, Plated Brushed Gold",
+    "list": 6623,
+    "image": null
+  },
+  {
+    "sku": "10146-02",
+    "name": "Positano, 25 Light Round LED Chandelier, Matte Black",
+    "list": 6888,
+    "image": null
+  },
+  {
+    "sku": "10146-023",
+    "name": "Positano, 25 Light Round LED Chandelier, Mixed",
+    "list": 7093,
+    "image": null
+  },
+  {
+    "sku": "10146-07",
+    "name": "Positano, 25 Light Round LED Chandelier, Plated Brushed Gold",
+    "list": 7830,
+    "image": null
+  },
+  {
+    "sku": "10147-02",
+    "name": "Amalfi, 44 Light Round LED Chandelier, Matte Black",
+    "list": 10950,
+    "image": null
+  },
+  {
+    "sku": "10147-023",
+    "name": "Amalfi, 44 Light Round LED Chandelier, Mixed",
+    "list": 11213,
+    "image": null
+  },
+  {
+    "sku": "10147-07",
+    "name": "Amalfi, 44 Light Round LED Chandelier, Plated Brushed Gold",
+    "list": 12333,
+    "image": null
+  },
+  {
+    "sku": "10148-02",
+    "name": "Positano, 44 Light Round LED Chandelier, Matte Black",
+    "list": 13098,
+    "image": null
+  },
+  {
+    "sku": "10148-023",
+    "name": "Positano, 44 Light Round LED Chandelier, Mixed",
+    "list": 13390,
+    "image": null
+  },
+  {
+    "sku": "10148-07",
+    "name": "Positano, 44 Light Round LED Chandelier, Plated Brushed Gold",
+    "list": 14480,
+    "image": null
+  },
+  {
+    "sku": "10149-02",
+    "name": "Amalfi, 12 Light Linear LED Chandelier, Matte Black",
+    "list": 2268,
+    "image": null
+  },
+  {
+    "sku": "10149-023",
+    "name": "Amalfi, 12 Light Linear LED Chandelier, Mixed",
+    "list": 2338,
+    "image": null
+  },
+  {
+    "sku": "10149-07",
+    "name": "Amalfi, 12 Light Linear LED Chandelier, Plated Brushed Gold",
+    "list": 2710,
+    "image": null
+  },
+  {
+    "sku": "10150-02",
+    "name": "Positano, 12 Light Linear LED Chandelier, Matte Black",
+    "list": 2885,
+    "image": null
+  },
+  {
+    "sku": "10150-023",
+    "name": "Positano, 12 Light Linear LED Chandelier, Mixed",
+    "list": 3093,
+    "image": null
+  },
+  {
+    "sku": "10150-07",
+    "name": "Positano, 12 Light Linear LED Chandelier, Plated Brushed Gold",
+    "list": 3328,
+    "image": null
+  },
+  {
+    "sku": "10151-02",
+    "name": "Amalfi, 16 Light Linear LED Chandelier, Matte Black",
+    "list": 4213,
+    "image": null
+  },
+  {
+    "sku": "10151-023",
+    "name": "Amalfi, 16 Light Linear LED Chandelier, Mixed",
+    "list": 4358,
+    "image": null
+  },
+  {
+    "sku": "10151-07",
+    "name": "Amalfi, 16 Light Linear LED Chandelier, Plated Brushed Gold",
+    "list": 4915,
+    "image": null
+  },
+  {
+    "sku": "10152-02",
+    "name": "Positano, 16 Light Linear LED Chandelier, Matte Black",
+    "list": 5003,
+    "image": null
+  },
+  {
+    "sku": "10152-023",
+    "name": "Positano, 16 Light Linear LED Chandelier, Mixed",
+    "list": 5183,
+    "image": null
+  },
+  {
+    "sku": "10152-07",
+    "name": "Positano, 16 Light Linear LED Chandelier, Plated Brushed Gold",
+    "list": 5710,
+    "image": null
+  },
+  {
+    "sku": "10153-02",
+    "name": "Volterra, Small LED Chandelier, Matte Black",
+    "list": 3063,
+    "image": null
+  },
+  {
+    "sku": "10153-07",
+    "name": "Volterra, Small LED Chandelier, Plated Brushed Gold",
+    "list": 3445,
+    "image": null
+  },
+  {
+    "sku": "10154-02",
+    "name": "Volterra, Large LED Chandelier, Matte Black",
+    "list": 4150,
+    "image": null
+  },
+  {
+    "sku": "10154-07",
+    "name": "Volterra, Large LED Chandelier, Plated Brushed Gold",
+    "list": 4533,
+    "image": null
+  },
+  {
+    "sku": "10155-01",
+    "name": "Pescara, Small LED Ceiling Mount, Chrome",
+    "list": 395,
+    "image": null
+  },
+  {
+    "sku": "10155-02",
+    "name": "Pescara, Small LED Ceiling Mount, Matte Black",
+    "list": 383,
+    "image": null
+  },
+  {
+    "sku": "10155-07",
+    "name": "Pescara, Small LED Ceiling Mount, Plated Brushed Gold",
+    "list": 458,
+    "image": null
+  },
+  {
+    "sku": "10156-01",
+    "name": "Pescara, Large LED Ceiling Mount, Chrome",
+    "list": 555,
+    "image": null
+  },
+  {
+    "sku": "10156-02",
+    "name": "Pescara, Large LED Ceiling Mount, Matte Black",
+    "list": 540,
+    "image": null
+  },
+  {
+    "sku": "10156-07",
+    "name": "Pescara, Large LED Ceiling Mount, Plated Brushed Gold",
+    "list": 655,
+    "image": null
+  },
+  {
+    "sku": "12166-017-01",
+    "name": "Sorrento, 1 Light LED Pendant, Clear, Chrome Canopy",
+    "list": 485,
+    "image": null
+  },
+  {
+    "sku": "12166-018-01",
+    "name": "Sorrento, 1 Light LED Pendant, Amber, Chrome Canopy",
+    "list": 485,
+    "image": null
+  },
+  {
+    "sku": "12166-019-01",
+    "name": "Sorrento, 1 Light LED Pendant, Smoke, Chrome Canopy",
+    "list": 485,
+    "image": null
+  },
+  {
+    "sku": "12166-020-01",
+    "name": "Sorrento, 1 Light LED Pendant, Copper, Chrome Canopy",
+    "list": 588,
+    "image": null
+  },
+  {
+    "sku": "12166-017-02",
+    "name": "Sorrento, 1 Light LED Pendant, Clear, Black Canopy",
+    "list": 468,
+    "image": null
+  },
+  {
+    "sku": "12166-018-02",
+    "name": "Sorrento, 1 Light LED Pendant, Amber, Black Canopy",
+    "list": 468,
+    "image": null
+  },
+  {
+    "sku": "12166-019-02",
+    "name": "Sorrento, 1 Light LED Pendant, Smoke, Black Canopy",
+    "list": 468,
+    "image": null
+  },
+  {
+    "sku": "12166-020-02",
+    "name": "Sorrento, 1 Light LED Pendant, Copper, Black Canopy",
+    "list": 568,
+    "image": null
+  },
+  {
+    "sku": "12166-017-07",
+    "name": "Sorrento, 1 Light LED Pendant, Clear, Gold Canopy",
+    "list": 485,
+    "image": null
+  },
+  {
+    "sku": "12166-018-07",
+    "name": "Sorrento, 1 Light LED Pendant, Amber, Gold Canopy",
+    "list": 485,
+    "image": null
+  },
+  {
+    "sku": "12166-019-07",
+    "name": "Sorrento, 1 Light LED Pendant, Smoke, Gold Canopy",
+    "list": 485,
+    "image": null
+  },
+  {
+    "sku": "12166-020-07",
+    "name": "Sorrento, 1 Light LED Pendant, Copper, Gold Canopy",
+    "list": 588,
+    "image": null
+  },
+  {
+    "sku": "10162-017-01",
+    "name": "Sorrento, 3 Light LED Pendant, Clear, Chrome Canopy",
+    "list": 845,
+    "image": null
+  },
+  {
+    "sku": "10162-018-01",
+    "name": "Sorrento, 3 Light LED Pendant, Amber, Chrome Canopy",
+    "list": 845,
+    "image": null
+  },
+  {
+    "sku": "10162-019-01",
+    "name": "Sorrento, 3 Light LED Pendant, Smoke, Chrome Canopy",
+    "list": 845,
+    "image": null
+  },
+  {
+    "sku": "10162-020-01",
+    "name": "Sorrento, 3 Light LED Pendant, Copper, Chrome Canopy",
+    "list": 1250,
+    "image": null
+  },
+  {
+    "sku": "10162-023-01",
+    "name": "Sorrento, 3 Light LED Pendant, Mixed, Chrome Canopy",
+    "list": 845,
+    "image": null
+  },
+  {
+    "sku": "10164-017-01",
+    "name": "Sorrento, 12 Light Round LED Chandelier, Clear, Chrome Canopy",
+    "list": 3268,
+    "image": null
+  },
+  {
+    "sku": "10164-018-01",
+    "name": "Sorrento, 12 Light round LED Chandelier, Amber, Chrome Canopy",
+    "list": 3268,
+    "image": null
+  },
+  {
+    "sku": "10164-019-01",
+    "name": "Sorrento, 12 Light round LED Chandelier, Smoke, Chrome Canopy",
+    "list": 3268,
+    "image": null
+  },
+  {
+    "sku": "10164-020-01",
+    "name": "Sorrento, 12 Light round LED Chandelier, Copper, Chrome Canopy",
+    "list": 4888,
+    "image": null
+  },
+  {
+    "sku": "10164-023-01",
+    "name": "Sorrento, 12 Light round LED Chandelier, Mixed, Chrome Canopy",
+    "list": 3268,
+    "image": null
+  },
+  {
+    "sku": "10164-024-01",
+    "name": "Sorrento, 12 Light Round LED Chandelier, Mixed with Copper Leaf, Chrome Canopy",
+    "list": 3680,
+    "image": null
+  },
+  {
+    "sku": "10167-017-01",
+    "name": "Sorrento, 21 Light Round LED Chandelier, Clear, Chrome Canopy",
+    "list": 5798,
+    "image": null
+  },
+  {
+    "sku": "10167-018-01",
+    "name": "Sorrento, 21 Light Round LED Chandelier, Amber, Chrome Canopy",
+    "list": 5798,
+    "image": null
+  },
+  {
+    "sku": "10167-019-01",
+    "name": "Sorrento, 21 Light Round LED Chandelier, Smoke, Chrome Canopy",
+    "list": 5798,
+    "image": null
+  },
+  {
+    "sku": "10167-020-01",
+    "name": "Sorrento, 21 Light Round LED Chandelier, Copper, Chrome Canopy",
+    "list": 8625,
+    "image": null
+  },
+  {
+    "sku": "10167-023-01",
+    "name": "Sorrento, 21 Light Round LED Chandelier, Mixed, Chrome Canopy",
+    "list": 5798,
+    "image": null
+  },
+  {
+    "sku": "10167-024-01",
+    "name": "Sorrento, 21 Light Round LED Chandelier, Mixed with Copper Leaf, Chrome Canopy",
+    "list": 6623,
+    "image": null
+  },
+  {
+    "sku": "10169-017-01",
+    "name": "Sorrento, 32 Light LED Grand Chandelier, Clear, Chrome Canopy",
+    "list": 10945,
+    "image": null
+  },
+  {
+    "sku": "10169-018-01",
+    "name": "Sorrento, 32 Light LED Grand Chandelier, Amber, Chrome Canopy",
+    "list": 10945,
+    "image": null
+  },
+  {
+    "sku": "10169-019-01",
+    "name": "Sorrento, 32 Light LED Grand Chandelier, Smoke, Chrome Canopy",
+    "list": 10945,
+    "image": null
+  },
+  {
+    "sku": "10169-020-01",
+    "name": "Sorrento, 32 Light round LED Chandelier, Copper, Chrome Canopy",
+    "list": 15785,
+    "image": null
+  },
+  {
+    "sku": "10169-023-01",
+    "name": "Sorrento, 32 Light LED Grand Chandelier, Mixed, Chrome Canopy",
+    "list": 10945,
+    "image": null
+  },
+  {
+    "sku": "10169-024-01",
+    "name": "Sorrento, 32 Light LED Grand Chandelier, Mixed with Copper Leaf, Chrome Canopy",
+    "list": 12155,
+    "image": null
+  },
+  {
+    "sku": "10172-017-01",
+    "name": "Sorrento, 16 Light Oval LED Chandelier, Clear, Chrome Canopy",
+    "list": 4475,
+    "image": null
+  },
+  {
+    "sku": "10172-018-01",
+    "name": "Sorrento, 16 Light Oval LED Chandelier, Amber, Chrome Canopy",
+    "list": 4475,
+    "image": null
+  },
+  {
+    "sku": "10172-019-01",
+    "name": "Sorrento, 16 Light Oval LED Chandelier, Smoke, Chrome Canopy",
+    "list": 4475,
+    "image": null
+  },
+  {
+    "sku": "10172-020-01",
+    "name": "Sorrento, 16 Light Oval LED Chandelier, Copper, Chrome Canopy",
+    "list": 6623,
+    "image": null
+  },
+  {
+    "sku": "10172-023-01",
+    "name": "Sorrento, 16 Light Oval LED Chandelier, Mixed, Chrome Canopy",
+    "list": 4475,
+    "image": null
+  },
+  {
+    "sku": "10172-024-01",
+    "name": "Sorrento, 16 Light Oval LED Chandelier, Mixed with Copper Leaf, Chrome Canopy",
+    "list": 5003,
+    "image": null
+  },
+  {
+    "sku": "10173-013",
+    "name": "Siena, 6 Light Linear LED Chandelier, Brushed Black",
+    "list": 2028,
+    "image": null
+  },
+  {
+    "sku": "10173-014",
+    "name": "Siena, 6 Light Linear LED Chandelier, Brushed Gold",
+    "list": 2028,
+    "image": null
+  },
+  {
+    "sku": "10174-013",
+    "name": "Siena, 8 Light Linear Chandelier, Brushed Black",
+    "list": 2638,
+    "image": null
+  },
+  {
+    "sku": "10174-014",
+    "name": "Siena, 8 Light Linear Chandelier, Brushed Gold",
+    "list": 2638,
+    "image": null
+  },
+  {
+    "sku": "10175-015",
+    "name": "Nettuno, Small LED Chandelier, Metallic Brushed Grey",
+    "list": 2535,
+    "image": null
+  },
+  {
+    "sku": "10176-015",
+    "name": "Nettuno, Large LED Chandelier, Metallic Brushed Grey",
+    "list": 3593,
+    "image": null
+  },
+  {
+    "sku": "10177-015",
+    "name": "Nettuno, Small Oval LED Chandelier, Metallic Brushed Grey",
+    "list": 2828,
+    "image": null
+  },
+  {
+    "sku": "10178-015",
+    "name": "Nettuno, Large Oval LED Chandelier, Metallic Brushed Grey",
+    "list": 3918,
+    "image": null
+  },
+  {
+    "sku": "10179-025",
+    "name": "Molfetta, 1 Light Pendant, Antique Brass with Cream Beads",
+    "list": 605,
+    "image": null
+  },
+  {
+    "sku": "10179-026",
+    "name": "Molfetta, 1 Light Pendant, Antique Brass with Black Beads",
+    "list": 605,
+    "image": null
+  },
+  {
+    "sku": "10180-025",
+    "name": "Molfetta, 3 Light Convertible Flushmount / Pendant, Antique Brass with Cream Beads",
+    "list": 1073,
+    "image": null
+  },
+  {
+    "sku": "10180-026",
+    "name": "Molfetta, 3 Light Convertible Flushmount / Pendant, Antique Brass with Black Beads",
+    "list": 1073,
+    "image": null
+  },
+  {
+    "sku": "10181-025",
+    "name": "Molfetta, 5 Light Chandelier, Antique Brass with Cream Beads",
+    "list": 1870,
+    "image": null
+  },
+  {
+    "sku": "10181-026",
+    "name": "Molfetta, 5 Light Chandelier, Antique Brass with Black Beads",
+    "list": 1870,
+    "image": null
+  },
+  {
+    "sku": "10182-025",
+    "name": "Molfetta, 9 Light Chandelier, Antique Brass with Cream Beads",
+    "list": 4400,
+    "image": null
+  },
+  {
+    "sku": "10182-026",
+    "name": "Molfetta, 9 Light Chandelier, Antique Brass with Black Beads",
+    "list": 4400,
+    "image": null
+  },
+  {
+    "sku": "10183-025",
+    "name": "Molfetta, 12 Light Grand Chandelier, Antique Brass with Cream Beads",
+    "list": 10450,
+    "image": null
+  },
+  {
+    "sku": "10183-026",
+    "name": "Molfetta, 12 Light Grand Chandelier, Antique Brass with Black Beads",
+    "list": 10450,
+    "image": null
+  },
+  {
+    "sku": "10193-02",
+    "name": "Adelfia, 1 Light LED Pendant, Matte Black",
+    "list": 510,
+    "image": null
+  },
+  {
+    "sku": "10194-02",
+    "name": "Adelfia, 3 Light Round LED Pendant, Matte Black",
+    "list": 1173,
+    "image": null
+  },
+  {
+    "sku": "10195-02",
+    "name": "Adelfia, 9 Light Round LED Chandelier, Matte Black",
+    "list": 3355,
+    "image": null
+  },
+  {
+    "sku": "10196-02",
+    "name": "Adelfia, 19 Light Round LED Chandelier, Matte Black",
+    "list": 8478,
+    "image": null
+  },
+  {
+    "sku": "10197-02",
+    "name": "Adelfia, 31 Light LED Grand Chandelier, Matte Black",
+    "list": 13390,
+    "image": null
+  },
+  {
+    "sku": "10198-02",
+    "name": "Adelfia, 8 Light Rectangular LED Chandelier, Matte Black",
+    "list": 3035,
+    "image": null
+  },
+  {
+    "sku": "10199-02",
+    "name": "Adelfia, 5 Light Linear LED Chandelier, Matte Black",
+    "list": 2003,
+    "image": null
+  },
+  {
+    "sku": "10200-02",
+    "name": "Adelfia, 14 Light Rectangular LED Chandelier, Matte Black",
+    "list": 4800,
+    "image": null
+  },
+  {
+    "sku": "10202-02",
+    "name": "Baveno, 1 Light LED Pendant, Matte Black",
+    "list": 570,
+    "image": null
+  },
+  {
+    "sku": "10203-02",
+    "name": "Baveno, 3 Light Round LED Pendant, Matte Black",
+    "list": 1363,
+    "image": null
+  },
+  {
+    "sku": "10204-02",
+    "name": "Baveno, 9 Light Round LED Chandelier, Matte Black",
+    "list": 3918,
+    "image": null
+  },
+  {
+    "sku": "10205-02",
+    "name": "Baveno, 19 Light Round LED Chandelier, Matte Black",
+    "list": 9685,
+    "image": null
+  },
+  {
+    "sku": "10206-02",
+    "name": "Baveno, 31 Light LED Grand Chandelier, Matte Black",
+    "list": 15333,
+    "image": null
+  },
+  {
+    "sku": "10207-02",
+    "name": "Baveno, 8 Light Rectangular LED Chandelier, Matte Black",
+    "list": 3533,
+    "image": null
+  },
+  {
+    "sku": "10208-02",
+    "name": "Baveno, 5 Light Linear LED Chandelier, Matte Black",
+    "list": 2298,
+    "image": null
+  },
+  {
+    "sku": "10209-02",
+    "name": "Baveno, 14 Light Rectangular LED Chandelier, Matte Black",
+    "list": 5683,
+    "image": null
+  },
+  {
+    "sku": "10211-02",
+    "name": "Manarola, 1 Light LED pendant, Matte Black",
+    "list": 530,
+    "image": null
+  },
+  {
+    "sku": "10212-02",
+    "name": "Manarola, 3 Light Round LED Pendant, Matte Black",
+    "list": 1265,
+    "image": null
+  },
+  {
+    "sku": "10213-02",
+    "name": "Manarola, 9 Light Round LED Chandelier, Matte Black",
+    "list": 3630,
+    "image": null
+  },
+  {
+    "sku": "10214-02",
+    "name": "Manarola, 19 Light Round LED Chandelier, Matte Black",
+    "list": 8993,
+    "image": null
+  },
+  {
+    "sku": "10215-02",
+    "name": "Manarola, 31 Light LED Grand Chandelier, Matte Black",
+    "list": 14245,
+    "image": null
+  },
+  {
+    "sku": "10216-02",
+    "name": "Manarola, 8 Light Rectangular LED Chandelier, Matte Black",
+    "list": 3273,
+    "image": null
+  },
+  {
+    "sku": "10217-02",
+    "name": "Manarola, 5 Light Linear LED Chandelier, Matte Black",
+    "list": 2145,
+    "image": null
+  },
+  {
+    "sku": "10218-02",
+    "name": "Manarola, 14 Light Rectangular LED Chandelier, Matte Black",
+    "list": 5280,
+    "image": null
+  },
+  {
+    "sku": "10220-02",
+    "name": "Verona, 1 Light LED Pendant, Matte Black",
+    "list": 633,
+    "image": null
+  },
+  {
+    "sku": "10221-02",
+    "name": "Verona, 3 Light Round LED Pendant, Matte Black",
+    "list": 1698,
+    "image": null
+  },
+  {
+    "sku": "10222-02",
+    "name": "Verona, 9 Light Round LED Chandelier, Matte Black",
+    "list": 4915,
+    "image": null
+  },
+  {
+    "sku": "10223-02",
+    "name": "Verona, 19 Light Round LED Chandelier, Matte Black",
+    "list": 11803,
+    "image": null
+  },
+  {
+    "sku": "10224-02",
+    "name": "Verona, 31 Light LED Grand Chandelier, Matte Black",
+    "list": 18775,
+    "image": null
+  },
+  {
+    "sku": "10225-02",
+    "name": "Verona, 8 Light Rectangular LED Chandelier, Matte Black",
+    "list": 4415,
+    "image": null
+  },
+  {
+    "sku": "10226-02",
+    "name": "Verona, 5 Light Linear LED Chandelier, Matte Black",
+    "list": 2855,
+    "image": null
+  },
+  {
+    "sku": "10227-02",
+    "name": "Verona, 14 Light Rectangular LED Chandelier, Matte Black",
+    "list": 7243,
+    "image": null
+  },
+  {
+    "sku": "12034-017-01",
+    "name": "Sorrento, 12 Light Oval LED Chandelier, Clear, Chrome  Canopy",
+    "list": 3238,
+    "image": null
+  },
+  {
+    "sku": "12034-018-01",
+    "name": "Sorrento, 12 Light Oval LED Chandelier, Amber, Chrome Canopy",
+    "list": 3238,
+    "image": null
+  },
+  {
+    "sku": "12034-019-01",
+    "name": "Sorrento, 12 Light Oval LED Chandelier, Smoke, Chrome  Canopy",
+    "list": 3238,
+    "image": null
+  },
+  {
+    "sku": "12034-020-01",
+    "name": "Sorrento, 12 Light Oval LED Chandelier, Copper, Chrome  Canopy",
+    "list": 4858,
+    "image": null
+  },
+  {
+    "sku": "12034-023-01",
+    "name": "Sorrento, 12 Light Oval LED Chandelier, Mixed, Chrome  Canopy",
+    "list": 3238,
+    "image": null
+  },
+  {
+    "sku": "12034-024-01",
+    "name": "Sorrento, 12 Light Oval LED Chandelier, Mixed with Copper Leaf, Chrome  Canopy",
+    "list": 3650,
+    "image": null
+  },
+  {
+    "sku": "12078-02",
+    "name": "Volterra, 1 Light LED Wall Mount, Matte Black",
+    "list": 370,
+    "image": null
+  },
+  {
+    "sku": "12078-07",
+    "name": "Volterra, 1 Light LED Wall Mount, Plated Brushed Gold",
+    "list": 385,
+    "image": null
+  },
+  {
+    "sku": "12078-012",
+    "name": "Volterra, 1 Light LED Wall Mount, Satin Nickel",
+    "list": 385,
+    "image": null
+  },
+  {
+    "sku": "12079-02",
+    "name": "Volterra, 2 Light LED Wall Mount, Matte Black",
+    "list": 493,
+    "image": null
+  },
+  {
+    "sku": "12079-07",
+    "name": "Volterra, 2 Light LED Wall Mount, Plated Brushed Gold",
+    "list": 510,
+    "image": null
+  },
+  {
+    "sku": "12079-012",
+    "name": "Volterra, 2 Light LED Wall Mount, Satin Nickel",
+    "list": 510,
+    "image": null
+  },
+  {
+    "sku": "12080-02",
+    "name": "Volterra, Large 2 Light LED Wall Mount, Matte Black",
+    "list": 538,
+    "image": null
+  },
+  {
+    "sku": "12080-07",
+    "name": "Volterra, Large 2 Light LED Wall Mount, Plated Brushed Gold ",
+    "list": 555,
+    "image": null
+  },
+  {
+    "sku": "12080-012",
+    "name": "Volterra, Large 2 Light LED Wall Mount, Satin Nickel",
+    "list": 555,
+    "image": null
+  },
+  {
+    "sku": "12103-02",
+    "name": "Piatto, 1 Light LED Pendant, Matte Black ",
+    "list": 313,
+    "image": null
+  },
+  {
+    "sku": "12103-07",
+    "name": "Piatto, 1 Light LED Pendant, Plated Brushed Gold",
+    "list": 358,
+    "image": null
+  },
+  {
+    "sku": "12104-02",
+    "name": "Piatto, 11 Light Round LED Chandelier, Matte Black",
+    "list": 2240,
+    "image": null
+  },
+  {
+    "sku": "12104-07",
+    "name": "Piatto, 11 Light Round LED Chandelier, Plated Brushed Gold",
+    "list": 2710,
+    "image": null
+  },
+  {
+    "sku": "12104-023",
+    "name": "Piatto, 11 Light Round LED Chandelier, Mixed",
+    "list": 2445,
+    "image": null
+  },
+  {
+    "sku": "12105-02",
+    "name": "Piatto, 25 Light Round LED Chandelier, Matte Black",
+    "list": 6418,
+    "image": null
+  },
+  {
+    "sku": "12105-07",
+    "name": "Piatto, 25 Light Round LED Chandelier, Plated Brushed Gold",
+    "list": 7625,
+    "image": null
+  },
+  {
+    "sku": "12105-023",
+    "name": "Piatto, 25 Light Round LED Chandelier, Mixed",
+    "list": 6743,
+    "image": null
+  },
+  {
+    "sku": "12106-02",
+    "name": "Piatto, 44 Light Round LED Chandelier, Matte Black",
+    "list": 12273,
+    "image": null
+  },
+  {
+    "sku": "12106-07",
+    "name": "Piatto, 44 Light Round LED Chandelier, Plated Brushed Gold",
+    "list": 14098,
+    "image": null
+  },
+  {
+    "sku": "12106-023",
+    "name": "Piatto, 44 Light Round LED Chandelier, Mixed",
+    "list": 12745,
+    "image": null
+  },
+  {
+    "sku": "12107-02",
+    "name": "Piatto, 12 Light Linear LED Chandelier, Matte Black",
+    "list": 2623,
+    "image": null
+  },
+  {
+    "sku": "12107-07",
+    "name": "Piatto, 12 Light Linear LED Chandelier, Plated Brushed Gold",
+    "list": 3180,
+    "image": null
+  },
+  {
+    "sku": "12107-023",
+    "name": "Piatto, 12 Light Linear LED Chandelier, Mixed",
+    "list": 2915,
+    "image": null
+  },
+  {
+    "sku": "12108-02",
+    "name": "Piatto, 16 Light Linear LED Chandelier, Matte Black",
+    "list": 4683,
+    "image": null
+  },
+  {
+    "sku": "12108-07",
+    "name": "Piatto, 16 Light Linear LED Chandelier, Plated Brushed Gold ",
+    "list": 5565,
+    "image": null
+  },
+  {
+    "sku": "12108-023",
+    "name": "Piatto, 16 Light Linear LED Chandelier, Mixed",
+    "list": 4915,
+    "image": null
+  },
+  {
+    "sku": "12109-02",
+    "name": "Soffio, 1 Light LED Pendant, Matte Black",
+    "list": 328,
+    "image": null
+  },
+  {
+    "sku": "12109-07",
+    "name": "Soffio, 1 Light LED Pendant, Plated Brushed Gold ",
+    "list": 365,
+    "image": null
+  },
+  {
+    "sku": "12110-02",
+    "name": "Soffio, 11 Light Round LED Chandelier, Matte Black",
+    "list": 2445,
+    "image": null
+  },
+  {
+    "sku": "12110-07",
+    "name": "Soffio, 11 Light Round LED Chandelier, Plated Brushed Gold",
+    "list": 2798,
+    "image": null
+  },
+  {
+    "sku": "12110-023",
+    "name": "Soffio, 11 Light Round LED Chandelier, Mixed ",
+    "list": 2593,
+    "image": null
+  },
+  {
+    "sku": "12111-02",
+    "name": "Soffio, 25 Light Round LED Chandelier, Matte Black",
+    "list": 6830,
+    "image": null
+  },
+  {
+    "sku": "12111-07",
+    "name": "Soffio, 25 Light Round LED Chandelier, Plated Brushed Gold",
+    "list": 7800,
+    "image": null
+  },
+  {
+    "sku": "12111-023",
+    "name": "Soffio, 25 Light Round LED Chandelier, Mixed ",
+    "list": 7063,
+    "image": null
+  },
+  {
+    "sku": "12112-02",
+    "name": "Soffio, 44 Light Round LED Chandelier, Matte Black",
+    "list": 13040,
+    "image": null
+  },
+  {
+    "sku": "12112-07",
+    "name": "Soffio, 44 Light Round LED Chandelier, Plated Brushed Gold",
+    "list": 14420,
+    "image": null
+  },
+  {
+    "sku": "12112-023",
+    "name": "Soffio, 44  Light Round LED Chandelier, Mixed",
+    "list": 13303,
+    "image": null
+  },
+  {
+    "sku": "12113-02",
+    "name": "Soffio, 12 Light Linear LED Chandelier, Matte Black",
+    "list": 2828,
+    "image": null
+  },
+  {
+    "sku": "12113-07",
+    "name": "Soffio, 12 Light Linear LED Chandelier, Plated Brushed Gold",
+    "list": 3268,
+    "image": null
+  },
+  {
+    "sku": "12113-023",
+    "name": "Soffio, 12 Light Linear LED Chandelier, Mixed",
+    "list": 3063,
+    "image": null
+  },
+  {
+    "sku": "12146-02",
+    "name": "Soffio, 16 Light Linear LED Chandelier, Matte Black",
+    "list": 4975,
+    "image": null
+  },
+  {
+    "sku": "12146-07",
+    "name": "Soffio, 16 Light Linear LED Chandelier, Plated Brushed Gold",
+    "list": 5683,
+    "image": null
+  },
+  {
+    "sku": "12146-023",
+    "name": "Soffio, 16 Light Linear LED Chandelier, Mixed",
+    "list": 5123,
+    "image": null
+  },
+  {
+    "sku": "12058-05",
+    "name": "Trapani, 3 Light Ceiling Mount, Soft Brass",
+    "list": 878,
+    "image": null
+  },
+  {
+    "sku": "12058-06",
+    "name": "Trapani, 3 Light Ceiling Mount, Metallic Black ",
+    "list": 858,
+    "image": null
+  },
+  {
+    "sku": "12059-032",
+    "name": "Volare, 5 Light LED Chandelier, Brushed Gunmetal",
+    "list": 5298,
+    "image": null
+  },
+  {
+    "sku": "12060-032",
+    "name": "Volare, 8 Light LED Grand Chandelier, Brushed Gunmetal",
+    "list": 8535,
+    "image": null
+  },
+  {
+    "sku": "12063-032",
+    "name": "Volare, 6 Light Oval LED Chandelier, Brushed Gunmetal",
+    "list": 7653,
+    "image": null
+  },
+  {
+    "sku": "12064-01",
+    "name": "Bellissima, 3 Light LED Pendant, Chrome",
+    "list": 1238,
+    "image": null
+  },
+  {
+    "sku": "12065-01",
+    "name": "Bellissima, 9 Light LED Chandelier, Chrome",
+    "list": 3828,
+    "image": null
+  },
+  {
+    "sku": "12066-01",
+    "name": "Bellissima, 24 Light LED Chandelier, Chrome",
+    "list": 9713,
+    "image": null
+  },
+  {
+    "sku": "12067-01",
+    "name": "Bellissima, 32 Light LED Grand Chandelier, Chrome",
+    "list": 12948,
+    "image": null
+  },
+  {
+    "sku": "12068-01",
+    "name": "Bellissima, 10 Light Linear Chandelier, Chrome",
+    "list": 4043,
+    "image": null
+  },
+  {
+    "sku": "12114-017",
+    "name": "Savona, 1 Light LED Pendant, Clear",
+    "list": 1458,
+    "image": null
+  },
+  {
+    "sku": "12114-018",
+    "name": "Savona, 1 Light LED Pendant, Amber",
+    "list": 1458,
+    "image": null
+  },
+  {
+    "sku": "12114-019",
+    "name": "Savona, 1 Light LED Pendant, Smoke",
+    "list": 1458,
+    "image": null
+  },
+  {
+    "sku": "12115-017",
+    "name": "Savona, 3 Light LED Chandelier, Clear",
+    "list": 3575,
+    "image": null
+  },
+  {
+    "sku": "12115-018",
+    "name": "Savona,  3 Light LED Chandelier, Amber",
+    "list": 3575,
+    "image": null
+  },
+  {
+    "sku": "12115-019",
+    "name": "Savona, 3 Light LED Chandelier, Smoke",
+    "list": 3575,
+    "image": null
+  },
+  {
+    "sku": "12115-023",
+    "name": "Savona, 3 Light LED Chandelier, Mixed",
+    "list": 3575,
+    "image": null
+  },
+  {
+    "sku": "12116-017",
+    "name": "Savona, 6 Light LED Grand Chandelier, Clear",
+    "list": 6600,
+    "image": null
+  },
+  {
+    "sku": "12116-018",
+    "name": "Savona, 6 Light LED Grand Chandelier, Amber",
+    "list": 6600,
+    "image": null
+  },
+  {
+    "sku": "12116-019",
+    "name": "Savona, 6 Light LED Grand Chandelier, Smoke",
+    "list": 6600,
+    "image": null
+  },
+  {
+    "sku": "12116-023",
+    "name": "Savona, 6 Light LED Grand Chandelier, Mixed",
+    "list": 6600,
+    "image": null
+  },
+  {
+    "sku": "12117-017",
+    "name": "Savona, 1 Light Linear LED Chandelier, Clear",
+    "list": 1733,
+    "image": null
+  },
+  {
+    "sku": "12117-018",
+    "name": "Savona, 1 Light Linear LED Chandelier, Amber",
+    "list": 1733,
+    "image": null
+  },
+  {
+    "sku": "12117-019",
+    "name": "Savona, 1 Light Linear LED Chandelier, Smoke",
+    "list": 1733,
+    "image": null
+  },
+  {
+    "sku": "12118-017",
+    "name": "Savona, 2 Light Linear LED Chandelier, Clear",
+    "list": 2833,
+    "image": null
+  },
+  {
+    "sku": "12118-018",
+    "name": "Savona, 2 Light Linear LED Chandelier, Amber",
+    "list": 2833,
+    "image": null
+  },
+  {
+    "sku": "12118-019",
+    "name": "Savona, 2 Light Linear LED Chandelier, Smoke",
+    "list": 2833,
+    "image": null
+  },
+  {
+    "sku": "12118-027",
+    "name": "Savona, 2 Light Linear LED Chandelier, Amber and Clear",
+    "list": 2833,
+    "image": null
+  },
+  {
+    "sku": "12118-033",
+    "name": "Savona, 2 Light Linear LED Chandelier, Smoke and Clear",
+    "list": 2833,
+    "image": null
+  },
+  {
+    "sku": "12118-034",
+    "name": "Savona, 2 Light Linear LED Chandelier, Amber and Smoke",
+    "list": 2833,
+    "image": null
+  },
+  {
+    "sku": "10175-031",
+    "name": "Nettuno, Small LED Chandelier, Metallic Brushed Champagne",
+    "list": 2535,
+    "image": null
+  },
+  {
+    "sku": "10176-031",
+    "name": "Nettuno, Large LED Chandelier, Metallic Brushed Champagne",
+    "list": 3593,
+    "image": null
+  },
+  {
+    "sku": "10177-031",
+    "name": "Nettuno, Small Oval LED Chandelier, Metallic Brushed Champagne",
+    "list": 2828,
+    "image": null
+  },
+  {
+    "sku": "10178-031",
+    "name": "Nettuno, Large Oval LED Chandelier, Metallic Brushed Champagne",
+    "list": 3918,
+    "image": null
+  },
+  {
+    "sku": "12164-040",
+    "name": "Nettuno,2 Tier LED Chandelier, \nPainted Brushed Grey",
+    "list": 8883,
+    "image": null
+  },
+  {
+    "sku": "12164-041",
+    "name": "Nettuno,2 Tier LED Chandelier, \nPainted Brushed Champagne",
+    "list": 8883,
+    "image": null
+  },
+  {
+    "sku": "12165-040",
+    "name": "Nettuno,3 Tier LED Chandelier, \nPainted Brushed Grey",
+    "list": 17270,
+    "image": null
+  },
+  {
+    "sku": "12165-041",
+    "name": "Nettuno,3 Tier LED Chandelier, \nPainted Brushed Champagne",
+    "list": 17270,
+    "image": null
+  },
+  {
+    "sku": "10162-017-02",
+    "name": "Sorrento, 3 Light LED Pendant, Clear, Black Canopy",
+    "list": 838,
+    "image": null
+  },
+  {
+    "sku": "10162-017-07",
+    "name": "Sorrento, 3 Light LED Pendant, Clear, Gold Canopy",
+    "list": 845,
+    "image": null
+  },
+  {
+    "sku": "10162-018-02",
+    "name": "Sorrento, 3 Light LED Pendant, Amber, Black Canopy",
+    "list": 838,
+    "image": null
+  },
+  {
+    "sku": "10162-018-07",
+    "name": "Sorrento, 3 Light LED Pendant, Amber, Gold Canopy",
+    "list": 845,
+    "image": null
+  },
+  {
+    "sku": "10162-019-02",
+    "name": "Sorrento, 3 Light LED Pendant, Smoke, Black Canopy",
+    "list": 838,
+    "image": null
+  },
+  {
+    "sku": "10162-019-07",
+    "name": "Sorrento, 3 Light LED Pendant, Smoke, Gold Canopy",
+    "list": 845,
+    "image": null
+  },
+  {
+    "sku": "10162-020-02",
+    "name": "Sorrento, 3 Light LED Pendant, Copper, Black Canopy",
+    "list": 1225,
+    "image": null
+  },
+  {
+    "sku": "10162-020-07",
+    "name": "Sorrento, 3 Light LED Pendant, Copper, Gold Canopy",
+    "list": 1250,
+    "image": null
+  },
+  {
+    "sku": "10162-023-02",
+    "name": "Sorrento, 3 Light LED Pendant, Mixed, Black Canopy",
+    "list": 838,
+    "image": null
+  },
+  {
+    "sku": "10162-023-07",
+    "name": "Sorrento, 3 Light LED Pendant, Mixed, Gold Canopy",
+    "list": 845,
+    "image": null
+  },
+  {
+    "sku": "10164-017-02",
+    "name": "Sorrento, 12 Light Round LED Chandelier, Clear, Black Canopy",
+    "list": 2885,
+    "image": null
+  },
+  {
+    "sku": "10164-017-07",
+    "name": "Sorrento, 12 Light Round LED Chandelier, Clear, Gold Canopy",
+    "list": 3268,
+    "image": null
+  },
+  {
+    "sku": "10164-018-02",
+    "name": "Sorrento, 12 Light round LED Chandelier, Amber, Black Canopy",
+    "list": 2885,
+    "image": null
+  },
+  {
+    "sku": "10164-018-07",
+    "name": "Sorrento, 12 Light round LED Chandelier, Amber, Gold Canopy",
+    "list": 3268,
+    "image": null
+  },
+  {
+    "sku": "10164-019-02",
+    "name": "Sorrento, 12 Light round LED Chandelier, Smoke, Black Canopy",
+    "list": 2885,
+    "image": null
+  },
+  {
+    "sku": "10164-019-07",
+    "name": "Sorrento, 12 Light round LED Chandelier, Smoke, Gold Canopy",
+    "list": 3268,
+    "image": null
+  },
+  {
+    "sku": "10164-020-02",
+    "name": "Sorrento, 12 Light round LED Chandelier, Copper, Black Canopy",
+    "list": 4445,
+    "image": null
+  },
+  {
+    "sku": "10164-020-07",
+    "name": "Sorrento, 12 Light round LED Chandelier, Copper, Gold Canopy",
+    "list": 4888,
+    "image": null
+  },
+  {
+    "sku": "10164-023-02",
+    "name": "Sorrento, 12 Light round LED Chandelier, Mixed, Black Canopy",
+    "list": 2885,
+    "image": null
+  },
+  {
+    "sku": "10164-023-07",
+    "name": "Sorrento, 12 Light round LED Chandelier, Mixed, Gold Canopy",
+    "list": 3268,
+    "image": null
+  },
+  {
+    "sku": "10164-024-02",
+    "name": "Sorrento, 12 Light Round LED Chandelier, Mixed with Copper Leaf, Black Canopy",
+    "list": 3268,
+    "image": null
+  },
+  {
+    "sku": "10164-024-07",
+    "name": "Sorrento, 12 Light Round LED Chandelier, Mixed with Copper Leaf, Gold Canopy",
+    "list": 3680,
+    "image": null
+  },
+  {
+    "sku": "10167-017-02",
+    "name": "Sorrento, 21 Light Round LED Chandelier, Clear, Black Canopy",
+    "list": 5478,
+    "image": null
+  },
+  {
+    "sku": "10167-017-07",
+    "name": "Sorrento, 21 Light Round LED Chandelier, Clear, Gold Canopy ",
+    "list": 5798,
+    "image": null
+  },
+  {
+    "sku": "10167-018-02",
+    "name": "Sorrento, 21 Light Round LED Chandelier, Amber, Black Canopy ",
+    "list": 5478,
+    "image": null
+  },
+  {
+    "sku": "10167-018-07",
+    "name": "Sorrento, 21 Light Round LED Chandelier, Amber, Gold Canopy ",
+    "list": 5798,
+    "image": null
+  },
+  {
+    "sku": "10167-019-02",
+    "name": "Sorrento, 21 Light Round LED Chandelier, Smoke, Black Canopy",
+    "list": 5478,
+    "image": null
+  },
+  {
+    "sku": "10167-019-07",
+    "name": "Sorrento, 21 Light Round LED Chandelier, Smoke, Gold Canopy",
+    "list": 5798,
+    "image": null
+  },
+  {
+    "sku": "10167-020-02",
+    "name": "Sorrento, 21 Light Round LED Chandelier, Copper, Black Canopy ",
+    "list": 8183,
+    "image": null
+  },
+  {
+    "sku": "10167-020-07",
+    "name": "Sorrento, 21 Light Round LED Chandelier, Copper, Gold Canopy ",
+    "list": 8625,
+    "image": null
+  },
+  {
+    "sku": "10167-023-02",
+    "name": "Sorrento, 21 Light Round LED Chandelier, Mixed, Black Canopy ",
+    "list": 5478,
+    "image": null
+  },
+  {
+    "sku": "10167-023-07",
+    "name": "Sorrento, 21 Light Round LED Chandelier, Mixed, Gold Canopy ",
+    "list": 5798,
+    "image": null
+  },
+  {
+    "sku": "10167-024-02",
+    "name": "Sorrento, 21 Light Round LED Chandelier, Mixed with Copper Leaf, Black Canopy",
+    "list": 6240,
+    "image": null
+  },
+  {
+    "sku": "10167-024-07",
+    "name": "Sorrento, 21 Light Round LED Chandelier, Mixed with Copper Leaf, Gold Canopy",
+    "list": 6623,
+    "image": null
+  },
+  {
+    "sku": "10169-017-02",
+    "name": "Sorrento, 32 Light LED Grand Chandelier, Clear, Black Canopy ",
+    "list": 10340,
+    "image": null
+  },
+  {
+    "sku": "10169-017-07",
+    "name": "Sorrento, 32 Light LED Grand Chandelier, Clear, Gold Canopy ",
+    "list": 10945,
+    "image": null
+  },
+  {
+    "sku": "10169-018-02",
+    "name": "Sorrento, 32 Light LED Grand Chandelier, Amber, Black Canopy",
+    "list": 10340,
+    "image": null
+  },
+  {
+    "sku": "10169-018-07",
+    "name": "Sorrento, 32 Light LED Grand Chandelier, Amber, Gold Canopy",
+    "list": 10945,
+    "image": null
+  },
+  {
+    "sku": "10169-019-02",
+    "name": "Sorrento, 32 Light LED Grand Chandelier, Smoke, Black Canopy ",
+    "list": 10340,
+    "image": null
+  },
+  {
+    "sku": "10169-019-07",
+    "name": "Sorrento, 32 Light LED Grand Chandelier, Smoke, Gold Canopy ",
+    "list": 10945,
+    "image": null
+  },
+  {
+    "sku": "10169-020-02",
+    "name": "Sorrento, 32 Light round LED Chandelier, Copper, Black Canopy ",
+    "list": 15373,
+    "image": null
+  },
+  {
+    "sku": "10169-020-07",
+    "name": "Sorrento, 32 Light round LED Chandelier, Copper, Gold Canopy ",
+    "list": 15785,
+    "image": null
+  },
+  {
+    "sku": "10169-023-02",
+    "name": "Sorrento, 32 Light LED Grand Chandelier, Mixed, Black Canopy",
+    "list": 10340,
+    "image": null
+  },
+  {
+    "sku": "10169-023-07",
+    "name": "Sorrento, 32 Light LED Grand Chandelier, Mixed, Gold Canopy",
+    "list": 10945,
+    "image": null
+  },
+  {
+    "sku": "10169-024-02",
+    "name": "Sorrento, 32 Light LED Grand Chandelier, Mixed with Copper Leaf, Black Canopy ",
+    "list": 11605,
+    "image": null
+  },
+  {
+    "sku": "10169-024-07",
+    "name": "Sorrento, 32 Light LED Grand Chandelier, Mixed with Copper Leaf, Gold Canopy ",
+    "list": 12155,
+    "image": null
+  },
+  {
+    "sku": "10172-017-02",
+    "name": "Sorrento, 16 Light Oval LED Chandelier, Clear, Black Canopy ",
+    "list": 4270,
+    "image": null
+  },
+  {
+    "sku": "10172-017-07",
+    "name": "Sorrento, 16 Light Oval LED Chandelier, Clear, Gold Canopy ",
+    "list": 4475,
+    "image": null
+  },
+  {
+    "sku": "10172-018-02",
+    "name": "Sorrento, 16 Light Oval LED Chandelier, Amber, Black Canopy",
+    "list": 4270,
+    "image": null
+  },
+  {
+    "sku": "10172-018-07",
+    "name": "Sorrento, 16 Light Oval LED Chandelier, Amber, Gold Canopy",
+    "list": 4475,
+    "image": null
+  },
+  {
+    "sku": "10172-019-02",
+    "name": "Sorrento, 16 Light Oval LED Chandelier, Smoke, Black Canopy ",
+    "list": 4270,
+    "image": null
+  },
+  {
+    "sku": "10172-019-07",
+    "name": "Sorrento, 16 Light Oval LED Chandelier, Smoke, Gold Canopy ",
+    "list": 4475,
+    "image": null
+  },
+  {
+    "sku": "10172-020-02",
+    "name": "Sorrento, 16 Light Oval LED Chandelier, Copper, Black Canopy",
+    "list": 6298,
+    "image": null
+  },
+  {
+    "sku": "10172-020-07",
+    "name": "Sorrento, 16 Light Oval LED Chandelier, Copper, Gold Canopy",
+    "list": 6623,
+    "image": null
+  },
+  {
+    "sku": "10172-023-02",
+    "name": "Sorrento, 16 Light Oval LED Chandelier, Mixed, Black Canopy",
+    "list": 4270,
+    "image": null
+  },
+  {
+    "sku": "10172-023-07",
+    "name": "Sorrento, 16 Light Oval LED Chandelier, Mixed, Gold Canopy ",
+    "list": 4475,
+    "image": null
+  },
+  {
+    "sku": "10172-024-02",
+    "name": "Sorrento, 16 Light Oval LED Chandelier, Mixed with Copper Leaf, Black Canopy ",
+    "list": 4770,
+    "image": null
+  },
+  {
+    "sku": "10172-024-07",
+    "name": "Sorrento, 16 Light Oval LED Chandelier, Mixed with Copper Leaf, Gold Canopy ",
+    "list": 5003,
+    "image": null
+  },
+  {
+    "sku": "12034-017-02",
+    "name": "Sorrento, 12 Light Oval LED Chandelier, Clear, Black Canopy ",
+    "list": 3123,
+    "image": null
+  },
+  {
+    "sku": "12034-017-07",
+    "name": "Sorrento, 12 Light Oval LED Chandelier, Clear, Gold Canopy ",
+    "list": 3238,
+    "image": null
+  },
+  {
+    "sku": "12034-018-02",
+    "name": "Sorrento, 12 Light Oval LED Chandelier, Amber, Black Canopy ",
+    "list": 3123,
+    "image": null
+  },
+  {
+    "sku": "12034-018-07",
+    "name": "Sorrento, 12 Light Oval LED Chandelier, Amber, Gold Canopy ",
+    "list": 3238,
+    "image": null
+  },
+  {
+    "sku": "12034-019-02",
+    "name": "Sorrento, 12 Light Oval LED Chandelier, Smoke, Black Canopy ",
+    "list": 3123,
+    "image": null
+  },
+  {
+    "sku": "12034-019-07",
+    "name": "Sorrento, 12 Light Oval LED Chandelier, Smoke, Gold Canopy ",
+    "list": 3238,
+    "image": null
+  },
+  {
+    "sku": "12034-020-02",
+    "name": "Sorrento, 12 Light Oval LED Chandelier, Copper, Black Canopy ",
+    "list": 4653,
+    "image": null
+  },
+  {
+    "sku": "12034-020-07",
+    "name": "Sorrento, 12 Light Oval LED Chandelier, Copper, Gold Canopy ",
+    "list": 4858,
+    "image": null
+  },
+  {
+    "sku": "12034-023-02",
+    "name": "Sorrento, 12 Light Oval LED Chandelier, Mixed, Black Canopy ",
+    "list": 3123,
+    "image": null
+  },
+  {
+    "sku": "12034-023-07",
+    "name": "Sorrento, 12 Light Oval LED Chandelier, Mixed, Gold Canopy ",
+    "list": 3238,
+    "image": null
+  },
+  {
+    "sku": "12034-024-02",
+    "name": "Sorrento, 12 Light Oval LED Chandelier, Mixed with Copper Leaf, Black Canopy ",
+    "list": 3505,
+    "image": null
+  },
+  {
+    "sku": "12034-024-07",
+    "name": "Sorrento, 12 Light Oval LED Chandelier, Mixed with Copper Leaf, Gold Canopy ",
+    "list": 3650,
+    "image": null
+  },
+  {
+    "sku": "12101-032",
+    "name": "Raffinato, Small LED Chandelier, Brushed Gunmetal",
+    "list": 3238,
+    "image": null
+  },
+  {
+    "sku": "12101-014",
+    "name": "Raffinato, Small LED Chandelier, Brushed Gold",
+    "list": 3238,
+    "image": null
+  },
+  {
+    "sku": "12102-032",
+    "name": "Raffinato, Large LED Chandelier, Brushed Gunmetal",
+    "list": 4710,
+    "image": null
+  },
+  {
+    "sku": "12102-014",
+    "name": "Raffinato, Large LED Chandelier, Brushed Gold",
+    "list": 4710,
+    "image": null
+  },
+  {
+    "sku": "12081-036",
+    "name": "Affilato, 6 Light Linear LED Chandelier, Satin Black",
+    "list": 3850,
+    "image": null
+  },
+  {
+    "sku": "12081-035",
+    "name": "Affilato, 6 Light Linear LED Chandelier, Satin Brass",
+    "list": 3850,
+    "image": null
+  },
+  {
+    "sku": "12082-036",
+    "name": "Affilato, 8 Light Linear LED Chandelier, Satin Black",
+    "list": 4950,
+    "image": null
+  },
+  {
+    "sku": "12082-035",
+    "name": "Affilato, 8 Light Linear LED Chandelier, Satin Brass",
+    "list": 4950,
+    "image": null
+  },
+  {
+    "sku": "12083-03",
+    "name": "Belluno, 3 Light LED Wall Mount, Champagne Gold",
+    "list": 1150,
+    "image": null
+  },
+  {
+    "sku": "12084-03",
+    "name": "Belluno, 9 Light LED Ceiling Mount, Champagne Gold",
+    "list": 2240,
+    "image": null
+  },
+  {
+    "sku": "12085-03",
+    "name": "Belluno,13 Light LED Ceiling Mount, Champagne Gold",
+    "list": 3180,
+    "image": null
+  },
+  {
+    "sku": "12086-03",
+    "name": "Belluno, 29 Light LED Chandelier, Champagne Gold",
+    "list": 7653,
+    "image": null
+  },
+  {
+    "sku": "12087-03",
+    "name": "Belluno, 70 Light LED Grand Chandelier, Champagne Gold",
+    "list": 22365,
+    "image": null
+  },
+  {
+    "sku": "12088-03",
+    "name": "Belluno, 5 Light LED Pendant, Champagne Gold",
+    "list": 1445,
+    "image": null
+  },
+  {
+    "sku": "12089-03",
+    "name": "Belluno, 72 Light Grand Chandelier, Champagne Gold ",
+    "list": 24718,
+    "image": null
+  },
+  {
+    "sku": "12048-028",
+    "name": "Brindisi, 12 Light Chandelier, Gold ",
+    "list": 4710,
+    "image": null
+  },
+  {
+    "sku": "12049-028",
+    "name": "Brindisi, 20 Light Chandelier, Gold ",
+    "list": 7653,
+    "image": null
+  },
+  {
+    "sku": "12050-028",
+    "name": "Brindisi, 32 Light Chandelier, Gold ",
+    "list": 12948,
+    "image": null
+  },
+  {
+    "sku": "12051-02",
+    "name": "Teramo, 6 Light LED Chandelier, Matte Black ",
+    "list": 1235,
+    "image": null
+  },
+  {
+    "sku": "12051-037",
+    "name": "Teramo, 6 Light LED Chandelier, Brushed Brass",
+    "list": 1403,
+    "image": null
+  },
+  {
+    "sku": "12052-02",
+    "name": "Teramo, 8 Light LED Chandelier, Matte Black ",
+    "list": 1698,
+    "image": null
+  },
+  {
+    "sku": "12052-037",
+    "name": "Teramo, 8 Light LED Chandelier, Brushed Brass",
+    "list": 1888,
+    "image": null
+  },
+  {
+    "sku": "12053-02",
+    "name": "Teramo, 10 Light LED Chandelier, Matte Black ",
+    "list": 2320,
+    "image": null
+  },
+  {
+    "sku": "12053-037",
+    "name": "Teramo, 10 Light LED Chandelier, Brushed Brass",
+    "list": 2565,
+    "image": null
+  },
+  {
+    "sku": "12054-01",
+    "name": "Corato, 12 Light Chandelier, Chrome",
+    "list": 2758,
+    "image": null
+  },
+  {
+    "sku": "12054-037",
+    "name": "Corato, 12 Light Chandelier, Brushed Brass",
+    "list": 2853,
+    "image": null
+  },
+  {
+    "sku": "12054-039",
+    "name": "Corato, 12 Light Chandelier, Brushed Brass with Translucent White Glass",
+    "list": 2853,
+    "image": null
+  },
+  {
+    "sku": "12055-01",
+    "name": "Corato, 16 Light Chandelier, Chrome",
+    "list": 3755,
+    "image": null
+  },
+  {
+    "sku": "12055-037",
+    "name": "Corato, 16 Light Chandelier, Brushed Brass",
+    "list": 3885,
+    "image": null
+  },
+  {
+    "sku": "12055-039",
+    "name": "Corato, 16 Light Chandelier, Brushed Brass with Translucent White Glass",
+    "list": 3885,
+    "image": null
+  },
+  {
+    "sku": "12056-01",
+    "name": "Corato, 14 Light Island Chandelier, Chrome",
+    "list": 4005,
+    "image": null
+  },
+  {
+    "sku": "12056-037",
+    "name": "Corato, 14 Light Island Chandelier, Brushed Brass",
+    "list": 4150,
+    "image": null
+  },
+  {
+    "sku": "12056-039",
+    "name": "Corato, 14 Light Chandelier, Brushed Brass with Translucent White Glass",
+    "list": 4150,
+    "image": null
+  },
+  {
+    "sku": "12057-01",
+    "name": "Corato, 40 Light Grand Chandelier, Chrome",
+    "list": 9905,
+    "image": null
+  },
+  {
+    "sku": "12057-037",
+    "name": "Corato, 40 Light Grand Chandelier, Brushed Brass",
+    "list": 10223,
+    "image": null
+  },
+  {
+    "sku": "12057-039",
+    "name": "Corato, 40 Light Chandelier, Brushed Brass with Translucent White Glass",
+    "list": 10223,
+    "image": null
+  },
+  {
+    "sku": "10193-030",
+    "name": "Adelfia, 1 Light LED Pendant, Painted Antique Brass",
+    "list": 510,
+    "image": null
+  },
+  {
+    "sku": "10194-030",
+    "name": "Adelfia, 3 Light Round LED Pendant, Painted Antique Brass",
+    "list": 1173,
+    "image": null
+  },
+  {
+    "sku": "10195-030",
+    "name": "Adelfia, 9 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 3355,
+    "image": null
+  },
+  {
+    "sku": "10196-030",
+    "name": "Adelfia, 19 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 8478,
+    "image": null
+  },
+  {
+    "sku": "10197-030",
+    "name": "Adelfia, 31 Light LED Grand Chandelier, Painted Antique Brass",
+    "list": 13390,
+    "image": null
+  },
+  {
+    "sku": "10198-030",
+    "name": "Adelfia, 8 Light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 3035,
+    "image": null
+  },
+  {
+    "sku": "10199-030",
+    "name": "Adelfia, 5 Light Linear LED Chandelier, Painted Antique Brass",
+    "list": 2003,
+    "image": null
+  },
+  {
+    "sku": "10200-030",
+    "name": "Adelfia, 14 Light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 4800,
+    "image": null
+  },
+  {
+    "sku": "10202-030",
+    "name": "Baveno, 1 Light LED Pendant, Painted Antique Brass",
+    "list": 570,
+    "image": null
+  },
+  {
+    "sku": "10203-030",
+    "name": "Baveno, 3 Light Round LED Pendant, Painted Antique Brass",
+    "list": 1363,
+    "image": null
+  },
+  {
+    "sku": "10204-030",
+    "name": "Baveno, 9 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 3918,
+    "image": null
+  },
+  {
+    "sku": "10205-030",
+    "name": "Baveno, 19 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 9685,
+    "image": null
+  },
+  {
+    "sku": "10206-030",
+    "name": "Baveno, 31 Light LED Grand Chandelier, Painted Antique Brass",
+    "list": 15333,
+    "image": null
+  },
+  {
+    "sku": "10207-030",
+    "name": "Baveno, 8 Light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 3533,
+    "image": null
+  },
+  {
+    "sku": "10208-030",
+    "name": "Baveno, 5 Light Linear LED Chandelier, Painted Antique Brass",
+    "list": 2298,
+    "image": null
+  },
+  {
+    "sku": "10209-030",
+    "name": "Baveno, 14 Light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 5683,
+    "image": null
+  },
+  {
+    "sku": "10211-030",
+    "name": "Manarola, 1 Light LED pendant, Painted Antique Brass",
+    "list": 530,
+    "image": null
+  },
+  {
+    "sku": "10212-030",
+    "name": "Manarola, 3 Light Round LED Pendant, Painted Antique Brass",
+    "list": 1265,
+    "image": null
+  },
+  {
+    "sku": "10213-030",
+    "name": "Manarola, 9 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 3630,
+    "image": null
+  },
+  {
+    "sku": "10214-030",
+    "name": "Manarola, 19 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 8993,
+    "image": null
+  },
+  {
+    "sku": "10215-030",
+    "name": "Manarola, 31 Light LED Grand Chandelier, Painted Antique Brass",
+    "list": 14245,
+    "image": null
+  },
+  {
+    "sku": "10216-030",
+    "name": "Manarola, 8 Light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 3273,
+    "image": null
+  },
+  {
+    "sku": "10217-030",
+    "name": "Manarola, 5 Light Linear LED Chandelier, Painted Antique Brass",
+    "list": 2145,
+    "image": null
+  },
+  {
+    "sku": "10218-030",
+    "name": "Manarola, 14 Light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 5280,
+    "image": null
+  },
+  {
+    "sku": "10220-030",
+    "name": "Verona, 1 Light LED Pendant, Painted Antique Brass",
+    "list": 633,
+    "image": null
+  },
+  {
+    "sku": "10221-030",
+    "name": "Verona, 3 Light Round LED Pendant, Painted Antique Brass",
+    "list": 1698,
+    "image": null
+  },
+  {
+    "sku": "10222-030",
+    "name": "Verona, 9 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 4915,
+    "image": null
+  },
+  {
+    "sku": "10223-030",
+    "name": "Verona, 19 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 11803,
+    "image": null
+  },
+  {
+    "sku": "10224-030",
+    "name": "Verona, 31 Light LED Grand Chandelier, Painted Antique Brass",
+    "list": 18775,
+    "image": null
+  },
+  {
+    "sku": "10225-030",
+    "name": "Verona, 8 Light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 4415,
+    "image": null
+  },
+  {
+    "sku": "10226-030",
+    "name": "Verona, 5 Light Linear LED Chandelier, Painted Antique Brass",
+    "list": 2855,
+    "image": null
+  },
+  {
+    "sku": "12119-02",
+    "name": "Calcolo, 1 Light LED Pendant, Matte Black",
+    "list": 653,
+    "image": null
+  },
+  {
+    "sku": "12120-02",
+    "name": "Calcolo, 3 Light Round LED Pendant, Matte Black",
+    "list": 1775,
+    "image": null
+  },
+  {
+    "sku": "12121-02",
+    "name": "Calcolo, 9 Light Round LED Chandelier, Matte Black",
+    "list": 5003,
+    "image": null
+  },
+  {
+    "sku": "12122-02",
+    "name": "Calcolo, 19 Light Round LED Chandelier, Matte Black",
+    "list": 10448,
+    "image": null
+  },
+  {
+    "sku": "12123-02",
+    "name": "Calcolo, 31 Light LED Grand Chandelier, Matte Black",
+    "list": 17128,
+    "image": null
+  },
+  {
+    "sku": "12124-02",
+    "name": "Calcolo, 8 Light Rectangular LED Chandelier, Matte Black",
+    "list": 4388,
+    "image": null
+  },
+  {
+    "sku": "12125-02",
+    "name": "Calcolo, 5 Light Linear LED Chandelier, Matte Black",
+    "list": 2828,
+    "image": null
+  },
+  {
+    "sku": "12126-02",
+    "name": "Calcolo, 14 Light Rectangular LED Chandelier, Matte Black",
+    "list": 7535,
+    "image": null
+  },
+  {
+    "sku": "12119-030",
+    "name": "Calcolo, 1 Light LED Pendant, Painted Antique Brass",
+    "list": 653,
+    "image": null
+  },
+  {
+    "sku": "12120-030",
+    "name": "Calcolo, 3 Light Round LED Pendant, Painted Antique Brass",
+    "list": 1775,
+    "image": null
+  },
+  {
+    "sku": "12121-030",
+    "name": "Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 5003,
+    "image": null
+  },
+  {
+    "sku": "12122-030",
+    "name": "Calcolo, 19 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 10448,
+    "image": null
+  },
+  {
+    "sku": "12123-030",
+    "name": "Calcolo, 31 Light LED Grand Chandelier, Painted Antique Brass",
+    "list": 17128,
+    "image": null
+  },
+  {
+    "sku": "12124-030",
+    "name": "Calcolo,  8 Light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 4388,
+    "image": null
+  },
+  {
+    "sku": "12125-030",
+    "name": "Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",
+    "list": 2828,
+    "image": null
+  },
+  {
+    "sku": "12126-030",
+    "name": "Calcolo, 14 Light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 7535,
+    "image": null
+  },
+  {
+    "sku": "12135-02",
+    "name": "Lucidata, 1 Light LED Pendant, Matte Black",
+    "list": 708,
+    "image": null
+  },
+  {
+    "sku": "12136-02",
+    "name": "Lucidata, 3 Light Round LED Pendant, Matte Black",
+    "list": 1935,
+    "image": null
+  },
+  {
+    "sku": "12137-02",
+    "name": "Lucidata, 9 Light Round LED Chandelier, Matte Black",
+    "list": 5478,
+    "image": null
+  },
+  {
+    "sku": "12138-02",
+    "name": "Lucidata, 19 Light Round LED Chandelier, Matte Black",
+    "list": 11420,
+    "image": null
+  },
+  {
+    "sku": "12139-02",
+    "name": "Lucidata, 31 Light LED Grand Chandelier, Matte Black",
+    "list": 18718,
+    "image": null
+  },
+  {
+    "sku": "12140-02",
+    "name": "Lucidata, 8 Light Rectangular LED Chandelier, Matte Black",
+    "list": 4800,
+    "image": null
+  },
+  {
+    "sku": "12141-02",
+    "name": "Lucidata, 5 Light Linear LED Chandelier, Matte Black",
+    "list": 3093,
+    "image": null
+  },
+  {
+    "sku": "12142-02",
+    "name": "Lucidata, 14 Light Rectangular LED Chandelier, Matte Black",
+    "list": 8240,
+    "image": null
+  },
+  {
+    "sku": "12135-030",
+    "name": "Lucidata, 1 Light LED Pendant, Painted Antique Brass",
+    "list": 708,
+    "image": null
+  },
+  {
+    "sku": "12136-030",
+    "name": "Lucidata, 3 Light Round LED Pendant, Painted Antique Brass",
+    "list": 1935,
+    "image": null
+  },
+  {
+    "sku": "12137-030",
+    "name": "Lucidata, 9 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 5478,
+    "image": null
+  },
+  {
+    "sku": "12138-030",
+    "name": "Lucidata, 19 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 11420,
+    "image": null
+  },
+  {
+    "sku": "12139-030",
+    "name": "Lucidata, 31 Light LED Grand Chandelier, Painted Antique Brass",
+    "list": 18718,
+    "image": null
+  },
+  {
+    "sku": "12140-030",
+    "name": "Lucidata, 8 Light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 4800,
+    "image": null
+  },
+  {
+    "sku": "12141-030",
+    "name": "Lucidata, 5 Light Linear LED Chandelier, Painted Antique Brass",
+    "list": 3093,
+    "image": null
+  },
+  {
+    "sku": "12142-030",
+    "name": "Lucidata, 14 Light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 8173,
+    "image": null
+  },
+  {
+    "sku": "12252-02",
+    "name": "Mantova, 1 Light LED Pendant, Matte Black",
+    "list": 633,
+    "image": null
+  },
+  {
+    "sku": "12252-030",
+    "name": "Mantova, 1 Light LED Pendant, Painted Antique Brass",
+    "list": 633,
+    "image": null
+  },
+  {
+    "sku": "12253-02",
+    "name": "Mantova,3 Light LED Pendant, Matte Black",
+    "list": 1695,
+    "image": null
+  },
+  {
+    "sku": "12253-030",
+    "name": "Mantova,3 Light LED Pendant, Painted Antique Brass",
+    "list": 1695,
+    "image": null
+  },
+  {
+    "sku": "12254-02",
+    "name": "Mantova, 9 Light Round LED Chandelier, Matte Black",
+    "list": 5068,
+    "image": null
+  },
+  {
+    "sku": "12254-030",
+    "name": "Mantova, 9 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 5068,
+    "image": null
+  },
+  {
+    "sku": "12255-02",
+    "name": "Mantova, 19 Light Round LED Chandelier, Matte Black",
+    "list": 10560,
+    "image": null
+  },
+  {
+    "sku": "12255-030",
+    "name": "Mantova, 19 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 10560,
+    "image": null
+  },
+  {
+    "sku": "12256-02",
+    "name": "Mantova, 31 Light Round LED Chandelier, Matte Black",
+    "list": 17365,
+    "image": null
+  },
+  {
+    "sku": "12256-030",
+    "name": "Mantova, 31 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 17365,
+    "image": null
+  },
+  {
+    "sku": "12257-02",
+    "name": "Mantova, 5 Light Linear LED Chandelier, Matte Black",
+    "list": 2830,
+    "image": null
+  },
+  {
+    "sku": "12257-030",
+    "name": "Mantova, 5 Light Linear LED Chandelier, Painted Antique Brass",
+    "list": 2830,
+    "image": null
+  },
+  {
+    "sku": "12258-02",
+    "name": "Mantova, 8 Light Rectangular LED Chandelier, Matte Black",
+    "list": 4408,
+    "image": null
+  },
+  {
+    "sku": "12258-030",
+    "name": "Mantova, 8 Light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 4408,
+    "image": null
+  },
+  {
+    "sku": "12259-02",
+    "name": "Mantova, 14 Light Rectangular LED Chandelier, Matte Black",
+    "list": 7598,
+    "image": null
+  },
+  {
+    "sku": "12259-030",
+    "name": "Mantova, 14 Light Rectangular LED Chandelier,Painted Antique Brass",
+    "list": 7598,
+    "image": null
+  },
+  {
+    "sku": "12268-02",
+    "name": "Mantova, 5 Light Round LED Chandelier, Matte Black",
+    "list": 2778,
+    "image": null
+  },
+  {
+    "sku": "12268-030",
+    "name": "Mantova, 5 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 2778,
+    "image": null
+  },
+  {
+    "sku": "12260-02",
+    "name": "Mantova, 20 Light Rectangular LED Chandelier, Matte Black",
+    "list": 11308,
+    "image": null
+  },
+  {
+    "sku": "12260-030",
+    "name": "Mantova, 20 Light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 11308,
+    "image": null
+  },
+  {
+    "sku": "12261-02",
+    "name": "Mantova, 23 Light Rectangular LED Chandelier, Matte Black",
+    "list": 13223,
+    "image": null
+  },
+  {
+    "sku": "12261-030",
+    "name": "Mantova, 23 Light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 13223,
+    "image": null
+  },
+  {
+    "sku": "12247-02",
+    "name": "Calcolo, 20 light Rectangular LED Chandelier, Matte Black",
+    "list": 12070,
+    "image": null
+  },
+  {
+    "sku": "12247-030",
+    "name": "Calcolo, 20 light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 12070,
+    "image": null
+  },
+  {
+    "sku": "12246-02",
+    "name": "Calcolo, 23 light Rectangular LED Chandelier, Matte Black",
+    "list": 14073,
+    "image": null
+  },
+  {
+    "sku": "12246-030",
+    "name": "Calcolo, 23 light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 14073,
+    "image": null
+  },
+  {
+    "sku": "12262-02",
+    "name": "Calcolo, 5 Light Round LED Chandelier, Matte Black",
+    "list": 2743,
+    "image": null
+  },
+  {
+    "sku": "12262-030",
+    "name": "Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 2743,
+    "image": null
+  },
+  {
+    "sku": "12263-02",
+    "name": "Lucidata, 5 Light Round LED Chandelier, Matte Black",
+    "list": 3068,
+    "image": null
+  },
+  {
+    "sku": "12263-030",
+    "name": "Lucidata, 5 Light Round LED Chandelier,Painted Antique Brass",
+    "list": 3068,
+    "image": null
+  },
+  {
+    "sku": "12250-02",
+    "name": "Lucidata, 20 light Rectangular LED Chandelier, Matte Black",
+    "list": 12430,
+    "image": null
+  },
+  {
+    "sku": "12250-030",
+    "name": "Lucidata, 20 light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 12430,
+    "image": null
+  },
+  {
+    "sku": "12251-02",
+    "name": "Lucidata, 23 light Rectangular LED Chandelier, Matte Black",
+    "list": 14488,
+    "image": null
+  },
+  {
+    "sku": "12251-030",
+    "name": "Lucidata, 23 light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 14488,
+    "image": null
+  },
+  {
+    "sku": "12265-02",
+    "name": "Adelfia, 5 Light Round LED Chandelier, Matte Black",
+    "list": 1905,
+    "image": null
+  },
+  {
+    "sku": "12265-030",
+    "name": "Adelfia, 5 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 1905,
+    "image": null
+  },
+  {
+    "sku": "12242-02",
+    "name": "Adelfia, 20 light Rectangular LED Chandelier, Matte Black",
+    "list": 8635,
+    "image": null
+  },
+  {
+    "sku": "12242-030",
+    "name": "Adelfia, 20 light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 8635,
+    "image": null
+  },
+  {
+    "sku": "12243-02",
+    "name": "Adelfia, 23 light Rectangular LED Chandelier, Matte Black",
+    "list": 9933,
+    "image": null
+  },
+  {
+    "sku": "12243-030",
+    "name": "Adelfia, 23 light Rectangular LED Chandelier,Painted Antique Brass",
+    "list": 9933,
+    "image": null
+  },
+  {
+    "sku": "12267-02",
+    "name": "Baveno, 5 Light Round LED Chandelier, Matte Black",
+    "list": 2250,
+    "image": null
+  },
+  {
+    "sku": "12267-030",
+    "name": "Baveno, 5 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 2250,
+    "image": null
+  },
+  {
+    "sku": "12240-02",
+    "name": "Baveno, 20 light Rectangular LED Chandelier, Matte Black",
+    "list": 9900,
+    "image": null
+  },
+  {
+    "sku": "12240-030",
+    "name": "Baveno, 20 light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 9900,
+    "image": null
+  },
+  {
+    "sku": "12241-02",
+    "name": "Baveno, 23 light Rectangular LED Chandelier, Matte Black",
+    "list": 11385,
+    "image": null
+  },
+  {
+    "sku": "12241-030",
+    "name": "Baveno, 23 light Rectangular LED Chandelier,Painted Antique Brass",
+    "list": 11385,
+    "image": null
+  },
+  {
+    "sku": "12266-02",
+    "name": "Manarola, 5 Light Round LED Chandelier, Matte Black",
+    "list": 2070,
+    "image": null
+  },
+  {
+    "sku": "12266-030",
+    "name": "Manarola, 5 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 2070,
+    "image": null
+  },
+  {
+    "sku": "12244-02",
+    "name": "Manarola, 20 light Rectangular LED Chandelier, Matte Black",
+    "list": 9185,
+    "image": null
+  },
+  {
+    "sku": "12244-030",
+    "name": "Manarola, 20 light Rectangular LED Chandelier,Painted Antique Brass",
+    "list": 9185,
+    "image": null
+  },
+  {
+    "sku": "12245-02",
+    "name": "Manarola, 23 light Rectangular LED Chandelier, Matte Black",
+    "list": 10565,
+    "image": null
+  },
+  {
+    "sku": "12245-030",
+    "name": "Manarola, 23 light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 10565,
+    "image": null
+  },
+  {
+    "sku": "12264-02",
+    "name": "Verona, 5 Light Round LED Chandelier, Matte Black",
+    "list": 2793,
+    "image": null
+  },
+  {
+    "sku": "12264-030",
+    "name": "Verona, 5 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 2793,
+    "image": null
+  },
+  {
+    "sku": "12248-02",
+    "name": "Verona, 20 light Rectangular LED Chandelier, Matte Black",
+    "list": 12100,
+    "image": null
+  },
+  {
+    "sku": "12248-030",
+    "name": "Verona, 20 light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 12100,
+    "image": null
+  },
+  {
+    "sku": "12249-02",
+    "name": "Verona, 23 light Rectangular LED Chandelier, Matte Black",
+    "list": 13915,
+    "image": null
+  },
+  {
+    "sku": "12249-030",
+    "name": "Verona, 23 light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 13915,
+    "image": null
+  },
+  {
+    "sku": "12186-030",
+    "name": "Milazzo, Pendant, Antique Brass",
+    "list": 973,
+    "image": null
+  },
+  {
+    "sku": "12188-030",
+    "name": "Milazzo, Medium Linear Chandelier,Antique Brass",
+    "list": 2343,
+    "image": null
+  },
+  {
+    "sku": "12189-030",
+    "name": "Milazzo, Large Linear Chandelier, Antique Brass",
+    "list": 2818,
+    "image": null
+  },
+  {
+    "sku": "12284-02",
+    "name": "Alcamo, 6 Light LED Chandelier, Matte\nBlack",
+    "list": 3708,
+    "image": null
+  },
+  {
+    "sku": "12285-02",
+    "name": "Alcamo, 8 Light LED Chandelier, Matte\nBlack",
+    "list": 7560,
+    "image": null
+  },
+  {
+    "sku": "12220-017-01",
+    "name": "Sorrento, 22 Light Oval LED Chandelier, Clear,Chrome Canopy",
+    "list": 6198,
+    "image": null
+  },
+  {
+    "sku": "12220-017-02",
+    "name": "Sorrento, 22 Light Oval LED Chandelier, Clear, Black Canopy",
+    "list": 5858,
+    "image": null
+  },
+  {
+    "sku": "12220-017-07",
+    "name": "Sorrento, 22 Light Oval LED Chandelier, Clear, Gold Canopy",
+    "list": 6198,
+    "image": null
+  },
+  {
+    "sku": "12220-018-02",
+    "name": "Sorrento, 22 Light Oval LED Chandelier, Amber, Black Canopy",
+    "list": 5858,
+    "image": null
+  },
+  {
+    "sku": "12220-018-07",
+    "name": "Sorrento, 22 Light Oval LED Chandelier, Amber, Gold Canopy",
+    "list": 6198,
+    "image": null
+  },
+  {
+    "sku": "12220-019-01",
+    "name": "Sorrento, 22 Light Oval LED Chandelier, Smoke,Chrome Canopy",
+    "list": 6198,
+    "image": null
+  },
+  {
+    "sku": "12220-019-02",
+    "name": "Sorrento, 22 Light Oval LED Chandelier, Smoke, Black Canopy",
+    "list": 5858,
+    "image": null
+  },
+  {
+    "sku": "12220-019-07",
+    "name": "Sorrento, 22 Light Oval LED Chandelier, Smoke, Gold Canopy",
+    "list": 6198,
+    "image": null
+  },
+  {
+    "sku": "12220-020-01",
+    "name": "Sorrento, 22 Light Oval LED Chandelier, Copper,Chrome Canopy",
+    "list": 9588,
+    "image": null
+  },
+  {
+    "sku": "12220-020-02",
+    "name": "Sorrento, 22 Light Oval LEDChandelier, Copper, Black Canopy",
+    "list": 9250,
+    "image": null
+  },
+  {
+    "sku": "12220-020-07",
+    "name": "Sorrento, 22 Light Oval LED Chandelier, Copper, Gold Canopy",
+    "list": 9588,
+    "image": null
+  },
+  {
+    "sku": "12220-023-01",
+    "name": "Sorrento, 22 Light Oval LED Chandelier, Mixed,Chrome Canopy",
+    "list": 6198,
+    "image": null
+  },
+  {
+    "sku": "12220-023-02",
+    "name": "Sorrento, 22 Light Oval LED Chandelier, Mixed, Black Canopy",
+    "list": 5858,
+    "image": null
+  },
+  {
+    "sku": "12220-023-07",
+    "name": "Sorrento, 22 Light Oval LED Chandelier, Mixed, Gold Canopy",
+    "list": 6198,
+    "image": null
+  },
+  {
+    "sku": "12220-024-01",
+    "name": "Sorrento, 22 Light Oval LED Chandelier, Mixed With Copper Leaf,Chrome Canopy",
+    "list": 7120,
+    "image": null
+  },
+  {
+    "sku": "12220-024-02",
+    "name": "Sorrento, 22 Light Oval LED Chandelier, Mixed With Copper Leaf, Black Canopy",
+    "list": 6783,
+    "image": null
+  },
+  {
+    "sku": "12220-024-07",
+    "name": "Sorrento, 22 Light Oval LED Chandelier, Mixed With Copper Leaf, Gold Canopy",
+    "list": 7120,
+    "image": null
+  },
+  {
+    "sku": "12221-017-01",
+    "name": "Sorrento, 28 Light Oval LED Chandelier, Clear,Chrome Canopy",
+    "list": 9178,
+    "image": null
+  },
+  {
+    "sku": "12221-017-02",
+    "name": "Sorrento, 28 Light Oval LED Chandelier, Clear, Black Canopy",
+    "list": 8653,
+    "image": null
+  },
+  {
+    "sku": "12221-017-07",
+    "name": "Sorrento, 28 Light Oval LED Chandelier, Clear, Gold Canopy",
+    "list": 9178,
+    "image": null
+  },
+  {
+    "sku": "12221-018-01",
+    "name": "Sorrento, 28 Light Oval LED Chandelier, Amber,Chrome Canopy",
+    "list": 9178,
+    "image": null
+  },
+  {
+    "sku": "12221-018-02",
+    "name": "Sorrento, 28 Light Oval LED Chandelier, Amber, Black Canopy",
+    "list": 8653,
+    "image": null
+  },
+  {
+    "sku": "12221-018-07",
+    "name": "Sorrento, 28 Light Oval LED Chandelier, Amber, Gold Canopy",
+    "list": 9178,
+    "image": null
+  },
+  {
+    "sku": "12221-019-01",
+    "name": "Sorrento, 28 Light Oval LED Chandelier, Smoke,Chrome Canopy",
+    "list": 9178,
+    "image": null
+  },
+  {
+    "sku": "12221-019-02",
+    "name": "Sorrento, 28 Light Oval LED Chandelier, Smoke, Black Canopy",
+    "list": 8653,
+    "image": null
+  },
+  {
+    "sku": "12221-019-07",
+    "name": "Sorrento, 28 Light Oval LED Chandelier, Smoke, Gold Canopy",
+    "list": 9178,
+    "image": null
+  },
+  {
+    "sku": "12221-020-01",
+    "name": "Sorrento, 28 Light Oval LED Chandelier, Copper,Chrome Canopy",
+    "list": 13493,
+    "image": null
+  },
+  {
+    "sku": "12221-020-02",
+    "name": "Sorrento, 28 Light Oval LED Chandelier, Copper, Black Canopy",
+    "list": 12968,
+    "image": null
+  },
+  {
+    "sku": "12221-020-07",
+    "name": "Sorrento, 28 Light Oval LED Chandelier, Copper, Gold Canopy",
+    "list": 13493,
+    "image": null
+  },
+  {
+    "sku": "12221-023-01",
+    "name": "Sorrento, 28 Light Oval LED Chandelier, Mixed,Chrome Canopy",
+    "list": 9178,
+    "image": null
+  },
+  {
+    "sku": "12221-023-02",
+    "name": "Sorrento, 28 Light Oval LED Chandelier, Mixed, Black Canopy",
+    "list": 8653,
+    "image": null
+  },
+  {
+    "sku": "12221-023-07",
+    "name": "Sorrento, 28 Light Oval LED Chandelier, Mixed, Gold Canopy",
+    "list": 9178,
+    "image": null
+  },
+  {
+    "sku": "12221-024-01",
+    "name": "Sorrento, 28 Light Oval LED Chandelier, Mixed With Copper Leaf,Chrome Canopy",
+    "list": 10255,
+    "image": null
+  },
+  {
+    "sku": "12221-024-02",
+    "name": "Sorrento, 28 Light Oval LED Chandelier, Mixed With Copper Leaf, Black Canopy",
+    "list": 9730,
+    "image": null
+  },
+  {
+    "sku": "12221-024-07",
+    "name": "Sorrento, 28 Light Oval LED Chandelier, Mixed With Copper Leaf, Gold Canopy",
+    "list": 10255,
+    "image": null
+  },
+  {
+    "sku": "12219-017-01",
+    "name": "Sorrento, 45 Light LED Grand Chandelier, Clear, Chrome Canopy",
+    "list": 13613,
+    "image": null
+  },
+  {
+    "sku": "12219-017-02",
+    "name": "Sorrento, 45 Light LED Grand Chandelier, Clear, Black Canopy",
+    "list": 12853,
+    "image": null
+  },
+  {
+    "sku": "12219-017-07",
+    "name": "Sorrento, 45 Light LED Grand Chandelier, Clear, Gold Canopy",
+    "list": 13613,
+    "image": null
+  },
+  {
+    "sku": "12219-018-01",
+    "name": "Sorrento, 45 Light LED Grand Chandelier, Amber, Chrome Canopy",
+    "list": 13613,
+    "image": null
+  },
+  {
+    "sku": "12219-018-02",
+    "name": "Sorrento, 45 Light LED Grand Chandelier, Amber, Black Canopy",
+    "list": 12853,
+    "image": null
+  },
+  {
+    "sku": "12219-018-07",
+    "name": "Sorrento, 45 Light LED Grand Chandelier, Amber, Gold Canopy",
+    "list": 13613,
+    "image": null
+  },
+  {
+    "sku": "12219-019-01",
+    "name": "Sorrento, 45 Light LED Grand Chandelier, Smoke, Chrome Canopy",
+    "list": 13613,
+    "image": null
+  },
+  {
+    "sku": "12219-019-02",
+    "name": "Sorrento, 45 Light LED Grand Chandelier, Smoke, Black Canopy",
+    "list": 12853,
+    "image": null
+  },
+  {
+    "sku": "12219-019-07",
+    "name": "Sorrento, 45 Light LED Grand Chandelier, Smoke, Gold Canopy",
+    "list": 13613,
+    "image": null
+  },
+  {
+    "sku": "12219-020-01",
+    "name": "Sorrento, 45 Light LED Grand Chandelier, Copper, Chrome Canopy",
+    "list": 20553,
+    "image": null
+  },
+  {
+    "sku": "12219-020-02",
+    "name": "Sorrento, 45 Light LED Grand Chandelier, Copper, Black Canopy",
+    "list": 19788,
+    "image": null
+  },
+  {
+    "sku": "12219-020-07",
+    "name": "Sorrento, 45 Light LED Grand Chandelier, Copper, Gold Canopy",
+    "list": 20553,
+    "image": null
+  },
+  {
+    "sku": "12219-023-01",
+    "name": "Sorrento, 45 Light LED Grand Chandelier, Mixed, Chrome Canopy",
+    "list": 13613,
+    "image": null
+  },
+  {
+    "sku": "12219-023-02",
+    "name": "Sorrento, 45 Light LED Grand Chandelier, Mixed, Black Canopy",
+    "list": 12853,
+    "image": null
+  },
+  {
+    "sku": "12219-023-07",
+    "name": "Sorrento, 45 Light LED Grand Chandelier, Mixed, Gold Canopy",
+    "list": 13613,
+    "image": null
+  },
+  {
+    "sku": "12219-024-01",
+    "name": "Sorrento, 45 Light LED Grand Chandelier, Mixed With Copper Leaf, Chrome Canopy",
+    "list": 15465,
+    "image": null
+  },
+  {
+    "sku": "12219-024-02",
+    "name": "Sorrento, 45 Light LED Grand Chandelier, Mixed With Copper Leaf, Black Canopy",
+    "list": 14703,
+    "image": null
+  },
+  {
+    "sku": "12219-024-07",
+    "name": "Sorrento, 45 Light LED Grand Chandelier, Mixed With Copper Leaf, Gold Canopy",
+    "list": 15465,
+    "image": null
+  },
+  {
+    "sku": "12174-040",
+    "name": "Nettuno 60\" Oval LED Chandelier, \nPainted Brushed Grey",
+    "list": 4865,
+    "image": null
+  },
+  {
+    "sku": "12174-041",
+    "name": "Nettuno 60\" Oval LED Chandelier, \nPainted Brushed Champagne",
+    "list": 4865,
+    "image": null
+  },
+  {
+    "sku": "12175-040",
+    "name": "Nettuno 72\" Oval LED Chandelier, \nPainted Brushed Grey",
+    "list": 5703,
+    "image": null
+  },
+  {
+    "sku": "12175-041",
+    "name": "Nettuno 72\" Oval LED Chandelier, \nPainted Brushed Champagne",
+    "list": 5703,
+    "image": null
+  },
+  {
+    "sku": "12064-02",
+    "name": "Bellissima, 3 Light LED Pendant, Black Sleeves",
+    "list": 1238,
+    "image": null
+  },
+  {
+    "sku": "12065-02",
+    "name": "Bellissima, 9 Light LED Chandelier, Black Sleeves",
+    "list": 3828,
+    "image": null
+  },
+  {
+    "sku": "12066-02",
+    "name": "Bellissima, 24 Light LED Chandelier, Black Sleeves",
+    "list": 9713,
+    "image": null
+  },
+  {
+    "sku": "12067-02",
+    "name": "Bellissima, 32 Light LED Grand Chandelier, Black Sleeves",
+    "list": 12948,
+    "image": null
+  },
+  {
+    "sku": "12068-02",
+    "name": "Bellissima, 10 Light Linear LED Chandelier, Black Sleeves",
+    "list": 4043,
+    "image": null
+  },
+  {
+    "sku": "12176-01",
+    "name": "Bellissima, 1 Light Pendant, Silver Sleeve",
+    "list": 505,
+    "image": null
+  },
+  {
+    "sku": "12176-02",
+    "name": "Bellissima, 1 Light Pendant, Black Sleeve",
+    "list": 505,
+    "image": null
+  },
+  {
+    "sku": "12177-01",
+    "name": "Bellissima, 15 Light Linear  Chandelier,Silver Sleeves",
+    "list": 6505,
+    "image": null
+  },
+  {
+    "sku": "12177-02",
+    "name": "Bellissima, 15 Light Linear  Chandelier, Black Sleeves",
+    "list": 6505,
+    "image": null
+  },
+  {
+    "sku": "12178-040",
+    "name": "Arezzo, Small Linear LED Chandelier, \nPainted Brushed Grey",
+    "list": 3170,
+    "image": null
+  },
+  {
+    "sku": "12178-041",
+    "name": "Arezzo, Small Linear LED Chandelier, \nPainted Brushed Champagne",
+    "list": 3170,
+    "image": null
+  },
+  {
+    "sku": "12179-040",
+    "name": "Arezzo, Linear LED Chandelier, \nPainted Brushed Grey",
+    "list": 4063,
+    "image": null
+  },
+  {
+    "sku": "12179-041",
+    "name": "Arezzo, Linear LED Chandelier, \nPainted Brushed Champagne",
+    "list": 4063,
+    "image": null
+  },
+  {
+    "sku": "12180-040",
+    "name": "Arezzo, Large Linear LED Chandelier, \nPainted Brushed Grey",
+    "list": 5345,
+    "image": null
+  },
+  {
+    "sku": "12180-041",
+    "name": "Arezzo, Large Linear LED Chandelier, \nPainted Brushed Champagne",
+    "list": 5345,
+    "image": null
+  },
+  {
+    "sku": "12232-043",
+    "name": "Modena,8 Light LED Chandelier, \nBlack with Gold Accent",
+    "list": 4820,
+    "image": null
+  },
+  {
+    "sku": "12233-043",
+    "name": "Modena, 8 Light Oval LED Chandelier, \nBlack with Gold Accent",
+    "list": 4933,
+    "image": null
+  },
+  {
+    "sku": "12234-043",
+    "name": "Modena, 10 Light Oval LED Chandelier,\n Black with Gold Accent",
+    "list": 6378,
+    "image": null
+  },
+  {
+    "sku": "12236-08",
+    "name": "Aveah, 4 Light LED Chandelier, Sand Black",
+    "list": 3223,
+    "image": null
+  },
+  {
+    "sku": "12237-08",
+    "name": "Aveah, 6 Light LED Chandelier, Sand Black",
+    "list": 4865,
+    "image": null
+  },
+  {
+    "sku": "12238-08",
+    "name": "Aveah, 4 Light Linear LED Chandelier, Sand Black",
+    "list": 3423,
+    "image": null
+  },
+  {
+    "sku": "12239-08",
+    "name": "Aveah, 5 Light Linear LED Chandelier, Sand Black",
+    "list": 4273,
+    "image": null
+  },
+  {
+    "sku": "12204-01",
+    "name": "Corato, 26 Light Island Chandelier, Chrome ",
+    "list": 5715,
+    "image": null
+  },
+  {
+    "sku": "12204-037",
+    "name": "Corato, 26 Light Island Chandelier, Brushed Brass ",
+    "list": 6150,
+    "image": null
+  },
+  {
+    "sku": "12204-039",
+    "name": "Corato, 26 Light Island Chandelier, Brushed Brass with Translucent White Glass ",
+    "list": 6150,
+    "image": null
+  },
+  {
+    "sku": "12168-01",
+    "name": "Corato, 3 Light Wall Sconce, Chrome ",
+    "list": 578,
+    "image": null
+  },
+  {
+    "sku": "12168-037",
+    "name": "Corato, 3 Light Wall Sconce, Brushed Brass ",
+    "list": 613,
+    "image": null
+  },
+  {
+    "sku": "12168-039",
+    "name": "Corato, 3 Light Wall Sconce, Brushed Brass with Translucent White Glass ",
+    "list": 613,
+    "image": null
+  },
+  {
+    "sku": "12169-01",
+    "name": "Corato, 1 Light Wall Sconce, Chrome ",
+    "list": 245,
+    "image": null
+  },
+  {
+    "sku": "12169-037",
+    "name": "Corato, 1 Light Wall Sconce, Brushed Brass ",
+    "list": 260,
+    "image": null
+  },
+  {
+    "sku": "12169-039",
+    "name": "Corato, 1 Light Wall Sconce, Brushed Brass with Translucent White Glass ",
+    "list": 260,
+    "image": null
+  },
+  {
+    "sku": "12205-01",
+    "name": "Corato, 6 Light Flushmount / Pendant, Chrome ",
+    "list": 1370,
+    "image": null
+  },
+  {
+    "sku": "12205-037",
+    "name": "Corato, 6 Light Flushmount / Pendant, Brushed Brass",
+    "list": 1468,
+    "image": null
+  },
+  {
+    "sku": "12205-039",
+    "name": "Corato , 6 Light Flushmount/Pendant, Brushed Brass with White Translucent ",
+    "list": 1468,
+    "image": null
+  },
+  {
+    "sku": "12269-037",
+    "name": "Gravina, 1 Light LED Pendant , Brushed Brass , Clear Crystal",
+    "list": 480,
+    "image": null
+  },
+  {
+    "sku": "12269-048",
+    "name": "Gravina, 1 Light LED Pendant , Brushed Gun Metal , Clear Crystal ",
+    "list": 480,
+    "image": null
+  },
+  {
+    "sku": "12270-037",
+    "name": "Gravina , 3 Light LED Chandelier, Brushed Brass, Clear Crystal ",
+    "list": 1308,
+    "image": null
+  },
+  {
+    "sku": "12270-048",
+    "name": "Gravina , 3 Light LED Chandelier, Brushed Gun Metal, Clear Crystal ",
+    "list": 1308,
+    "image": null
+  },
+  {
+    "sku": "12271-037",
+    "name": "Gravina , 6 Light LED Chandelier, Brushed Brass, Clear Crystal ",
+    "list": 2680,
+    "image": null
+  },
+  {
+    "sku": "12271-048",
+    "name": "Gravina , 6 Light LED Chandelier, Brushed Gun Metal, Clear Crystal ",
+    "list": 2680,
+    "image": null
+  },
+  {
+    "sku": "12272-037",
+    "name": "Gravina ,13 Light LED Chandelier, Brushed Brass, Clear Crystal ",
+    "list": 5435,
+    "image": null
+  },
+  {
+    "sku": "12272-048",
+    "name": "Gravina , 13 Light LED Chandelier, Brushed Gun Metal, Clear Crystal ",
+    "list": 5435,
+    "image": null
+  },
+  {
+    "sku": "12273-037",
+    "name": "Gravina ,22 Light LED Chandelier, Brushed Brass, Clear Crystal ",
+    "list": 10295,
+    "image": null
+  },
+  {
+    "sku": "12273-048",
+    "name": "Gravina , 22 Light LED Chandelier, Brushed Gun Metal, Clear Crystal ",
+    "list": 10295,
+    "image": null
+  },
+  {
+    "sku": "12274-037",
+    "name": "Gravina ,10 Light Rectangular LED Chandelier, Brushed Brass, Clear Crystal ",
+    "list": 4405,
+    "image": null
+  },
+  {
+    "sku": "12274-048",
+    "name": "Gravina , 10 Light Rectangular LED Chandelier, Brushed Gun Metal, Clear Crystal ",
+    "list": 4405,
+    "image": null
+  },
+  {
+    "sku": "12275-037",
+    "name": "Gravina ,12 Light Rectangular LED Chandelier, Brushed Brass, Clear Crystal ",
+    "list": 5383,
+    "image": null
+  },
+  {
+    "sku": "12275-048",
+    "name": "Gravina , 12 Light Rectangular LED Chandelier, Brushed Gun Metal, Clear Crystal ",
+    "list": 5383,
+    "image": null
+  },
+  {
+    "sku": "12276-037",
+    "name": "Gravina ,16 Light Rectangular LED Chandelier, Brushed Brass, Clear Crystal ",
+    "list": 7253,
+    "image": null
+  },
+  {
+    "sku": "12276-048",
+    "name": "Gravina , 16 Light Rectangular LED Chandelier, Brushed Gun Metal, Clear Crystal ",
+    "list": 7253,
+    "image": null
+  },
+  {
+    "sku": "12214-01",
+    "name": "Castellana , 6 Light Linear Chandelier , Chrome , Clear Crystal",
+    "list": 6785,
+    "image": null
+  },
+  {
+    "sku": "12215-01",
+    "name": "Castellana , 8 Light Chandelier , Chrome , Clear Crystal",
+    "list": 8788,
+    "image": null
+  },
+  {
+    "sku": "10113-042",
+    "name": "Belluno, 48 Light LED Grand Chandelier, Brushed Vintage Grey",
+    "list": 16303,
+    "image": null
+  },
+  {
+    "sku": "10114-042",
+    "name": "Belluno, 15 Light LED Chandelier, Brushed Vintage Grey",
+    "list": 3975,
+    "image": null
+  },
+  {
+    "sku": "10115-042",
+    "name": "26 Light Oval LED Chandelier, Brushed Vintage Grey",
+    "list": 6800,
+    "image": null
+  },
+  {
+    "sku": "10116-042",
+    "name": "37 Light Oval LED Chandelier, Brushed Vintage Grey",
+    "list": 9890,
+    "image": null
+  },
+  {
+    "sku": "12083-042",
+    "name": "3 Light LED Wall Mount, Brushed Vintage Grey",
+    "list": 1150,
+    "image": null
+  },
+  {
+    "sku": "12084-042",
+    "name": "9 Light LED Ceiling Mount, Brushed Vintage Grey",
+    "list": 2240,
+    "image": null
+  },
+  {
+    "sku": "12085-042",
+    "name": "Belluno, 13 Light LED Ceiling Mount, Brushed Grey",
+    "list": 3180,
+    "image": null
+  },
+  {
+    "sku": "12086-042",
+    "name": "Belluno, 29 Light LED Chandelier, Brushed Vintage Grey",
+    "list": 7653,
+    "image": null
+  },
+  {
+    "sku": "12087-042",
+    "name": "Belluno, 70 Light LED Grand Chandelier, Brushed Vintage Grey",
+    "list": 22365,
+    "image": null
+  },
+  {
+    "sku": "12088-042",
+    "name": "Belluno, 5 Light LED Pendant, Brushed Vintage Grey",
+    "list": 1445,
+    "image": null
+  },
+  {
+    "sku": "12089-042",
+    "name": "Belluno, 72 Light Grand Chandelier, Brushed Vintage Grey",
+    "list": 24718,
+    "image": null
+  },
+  {
+    "sku": "12287-02",
+    "name": "Castelo, 1 Light LED Pendant, Matte Black",
+    "list": 520,
+    "image": null
+  },
+  {
+    "sku": "12287-030",
+    "name": "Castelo, 1 Light LED Pendant, Painted Antique Brass",
+    "list": 520,
+    "image": null
+  },
+  {
+    "sku": "12288-02",
+    "name": "Castelo, 3 Light LED Pendant, Matte Black",
+    "list": 1390,
+    "image": null
+  },
+  {
+    "sku": "12288-030",
+    "name": "Castelo, 3 Light LED Pendant, Painted Antique Brass",
+    "list": 1390,
+    "image": null
+  },
+  {
+    "sku": "12297-02",
+    "name": "Castelo, 5 Light Round LED Chandelier, Matte Black",
+    "list": 2268,
+    "image": null
+  },
+  {
+    "sku": "12297-030",
+    "name": "Castelo, 5 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 2268,
+    "image": null
+  },
+  {
+    "sku": "12289-02",
+    "name": "Castelo, 9 Light Round LED Chandelier, Matte Black",
+    "list": 4148,
+    "image": null
+  },
+  {
+    "sku": "12289-030",
+    "name": "Castelo, 9 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 4148,
+    "image": null
+  },
+  {
+    "sku": "12290-02",
+    "name": "Castelo, 19 Light Round LED Chandelier, Matte Black",
+    "list": 8625,
+    "image": null
+  },
+  {
+    "sku": "12290-030",
+    "name": "Castelo, 19 Light Round LED Chandelier, Painted Antique Brass",
+    "list": 8625,
+    "image": null
+  },
+  {
+    "sku": "12291-02",
+    "name": "Castelo, 31 Light LED Grand Chandelier, Matte Black",
+    "list": 14208,
+    "image": null
+  },
+  {
+    "sku": "12291-030",
+    "name": "Castelo, 31 Light LED Grand Chandelier, Painted Antique Brass",
+    "list": 14208,
+    "image": null
+  },
+  {
+    "sku": "12292-02",
+    "name": "Castelo, 5 Light Linear LED Chandelier, Matte Black",
+    "list": 2323,
+    "image": null
+  },
+  {
+    "sku": "12292-030",
+    "name": "Castelo, 5 Light Linear LED Chandelier, Painted Antique Brass",
+    "list": 2323,
+    "image": null
+  },
+  {
+    "sku": "12293-02",
+    "name": "Castelo, 8 Light Rectangular LED Chandelier, Matte Black",
+    "list": 3593,
+    "image": null
+  },
+  {
+    "sku": "12293-030",
+    "name": "Castelo, 8 Light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 3593,
+    "image": null
+  },
+  {
+    "sku": "12294-02",
+    "name": "Castelo, 14 Light Rectangular LED Chandelier, Matte Black",
+    "list": 6170,
+    "image": null
+  },
+  {
+    "sku": "12294-030",
+    "name": "Castelo, 14 Light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 6170,
+    "image": null
+  },
+  {
+    "sku": "12295-02",
+    "name": "Castelo, 20 Light Rectangular LED Chandelier, Matte Black",
+    "list": 9268,
+    "image": null
+  },
+  {
+    "sku": "12295-030",
+    "name": "Castelo, 20 Light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 9268,
+    "image": null
+  },
+  {
+    "sku": "12296-02",
+    "name": "Castelo, 23 Light Rectangular LED Chandelier, Matte Black",
+    "list": 10880,
+    "image": null
+  },
+  {
+    "sku": "12296-030",
+    "name": "Castelo, 23 Light Rectangular LED Chandelier, Painted Antique Brass",
+    "list": 10880,
+    "image": null
+  },
+  {
+    "sku": "12194-042",
+    "name": "Torino, 8 Light Linear LED Chandelier, Brushed Vintage Grey",
+    "list": 3175,
+    "image": null
+  },
+  {
+    "sku": "12195-042",
+    "name": "Torino, 10 Light Linear LED Chandelier, Brushed Vintage Grey ",
+    "list": 4215,
+    "image": null
+  },
+  {
+    "sku": "12198-022",
+    "name": "Veneto, 13 Light Oval Chandelier, Aged Brass",
+    "list": 9860,
+    "image": null
+  },
+  {
+    "sku": "12200-022",
+    "name": "Veneto, 8 Light Chandelier,Aged Brass",
+    "list": 4783,
+    "image": null
+  },
+  {
+    "sku": "12201-022",
+    "name": "Veneto, 20 Light Chandelier, Aged Brass",
+    "list": 12110,
+    "image": null
+  },
+  {
+    "sku": "12202-022",
+    "name": "Veneto, 36 Light Chandelier, Aged Brass",
+    "list": 22350,
+    "image": null
+  },
+  {
+    "sku": "12203-022",
+    "name": "Veneto, 52 Light Grand Chandelier, Aged Brass",
+    "list": 31493,
+    "image": null
+  },
+  {
+    "sku": "12222-043",
+    "name": "Pisa, 17 Light Oval LED Chandelier, Black with Gold Accent",
+    "list": 6308,
+    "image": null
+  },
+  {
+    "sku": "12223-043",
+    "name": "Pisa, 22 Light Ovalval LED Chandelier, Black with Gold Accent",
+    "list": 8045,
+    "image": null
+  },
+  {
+    "sku": "12224-043",
+    "name": "Pisa, 40 Light LED Grand Chandelier, Black with Gold Accent ",
+    "list": 18980,
+    "image": null
+  },
+  {
+    "sku": "12196-043",
+    "name": "Pisa, 23 Light LED Chandelier, Black with Gold Accent ",
+    "list": 8613,
+    "image": null
   }
 ]

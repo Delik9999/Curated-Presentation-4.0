@@ -1,0 +1,47 @@
+[
+  {
+    "vendorId": "lib-and-co",
+    "rankings": [
+      {
+        "vendorId": "lib-and-co",
+        "collectionName": "Manarola",
+        "rank": 1
+      },
+      {
+        "vendorId": "lib-and-co",
+        "collectionName": "Sorrento",
+        "rank": 2
+      },
+      {
+        "vendorId": "lib-and-co",
+        "collectionName": "Bellagio",
+        "rank": 3
+      },
+      {
+        "vendorId": "lib-and-co",
+        "collectionName": "Catania",
+        "rank": 4
+      },
+      {
+        "vendorId": "lib-and-co",
+        "collectionName": "Portofino",
+        "rank": 5
+      }
+    ]
+  },
+  {
+    "vendorId": "savoy-house",
+    "rankings": [
+      {
+        "vendorId": "savoy-house",
+        "collectionName": "Blair",
+        "rank": 1
+      },
+      {
+        "vendorId": "savoy-house",
+        "collectionName": "Antolini",
+        "rank": 2
+      }
+    ]
+  }
+]

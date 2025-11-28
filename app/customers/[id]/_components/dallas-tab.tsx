@@ -31,6 +31,7 @@ export type DallasApiResponse = {
 type DallasTabProps = {
   customer: Customer;
   data: DallasApiResponse;
+  selectedVendor?: string;
 };
 
 function buildExportUrl(customerId: string, type: 'csv' | 'xlsx' | 'pdf', selectionType: 'dallas', selectionId?: string) {
@@ -41,7 +42,7 @@ function buildExportUrl(customerId: string, type: 'csv' | 'xlsx' | 'pdf', select
   return `/api/customers/${customerId}/export/${type}?${search.toString()}`;
 }
 
-export default function DallasTab({ customer, data }: DallasTabProps) {
+export default function DallasTab({ customer, data, selectedVendor }: DallasTabProps) {
   const { toast } = useToast();
   const queryClient = useQueryClient();
   const [selectedSnapshotId, setSelectedSnapshotId] = useState<string | undefined>(data.snapshot?.id);
@@ -58,9 +59,12 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
   });
 
   const snapshotQuery = useQuery<DallasApiResponse>({
-    queryKey: ['customer-dallas', customer.id, selectedSnapshotId],
+    queryKey: ['customer-dallas', customer.id, selectedSnapshotId, selectedVendor],
     queryFn: async () => {
-      const url = `/api/customers/${customer.id}/dallas/latest${selectedSnapshotId ? `?snapshotId=${selectedSnapshotId}` : ''}`;
+      const params = new URLSearchParams();
+      if (selectedSnapshotId) params.set('snapshotId', selectedSnapshotId);
+      if (selectedVendor) params.set('vendor', selectedVendor);
+      const url = `/api/customers/${customer.id}/dallas/latest${params.toString() ? `?${params.toString()}` : ''}`;
       const response = await fetch(url, { cache: 'no-store' });
       if (!response.ok) {
         throw new Error('Unable to load Dallas snapshot');
@@ -73,17 +77,21 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
 
   const snapshot = snapshotQuery.data?.snapshot ?? null;
 
+  // Filter snapshot by vendor if a vendor is selected
+  // Default to 'lib-and-co' for snapshots without a vendor field (legacy data)
+  const filteredSnapshot = snapshot && selectedVendor && (snapshot.vendor || 'lib-and-co') !== selectedVendor ? null : snapshot;
+
   const importMutation = useMutation<
     { selectionId: string; version: number },
     Error,
     'auto' | 'createNew' | 'replace'
   >({
     mutationFn: async (mode) => {
-      if (!snapshot) throw new Error('No Dallas snapshot to import');
+      if (!filteredSnapshot) throw new Error('No Dallas snapshot to import');
       const response = await fetch(`/api/customers/${customer.id}/selection/import`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ snapshotId: snapshot.id, mode }),
+        body: JSON.stringify({ snapshotId: filteredSnapshot.id, mode }),
       });
       if (response.status === 409) {
         setShowImportDecision(true);
@@ -113,11 +121,11 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
     'addOnlyNew' | 'sumQuantities' | 'preferDallas'
   >({
     mutationFn: async (strategy) => {
-      if (!snapshot) throw new Error('No Dallas snapshot to merge');
+      if (!filteredSnapshot) throw new Error('No Dallas snapshot to merge');
       const response = await fetch(`/api/customers/${customer.id}/selection/merge`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ snapshotId: snapshot.id, strategy }),
+        body: JSON.stringify({ snapshotId: filteredSnapshot.id, strategy }),
       });
       if (!response.ok) {
         const error = await response.json().catch(() => ({ error: 'Unable to merge selection' }));
@@ -135,18 +143,22 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
   });
 
   const totals = useMemo(() => {
-    if (!snapshot) return { subtotal: 0, discount: 0, net: 0 };
-    const subtotal = snapshot.items.reduce((acc, item) => acc + item.unitList * item.qty, 0);
-    const net = snapshot.items.reduce((acc, item) => acc + item.netUnit * item.qty, 0);
+    if (!filteredSnapshot) return { subtotal: 0, discount: 0, net: 0 };
+    const subtotal = filteredSnapshot.items.reduce((acc, item) => acc + item.unitList * item.qty, 0);
+    const net = filteredSnapshot.items.reduce((acc, item) => acc + item.netUnit * item.qty, 0);
     return { subtotal, net, discount: subtotal - net };
-  }, [snapshot]);
+  }, [filteredSnapshot]);
 
-  if (!snapshot) {
+  if (!filteredSnapshot) {
     return (
       <Card>
         <CardHeader>
           <CardTitle>Dallas Market Selection</CardTitle>
-          <CardDescription>No Dallas selection captured yet.</CardDescription>
+          <CardDescription>
+            {selectedVendor
+              ? `No Dallas selection for this vendor yet.`
+              : 'No Dallas selection captured yet.'}
+          </CardDescription>
         </CardHeader>
       </Card>
     );
@@ -160,13 +172,13 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
-        <DropdownMenuItem onSelect={() => window.open(buildExportUrl(customer.id, 'csv', 'dallas', snapshot.id), '_blank')}>
+        <DropdownMenuItem onSelect={() => window.open(buildExportUrl(customer.id, 'csv', 'dallas', filteredSnapshot.id), '_blank')}>
           Download CSV
         </DropdownMenuItem>
-        <DropdownMenuItem onSelect={() => window.open(buildExportUrl(customer.id, 'xlsx', 'dallas', snapshot.id), '_blank')}>
+        <DropdownMenuItem onSelect={() => window.open(buildExportUrl(customer.id, 'xlsx', 'dallas', filteredSnapshot.id), '_blank')}>
           Download XLSX
         </DropdownMenuItem>
-        <DropdownMenuItem onSelect={() => window.open(buildExportUrl(customer.id, 'pdf', 'dallas', snapshot.id), '_blank')}>
+        <DropdownMenuItem onSelect={() => window.open(buildExportUrl(customer.id, 'pdf', 'dallas', filteredSnapshot.id), '_blank')}>
           Download PDF
         </DropdownMenuItem>
       </DropdownMenuContent>
@@ -179,7 +191,7 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
         <div>
           <CardTitle>Dallas Market Selection</CardTitle>
           <CardDescription>
-            Showing {snapshot.marketMonth} {snapshot.sourceYear} market order.{' '}
+            Showing {filteredSnapshot.marketMonth} {filteredSnapshot.sourceYear} market order.{' '}
             {historyQuery.data && historyQuery.data.history.length > 1 &&
               `View ${historyQuery.data.history.length - 1} other market order${historyQuery.data.history.length > 2 ? 's' : ''} using the dropdown.`}
           </CardDescription>
@@ -191,7 +203,7 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <Button variant="outline" size="sm">
-                    {snapshot.marketMonth} {snapshot.sourceYear} <ChevronDownIcon className="ml-2 h-4 w-4" />
+                    {filteredSnapshot.marketMonth} {filteredSnapshot.sourceYear} <ChevronDownIcon className="ml-2 h-4 w-4" />
                   </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end">
@@ -237,11 +249,11 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
         <div className="grid gap-6 md:grid-cols-3">
           <div>
             <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Source Event</p>
-            <p className="text-lg font-semibold text-foreground">{snapshot.sourceEventId ?? 'Dallas Market'}</p>
+            <p className="text-lg font-semibold text-foreground">{filteredSnapshot.sourceEventId ?? 'Dallas Market'}</p>
           </div>
           <div>
             <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Published</p>
-            <p className="text-lg font-semibold text-foreground">{new Date(snapshot.createdAt).toLocaleDateString()}</p>
+            <p className="text-lg font-semibold text-foreground">{new Date(filteredSnapshot.createdAt).toLocaleDateString()}</p>
           </div>
           <div>
             <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Total Net</p>
@@ -262,10 +274,28 @@ export default function DallasTab({ customer, data }: DallasTabProps) {
             </TableRow>
           </TableHeader>
           <TableBody>
-            {snapshot.items.map((item) => (
+            {filteredSnapshot.items.map((item) => (
               <TableRow key={item.sku}>
                 <TableCell className="font-semibold">{item.sku}</TableCell>
-                <TableCell>{item.name}</TableCell>
+                <TableCell>
+                  <div className="space-y-1.5">
+                    <span>{item.name}</span>
+                    {/* Display configured options for Hubbardton Forge products */}
+                    {item.configuration && Object.keys(item.configuration.options).length > 0 && (
+                      <div className="flex flex-wrap gap-1">
+                        {Object.entries(item.configuration.options).map(([optionName, value]) => (
+                          <span
+                            key={`${item.sku}-config-${optionName}`}
+                            className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-xs bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300 border border-purple-200 dark:border-purple-800"
+                          >
+                            <span className="font-medium">{optionName}:</span>
+                            <span>{value}</span>
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                </TableCell>
                 <TableCell>{item.qty}</TableCell>
                 <TableCell>{formatCurrency(item.unitList)}</TableCell>
                 <TableCell>{item.programDisc ? `${Math.round(item.programDisc * 100)}%` : '—'}</TableCell>

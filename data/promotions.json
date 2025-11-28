@@ -1,0 +1,1292 @@
+[
+  {
+    "id": "653d59bd-c505-4a9a-b27c-2b7797ab5a23",
+    "name": "Dallas Promotion",
+    "vendor": "lib-and-co",
+    "active": true,
+    "skuTiers": [
+      {
+        "threshold": 5,
+        "discountPercent": 30,
+        "id": "promo_1763410984515_vxre5chii"
+      }
+    ],
+    "dollarTiers": [],
+    "inventoryIncentive": {
+      "enabled": true,
+      "displayQtyThreshold": 5,
+      "backupDiscountPercent": 15
+    },
+    "collections": [
+      {
+        "collectionName": "Milazzo",
+        "years": [
+          2025
+        ],
+        "includeAllYears": true
+      },
+      {
+        "collectionName": "Brindisi",
+        "years": [
+          2024
+        ],
+        "includeAllYears": true
+      },
+      {
+        "collectionName": "Catania",
+        "years": [
+          2023
+        ],
+        "includeAllYears": true
+      },
+      {
+        "collectionName": "Adelfia",
+        "years": [
+          2025,
+          2024,
+          2023
+        ],
+        "includeAllYears": true
+      }
+    ],
+    "createdAt": "2025-10-25T14:54:26.692Z",
+    "updatedAt": "2025-11-20T00:55:41.169Z",
+    "presentationItems": [
+      {
+        "id": "Milazzo-1761486800343",
+        "type": "collection",
+        "order": 0,
+        "collectionData": {
+          "collectionName": "Milazzo",
+          "productCount": 3,
+          "heroVideoUrl": "https://cdn.shopify.com/videos/c/o/v/92c6ca7e8da34ead84b65d71ebc4112e.mp4",
+          "vendor": "lib-and-co",
+          "includeAllYears": true,
+          "years": [
+            2025
+          ]
+        },
+        "properties": {
+          "startExpanded": false,
+          "showProductCount": true,
+          "badges": [
+            {
+              "id": "badge-1761488944784-wpq3dxwot",
+              "type": "dallas-favorite",
+              "label": "Dallas Market Favorite",
+              "color": "bg-blue-500",
+              "icon": "star"
+            },
+            {
+              "id": "badge-1761488976585-vlugrefec",
+              "type": "top-scanned",
+              "label": "Top Scanned",
+              "color": "bg-purple-500",
+              "icon": "trending-up"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Brindisi-1761492629625",
+        "type": "collection",
+        "order": 1,
+        "collectionData": {
+          "collectionName": "Brindisi",
+          "productCount": 3,
+          "heroVideoUrl": "https://cdn.shopify.com/videos/c/o/v/99a2d80c1a3f4804b0603e131de1c3cd.mp4",
+          "vendor": "lib-and-co",
+          "includeAllYears": true,
+          "years": [
+            2024
+          ]
+        },
+        "properties": {
+          "startExpanded": false,
+          "showProductCount": true,
+          "badges": [],
+          "skuBadges": {
+            "12048-028": [
+              {
+                "id": "badge-1761503018643-8zgxlr12f",
+                "type": "top-scanned",
+                "label": "Top Scanned",
+                "color": "bg-purple-500",
+                "icon": "trending-up"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "Catania-1761492633692",
+        "type": "collection",
+        "order": 2,
+        "collectionData": {
+          "collectionName": "Catania",
+          "productCount": 5,
+          "heroVideoUrl": "https://cdn.shopify.com/videos/c/o/v/399e0fa7c4a7492abde61c06129ec25e.mp4",
+          "vendor": "lib-and-co",
+          "includeAllYears": true,
+          "years": [
+            2023
+          ]
+        },
+        "properties": {
+          "startExpanded": false,
+          "showProductCount": true,
+          "badges": [],
+          "skuBadges": {
+            "10101-01": [
+              {
+                "id": "badge-1761502607317-2wnw9hlvu",
+                "type": "dallas-favorite",
+                "label": "Dallas Market Favorite",
+                "color": "bg-blue-500",
+                "icon": "star"
+              }
+            ],
+            "10103-01": [
+              {
+                "id": "badge-1761502969357-13sfeyfek",
+                "type": "top-scanned",
+                "label": "Top Scanned",
+                "color": "bg-purple-500",
+                "icon": "trending-up"
+              }
+            ]
+          },
+          "media": {
+            "mediaType": "mp4",
+            "mp4Url": "https://cdn.shopify.com/videos/c/o/v/399e0fa7c4a7492abde61c06129ec25e.mp4",
+            "mp4StartTime": 6
+          }
+        }
+      },
+      {
+        "id": "Adelfia-1762214888641",
+        "type": "collection",
+        "order": 4,
+        "collectionData": {
+          "collectionName": "Adelfia",
+          "productCount": 22,
+          "heroVideoUrl": "https://cdn.shopify.com/videos/c/o/v/4d5e05356d394333a5742f9ec0e95ab4.mp4",
+          "vendor": "lib-and-co",
+          "includeAllYears": true,
+          "years": [
+            2025,
+            2024,
+            2023
+          ]
+        },
+        "properties": {
+          "startExpanded": false,
+          "showProductCount": true,
+          "badges": [],
+          "media": {
+            "mediaType": "mp4",
+            "mp4Url": "https://cdn.shopify.com/videos/c/o/v/4d5e05356d394333a5742f9ec0e95ab4.mp4",
+            "mp4StartTime": 5
+          }
+        }
+      }
+    ],
+    "presentations": [
+      {
+        "id": "9339510a-88d0-49bb-80b6-fb53f3350313",
+        "name": "2025 Intros",
+        "presentationItems": [
+          {
+            "id": "Manarola-1761486743657",
+            "type": "collection",
+            "order": 0,
+            "collectionData": {
+              "collectionName": "Manarola",
+              "productCount": 22,
+              "heroVideoUrl": "https://cdn.shopify.com/videos/c/o/v/d4ebefaba5054c2dae006a27b58d122f.mp4",
+              "vendor": "lib-and-co",
+              "includeAllYears": true,
+              "years": [
+                2025,
+                2024,
+                2023
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true
+            }
+          }
+        ],
+        "collections": [
+          {
+            "collectionName": "Manarola",
+            "years": [
+              2025,
+              2024,
+              2023
+            ],
+            "includeAllYears": true
+          }
+        ],
+        "isActive": true,
+        "createdAt": "2025-10-26T13:51:37.162Z",
+        "updatedAt": "2025-10-26T13:52:31.023Z"
+      }
+    ],
+    "endDate": "2025-11-27",
+    "summaryTitle": "Loyalty Dealer Promo",
+    "summaryBody": "TEST TEST TEST",
+    "headlineBenefit": "30% off display",
+    "summaryBullets": [
+      "30% off display items with 5+ qualifying SKUs",
+      "Additional 15% off backup and stock inventory",
+      "Includes select collections: Milazzo, Brindisi, Catania, and Adelfia"
+    ]
+  },
+  {
+    "id": "promo_1763411244889_yyaojp1ss",
+    "name": "Dallas Promo",
+    "vendor": "hubbardton-forge",
+    "description": "TEST",
+    "active": true,
+    "endDate": "2025-11-27",
+    "skuTiers": [],
+    "dollarTiers": [
+      {
+        "threshold": 15000,
+        "discountPercent": 50,
+        "id": "promo_1763693373928_o4ryuj8fv"
+      }
+    ],
+    "inventoryIncentive": {
+      "enabled": false,
+      "backupDiscountPercent": 0
+    },
+    "collections": [
+      {
+        "collectionName": "Coral",
+        "years": [
+          2025
+        ],
+        "includeAllYears": true
+      },
+      {
+        "collectionName": "Fracture",
+        "years": [
+          2025
+        ],
+        "includeAllYears": true
+      },
+      {
+        "collectionName": "Horizon",
+        "years": [
+          2025
+        ],
+        "includeAllYears": true
+      },
+      {
+        "collectionName": "Shield",
+        "years": [
+          2025
+        ],
+        "includeAllYears": true
+      },
+      {
+        "collectionName": "Snaps",
+        "years": [
+          2025
+        ],
+        "includeAllYears": true
+      }
+    ],
+    "createdAt": "2025-11-17T20:27:24.889Z",
+    "updatedAt": "2025-11-21T02:49:33.928Z",
+    "summaryBullets": [
+      "Unlock 50% savings on orders of $15,000 or more",
+      "Dollar-based tiers reward higher order values",
+      "Special Dallas Market pricing on premium craftsmanship"
+    ],
+    "presentations": [
+      {
+        "id": "273252c8-4ea9-4e6e-99d6-b9907a613f84",
+        "name": "Default Presentation",
+        "presentationItems": [
+          {
+            "id": "Coral-1763418206082",
+            "type": "collection",
+            "order": 0,
+            "collectionData": {
+              "collectionName": "Coral",
+              "productCount": 1,
+              "vendor": "hubbardton-forge",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Fracture-1763418210501",
+            "type": "collection",
+            "order": 1,
+            "collectionData": {
+              "collectionName": "Fracture",
+              "productCount": 1,
+              "vendor": "hubbardton-forge",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Horizon-1763418212701",
+            "type": "collection",
+            "order": 2,
+            "collectionData": {
+              "collectionName": "Horizon",
+              "productCount": 2,
+              "heroVideoUrl": "{\"url\":\"youtube:nqOKWA1rKrs\",\"startTime\":32}",
+              "vendor": "hubbardton-forge",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Shield-1763418215151",
+            "type": "collection",
+            "order": 3,
+            "collectionData": {
+              "collectionName": "Shield",
+              "productCount": 3,
+              "vendor": "hubbardton-forge",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Snaps-1763418218184",
+            "type": "collection",
+            "order": 4,
+            "collectionData": {
+              "collectionName": "Snaps",
+              "productCount": 13,
+              "vendor": "hubbardton-forge",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Aspen-1763686606610",
+            "type": "collection",
+            "order": 5,
+            "collectionData": {
+              "collectionName": "Aspen",
+              "productCount": 2,
+              "vendor": "hubbardton-forge",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Crux-1763686607160",
+            "type": "collection",
+            "order": 6,
+            "collectionData": {
+              "collectionName": "Crux",
+              "productCount": 2,
+              "vendor": "hubbardton-forge",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Cairn-1763686607727",
+            "type": "collection",
+            "order": 7,
+            "collectionData": {
+              "collectionName": "Cairn",
+              "productCount": 2,
+              "vendor": "hubbardton-forge",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Gatsby-1763686607943",
+            "type": "collection",
+            "order": 8,
+            "collectionData": {
+              "collectionName": "Gatsby",
+              "productCount": 1,
+              "vendor": "hubbardton-forge",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Henry-1763686608143",
+            "type": "collection",
+            "order": 9,
+            "collectionData": {
+              "collectionName": "Henry",
+              "productCount": 6,
+              "vendor": "hubbardton-forge",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Lattice-1763686608326",
+            "type": "collection",
+            "order": 10,
+            "collectionData": {
+              "collectionName": "Lattice",
+              "productCount": 1,
+              "vendor": "hubbardton-forge",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Spire-1763686608493",
+            "type": "collection",
+            "order": 11,
+            "collectionData": {
+              "collectionName": "Spire",
+              "productCount": 1,
+              "vendor": "hubbardton-forge",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Sway-1763686608643",
+            "type": "collection",
+            "order": 12,
+            "collectionData": {
+              "collectionName": "Sway",
+              "productCount": 1,
+              "vendor": "hubbardton-forge",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Union-1763686608793",
+            "type": "collection",
+            "order": 13,
+            "collectionData": {
+              "collectionName": "Union",
+              "productCount": 1,
+              "vendor": "hubbardton-forge",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          }
+        ],
+        "collections": [
+          {
+            "collectionName": "Coral",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Fracture",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Horizon",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Shield",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Snaps",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Aspen",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Crux",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Cairn",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Gatsby",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Henry",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Lattice",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Spire",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Sway",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Union",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          }
+        ],
+        "isActive": true,
+        "createdAt": "2025-11-17T20:27:24.889Z",
+        "updatedAt": "2025-11-21T00:56:52.564Z"
+      }
+    ],
+    "presentationItems": [
+      {
+        "id": "Coral-1763418206082",
+        "type": "collection",
+        "order": 0,
+        "collectionData": {
+          "collectionName": "Coral",
+          "productCount": 1,
+          "vendor": "hubbardton-forge",
+          "includeAllYears": true,
+          "years": [
+            2025
+          ]
+        },
+        "properties": {
+          "startExpanded": false,
+          "showProductCount": true,
+          "badges": []
+        }
+      },
+      {
+        "id": "Fracture-1763418210501",
+        "type": "collection",
+        "order": 1,
+        "collectionData": {
+          "collectionName": "Fracture",
+          "productCount": 1,
+          "vendor": "hubbardton-forge",
+          "includeAllYears": true,
+          "years": [
+            2025
+          ]
+        },
+        "properties": {
+          "startExpanded": false,
+          "showProductCount": true,
+          "badges": []
+        }
+      },
+      {
+        "id": "Horizon-1763418212701",
+        "type": "collection",
+        "order": 2,
+        "collectionData": {
+          "collectionName": "Horizon",
+          "productCount": 2,
+          "heroVideoUrl": "{\"url\":\"youtube:nqOKWA1rKrs\",\"startTime\":32}",
+          "vendor": "hubbardton-forge",
+          "includeAllYears": true,
+          "years": [
+            2025
+          ]
+        },
+        "properties": {
+          "startExpanded": false,
+          "showProductCount": true,
+          "badges": []
+        }
+      },
+      {
+        "id": "Shield-1763418215151",
+        "type": "collection",
+        "order": 3,
+        "collectionData": {
+          "collectionName": "Shield",
+          "productCount": 3,
+          "vendor": "hubbardton-forge",
+          "includeAllYears": true,
+          "years": [
+            2025
+          ]
+        },
+        "properties": {
+          "startExpanded": false,
+          "showProductCount": true,
+          "badges": []
+        }
+      },
+      {
+        "id": "Snaps-1763418218184",
+        "type": "collection",
+        "order": 4,
+        "collectionData": {
+          "collectionName": "Snaps",
+          "productCount": 13,
+          "vendor": "hubbardton-forge",
+          "includeAllYears": true,
+          "years": [
+            2025
+          ]
+        },
+        "properties": {
+          "startExpanded": false,
+          "showProductCount": true,
+          "badges": []
+        }
+      }
+    ],
+    "portableIncentive": {
+      "enabled": true,
+      "discountPercent": 10,
+      "skuPrefixes": [
+        "24",
+        "27",
+        "402749"
+      ]
+    }
+  },
+  {
+    "id": "promo_1763416527812_256spny7e",
+    "name": "June Market Promotion",
+    "vendor": "savoy-house",
+    "active": true,
+    "skuTiers": [],
+    "dollarTiers": [],
+    "inventoryIncentive": {
+      "enabled": false,
+      "backupDiscountPercent": 0
+    },
+    "uploadedPromotionUrl": "/uploads/promotions/1763416411642-SH-MarketPromo-June2025.pdf",
+    "uploadedPromotionType": "pdf",
+    "createdAt": "2025-11-17T21:55:27.812Z",
+    "updatedAt": "2025-11-18T15:53:35.123Z",
+    "presentations": [
+      {
+        "id": "0dcbfaeb-7e3a-4399-90a7-ba26787a9445",
+        "name": "Default Presentation",
+        "presentationItems": [
+          {
+            "id": "Abeline-1763430758710",
+            "type": "collection",
+            "order": 1,
+            "collectionData": {
+              "collectionName": "Abeline",
+              "productCount": 1,
+              "heroVideoUrl": "{\"url\":\"youtube:-bdOWqvEsaQ\",\"startTime\":397,\"endTime\":423}",
+              "vendor": "savoy-house",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Antolini-1763430764943",
+            "type": "collection",
+            "order": 2,
+            "collectionData": {
+              "collectionName": "Antolini",
+              "productCount": 2,
+              "heroVideoUrl": "{\"url\":\"youtube:-bdOWqvEsaQ\",\"startTime\":512,\"endTime\":537}",
+              "vendor": "savoy-house",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Aragon-1763430765892",
+            "type": "collection",
+            "order": 3,
+            "collectionData": {
+              "collectionName": "Aragon",
+              "productCount": 2,
+              "heroVideoUrl": "{\"url\":\"youtube:-bdOWqvEsaQ\",\"startTime\":174,\"endTime\":198}",
+              "vendor": "savoy-house",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Atherton-1763430766993",
+            "type": "collection",
+            "order": 4,
+            "collectionData": {
+              "collectionName": "Atherton",
+              "productCount": 1,
+              "heroVideoUrl": "{\"url\":\"youtube:-bdOWqvEsaQ\",\"startTime\":423,\"endTime\":448}",
+              "vendor": "savoy-house",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Bailey-1763430767677",
+            "type": "collection",
+            "order": 5,
+            "collectionData": {
+              "collectionName": "Bailey",
+              "productCount": 3,
+              "heroVideoUrl": "{\"url\":\"youtube:-bdOWqvEsaQ\",\"startTime\":123,\"endTime\":149}",
+              "vendor": "savoy-house",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Balfour-1763430768443",
+            "type": "collection",
+            "order": 6,
+            "collectionData": {
+              "collectionName": "Balfour",
+              "productCount": 8,
+              "heroVideoUrl": "{\"url\":\"youtube:-bdOWqvEsaQ\",\"startTime\":248,\"endTime\":273}",
+              "vendor": "savoy-house",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Belleza-1763430769842",
+            "type": "collection",
+            "order": 7,
+            "collectionData": {
+              "collectionName": "Belleza",
+              "productCount": 2,
+              "heroVideoUrl": "{\"url\":\"youtube:-bdOWqvEsaQ\",\"startTime\":687,\"endTime\":712}",
+              "vendor": "savoy-house",
+              "includeAllYears": true,
+              "years": [
+                2025
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          },
+          {
+            "id": "Blair-1763430770709",
+            "type": "collection",
+            "order": 8,
+            "collectionData": {
+              "collectionName": "Blair",
+              "productCount": 27,
+              "heroVideoUrl": "{\"url\":\"youtube:-bdOWqvEsaQ\",\"startTime\":612,\"endTime\":638}",
+              "vendor": "savoy-house",
+              "includeAllYears": true,
+              "years": [
+                2025,
+                2024
+              ]
+            },
+            "properties": {
+              "startExpanded": false,
+              "showProductCount": true,
+              "badges": []
+            }
+          }
+        ],
+        "collections": [
+          {
+            "collectionName": "Abeline",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Antolini",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Aragon",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Atherton",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Bailey",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Balfour",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Belleza",
+            "years": [
+              2025
+            ],
+            "includeAllYears": true
+          },
+          {
+            "collectionName": "Blair",
+            "years": [
+              2025,
+              2024
+            ],
+            "includeAllYears": true
+          }
+        ],
+        "isActive": false,
+        "createdAt": "2025-11-18T01:52:00.343Z",
+        "updatedAt": "2025-11-18T15:53:35.123Z"
+      }
+    ],
+    "collections": [
+      {
+        "collectionName": "Abbott",
+        "years": [
+          2025
+        ],
+        "includeAllYears": true
+      },
+      {
+        "collectionName": "Abeline",
+        "years": [
+          2025
+        ],
+        "includeAllYears": true
+      },
+      {
+        "collectionName": "Antolini",
+        "years": [
+          2025
+        ],
+        "includeAllYears": true
+      },
+      {
+        "collectionName": "Aragon",
+        "years": [
+          2025
+        ],
+        "includeAllYears": true
+      },
+      {
+        "collectionName": "Atherton",
+        "years": [
+          2025
+        ],
+        "includeAllYears": true
+      },
+      {
+        "collectionName": "Bailey",
+        "years": [
+          2025
+        ],
+        "includeAllYears": true
+      },
+      {
+        "collectionName": "Balfour",
+        "years": [
+          2025
+        ],
+        "includeAllYears": true
+      },
+      {
+        "collectionName": "Belleza",
+        "years": [
+          2025
+        ],
+        "includeAllYears": true
+      },
+      {
+        "collectionName": "Blair",
+        "years": [
+          2025,
+          2024
+        ],
+        "includeAllYears": true
+      }
+    ],
+    "presentationItems": [
+      {
+        "id": "Abbott-1763430757345",
+        "type": "collection",
+        "order": 0,
+        "collectionData": {
+          "collectionName": "Abbott",
+          "productCount": 2,
+          "heroVideoUrl": "{\"url\":\"youtube:-bdOWqvEsaQ\",\"startTime\":862,\"endTime\":902}",
+          "vendor": "savoy-house",
+          "includeAllYears": true,
+          "years": [
+            2025
+          ]
+        },
+        "properties": {
+          "startExpanded": false,
+          "showProductCount": true,
+          "badges": []
+        }
+      },
+      {
+        "id": "Abeline-1763430758710",
+        "type": "collection",
+        "order": 1,
+        "collectionData": {
+          "collectionName": "Abeline",
+          "productCount": 1,
+          "heroVideoUrl": "{\"url\":\"youtube:-bdOWqvEsaQ\",\"startTime\":397,\"endTime\":423}",
+          "vendor": "savoy-house",
+          "includeAllYears": true,
+          "years": [
+            2025
+          ]
+        },
+        "properties": {
+          "startExpanded": false,
+          "showProductCount": true,
+          "badges": []
+        }
+      },
+      {
+        "id": "Antolini-1763430764943",
+        "type": "collection",
+        "order": 2,
+        "collectionData": {
+          "collectionName": "Antolini",
+          "productCount": 2,
+          "heroVideoUrl": "{\"url\":\"youtube:-bdOWqvEsaQ\",\"startTime\":512,\"endTime\":537}",
+          "vendor": "savoy-house",
+          "includeAllYears": true,
+          "years": [
+            2025
+          ]
+        },
+        "properties": {
+          "startExpanded": false,
+          "showProductCount": true,
+          "badges": []
+        }
+      },
+      {
+        "id": "Aragon-1763430765892",
+        "type": "collection",
+        "order": 3,
+        "collectionData": {
+          "collectionName": "Aragon",
+          "productCount": 2,
+          "heroVideoUrl": "{\"url\":\"youtube:-bdOWqvEsaQ\",\"startTime\":174,\"endTime\":198}",
+          "vendor": "savoy-house",
+          "includeAllYears": true,
+          "years": [
+            2025
+          ]
+        },
+        "properties": {
+          "startExpanded": false,
+          "showProductCount": true,
+          "badges": []
+        }
+      },
+      {
+        "id": "Atherton-1763430766993",
+        "type": "collection",
+        "order": 4,
+        "collectionData": {
+          "collectionName": "Atherton",
+          "productCount": 1,
+          "heroVideoUrl": "{\"url\":\"youtube:-bdOWqvEsaQ\",\"startTime\":423,\"endTime\":448}",
+          "vendor": "savoy-house",
+          "includeAllYears": true,
+          "years": [
+            2025
+          ]
+        },
+        "properties": {
+          "startExpanded": false,
+          "showProductCount": true,
+          "badges": []
+        }
+      },
+      {
+        "id": "Bailey-1763430767677",
+        "type": "collection",
+        "order": 5,
+        "collectionData": {
+          "collectionName": "Bailey",
+          "productCount": 3,
+          "heroVideoUrl": "{\"url\":\"youtube:-bdOWqvEsaQ\",\"startTime\":123,\"endTime\":149}",
+          "vendor": "savoy-house",
+          "includeAllYears": true,
+          "years": [
+            2025
+          ]
+        },
+        "properties": {
+          "startExpanded": false,
+          "showProductCount": true,
+          "badges": []
+        }
+      },
+      {
+        "id": "Balfour-1763430768443",
+        "type": "collection",
+        "order": 6,
+        "collectionData": {
+          "collectionName": "Balfour",
+          "productCount": 8,
+          "heroVideoUrl": "{\"url\":\"youtube:-bdOWqvEsaQ\",\"startTime\":248,\"endTime\":273}",
+          "vendor": "savoy-house",
+          "includeAllYears": true,
+          "years": [
+            2025
+          ]
+        },
+        "properties": {
+          "startExpanded": false,
+          "showProductCount": true,
+          "badges": []
+        }
+      },
+      {
+        "id": "Belleza-1763430769842",
+        "type": "collection",
+        "order": 7,
+        "collectionData": {
+          "collectionName": "Belleza",
+          "productCount": 2,
+          "heroVideoUrl": "{\"url\":\"youtube:-bdOWqvEsaQ\",\"startTime\":687,\"endTime\":712}",
+          "vendor": "savoy-house",
+          "includeAllYears": true,
+          "years": [
+            2025
+          ]
+        },
+        "properties": {
+          "startExpanded": false,
+          "showProductCount": true,
+          "badges": []
+        }
+      },
+      {
+        "id": "Blair-1763430770709",
+        "type": "collection",
+        "order": 8,
+        "collectionData": {
+          "collectionName": "Blair",
+          "productCount": 27,
+          "heroVideoUrl": "{\"url\":\"youtube:-bdOWqvEsaQ\",\"startTime\":612,\"endTime\":638}",
+          "vendor": "savoy-house",
+          "includeAllYears": true,
+          "years": [
+            2025,
+            2024
+          ]
+        },
+        "properties": {
+          "startExpanded": false,
+          "showProductCount": true,
+          "badges": []
+        }
+      }
+    ]
+  }
+]

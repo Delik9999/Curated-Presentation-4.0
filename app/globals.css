@@ -4,48 +4,295 @@
 
 :root {
   color-scheme: light;
-  --background: 210 40% 98%;
+
+  /* Light theme - clean, professional */
+  --background: 0 0% 100%;
   --foreground: 222 47% 11%;
-  --muted: 210 16% 93%;
-  --muted-foreground: 215 16% 47%;
-  --border: 214 32% 91%;
+
   --card: 0 0% 100%;
   --card-foreground: 222 47% 11%;
-  --accent: 25 85% 55%;
-  --primary: 222 47% 20%;
-  --primary-foreground: 210 40% 98%;
-  --secondary: 210 25% 96%;
-  --secondary-foreground: 222 47% 20%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+
+  --primary: 221 83% 53%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 210 14% 97%;
+  --secondary-foreground: 222 47% 11%;
+
+  --muted: 210 14% 97%;
+  --muted-foreground: 215 16% 45%;
+
+  --accent: 210 14% 97%;
+  --accent-foreground: 222 47% 11%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
+  --ring: 221 83% 53%;
 }
 
 .dark {
   color-scheme: dark;
-  --background: 222 47% 11%;
-  --foreground: 210 40% 98%;
-  --muted: 217 33% 17%;
-  --muted-foreground: 215 20% 65%;
-  --border: 217 33% 24%;
-  --card: 222 47% 14%;
-  --card-foreground: 210 40% 98%;
-  --accent: 25 85% 55%;
-  --primary: 210 40% 98%;
-  --primary-foreground: 222 47% 11%;
-  --secondary: 217 33% 24%;
-  --secondary-foreground: 210 40% 98%;
+
+  /* Dark theme - black periphery, deep cards, high-contrast text */
+  --background: 0 0% 0%;          /* pure black page shell */
+  --foreground: 0 0% 100%;        /* pure white text */
+
+  --card: 240 6% 10%;             /* dark card surfaces */
+  --card-foreground: 0 0% 100%;
+
+  --popover: 240 6% 8%;
+  --popover-foreground: 0 0% 100%;
+
+  --primary: 221 83% 66%;         /* brighter primary for dark */
+  --primary-foreground: 224 71% 4%;
+
+  --secondary: 240 5% 14%;        /* chips/ghost buttons */
+  --secondary-foreground: 0 0% 100%;
+
+  --muted: 240 4% 16%;            /* pills, side rails */
+  --muted-foreground: 0 0% 72%;   /* muted text */
+
+  --accent: 240 5% 18%;
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 72% 50%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 240 5% 26%;           /* subtle separators */
+  --input: 240 5% 20%;
+  --ring: 221 83% 66%;
 }
 
-body {
+/* Page shell must always fill and use tokens */
+html, body {
+  min-height: 100%;
   @apply bg-background text-foreground font-sans;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Ensure immersive presentation pages have pure black backgrounds */
+body:has(.immersive-page-grid) {
+  background-color: #000000 !important;
 }
 
 a {
-  @apply text-primary underline-offset-4 hover:underline;
+  color: hsl(var(--primary));
+  text-underline-offset: 4px;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+/* Enhanced shadow system for dark mode */
 .card-shadow {
   box-shadow: 0 20px 40px -24px rgba(15, 23, 42, 0.3);
+  transition: box-shadow 0.3s ease;
 }
 
 .dark .card-shadow {
-  box-shadow: 0 20px 40px -24px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 20px 40px -24px rgba(0, 0, 0, 0.7);
+}
+
+/* Smooth transitions for theme-aware elements */
+*,
+*::before,
+*::after {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+/* Ensure borders are visible in dark mode */
+.dark {
+  /* Enhance border visibility */
+  --tw-border-opacity: 1;
+}
+
+/* Fix any white backgrounds that might appear in dark mode */
+.dark [class*="bg-white"] {
+  background-color: hsl(var(--card)) !important;
+}
+
+.dark [class*="text-gray-900"],
+.dark [class*="text-neutral-900"] {
+  color: hsl(var(--foreground)) !important;
+}
+
+/* Improve input/select appearance in dark mode */
+.dark input,
+.dark textarea,
+.dark select {
+  background-color: hsl(var(--input));
+  color: hsl(var(--input-foreground));
+  border-color: hsl(var(--border));
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: hsl(var(--muted-foreground));
+  opacity: 0.7;
+}
+
+/* Dark mode scrollbar styling */
+.dark ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 5px;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--border-strong));
+}
+
+/* ==================================
+   Immersive Sticky-Context Layout
+   ================================== */
+
+/* Ken Burns effect for hero images (looping pan-in/pan-out) */
+@keyframes kenBurnsLoop {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  100% {
+    transform: scale(1.1) translate(-2%, -2%);
+  }
+}
+
+/* Page-level CSS Grid architecture for asymmetrical layout */
+.immersive-page-grid {
+  display: grid;
+  grid-template-columns:
+    [full-start macro-start] minmax(600px, 60vw)
+    [content-start grid-start] 1fr
+    minmax(2rem, 4rem)
+    [full-end];
+  gap: 0; /* Remove gap to allow overlap */
+  position: relative;
+  padding-left: 0; /* Macro goes all the way to left edge */
+  overflow-x: clip; /* Allow macro to extend beyond but hide horizontal scroll */
+}
+
+/* Full-bleed hero spans all columns */
+.hero-full-bleed {
+  grid-column: full-start / full-end;
+}
+
+/* Sticky macro shot column - LARGE with vignette fade, aligned to left edge */
+.macro-shot-column {
+  grid-column: macro-start; /* Starts at far left */
+  position: sticky;
+  top: 80px; /* Offset by header height */
+  height: fit-content;
+  opacity: 0; /* Initially hidden - GSAP will animate */
+  transition: opacity 0.5s ease;
+  z-index: 1; /* Below product cards */
+  pointer-events: none; /* Allow clicks through to products */
+  margin-left: -10vw; /* Push further left beyond grid edge */
+  width: calc(100% + 10vw); /* Extend width to compensate */
+}
+
+.macro-shot-column img {
+  width: 100%;
+  height: auto;
+  max-height: 90vh; /* Large, immersive size */
+  object-fit: cover;
+  border-radius: 0; /* Remove border radius for full-bleed feel */
+  /* Right-side vignette fade - adjusted for extended width */
+  mask-image: linear-gradient(to right,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 55%,
+    rgba(0, 0, 0, 0.8) 70%,
+    rgba(0, 0, 0, 0.3) 85%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  -webkit-mask-image: linear-gradient(to right,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 55%,
+    rgba(0, 0, 0, 0.8) 70%,
+    rgba(0, 0, 0, 0.3) 85%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+/* Product grid (scrolling content) with padding to clear macro image */
+.product-grid-asymmetrical {
+  grid-column: grid-start;
+  position: relative;
+  z-index: 2; /* Above macro shot */
+  padding-left: 2rem; /* Add padding to keep cards from macro edge */
+}
+
+/* Content-first responsive breakpoint: Remove macro shot at 1440px */
+@media (max-width: 1440px) {
+  .immersive-page-grid {
+    grid-template-columns:
+      [full-start content-start grid-start] 1fr
+      minmax(2rem, 4rem)
+      [full-end];
+    padding-left: 2rem; /* Add left padding when macro is hidden */
+  }
+
+  .macro-shot-column {
+    display: none; /* Sacrifice aesthetic for functional integrity */
+  }
+
+  .product-grid-asymmetrical {
+    grid-column: grid-start;
+    padding-left: 0; /* Remove extra padding on small screens */
+  }
+}
+
+/* Video layout: Full-width 4-column grid - responsive breakpoints */
+/* 4 columns → 3 columns at 1280px */
+@media (max-width: 1280px) {
+  .video-layout-grid {
+    grid-template-columns: repeat(3, minmax(200px, 1fr)) !important;
+  }
+}
+
+/* 3 columns → 2 columns at 768px */
+@media (max-width: 768px) {
+  .video-layout-grid {
+    grid-template-columns: repeat(2, minmax(160px, 1fr)) !important;
+  }
+}
+
+/* 2 columns → 1 column at 480px */
+@media (max-width: 480px) {
+  .video-layout-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Scroll padding for sticky header offset */
+html {
+  scroll-padding-top: 80px;
+}
+
+/* Legacy Ken Burns (for backward compatibility) */
+@keyframes kenBurns {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.ken-burns {
+  animation: kenBurns 10s ease-in-out infinite alternate;
 }

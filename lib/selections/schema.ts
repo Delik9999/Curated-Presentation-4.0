@@ -10,6 +10,13 @@ export const selectionItemSchema = z.object({
   extendedNet: z.number().nonnegative(),
   notes: z.string().optional(),
   tags: z.array(z.string()).optional(),
+  collection: z.string().optional(),
+  year: z.number().optional(),
+  configuration: z.object({
+    baseItemCode: z.string(),
+    options: z.record(z.string()),
+    productName: z.string(),
+  }).optional(),
 });
 
 export const selectionSchema = z.object({
@@ -21,6 +28,11 @@ export const selectionSchema = z.object({
   sourceEventId: z.string().optional(),
   sourceYear: z.number().optional(),
   marketMonth: z.union([z.literal('January'), z.literal('June')]).optional(),
+  marketCycle: z.object({
+    year: z.number(),
+    month: z.union([z.literal('January'), z.literal('June')]),
+  }).optional(),
+  vendor: z.string().optional(),
   isPublished: z.boolean(),
   isVisibleToCustomer: z.boolean().optional(),
   version: z.number().int().positive(),

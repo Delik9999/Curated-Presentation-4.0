@@ -1,0 +1,932 @@
+SKU,ItemDescription,CumulativeUnitsCanada,Province,CustomerNo,CustomerName,SalesRep,Currency,PostingDate,OrderQuantity,AmountExclVAT,AmountInclVAT
+10101-01,"Catania, 1 Light LED Pendant, Chrome",5,BC,C00444,Robinson - Granville,MR - Luminescence,CAD,2025-10-31,1.0,182.0,191.1
+10101-01,"Catania, 1 Light LED Pendant, Chrome",5,BC,C00444,Robinson - Granville,MR - Luminescence,CAD,2025-10-31,4.0,884.0,928.2
+10101-07,"Catania, 1 Light LED Pendant, Plated Brushed Gold",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-08,3.0,930.0,976.5
+10102-01,"Catania, 8 Light Round LED Chandelier, Chrome",1,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-09-19,1.0,2026.0,2127.3
+10104-01,"Catania, 18 Light Round LED Chandelier, Chrome",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-08-12,1.0,4462.0,4685.1
+10106-02,"Terlizzi, Large Linear LED Chandelier, Matte Black",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-08-12,1.0,1078.0,1131.9
+10106-02,"Terlizzi, Large Linear LED Chandelier, Matte Black",2,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-04-17,1.0,1078.0,1131.9
+10108-02,"Terlizzi, Square LED Chandelier, Matte Black",1,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-02-24,1.0,638.0,669.9
+10109-02,"Terlizzi, Square LED Ceiling Mount, Matte Black",5,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-08-22,1.0,418.0,438.9
+10109-02,"Terlizzi, Square LED Ceiling Mount, Matte Black",5,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-05-23,4.0,1672.0,1755.6
+10113-03,"Belluno, 48 Light LED Grand Chandelier, Champagne Gold",1,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-01-17,1.0,5484.6,5758.83
+10114-03,"Belluno, 15 Light LED Chandelier, Champagne gold",7,AB,C00474,Vivid Concepts Inc. - Edmonton,MR - Luminescence,CAD,2025-08-29,1.0,1272.0,1335.6
+10114-03,"Belluno, 15 Light LED Chandelier, Champagne gold",7,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-02-18,1.0,1113.0,1168.65
+10114-03,"Belluno, 15 Light LED Chandelier, Champagne gold",7,BC,C00111,Mclaren Lighting - Nanaimo,MR - Luminescence,CAD,2025-05-23,1.0,1590.0,1669.5
+10114-03,"Belluno, 15 Light LED Chandelier, Champagne gold",7,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-10-24,1.0,1590.0,1669.5
+10114-03,"Belluno, 15 Light LED Chandelier, Champagne gold",7,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-10-03,1.0,1590.0,1669.5
+10114-03,"Belluno, 15 Light LED Chandelier, Champagne gold",7,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,1.0,1590.0,1669.5
+10114-03,"Belluno, 15 Light LED Chandelier, Champagne gold",7,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-04-15,1.0,1590.0,1669.5
+10114-042,"Belluno, 15 Light LED Chandelier, Brushed Vintage Grey",1,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-04-25,1.0,1590.0,1669.5
+10115-03,"Belluno, 26 Light Oval LED Chandelier, Champagne Gold",14,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-03-13,1.0,1904.0,1999.2
+10115-03,"Belluno, 26 Light Oval LED Chandelier, Champagne Gold",14,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-01-31,1.0,2541.0,2668.05
+10115-03,"Belluno, 26 Light Oval LED Chandelier, Champagne Gold",14,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-01-17,1.0,2541.0,2668.05
+10115-03,"Belluno, 26 Light Oval LED Chandelier, Champagne Gold",14,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-01-17,1.0,2541.0,2668.05
+10115-03,"Belluno, 26 Light Oval LED Chandelier, Champagne Gold",14,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-21,1.0,2040.0,2142.0
+10115-03,"Belluno, 26 Light Oval LED Chandelier, Champagne Gold",14,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-10,1.0,2720.0,2856.0
+10115-03,"Belluno, 26 Light Oval LED Chandelier, Champagne Gold",14,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-02-24,2.0,5082.0,5336.1
+10115-03,"Belluno, 26 Light Oval LED Chandelier, Champagne Gold",14,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-04-25,1.0,1569.1,1647.56
+10115-03,"Belluno, 26 Light Oval LED Chandelier, Champagne Gold",14,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-02-10,1.0,2541.0,2668.05
+10115-03,"Belluno, 26 Light Oval LED Chandelier, Champagne Gold",14,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-02-14,1.0,1778.7,1867.63
+10115-03,"Belluno, 26 Light Oval LED Chandelier, Champagne Gold",14,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-01-17,1.0,2286.9,2401.25
+10115-03,"Belluno, 26 Light Oval LED Chandelier, Champagne Gold",14,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-01-17,1.0,2541.0,2668.05
+10115-03,"Belluno, 26 Light Oval LED Chandelier, Champagne Gold",14,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-07,1.0,2720.0,2856.0
+10115-042,"Belluno, 26 Light Oval LED Chandelier, Brushed Vintage Grey",1,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-03-21,1.0,1904.0,1999.2
+10116-03,"Belluno, 37 Light Oval LED Chandelier, Champagne Gold",1,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-09-19,1.0,2769.2,2907.66
+10116-042,"Belluno, 37 Light Oval LED Chandelier, Brushed Vintage Grey",2,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-15,1.0,3956.0,4153.8
+10116-042,"Belluno, 37 Light Oval LED Chandelier, Brushed Vintage Grey",2,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-02-18,1.0,2571.4,2699.97
+10117-04,"Portofino, 1 Light LED Pendant, Satin Gold",1,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-05-02,1.0,151.9,159.5
+10117-04-5K,"Portofino, 1 Light LED Pendant, Satin Gold, 5000K",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-01-08,3.0,750.0,787.5
+10120-04-5K,"Portofino, 7 Light Oval LED Chandelier, Satin Gold, 5000K",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-01-08,1.0,1820.0,1911.0
+10121-01,"Vinci, 3 Light LED Wall Mount, Chrome",7,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-03-14,1.0,261.0,274.05
+10121-01,"Vinci, 3 Light LED Wall Mount, Chrome",7,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-07-09,6.0,1566.0,1644.3
+10121-05,"Vinci, 3 Light LED Wall Mount, Soft Brass",4,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-02-18,1.0,191.8,201.39
+10121-05,"Vinci, 3 Light LED Wall Mount, Soft Brass",4,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-03-18,3.0,822.0,863.1
+10121-06,"Vinci, 3 Light LED Wall Mount, Metallic Black",1,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-03-21,1.0,255.0,267.75
+10123-01,"Vinci, 1 Light LED Wall Mount, Chrome",2,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-24,2.0,232.0,243.6
+10123-05,"Vinci, 1 Light LED Wall Mount, Soft Brass",5,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-10-17,1.0,120.0,126.0
+10123-05,"Vinci, 1 Light LED Wall Mount, Soft Brass",5,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-04-02,2.0,240.0,252.0
+10123-05,"Vinci, 1 Light LED Wall Mount, Soft Brass",5,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-02-05,2.0,240.0,252.0
+10123-06,"Vinci, 1 Light LED Wall Mount, Metallic Black",4,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-09-12,1.0,113.0,118.65
+10123-06,"Vinci, 1 Light LED Wall Mount, Metallic Black",4,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-10-17,2.0,226.0,237.3
+10123-06,"Vinci, 1 Light LED Wall Mount, Metallic Black",4,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-21,1.0,73.45,77.12
+10124-01,"Ancona, Large 1 Light Ceiling / Wall Mount, Chrome",3,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-01-31,1.0,146.0,153.3
+10124-01,"Ancona, Large 1 Light Ceiling / Wall Mount, Chrome",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-06-04,1.0,146.0,153.3
+10124-01,"Ancona, Large 1 Light Ceiling / Wall Mount, Chrome",3,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-03-21,1.0,146.0,153.3
+10124-05,"Ancona, Large 1 Light Ceiling / Wall Mount, Soft Brass",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-02-24,1.0,150.0,157.5
+10124-05,"Ancona, Large 1 Light Ceiling / Wall Mount, Soft Brass",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-01-27,1.0,150.0,157.5
+10124-05,"Ancona, Large 1 Light Ceiling / Wall Mount, Soft Brass",3,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-03-14,1.0,150.0,157.5
+10124-06,"Ancona, Large 1 Light Ceiling / Wall Mount, Metallic Black",2,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-03-21,2.0,284.0,298.2
+10125-05,"Ancona, Small 1 Light Ceiling / Wall Mount, Soft Brass",4,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-02-18,3.0,237.3,249.17
+10125-05,"Ancona, Small 1 Light Ceiling / Wall Mount, Soft Brass",4,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-06-19,1.0,113.0,118.65
+10126-01,"Dolo, Medium LED Wall Mount, Chrome",1,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-03-14,1.0,157.0,164.85
+10126-05,"Dolo, Medium LED Wall Mount, Soft Brass",9,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-04-16,6.0,1056.0,1108.8
+10126-05,"Dolo, Medium LED Wall Mount, Soft Brass",9,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-04-03,1.0,176.0,184.8
+10126-05,"Dolo, Medium LED Wall Mount, Soft Brass",9,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-03-21,1.0,176.0,184.8
+10126-05,"Dolo, Medium LED Wall Mount, Soft Brass",9,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-03-21,1.0,123.2,129.36
+10126-06,"Dolo, Medium LED Wall Mount, Metallic Black",5,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-05-02,2.0,298.0,312.9
+10126-06,"Dolo, Medium LED Wall Mount, Metallic Black",5,BC,C00091,Design Lighting,MR - Luminescence,CAD,2025-01-07,2.0,298.0,312.9
+10126-06,"Dolo, Medium LED Wall Mount, Metallic Black",5,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-04-25,1.0,149.0,156.45
+10127-01,"Dolo, Large LED Wall Mount, Chrome",1,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-04-03,1.0,184.0,193.2
+10127-05,"Dolo, Large LED Wall Mount, Soft Brass",2,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-04-16,2.0,416.0,436.8
+10128-05,"Trapani, 7 Light Chandelier, Soft Brass",2,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-03-13,1.0,871.0,914.55
+10128-05,"Trapani, 7 Light Chandelier, Soft Brass",2,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-03-21,1.0,609.7,640.18
+10128-06,"Trapani, 7 Light Chandelier, Metallic Black",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-10,1.0,811.0,851.55
+10128-06,"Trapani, 7 Light Chandelier, Metallic Black",2,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-03-21,1.0,567.7,596.09
+10129-06,"Trapani, 14 Light Chandelier, Metallic Black",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-06,1.0,1472.0,1545.6
+10131-01,"Ragusa, Large LED Wall Mount, Chrome",1,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-03-28,1.0,70.5,74.03
+10131-05,"Ragusa, Large LED Wall Mount, Soft Brass",8,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-06-11,3.0,447.0,469.35
+10131-05,"Ragusa, Large LED Wall Mount, Soft Brass",8,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-06-11,2.0,298.0,312.9
+10131-05,"Ragusa, Large LED Wall Mount, Soft Brass",8,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-02-20,1.0,149.0,156.45
+10131-05,"Ragusa, Large LED Wall Mount, Soft Brass",8,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-11-04,1.0,134.1,140.81
+10131-05,"Ragusa, Large LED Wall Mount, Soft Brass",8,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-24,1.0,149.0,156.45
+10131-06,"Ragusa, Large LED Wall Mount, Metallic Black",8,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-04-11,2.0,270.0,283.5
+10131-06,"Ragusa, Large LED Wall Mount, Metallic Black",8,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-07-11,1.0,94.5,99.23
+10131-06,"Ragusa, Large LED Wall Mount, Metallic Black",8,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-05-09,1.0,135.0,141.75
+10131-06,"Ragusa, Large LED Wall Mount, Metallic Black",8,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-04-16,1.0,135.0,141.75
+10131-06,"Ragusa, Large LED Wall Mount, Metallic Black",8,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-03-28,1.0,135.0,141.75
+10131-06,"Ragusa, Large LED Wall Mount, Metallic Black",8,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-11-04,2.0,243.0,255.15
+10132-05,"Ragusa, LED Wall Mount, Soft Brass",4,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-04-25,2.0,220.0,231.0
+10132-05,"Ragusa, LED Wall Mount, Soft Brass",4,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-21,2.0,187.0,196.35
+10132-06,"Ragusa, LED Wall Mount, Metallic Black",14,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-08-22,2.0,202.0,212.1
+10132-06,"Ragusa, LED Wall Mount, Metallic Black",14,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-02,2.0,202.0,212.1
+10132-06,"Ragusa, LED Wall Mount, Metallic Black",14,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-06-11,2.0,202.0,212.1
+10132-06,"Ragusa, LED Wall Mount, Metallic Black",14,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-21,4.0,343.4,360.57
+10132-06,"Ragusa, LED Wall Mount, Metallic Black",14,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-24,1.0,101.0,106.05
+10132-06,"Ragusa, LED Wall Mount, Metallic Black",14,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-06,1.0,101.0,106.05
+10132-06,"Ragusa, LED Wall Mount, Metallic Black",14,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,2.0,161.6,169.68
+10133-02,"Rovigo, 1 Light LED Wall Mount, Matte Black",2,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-29,2.0,146.0,153.3
+10133-07,"Rovigo, 1 Light LED Wall Mount, Plated Brushed Gold",6,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-01-31,6.0,606.0,636.3
+10134-01,"Rovigo, 3 Light LED Wall Mount, Chrome",2,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-05-02,1.0,162.0,170.1
+10134-01,"Rovigo, 3 Light LED Wall Mount, Chrome",2,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-03-28,1.0,81.0,85.05
+10134-02,"Rovigo, 3 Light LED Wall Mount, Matte Black",3,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-09-12,1.0,145.0,152.25
+10134-02,"Rovigo, 3 Light LED Wall Mount, Matte Black",3,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-20,2.0,246.5,258.83
+10135-01,"Rovigo, 4 Light LED Wall Mount, Chrome",1,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-03-13,1.0,212.0,222.6
+10135-02,"Rovigo, 4 Light LED Wall Mount, Matte Black",2,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-03-14,2.0,378.0,396.9
+10135-07,"Rovigo, 4 Light LED Wall Mount, Plated Brushed Gold",1,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-03-13,1.0,252.0,264.6
+10136-01,"Mola, Medium LED Wall Mount, Chrome",4,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-02-14,1.0,128.8,135.24
+10136-01,"Mola, Medium LED Wall Mount, Chrome",4,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-01-24,2.0,331.2,347.76
+10136-01,"Mola, Medium LED Wall Mount, Chrome",4,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-04-15,1.0,184.0,193.2
+10136-08,"Mola, Medium LED Wall Mount, Sand Black",10,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-04-25,1.0,165.0,173.25
+10136-08,"Mola, Medium LED Wall Mount, Sand Black",10,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-04-02,3.0,495.0,519.75
+10136-08,"Mola, Medium LED Wall Mount, Sand Black",10,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-07-09,1.0,165.0,173.25
+10136-08,"Mola, Medium LED Wall Mount, Sand Black",10,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,2.0,330.0,346.5
+10136-08,"Mola, Medium LED Wall Mount, Sand Black",10,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-21,3.0,420.75,441.79
+10137-01,"Mola, Large LED Wall Mount, Chrome",3,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-02-14,1.0,151.9,159.49
+10137-01,"Mola, Large LED Wall Mount, Chrome",3,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-01-24,1.0,195.3,205.07
+10137-01,"Mola, Large LED Wall Mount, Chrome",3,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-04-15,1.0,217.0,227.85
+10138-09,"Ruvo, LED Wall Mount, Anodized Brushed Aluminum",4,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-05-02,2.0,184.0,193.2
+10138-09,"Ruvo, LED Wall Mount, Anodized Brushed Aluminum",4,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-24,2.0,184.0,193.2
+10138-010,"Ruvo, LED Wall Mount, Anodized Brushed Black",3,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-07-10,1.0,94.0,98.7
+10138-010,"Ruvo, LED Wall Mount, Anodized Brushed Black",3,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-06-06,2.0,188.0,197.4
+10141-02,"Amalfi, 1 Light LED Pendant, Matte Black",5,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-02-24,2.0,158.1,166.01
+10141-02,"Amalfi, 1 Light LED Pendant, Matte Black",5,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-02-24,3.0,237.15,249.01
+10141-5-2-07,"Amalfi, 2 Light Pendant, Plated Brushed Gold",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-19,2.0,500.0,525.0
+10141-07,"Amalfi, 1 Light LED Pendant, Plated Brushed Gold",1,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-03-19,1.0,115.0,120.75
+10141-7-2-02,"Amalfi, 2 Light Pendant, Matte Black",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-02-10,2.0,590.0,619.5
+10141-7-2-07,"Amalfi, 2 Light Pendant, Plated Brushed Gold",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-03-28,1.0,295.0,309.75
+10141-11-3-023,"Amalfi 3 Light Pendant, Matte black, Mixed",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-26,1.0,550.0,577.5
+10141-14-5-030,"Amalfi, 5 Light Round LED Pendant, Gold",2,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-08,2.0,2500.0,2625.0
+10142-02,"Positano, 1 Light LED Pendant, Matte Black",1,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-01-30,1.0,130.0,136.5
+10143-07,"Amalfi, 11 Light Round LED Chandelier, Plated Brushed Gold",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-05-02,1.0,907.0,952.35
+10144-023,"Positano, 11 Light Round LED Chandelier, Mixed",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-02,1.0,1049.0,1101.45
+10144-023,"Positano, 11 Light Round LED Chandelier, Mixed",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-06-04,1.0,1049.0,1101.45
+10144-023,"Positano, 11 Light Round LED Chandelier, Mixed",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-02-27,1.0,1049.0,1101.45
+10144-023-20FT,"Positano, 11 Light Round LED Chandelier, Mixed, Mixed, With 20 Feet 20# Black Cable",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-05,1.0,1049.0,1101.45
+10145-02,"Amalfi, 25 Light Round LED Chandelier, Matte Black",1,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-10-24,1.0,2261.0,2374.05
+10145-07,"Amalfi, 25 Light Round LED Chandelier, Plated Brushed Gold",1,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-04-25,1.0,2649.0,2781.45
+10146-02,"Positano, 25 Light Round LED Chandelier, Matte Black",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-04-04,1.0,2755.0,2892.75
+10149-02,"Amalfi, 12 Light Linear LED Chandelier, Matte Black",1,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-08-22,1.0,907.0,952.35
+10153-02,"Volterra, Small LED Chandelier, Matte Black",1,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-03-21,1.0,857.5,900.37
+10155-02,"Pescara, Small LED Ceiling Mount, Matte Black",1,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-03-13,1.0,153.0,160.65
+10155-07,"Pescara, Small LED Ceiling Mount, Plated Brushed Gold",8,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-07-15,1.0,183.0,192.15
+10155-07,"Pescara, Small LED Ceiling Mount, Plated Brushed Gold",8,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-07-10,5.0,915.0,960.75
+10155-07,"Pescara, Small LED Ceiling Mount, Plated Brushed Gold",8,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-04-01,2.0,366.0,384.3
+10156-01,"Pescara, Large LED Ceiling Mount, Chrome",1,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-09-12,1.0,222.0,233.1
+10156-02,"Pescara, Large LED Ceiling Mount, Matte Black",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-10,1.0,216.0,226.8
+10156-07,"Pescara, Large LED Ceiling Mount, Plated Brushed Gold",3,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-07-10,2.0,524.0,550.2
+10156-07,"Pescara, Large LED Ceiling Mount, Plated Brushed Gold",3,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-05-16,1.0,262.0,275.1
+10162-10-2-039,"Sorrento 2 Light LED Pendant, Brushed brass, Glass with Painted White",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-31,2.0,676.0,709.8
+10162-14-5-030,"Sorrento, 5 Light LED Pendant, Mixed, Gold Canopy",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-26,1.0,800.0,840.0
+10162-017-01,"Sorrento, 3 Light LED Pendant, Clear, Chrome Canopy",1,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-09-12,1.0,338.0,354.9
+10162-017-02,"Sorrento, 3 Light LED Pendant, Clear, Black Canopy",1,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-05-16,1.0,335.0,351.75
+10162-017-07,"Sorrento, 3 Light LED Pendant, Clear, Gold Canopy",2,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-03-28,2.0,676.0,709.8
+10162-018-01,"Sorrento, 3 Light LED Pendant, Amber, Chrome Canopy ",1,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-09-26,1.0,338.0,354.9
+10162-018-07,"Sorrento, 3 Light LED Pendant, Amber, Gold Canopy",1,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-04-11,1.0,338.0,354.9
+10162-019-02,"Sorrento, 3 Light LED Pendant, Smoke, Black Canopy",6,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-05-23,1.0,335.0,351.75
+10162-019-02,"Sorrento, 3 Light LED Pendant, Smoke, Black Canopy",6,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-06,1.0,335.0,351.75
+10162-019-02,"Sorrento, 3 Light LED Pendant, Smoke, Black Canopy",6,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-09-05,1.0,335.0,351.75
+10162-019-02,"Sorrento, 3 Light LED Pendant, Smoke, Black Canopy",6,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-10-21,1.0,335.0,351.75
+10162-019-02,"Sorrento, 3 Light LED Pendant, Smoke, Black Canopy",6,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-09-19,1.0,335.0,351.75
+10162-019-02,"Sorrento, 3 Light LED Pendant, Smoke, Black Canopy",6,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-05-02,1.0,234.5,246.23
+10162-023-01,"Sorrento, 3 Light LED Pendant, Mixed, Chrome Canopy",1,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-07,1.0,338.0,354.9
+10162-023-02,"Sorrento, 3 Light LED Pendant, Mixed, Black Canopy",10,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-03-12,1.0,335.0,351.75
+10162-023-02,"Sorrento, 3 Light LED Pendant, Mixed, Black Canopy",10,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-21,3.0,854.25,896.97
+10162-023-02,"Sorrento, 3 Light LED Pendant, Mixed, Black Canopy",10,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-30,1.0,335.0,351.75
+10162-023-02,"Sorrento, 3 Light LED Pendant, Mixed, Black Canopy",10,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,5.0,1340.0,1407.0
+10162-023-07,"Sorrento, 3 Light LED Pendant, Mixed, Gold Canopy",12,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-03-13,2.0,676.0,709.8
+10162-023-07,"Sorrento, 3 Light LED Pendant, Mixed, Gold Canopy",12,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-22,1.0,338.0,354.9
+10162-023-07,"Sorrento, 3 Light LED Pendant, Mixed, Gold Canopy",12,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-04-04,1.0,338.0,354.9
+10162-023-07,"Sorrento, 3 Light LED Pendant, Mixed, Gold Canopy",12,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-02-27,1.0,338.0,354.9
+10162-023-07,"Sorrento, 3 Light LED Pendant, Mixed, Gold Canopy",12,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-03-21,1.0,338.0,354.9
+10162-023-07,"Sorrento, 3 Light LED Pendant, Mixed, Gold Canopy",12,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,4.0,1081.6,1135.68
+10162-023-07,"Sorrento, 3 Light LED Pendant, Mixed, Gold Canopy",12,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-21,2.0,535.5,562.28
+10164-018-07,"Sorrento, 12 Light round LED Chandelier, Amber, Gold Canopy",1,BC,C00188,Robinson - Penticton,MR - Luminescence,CAD,2025-09-05,1.0,1307.0,1476.91
+10164-023-01,"Sorrento, 12 Light round LED Chandelier, Mixed, Chrome Canopy",1,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-02-19,1.0,1307.0,1372.35
+10164-023-02,"Sorrento, 12 Light round LED Chandelier, Mixed, Black Canopy",9,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-06-27,1.0,1154.0,1211.7
+10164-023-02,"Sorrento, 12 Light round LED Chandelier, Mixed, Black Canopy",9,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-02-19,1.0,1154.0,1211.7
+10164-023-02,"Sorrento, 12 Light round LED Chandelier, Mixed, Black Canopy",9,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-05-09,1.0,1154.0,1211.7
+10164-023-02,"Sorrento, 12 Light round LED Chandelier, Mixed, Black Canopy",9,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-02-18,1.0,1154.0,1211.7
+10164-023-02,"Sorrento, 12 Light round LED Chandelier, Mixed, Black Canopy",9,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-04-15,1.0,1154.0,1211.7
+10164-023-02,"Sorrento, 12 Light round LED Chandelier, Mixed, Black Canopy",9,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-03-21,1.0,807.8,848.19
+10164-023-02,"Sorrento, 12 Light round LED Chandelier, Mixed, Black Canopy",9,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,1.0,923.2,969.36
+10164-023-02,"Sorrento, 12 Light round LED Chandelier, Mixed, Black Canopy",9,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-21,2.0,1832.6,1924.23
+10164-023-07,"Sorrento, 12 Light round LED Chandelier, Mixed, Gold Canopy",5,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-06-06,1.0,1307.0,1372.35
+10164-023-07,"Sorrento, 12 Light round LED Chandelier, Mixed, Gold Canopy",5,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-10-17,1.0,1307.0,1372.35
+10164-023-07,"Sorrento, 12 Light round LED Chandelier, Mixed, Gold Canopy",5,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-07-11,1.0,914.9,960.64
+10164-023-07,"Sorrento, 12 Light round LED Chandelier, Mixed, Gold Canopy",5,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-10,1.0,1307.0,1372.35
+10164-023-07,"Sorrento, 12 Light round LED Chandelier, Mixed, Gold Canopy",5,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-09-26,1.0,1307.0,1372.35
+10164-024-02,"Sorrento, 12 Light Round LED Chandelier, Mixed with Copper Leaf, Black Canopy",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-04-04,1.0,1307.0,1372.35
+10164-024-02,"Sorrento, 12 Light Round LED Chandelier, Mixed with Copper Leaf, Black Canopy",2,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-09-12,1.0,1307.0,1372.35
+10164-024-07,"Sorrento, 12 Light Round LED Chandelier, Mixed with Copper Leaf, Gold Canopy",4,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-10,1.0,1472.0,1545.6
+10164-024-07,"Sorrento, 12 Light Round LED Chandelier, Mixed with Copper Leaf, Gold Canopy",4,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-05-16,1.0,1672.0,1755.6
+10164-024-07,"Sorrento, 12 Light Round LED Chandelier, Mixed with Copper Leaf, Gold Canopy",4,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-02-27,1.0,1472.0,1545.6
+10164-024-07,"Sorrento, 12 Light Round LED Chandelier, Mixed with Copper Leaf, Gold Canopy",4,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-07-03,1.0,1472.0,1545.6
+10167-017-01,"Sorrento, 21 Light Round LED Chandelier, Clear, Chrome Canopy",1,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-13,1.0,2319.0,2434.95
+10167-017-02,"Sorrento, 21 Light Round LED Chandelier, Clear, Black Canopy",1,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-09-05,1.0,2191.0,2300.55
+10167-018-07,"Sorrento, 21 Light Round LED Chandelier, Amber, Gold Canopy ",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-02-27,1.0,2167.0,2275.35
+10167-019-02,"Sorrento, 21 Light Round LED Chandelier, Smoke, Black Canopy",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-21,1.0,2191.0,2300.55
+10167-023-02,"Sorrento, 21 Light Round LED Chandelier, Mixed, Black Canopy ",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-10,1.0,2191.0,2300.55
+10167-023-02,"Sorrento, 21 Light Round LED Chandelier, Mixed, Black Canopy ",3,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,2.0,3505.6,3680.88
+10167-023-07,"Sorrento, 21 Light Round LED Chandelier, Mixed, Gold Canopy ",4,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-07-15,1.0,2319.0,2434.95
+10167-023-07,"Sorrento, 21 Light Round LED Chandelier, Mixed, Gold Canopy ",4,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-10,1.0,2319.0,2434.95
+10167-023-07,"Sorrento, 21 Light Round LED Chandelier, Mixed, Gold Canopy ",4,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-01-27,1.0,2167.0,2275.35
+10167-023-07,"Sorrento, 21 Light Round LED Chandelier, Mixed, Gold Canopy ",4,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-08-13,1.0,2319.0,2434.95
+10167-024-02,"Sorrento, 21 Light Round LED Chandelier, Mixed with Copper Leaf, Black Canopy",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-03-21,2.0,4664.0,4897.2
+10169-023-02,"Sorrento, 32 Light LED Grand Chandelier, Mixed, Black Canopy",1,BC,C00091,Design Lighting,MR - Luminescence,CAD,2025-06-30,1.0,4136.0,4342.8
+10169-023-07,"Sorrento, 32 Light LED Grand Chandelier, Mixed, Gold Canopy",1,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-07-11,1.0,3064.6,3217.83
+10169-024-02,"Sorrento, 32 Light LED Grand Chandelier, Mixed with Copper Leaf, Black Canopy ",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-03-21,1.0,4642.0,4874.1
+10169-024-07,"Sorrento, 32 Light LED Grand Chandelier, Mixed with Copper Leaf, Gold Canopy ",4,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-03-13,2.0,6806.8,7147.14
+10169-024-07,"Sorrento, 32 Light LED Grand Chandelier, Mixed with Copper Leaf, Gold Canopy ",4,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-10-17,1.0,4862.0,5105.1
+10169-024-07,"Sorrento, 32 Light LED Grand Chandelier, Mixed with Copper Leaf, Gold Canopy ",4,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-04-04,1.0,4862.0,5105.1
+10172-019-02,"Sorrento, 16 Light Oval LED Chandelier, Smoke, Black Canopy ",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-17,1.0,1708.0,1793.4
+10172-019-02,"Sorrento, 16 Light Oval LED Chandelier, Smoke, Black Canopy ",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-17,1.0,1708.0,1793.4
+10172-023-01,"Sorrento, 16 Light Oval LED Chandelier, Mixed, Chrome Canopy",2,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-24,2.0,3580.0,3759.0
+10173-12-2-013,"Siena, 2 Light Linear LED Pendant, Brushed Black",4,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-06-04,3.0,1188.0,1247.4
+10173-12-2-013,"Siena, 2 Light Linear LED Pendant, Brushed Black",4,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-06-04,1.0,0.0,0.0
+10173-12-2-014,"Siena, 2 Light Linear LED Pendant, Brushed Gold",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-05-16,3.0,1188.0,1247.4
+10173-12-2-14-5K,"Siena, 2 Light Linear LED Pendant, Brushed Gold",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-03-28,3.0,1188.0,1247.4
+10173-014,"Siena, 6 Light Linear LED Chandelier, Brushed Gold",5,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-09-26,1.0,811.0,851.55
+10173-014,"Siena, 6 Light Linear LED Chandelier, Brushed Gold",5,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-06-04,1.0,757.0,794.85
+10173-014,"Siena, 6 Light Linear LED Chandelier, Brushed Gold",5,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-05-16,1.0,811.0,851.55
+10173-014,"Siena, 6 Light Linear LED Chandelier, Brushed Gold",5,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-02-07,1.0,811.0,851.55
+10173-014,"Siena, 6 Light Linear LED Chandelier, Brushed Gold",5,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,1.0,648.8,681.24
+10173-014-5K,"Siena, 6 Light Linear LED Chandelier 5000K, Brushed Gold",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-03-28,1.0,757.0,794.85
+10173-41-2-3K,"Siena, 2 Light Linear LED Pendant, Painted Brushed Champagne",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-17,3.0,1188.0,1247.4
+10174-013,"Siena, 8 Light Linear Chandelier, Brushed Black",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-06,1.0,1055.0,1107.75
+10174-013,"Siena, 8 Light Linear Chandelier, Brushed Black",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-04-02,1.0,1055.0,1107.75
+10174-013,"Siena, 8 Light Linear Chandelier, Brushed Black",3,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-06,1.0,1055.0,1107.75
+10174-013-4K,"Siena, 8 Light Linear Chandelier, Brushed Black, 4000K",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-04-04,1.0,1055.0,1107.75
+10174-013-4K,"Siena, 8 Light Linear Chandelier, Brushed Black, 4000K",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-04-04,1.0,1055.0,1107.75
+10174-013-35K,"Siena, Linear LED Pendant, Black",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-17,1.0,1055.0,1107.75
+10174-013-35K,"Siena, Linear LED Pendant, Black",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-26,1.0,1055.0,1107.75
+10174-014,"Siena, 8 Light Linear Chandelier, Brushed Gold",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-10,1.0,791.25,830.81
+10174-014,"Siena, 8 Light Linear Chandelier, Brushed Gold",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-01-27,1.0,986.0,1035.3
+10174-014-35K,"Siena, 8 Light Linear Chandelier, Brushed Gold",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-04-04,1.0,1055.0,1107.75
+10174-60-014,"Siena, 10 Light LED Chandelier, Brushed Gold, 10 x 6W",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-08-22,1.0,1480.0,1554.0
+10175-02-4000K,"Nettuno, Small LED Chandelier, Matt Black  ",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-17,1.0,1166.0,1224.3
+10175-015,"Nettuno, Small LED Chandelier, Metallic Brushed Grey",10,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-03-13,1.0,1014.0,1064.7
+10175-015,"Nettuno, Small LED Chandelier, Metallic Brushed Grey",10,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-02,1.0,1014.0,1064.7
+10175-015,"Nettuno, Small LED Chandelier, Metallic Brushed Grey",10,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-10-17,1.0,1014.0,1064.7
+10175-015,"Nettuno, Small LED Chandelier, Metallic Brushed Grey",10,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-04-25,3.0,3042.0,3194.1
+10175-015,"Nettuno, Small LED Chandelier, Metallic Brushed Grey",10,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-08,2.0,1723.8,1809.99
+10175-015,"Nettuno, Small LED Chandelier, Metallic Brushed Grey",10,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-09-26,1.0,1014.0,1064.7
+10175-015,"Nettuno, Small LED Chandelier, Metallic Brushed Grey",10,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-05-02,1.0,709.8,745.29
+10175-031,"Nettuno, Small LED Chandelier, Metallic Brushed Champagne",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-05-16,1.0,1014.0,1064.7
+10175-031,"Nettuno, Small LED Chandelier, Metallic Brushed Champagne",3,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-02-03,1.0,946.0,993.3
+10175-031,"Nettuno, Small LED Chandelier, Metallic Brushed Champagne",3,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-24,1.0,1014.0,1064.7
+10176-02-4000K,"Nettuno, Large LED Chandelier, Matte Black ",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-17,1.0,1653.0,1735.65
+10176-015,"Nettuno, Large LED Chandelier, Metallic Brushed Grey",12,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-03-21,4.0,5368.0,5636.4
+10176-015,"Nettuno, Large LED Chandelier, Metallic Brushed Grey",12,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-01-27,1.0,1342.0,1409.1
+10176-015,"Nettuno, Large LED Chandelier, Metallic Brushed Grey",12,BC,C00111,Mclaren Lighting - Nanaimo,MR - Luminescence,CAD,2025-07-02,1.0,1437.0,1508.85
+10176-015,"Nettuno, Large LED Chandelier, Metallic Brushed Grey",12,BC,C00111,Mclaren Lighting - Nanaimo,MR - Luminescence,CAD,2025-02-07,1.0,1437.0,1508.85
+10176-015,"Nettuno, Large LED Chandelier, Metallic Brushed Grey",12,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-09-05,1.0,1437.0,1508.85
+10176-015,"Nettuno, Large LED Chandelier, Metallic Brushed Grey",12,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-04-11,1.0,1437.0,1508.85
+10176-015,"Nettuno, Large LED Chandelier, Metallic Brushed Grey",12,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-02-20,1.0,1437.0,1508.85
+10176-015,"Nettuno, Large LED Chandelier, Metallic Brushed Grey",12,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-02-18,2.0,2874.0,3017.7
+10176-031,"Nettuno, Large LED Chandelier, Metallic Brushed Champagne",4,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-07-25,1.0,1437.0,1508.85
+10176-031,"Nettuno, Large LED Chandelier, Metallic Brushed Champagne",4,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-04-25,1.0,1437.0,1508.85
+10176-031,"Nettuno, Large LED Chandelier, Metallic Brushed Champagne",4,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-03-28,1.0,718.5,754.42
+10176-031,"Nettuno, Large LED Chandelier, Metallic Brushed Champagne",4,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-03-28,1.0,1437.0,1508.85
+10177-015,"Nettuno, Small Oval LED Chandelier, Metallic Brushed Grey",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-04-04,1.0,1131.0,1187.55
+10177-015,"Nettuno, Small Oval LED Chandelier, Metallic Brushed Grey",2,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-22,1.0,1131.0,1187.55
+10177-031,"Nettuno, Small Oval LED Chandelier, Metallic Brushed Champagne",1,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-04-07,1.0,1131.0,1187.55
+10178-015,"Nettuno, Large Oval LED Chandelier, Metallic Brushed Grey",9,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-03-13,1.0,1567.0,1645.35
+10178-015,"Nettuno, Large Oval LED Chandelier, Metallic Brushed Grey",9,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-02,1.0,1567.0,1645.35
+10178-015,"Nettuno, Large Oval LED Chandelier, Metallic Brushed Grey",9,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-06-27,1.0,1567.0,1645.35
+10178-015,"Nettuno, Large Oval LED Chandelier, Metallic Brushed Grey",9,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-29,2.0,3134.0,3290.7
+10178-015,"Nettuno, Large Oval LED Chandelier, Metallic Brushed Grey",9,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-08,1.0,1331.95,1398.55
+10178-015,"Nettuno, Large Oval LED Chandelier, Metallic Brushed Grey",9,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-05-16,1.0,1567.0,1645.35
+10178-015,"Nettuno, Large Oval LED Chandelier, Metallic Brushed Grey",9,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-05-02,1.0,1567.0,1645.35
+10178-015,"Nettuno, Large Oval LED Chandelier, Metallic Brushed Grey",9,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-02-18,1.0,1567.0,1645.35
+10178-031,"Nettuno, Large Oval LED Chandelier, Metallic Brushed Champagne",1,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-06-13,1.0,1567.0,1645.35
+10180-026,"Molfetta, 3 Light Convertible Flushmount / Pendant, Antique Brass with Black Beads",4,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-07,2.0,858.0,900.9
+10180-026,"Molfetta, 3 Light Convertible Flushmount / Pendant, Antique Brass with Black Beads",4,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-06,2.0,858.0,900.9
+10181-026,"Molfetta, 5 Light Chandelier, Antique Brass with Black Beads",3,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-03-13,1.0,523.6,549.78
+10181-026,"Molfetta, 5 Light Chandelier, Antique Brass with Black Beads",3,AB,C00472,Vivid Concepts Inc. - Calgary,MR - Luminescence,CAD,2025-08-28,1.0,598.4,628.32
+10181-026,"Molfetta, 5 Light Chandelier, Antique Brass with Black Beads",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-05,1.0,748.0,785.4
+10193-02,"Adelfia, 1 Light LED Pendant, Matte Black",34,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-03-13,2.0,430.0,451.5
+10193-02,"Adelfia, 1 Light LED Pendant, Matte Black",34,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-02-24,3.0,484.5,508.72
+10193-02,"Adelfia, 1 Light LED Pendant, Matte Black",34,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-02-14,1.0,142.8,149.94
+10193-02,"Adelfia, 1 Light LED Pendant, Matte Black",34,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-01-17,3.0,570.0,598.5
+10193-02,"Adelfia, 1 Light LED Pendant, Matte Black",34,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-08-15,3.0,612.0,642.6
+10193-02,"Adelfia, 1 Light LED Pendant, Matte Black",34,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-10-30,4.0,816.0,856.8
+10193-02,"Adelfia, 1 Light LED Pendant, Matte Black",34,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-09-12,1.0,204.0,214.2
+10193-02,"Adelfia, 1 Light LED Pendant, Matte Black",34,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-08,3.0,612.0,642.6
+10193-02,"Adelfia, 1 Light LED Pendant, Matte Black",34,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-02-24,4.0,646.0,678.3
+10193-02,"Adelfia, 1 Light LED Pendant, Matte Black",34,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-01-17,2.0,380.0,399.0
+10193-02,"Adelfia, 1 Light LED Pendant, Matte Black",34,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-09-19,3.0,612.0,642.6
+10193-02,"Adelfia, 1 Light LED Pendant, Matte Black",34,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-05,1.0,173.4,182.07
+10193-02,"Adelfia, 1 Light LED Pendant, Matte Black",34,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-21,4.0,646.0,678.3
+10193-030,"Adelfia, 1 Light LED Pendant, Painted Antique Brass",45,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-02-26,2.0,323.0,339.15
+10193-030,"Adelfia, 1 Light LED Pendant, Painted Antique Brass",45,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-02-19,1.0,142.8,149.94
+10193-030,"Adelfia, 1 Light LED Pendant, Painted Antique Brass",45,BC,C00111,Mclaren Lighting - Nanaimo,MR - Luminescence,CAD,2025-08-08,2.0,408.0,428.4
+10193-030,"Adelfia, 1 Light LED Pendant, Painted Antique Brass",45,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-01-24,2.0,380.0,399.0
+10193-030,"Adelfia, 1 Light LED Pendant, Painted Antique Brass",45,BC,C00444,Robinson - Granville,MR - Luminescence,CAD,2025-10-31,6.0,1040.4,1092.42
+10193-030,"Adelfia, 1 Light LED Pendant, Painted Antique Brass",45,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-20,10.0,1734.0,1820.7
+10193-030,"Adelfia, 1 Light LED Pendant, Painted Antique Brass",45,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-02-26,4.0,646.0,678.3
+10193-030,"Adelfia, 1 Light LED Pendant, Painted Antique Brass",45,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-11-04,6.0,1101.6,1156.68
+10193-030,"Adelfia, 1 Light LED Pendant, Painted Antique Brass",45,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-10-17,2.0,408.0,428.4
+10193-030,"Adelfia, 1 Light LED Pendant, Painted Antique Brass",45,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-18,4.0,816.0,856.8
+10193-030,"Adelfia, 1 Light LED Pendant, Painted Antique Brass",45,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-21,1.0,132.6,139.23
+10193-030,"Adelfia, 1 Light LED Pendant, Painted Antique Brass",45,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-21,2.0,346.8,364.14
+10193-030,"Adelfia, 1 Light LED Pendant, Painted Antique Brass",45,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-24,3.0,612.0,642.6
+10194-02,"Adelfia, 3 Light Round LED Pendant, Matte Black",8,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-07-10,2.0,938.0,984.9
+10194-02,"Adelfia, 3 Light Round LED Pendant, Matte Black",8,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-19,1.0,469.0,492.45
+10194-02,"Adelfia, 3 Light Round LED Pendant, Matte Black",8,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-05-09,1.0,469.0,492.45
+10194-02,"Adelfia, 3 Light Round LED Pendant, Matte Black",8,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-03-13,1.0,469.0,492.45
+10194-02,"Adelfia, 3 Light Round LED Pendant, Matte Black",8,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-01-10,1.0,438.0,459.9
+10194-02,"Adelfia, 3 Light Round LED Pendant, Matte Black",8,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-09-19,1.0,469.0,492.45
+10194-02,"Adelfia, 3 Light Round LED Pendant, Matte Black",8,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-10-17,1.0,469.0,492.45
+10194-030,"Adelfia, 3 Light Round LED Pendant, Painted Antique Brass",14,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-03-21,1.0,469.0,492.45
+10194-030,"Adelfia, 3 Light Round LED Pendant, Painted Antique Brass",14,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-02-14,1.0,469.0,492.45
+10194-030,"Adelfia, 3 Light Round LED Pendant, Painted Antique Brass",14,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-01-31,1.0,438.0,459.9
+10194-030,"Adelfia, 3 Light Round LED Pendant, Painted Antique Brass",14,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-10-10,1.0,469.0,492.45
+10194-030,"Adelfia, 3 Light Round LED Pendant, Painted Antique Brass",14,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-04-25,1.0,469.0,492.45
+10194-030,"Adelfia, 3 Light Round LED Pendant, Painted Antique Brass",14,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-04-02,1.0,469.0,492.45
+10194-030,"Adelfia, 3 Light Round LED Pendant, Painted Antique Brass",14,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-10-17,1.0,469.0,492.45
+10194-030,"Adelfia, 3 Light Round LED Pendant, Painted Antique Brass",14,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-01-24,1.0,438.0,459.9
+10194-030,"Adelfia, 3 Light Round LED Pendant, Painted Antique Brass",14,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-10-31,1.0,469.0,492.45
+10194-030,"Adelfia, 3 Light Round LED Pendant, Painted Antique Brass",14,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-11-04,2.0,844.2,886.41
+10194-030,"Adelfia, 3 Light Round LED Pendant, Painted Antique Brass",14,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-21,1.0,398.65,418.59
+10194-030,"Adelfia, 3 Light Round LED Pendant, Painted Antique Brass",14,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-21,2.0,744.6,781.83
+10195-02,"Adelfia, 9 Light Round LED Chandelier, Matte Black",5,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-04-21,1.0,1342.0,1409.1
+10195-02,"Adelfia, 9 Light Round LED Chandelier, Matte Black",5,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-07-25,1.0,1342.0,1409.1
+10195-02,"Adelfia, 9 Light Round LED Chandelier, Matte Black",5,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-01-24,1.0,1254.0,1316.7
+10195-02,"Adelfia, 9 Light Round LED Chandelier, Matte Black",5,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-01-17,1.0,1254.0,1316.7
+10195-02,"Adelfia, 9 Light Round LED Chandelier, Matte Black",5,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-10-17,1.0,1342.0,1409.1
+10195-030,"Adelfia, 9 Light Round LED Chandelier, Painted Antique Brass",5,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-03-21,1.0,1342.0,1409.1
+10195-030,"Adelfia, 9 Light Round LED Chandelier, Painted Antique Brass",5,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-10-17,1.0,1342.0,1409.1
+10195-030,"Adelfia, 9 Light Round LED Chandelier, Painted Antique Brass",5,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-03-21,1.0,939.4,986.37
+10195-030,"Adelfia, 9 Light Round LED Chandelier, Painted Antique Brass",5,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-09-26,1.0,1342.0,1516.46
+10195-030,"Adelfia, 9 Light Round LED Chandelier, Painted Antique Brass",5,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-06-24,1.0,939.4,986.37
+10196-02,"Adelfia, 19 Light Round LED Chandelier, Matte Black",5,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-10-30,1.0,3391.0,3560.55
+10196-02,"Adelfia, 19 Light Round LED Chandelier, Matte Black",5,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-10-03,1.0,3391.0,3560.55
+10196-02,"Adelfia, 19 Light Round LED Chandelier, Matte Black",5,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-21,1.0,2882.35,3026.47
+10196-02,"Adelfia, 19 Light Round LED Chandelier, Matte Black",5,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,1.0,2712.8,2848.44
+10196-02,"Adelfia, 19 Light Round LED Chandelier, Matte Black",5,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-27,1.0,3391.0,3560.55
+10196-030,"Adelfia, 19 Light Round LED Chandelier, Painted Antique Brass",1,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-09-05,1.0,3391.0,3560.55
+10197-02,"Adelfia, 31 Light LED Grand Chandelier, Matte Black",1,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-03-21,1.0,3749.2,3936.66
+10198-02,"Adelfia, 8 Light Rectangular LED Chandelier, Matte Black",2,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,1.0,1214.0,1274.7
+10198-02,"Adelfia, 8 Light Rectangular LED Chandelier, Matte Black",2,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-27,1.0,1214.0,1274.7
+10198-030,"Adelfia, 8 Light Rectangular LED Chandelier, Painted Antique Brass",1,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-02-14,1.0,1214.0,1274.7
+10199-02,"Adelfia, 5 Light Linear LED Chandelier, Matte Black",10,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-01-24,2.0,1496.0,1570.8
+10199-02,"Adelfia, 5 Light Linear LED Chandelier, Matte Black",10,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-11-04,2.0,1441.8,1513.89
+10199-02,"Adelfia, 5 Light Linear LED Chandelier, Matte Black",10,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-21,1.0,520.65,546.68
+10199-02,"Adelfia, 5 Light Linear LED Chandelier, Matte Black",10,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-21,3.0,2042.55,2144.68
+10199-02,"Adelfia, 5 Light Linear LED Chandelier, Matte Black",10,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,2.0,1281.6,1345.68
+10199-030,"Adelfia, 5 Light Linear LED Chandelier, Painted Antique Brass",11,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-10-17,1.0,801.0,841.05
+10199-030,"Adelfia, 5 Light Linear LED Chandelier, Painted Antique Brass",11,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-09-19,1.0,801.0,841.05
+10199-030,"Adelfia, 5 Light Linear LED Chandelier, Painted Antique Brass",11,BC,C00444,Robinson - Granville,MR - Luminescence,CAD,2025-05-20,1.0,801.0,841.05
+10199-030,"Adelfia, 5 Light Linear LED Chandelier, Painted Antique Brass",11,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-11-04,2.0,1441.8,1513.89
+10199-030,"Adelfia, 5 Light Linear LED Chandelier, Painted Antique Brass",11,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,3.0,1922.4,2018.52
+10199-030,"Adelfia, 5 Light Linear LED Chandelier, Painted Antique Brass",11,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-04-11,1.0,801.0,841.05
+10199-030,"Adelfia, 5 Light Linear LED Chandelier, Painted Antique Brass",11,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-21,2.0,1271.6,1335.18
+10200-02,"Adelfia, 14 Light Rectangular LED Chandelier, Matte Black",3,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-09-12,1.0,1920.0,2016.0
+10200-02,"Adelfia, 14 Light Rectangular LED Chandelier, Matte Black",3,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-21,1.0,1248.0,1310.4
+10200-02,"Adelfia, 14 Light Rectangular LED Chandelier, Matte Black",3,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-21,1.0,1632.0,1713.6
+10202-02,"Baveno, 1 Light LED Pendant, Matte Black",16,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-03-13,3.0,684.0,718.2
+10202-02,"Baveno, 1 Light LED Pendant, Matte Black",16,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-10-03,2.0,456.0,478.8
+10202-02,"Baveno, 1 Light LED Pendant, Matte Black",16,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-02-19,1.0,159.6,167.58
+10202-02,"Baveno, 1 Light LED Pendant, Matte Black",16,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-05,3.0,684.0,718.2
+10202-02,"Baveno, 1 Light LED Pendant, Matte Black",16,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-08-12,1.0,228.0,239.4
+10202-02,"Baveno, 1 Light LED Pendant, Matte Black",16,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-10-31,1.0,228.0,239.4
+10202-02,"Baveno, 1 Light LED Pendant, Matte Black",16,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-20,2.0,456.0,478.8
+10202-02,"Baveno, 1 Light LED Pendant, Matte Black",16,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,2.0,364.8,383.04
+10202-02,"Baveno, 1 Light LED Pendant, Matte Black",16,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-21,1.0,181.05,190.1
+10202-02-02,"Baveno, 1 Light LED Pendant, Matte Black",4,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-23,1.0,410.0,430.5
+10202-02-02,"Baveno, 1 Light LED Pendant, Matte Black",4,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-19,3.0,1230.0,1291.5
+10202-5-2-02,"Baveno 2 Light Pendant, Matte Black",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-08,3.0,1230.0,1291.5
+10202-030,"Baveno, 1 Light LED Pendant, Painted Antique Brass",3,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-02-14,1.0,159.6,167.58
+10202-030,"Baveno, 1 Light LED Pendant, Painted Antique Brass",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-05-16,2.0,456.0,478.8
+10203-02,"Baveno, 3 Light Round LED Pendant, Matte Black",4,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-03-21,1.0,545.0,572.25
+10203-02,"Baveno, 3 Light Round LED Pendant, Matte Black",4,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-10-24,1.0,545.0,572.25
+10203-02,"Baveno, 3 Light Round LED Pendant, Matte Black",4,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,2.0,872.0,915.6
+10203-030,"Baveno, 3 Light Round LED Pendant, Painted Antique Brass",12,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-03-14,1.0,545.0,572.25
+10203-030,"Baveno, 3 Light Round LED Pendant, Painted Antique Brass",12,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-03-28,1.0,545.0,572.25
+10203-030,"Baveno, 3 Light Round LED Pendant, Painted Antique Brass",12,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-01-17,3.0,1374.3,1443.01
+10203-030,"Baveno, 3 Light Round LED Pendant, Painted Antique Brass",12,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-08,1.0,545.0,572.25
+10203-030,"Baveno, 3 Light Round LED Pendant, Painted Antique Brass",12,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,2.0,1090.0,1144.5
+10203-030,"Baveno, 3 Light Round LED Pendant, Painted Antique Brass",12,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-01-30,1.0,509.0,534.45
+10203-030,"Baveno, 3 Light Round LED Pendant, Painted Antique Brass",12,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,1.0,436.0,457.8
+10203-030,"Baveno, 3 Light Round LED Pendant, Painted Antique Brass",12,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-21,2.0,865.3,908.56
+10204-02,"Baveno, 9 Light Round LED Chandelier, Matte Black",6,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-21,1.0,1018.55,1069.47
+10204-02,"Baveno, 9 Light Round LED Chandelier, Matte Black",6,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-18,2.0,3134.0,3290.7
+10204-02,"Baveno, 9 Light Round LED Chandelier, Matte Black",6,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,1.0,1253.6,1316.28
+10204-02,"Baveno, 9 Light Round LED Chandelier, Matte Black",6,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-21,2.0,2487.1,2611.45
+10204-24-13-02,"Baveno 13 Light LED Chandelier, Matte Black",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-03-14,1.0,2100.0,2205.0
+10204-030,"Baveno, 9 Light Round LED Chandelier, Painted Antique Brass",3,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-10-10,1.0,1567.0,1645.35
+10204-030,"Baveno, 9 Light Round LED Chandelier, Painted Antique Brass",3,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-01-17,1.0,1316.7,1382.54
+10204-030,"Baveno, 9 Light Round LED Chandelier, Painted Antique Brass",3,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-02-18,1.0,1567.0,1645.35
+10205-02,"Baveno, 19 Light Round LED Chandelier, Matte Black",5,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-04-04,1.0,3874.0,4067.7
+10205-02,"Baveno, 19 Light Round LED Chandelier, Matte Black",5,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-21,1.0,3292.9,3457.55
+10205-02,"Baveno, 19 Light Round LED Chandelier, Matte Black",5,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,3.0,9297.6,9762.48
+10205-030,"Baveno, 19 Light Round LED Chandelier, Painted Antique Brass",1,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-11,1.0,3874.0,4067.7
+10206-030,"Baveno, 31 Light LED Grand Chandelier, Painted Antique Brass",1,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-06-06,1.0,4293.1,4507.75
+10207-02,"Baveno, 8 Light Rectangular LED Chandelier, Matte Black",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-04-04,1.0,1413.0,1483.65
+10207-02-02-5K,"Baveno, 8 Light Rectangular LED Chandelier, Matte Black",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-29,1.0,1813.0,1903.65
+10207-030,"Baveno, 8 Light Rectangular LED Chandelier, Painted Antique Brass",2,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-06-27,1.0,1413.0,1483.65
+10207-030,"Baveno, 8 Light Rectangular LED Chandelier, Painted Antique Brass",2,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-02-19,1.0,1413.0,1483.65
+10208-02,"Baveno, 5 Light Linear LED Chandelier, Matte Black",7,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-11-04,3.0,2481.3,2605.37
+10208-02,"Baveno, 5 Light Linear LED Chandelier, Matte Black",7,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,2.0,1470.4,1543.92
+10208-02,"Baveno, 5 Light Linear LED Chandelier, Matte Black",7,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-03-13,1.0,919.0,964.95
+10208-02,"Baveno, 5 Light Linear LED Chandelier, Matte Black",7,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-02-20,1.0,1033.0,1084.65
+10209-030,"Baveno, 14 Light Rectangular LED Chandelier, Painted Antique Brass",1,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-06-13,1.0,2273.0,2386.65
+10209-59-45-02,"Baveno, 45 Light Chandelier, Matte Black",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-02-24,1.0,10000.0,10500.0
+10211-02,"Manarola, 1 Light LED pendant, Matte Black",12,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-02-24,3.0,540.6,567.63
+10211-02,"Manarola, 1 Light LED pendant, Matte Black",12,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-01-31,2.0,424.0,445.2
+10211-02,"Manarola, 1 Light LED pendant, Matte Black",12,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-02-19,1.0,148.4,155.82
+10211-02,"Manarola, 1 Light LED pendant, Matte Black",12,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-01-17,2.0,381.6,400.68
+10211-02,"Manarola, 1 Light LED pendant, Matte Black",12,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-02-24,4.0,720.8,756.84
+10211-030,"Manarola, 1 Light LED pendant, Painted Antique Brass",13,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-02-26,3.0,540.6,567.63
+10211-030,"Manarola, 1 Light LED pendant, Painted Antique Brass",13,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-10-31,3.0,636.0,667.8
+10211-030,"Manarola, 1 Light LED pendant, Painted Antique Brass",13,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-02-26,4.0,720.8,756.84
+10211-030,"Manarola, 1 Light LED pendant, Painted Antique Brass",13,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-18,3.0,636.0,667.8
+10212-030,"Manarola, 3 Light Round LED Pendant, Painted Antique Brass",2,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-10-10,1.0,506.0,531.3
+10212-030,"Manarola, 3 Light Round LED Pendant, Painted Antique Brass",2,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-04-16,1.0,506.0,531.3
+10213-021-4K,"Manarola, 9 Light LED Chandelier, Painted Silver, 4000K",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-06-24,1.0,1650.0,1732.5
+10217-02,"Manarola, 5 Light Linear LED Chandelier, Matte Black",1,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-05-02,1.0,858.0,900.9
+10220-02,"Verona, 1 Light LED Pendant, Matte Black",7,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-09-05,1.0,253.0,265.65
+10220-02,"Verona, 1 Light LED Pendant, Matte Black",7,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-03-07,4.0,1012.0,1062.6
+10220-02,"Verona, 1 Light LED Pendant, Matte Black",7,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-02-14,2.0,506.0,531.3
+10220-02-02-4K,"Verona, 1 Light LED Pendant, Matte Black, All fittings black",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-06,3.0,873.0,916.65
+10220-021-4K,"Verona, 1 Light LED Pendant, Painted Silver, 4000K ",4,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-06-24,4.0,1180.0,1239.0
+10220-030,"Verona, 1 Light LED Pendant, Painted Antique Brass",5,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-04-16,1.0,253.0,265.65
+10220-030,"Verona, 1 Light LED Pendant, Painted Antique Brass",5,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-02-14,1.0,253.0,265.65
+10220-030,"Verona, 1 Light LED Pendant, Painted Antique Brass",5,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-11,3.0,759.0,796.95
+10221-02-02-3K,"Verona, 3 Light LED Pendant, All Fittings on Pendants with Matte Black",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-06,1.0,780.0,819.0
+10222-02-02-3K,"Verona, 9 Light Round LED Chandelier, All Fittings on Pendants with Matte Black",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-06,1.0,2297.0,2411.85
+10225-030,"Verona, 8 Light Rectangular LED Chandelier, Painted Antique Brass",1,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-03-28,1.0,1766.0,1854.3
+10229-36-23-023-S,"Mistura, 23 Light Round LED Chandelier, Mixed, Matte Black Canopy, Stone",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-17,1.0,5530.0,5806.5
+10231-023,"Mistura, 5 Light Linear LED Chandelier, Mixed, Matte Black Canopy",1,BC,C00091,Design Lighting,MR - Luminescence,CAD,2025-05-16,1.0,1142.0,1199.1
+10233-48-16-030,"Mistura, 16 Light Oval LED Chandelier, Mixed, Painted Antique Brass",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-21,1.0,3010.0,3160.5
+10233-O-48-16-021-4K,"Mistura, 16 Light Oval LED Chandelier, Painted Silver, 4000K",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-06-24,1.0,2950.0,3097.5
+12034-023-01,"Sorrento, 12 Light Oval LED Chandelier, Mixed, Chrome  Canopy",1,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-03-28,1.0,1295.0,1359.75
+12034-023-02,"Sorrento, 12 Light Oval LED Chandelier, Mixed, Black Canopy ",2,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-10-24,1.0,1249.0,1311.45
+12034-023-02,"Sorrento, 12 Light Oval LED Chandelier, Mixed, Black Canopy ",2,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-09-19,1.0,1249.0,1311.45
+12034-024-01,"Sorrento, 12 Light Oval LED Chandelier, Mixed with Copper Leaf, Chrome  Canopy",1,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-03-13,1.0,1460.0,1533.0
+12050-028,"Brindisi, 32 Light Chandelier, Gold ",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-10,1.0,5179.0,5437.95
+12051-02,"Teramo, 6 Light LED Chandelier, Matte Black ",3,AB,C00472,Vivid Concepts Inc. - Calgary,MR - Luminescence,CAD,2025-08-28,1.0,395.2,414.96
+12051-02,"Teramo, 6 Light LED Chandelier, Matte Black ",3,AB,C00474,Vivid Concepts Inc. - Edmonton,MR - Luminescence,CAD,2025-08-29,1.0,395.2,414.96
+12051-02,"Teramo, 6 Light LED Chandelier, Matte Black ",3,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-03-21,1.0,345.8,363.09
+12052-02,"Teramo, 8 Light LED Chandelier, Matte Black ",2,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-02-18,1.0,475.3,499.06
+12052-02,"Teramo, 8 Light LED Chandelier, Matte Black ",2,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-06-13,1.0,679.0,712.95
+12052-037,"Teramo, 8 Light LED Chandelier, Brushed Brass",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-01-27,1.0,1023.0,1074.15
+12053-037,"Teramo, 10 Light LED Chandelier, Brushed Brass",1,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-04-25,1.0,1026.0,1077.3
+12054-037,"Corato, 12 Light Chandelier, Brushed Brass",5,AB,C00474,Vivid Concepts Inc. - Edmonton,MR - Luminescence,CAD,2025-10-31,1.0,912.8,958.44
+12054-037,"Corato, 12 Light Chandelier, Brushed Brass",5,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-01-20,1.0,1320.0,1386.0
+12054-037,"Corato, 12 Light Chandelier, Brushed Brass",5,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-08-08,1.0,1141.0,1198.05
+12054-037,"Corato, 12 Light Chandelier, Brushed Brass",5,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-06-06,2.0,2282.0,2396.1
+12054-039,"Corato, 12 Light Chandelier, Brushed Brass with Translucent White Glass",7,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-10-31,1.0,798.7,838.64
+12054-039,"Corato, 12 Light Chandelier, Brushed Brass with Translucent White Glass",7,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-10-31,1.0,1141.0,1198.05
+12054-039,"Corato, 12 Light Chandelier, Brushed Brass with Translucent White Glass",7,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-13,1.0,1141.0,1198.05
+12054-039,"Corato, 12 Light Chandelier, Brushed Brass with Translucent White Glass",7,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-04-28,1.0,1141.0,1198.05
+12054-039,"Corato, 12 Light Chandelier, Brushed Brass with Translucent White Glass",7,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-04-15,1.0,1141.0,1198.05
+12054-039,"Corato, 12 Light Chandelier, Brushed Brass with Translucent White Glass",7,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-10-28,1.0,1141.0,1198.05
+12054-039,"Corato, 12 Light Chandelier, Brushed Brass with Translucent White Glass",7,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-05-02,1.0,798.7,838.64
+12055-037,"Corato, 16 Light Chandelier, Brushed Brass",2,AB,C00472,Vivid Concepts Inc. - Calgary,MR - Luminescence,CAD,2025-08-28,1.0,1554.0,1631.7
+12055-037,"Corato, 16 Light Chandelier, Brushed Brass",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-04-02,1.0,1554.0,1631.7
+12055-039,"Corato, 16 Light Chandelier, Brushed Brass with Translucent White Glass",9,AB,C00472,Vivid Concepts Inc. - Calgary,MR - Luminescence,CAD,2025-08-28,1.0,1243.2,1305.36
+12055-039,"Corato, 16 Light Chandelier, Brushed Brass with Translucent White Glass",9,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-31,3.0,4662.0,4895.1
+12055-039,"Corato, 16 Light Chandelier, Brushed Brass with Translucent White Glass",9,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-07-15,1.0,1554.0,1631.7
+12055-039,"Corato, 16 Light Chandelier, Brushed Brass with Translucent White Glass",9,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-03-18,1.0,1554.0,1631.7
+12055-039,"Corato, 16 Light Chandelier, Brushed Brass with Translucent White Glass",9,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-02-26,1.0,1554.0,1631.7
+12055-039,"Corato, 16 Light Chandelier, Brushed Brass with Translucent White Glass",9,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-03-21,1.0,1087.8,1142.19
+12055-039,"Corato, 16 Light Chandelier, Brushed Brass with Translucent White Glass",9,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-10-10,1.0,1554.0,1631.7
+12056-037,"Corato, 14 Light Island Chandelier, Brushed Brass",2,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-07-09,1.0,1660.0,1743.0
+12056-037,"Corato, 14 Light Island Chandelier, Brushed Brass",2,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-06-09,1.0,1660.0,1875.8
+12056-039,"Corato, 14 Light Island Chandelier, Brushed Brass with Translucent White Glass",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-10,1.0,1660.0,1743.0
+12058-05,"Trapani, 3 Light Ceiling Mount, Soft Brass",3,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-06,1.0,351.0,368.55
+12058-05,"Trapani, 3 Light Ceiling Mount, Soft Brass",3,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-07,1.0,351.0,368.55
+12058-05,"Trapani, 3 Light Ceiling Mount, Soft Brass",3,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-05-30,1.0,245.7,257.99
+12058-06,"Trapani, 3 Light Ceiling Mount, Metallic Black ",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-10,1.0,343.0,360.15
+12063-032,"Volare, 6 Light Oval LED Chandelier, Brushed Gunmetal",1,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-03-13,1.0,2142.7,2249.84
+12064-02,"Bellissima, 3 Light LED Pendant, Black Sleeves",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-08-12,1.0,495.0,519.75
+12065-01,"Bellissima, 9 Light LED Chandelier, Silver Sleeve",2,BC,C00111,Mclaren Lighting - Nanaimo,MR - Luminescence,CAD,2025-06-19,1.0,1531.0,1607.55
+12065-01,"Bellissima, 9 Light LED Chandelier, Silver Sleeve",2,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-05-02,1.0,1071.7,1125.28
+12068-01,"Bellissima, 10 Light Linear Chandelier, Silver Sleeve",1,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-06-06,1.0,1617.0,1697.85
+12069-01,"Bellissima, Part, 12"" Tube, Silver Sleeve",11,BC,C00111,Mclaren Lighting - Nanaimo,MR - Luminescence,CAD,2025-06-19,9.0,81.0,85.05
+12069-01,"Bellissima, Part, 12"" Tube, Silver Sleeve",11,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-07-30,2.0,18.0,20.34
+12079-012,"Volterra, 2 Light LED Wall Mount, Satin Nickel",2,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-06-06,2.0,408.0,428.4
+12082-035,"Affilato, 8 Light Linear LED Chandelier, Satin Brass",1,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-03-21,1.0,1980.0,2079.0
+12083-03,"Belluno, 3 Light LED Wall Mount, Champagne Gold",6,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-07-25,3.0,1380.0,1449.0
+12083-03,"Belluno, 3 Light LED Wall Mount, Champagne Gold",6,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-10-17,2.0,920.0,966.0
+12083-03,"Belluno, 3 Light LED Wall Mount, Champagne Gold",6,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-05-02,1.0,322.0,338.1
+12083-042,"Belluno, 3 Light LED Wall Mount, Brushed Vintage Grey",2,BC,C00111,Mclaren Lighting - Nanaimo,MR - Luminescence,CAD,2025-03-20,1.0,299.0,313.95
+12083-042,"Belluno, 3 Light LED Wall Mount, Brushed Vintage Grey",2,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-03-20,1.0,299.0,313.95
+12084-03,"Belluno, 9 Light LED Ceiling Mount, Champagne Gold",5,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-01-17,1.0,752.4,790.02
+12084-03,"Belluno, 9 Light LED Ceiling Mount, Champagne Gold",5,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-09-05,1.0,896.0,940.8
+12084-03,"Belluno, 9 Light LED Ceiling Mount, Champagne Gold",5,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-10-17,1.0,896.0,940.8
+12084-03,"Belluno, 9 Light LED Ceiling Mount, Champagne Gold",5,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-21,2.0,1421.2,1492.26
+12084-042,"Belluno, 9 Light LED Ceiling Mount, Brushed Vintage Grey",5,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-02-19,1.0,627.2,658.56
+12084-042,"Belluno, 9 Light LED Ceiling Mount, Brushed Vintage Grey",5,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-05-27,2.0,1792.0,1881.6
+12084-042,"Belluno, 9 Light LED Ceiling Mount, Brushed Vintage Grey",5,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-04-25,1.0,896.0,940.8
+12084-042,"Belluno, 9 Light LED Ceiling Mount, Brushed Vintage Grey",5,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-02-18,1.0,627.2,658.56
+12085-042,"Belluno, 13 Light LED Ceiling Mount, Brushed Vintage Grey",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-01-27,1.0,1188.0,1247.4
+12086-03,"Belluno, 29 Light LED Chandelier, Soft Brass",1,AB,C00472,Vivid Concepts Inc. - Calgary,MR - Luminescence,CAD,2025-08-28,1.0,3061.0,3214.05
+12088-03,"Belluno, 5 Light LED Pendant, Champagne Gold",1,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-07-23,1.0,578.0,606.9
+12088-042,"Belluno, 5 Light LED Pendant, Brushed Vintage Grey",2,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-05-27,1.0,578.0,606.9
+12088-042,"Belluno, 5 Light LED Pendant, Brushed Vintage Grey",2,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-05-02,1.0,404.6,424.83
+12101-014,"Raffinato, Small LED Chandelier, Brushed Gold",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-02-24,1.0,1210.0,1270.5
+12102-02-4K,"Raffinato, Large LED Chandelier, Matte Black  ",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-17,1.0,2166.0,2274.3
+12102-014,"Raffinato, Large LED Chandelier, Brushed Gold",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-06-25,1.0,1884.0,1978.2
+12102-014,"Raffinato, Large LED Chandelier, Brushed Gold",2,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-02-20,1.0,1884.0,1978.2
+12102-032,"Raffinato, Large LED Chandelier, Brushed Gunmetal",3,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-03-21,1.0,1884.0,1978.2
+12102-032,"Raffinato, Large LED Chandelier, Brushed Gunmetal",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-21,1.0,1413.0,1483.65
+12102-032,"Raffinato, Large LED Chandelier, Brushed Gunmetal",3,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-05-09,1.0,1884.0,1978.2
+12107-07,"Piatto, 12 Light Linear LED Chandelier, Plated Brushed Gold",1,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-04-11,1.0,1272.0,1335.6
+12108-023,"Piatto, 16 Light Linear LED Chandelier, Mixed",1,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-22,1.0,1966.0,2064.3
+12109-07,"Soffio, 1 Light LED Pendant, Plated Brushed Gold ",3,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-02-05,3.0,438.0,459.9
+12115-018,"Savona,  3 Light LED Chandelier, Amber",1,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-03-13,1.0,1430.0,1501.5
+12118-033,"Savona, 2 Light Linear LED Chandelier, Smoke and Clear",1,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-13,1.0,1133.0,1189.65
+12118-034,"Savona, 2 Light Linear LED Chandelier, Amber and Smoke",1,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-06,1.0,1133.0,1189.65
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-10-10,1.0,296.0,310.8
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-05-16,2.0,592.0,621.6
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-04-17,3.0,665.55,698.83
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-02-24,2.0,414.8,435.54
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-02-14,1.0,182.7,191.83
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-04-17,3.0,665.55,698.83
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-01-10,1.0,244.0,256.2
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-23,2.0,522.0,548.1
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-08-12,1.0,261.0,274.05
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-10-17,5.0,1305.0,1370.25
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-10-31,3.0,783.0,822.15
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-09-19,2.0,522.0,548.1
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-08-01,3.0,783.0,822.15
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-08-01,2.0,522.0,548.1
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-02-14,1.0,170.8,179.34
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-01-24,4.0,878.4,922.32
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-06-19,1.0,261.0,274.05
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-08,13.0,2884.05,3028.25
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,8.0,1774.8,1863.54
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-04-03,6.0,1331.1,1397.65
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-02-24,9.0,1866.6,1959.93
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-01-30,2.0,488.0,512.4
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-11-04,8.0,1879.2,1973.16
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-10-24,3.0,783.0,822.15
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-10-17,1.0,261.0,274.05
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-24,10.0,2088.0,2192.4
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-02-20,2.0,592.0,621.6
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-27,7.0,1451.8,1524.39
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-21,2.0,414.8,435.54
+12119-02,"Calcolo, 1 Light LED Pendant, Matte Black",111,SK,C00359,Robinson Supply-Saskatoon,MR - Luminescence,CAD,2025-04-17,3.0,665.55,738.76
+12119-5-2-02,"Calcolo, 2 Light Round LED Chandelier, Matte Black ",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-17,3.0,1650.0,1732.5
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-04-17,3.0,665.55,698.83
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-03-13,2.0,522.0,548.1
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-02-26,2.0,414.8,435.54
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-04-17,3.0,665.55,698.83
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-03-13,1.0,261.0,274.05
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-02-19,1.0,182.7,191.83
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-04-16,2.0,522.0,548.1
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-06-24,1.0,208.8,219.24
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00111,Mclaren Lighting - Nanaimo,MR - Luminescence,CAD,2025-03-20,1.0,169.65,178.13
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-06-27,1.0,261.0,274.05
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-06-27,1.0,261.0,274.05
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-05-02,2.0,522.0,548.1
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-03-20,1.0,169.65,178.13
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-02-18,3.0,783.0,822.15
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-09-19,5.0,1305.0,1370.25
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-08-22,2.0,522.0,548.1
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-06-27,2.0,522.0,548.1
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-09-16,5.0,1305.0,1370.25
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-05-02,2.0,522.0,548.1
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-09-26,1.0,261.0,274.05
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-09-19,2.0,522.0,548.1
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-09-19,1.0,261.0,274.05
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-09-19,2.0,365.4,383.67
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-22,2.0,522.0,548.1
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-15,4.0,1044.0,1096.2
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-08,6.0,1331.1,1397.65
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,2.0,522.0,548.1
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,6.0,1331.1,1397.66
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-04-17,3.0,665.55,698.83
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-04-03,6.0,1331.1,1397.66
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-02-26,4.0,829.6,871.08
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-01-30,3.0,732.0,768.6
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-01-10,2.0,488.0,512.4
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-11-04,4.0,939.6,986.58
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-09-19,2.0,522.0,548.1
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-24,11.0,2296.8,2411.64
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-27,8.0,1659.2,1742.16
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-21,4.0,829.6,871.08
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,SK,C00359,Robinson Supply-Saskatoon,MR - Luminescence,CAD,2025-04-17,3.0,665.55,738.76
+12119-030,"Calcolo, 1 Light LED Pendant, Painted Antique Brass",117,SK,C00359,Robinson Supply-Saskatoon,MR - Luminescence,CAD,2025-04-17,1.0,182.7,202.8
+12120-02,"Calcolo, 3 Light Round LED Pendant, Matte Black",27,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-08-01,1.0,710.0,745.5
+12120-02,"Calcolo, 3 Light Round LED Pendant, Matte Black",27,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-19,1.0,710.0,745.5
+12120-02,"Calcolo, 3 Light Round LED Pendant, Matte Black",27,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-08-12,1.0,710.0,745.5
+12120-02,"Calcolo, 3 Light Round LED Pendant, Matte Black",27,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-06-25,1.0,710.0,745.5
+12120-02,"Calcolo, 3 Light Round LED Pendant, Matte Black",27,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-01-27,1.0,663.0,696.15
+12120-02,"Calcolo, 3 Light Round LED Pendant, Matte Black",27,BC,C00111,Mclaren Lighting - Nanaimo,MR - Luminescence,CAD,2025-08-01,2.0,1420.0,1491.0
+12120-02,"Calcolo, 3 Light Round LED Pendant, Matte Black",27,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-05-09,1.0,710.0,745.5
+12120-02,"Calcolo, 3 Light Round LED Pendant, Matte Black",27,BC,C00444,Robinson - Granville,MR - Luminescence,CAD,2025-10-31,1.0,603.5,633.67
+12120-02,"Calcolo, 3 Light Round LED Pendant, Matte Black",27,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,3.0,1810.5,1901.03
+12120-02,"Calcolo, 3 Light Round LED Pendant, Matte Black",27,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-11-04,2.0,1278.0,1341.9
+12120-02,"Calcolo, 3 Light Round LED Pendant, Matte Black",27,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-13,1.0,710.0,745.5
+12120-02,"Calcolo, 3 Light Round LED Pendant, Matte Black",27,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-05,2.0,1207.0,1267.35
+12120-02,"Calcolo, 3 Light Round LED Pendant, Matte Black",27,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,6.0,3408.0,3578.4
+12120-02,"Calcolo, 3 Light Round LED Pendant, Matte Black",27,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-02-20,1.0,745.0,782.25
+12120-02,"Calcolo, 3 Light Round LED Pendant, Matte Black",27,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-27,1.0,710.0,745.5
+12120-02,"Calcolo, 3 Light Round LED Pendant, Matte Black",27,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-21,2.0,1127.1,1183.46
+12120-030,"Calcolo, 3 Light Round LED Pendant, Painted Antique Brass",31,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-03-13,1.0,710.0,745.5
+12120-030,"Calcolo, 3 Light Round LED Pendant, Painted Antique Brass",31,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-05-09,1.0,710.0,745.5
+12120-030,"Calcolo, 3 Light Round LED Pendant, Painted Antique Brass",31,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-04-16,1.0,710.0,745.5
+12120-030,"Calcolo, 3 Light Round LED Pendant, Painted Antique Brass",31,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-05-23,1.0,710.0,745.5
+12120-030,"Calcolo, 3 Light Round LED Pendant, Painted Antique Brass",31,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-08-01,2.0,1420.0,1491.0
+12120-030,"Calcolo, 3 Light Round LED Pendant, Painted Antique Brass",31,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-06-27,1.0,710.0,745.5
+12120-030,"Calcolo, 3 Light Round LED Pendant, Painted Antique Brass",31,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-04-25,2.0,1420.0,1491.0
+12120-030,"Calcolo, 3 Light Round LED Pendant, Painted Antique Brass",31,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-02-14,1.0,710.0,745.5
+12120-030,"Calcolo, 3 Light Round LED Pendant, Painted Antique Brass",31,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-02-14,1.0,464.1,487.31
+12120-030,"Calcolo, 3 Light Round LED Pendant, Painted Antique Brass",31,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-08-15,1.0,710.0,745.5
+12120-030,"Calcolo, 3 Light Round LED Pendant, Painted Antique Brass",31,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-08-08,1.0,710.0,745.5
+12120-030,"Calcolo, 3 Light Round LED Pendant, Painted Antique Brass",31,BC,C00188,Robinson - Penticton,MR - Luminescence,CAD,2025-06-27,2.0,1420.0,1604.6
+12120-030,"Calcolo, 3 Light Round LED Pendant, Painted Antique Brass",31,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-08,1.0,603.5,633.68
+12120-030,"Calcolo, 3 Light Round LED Pendant, Painted Antique Brass",31,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,2.0,1207.0,1267.35
+12120-030,"Calcolo, 3 Light Round LED Pendant, Painted Antique Brass",31,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-10-17,1.0,710.0,745.5
+12120-030,"Calcolo, 3 Light Round LED Pendant, Painted Antique Brass",31,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-05,2.0,1207.0,1267.35
+12120-030,"Calcolo, 3 Light Round LED Pendant, Painted Antique Brass",31,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,6.0,3408.0,3578.4
+12120-030,"Calcolo, 3 Light Round LED Pendant, Painted Antique Brass",31,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-27,4.0,2254.2,2366.91
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-08-01,1.0,2001.0,2101.05
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-08-22,1.0,1400.7,1470.74
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-02-18,1.0,2001.0,2101.05
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-19,1.0,2001.0,2101.05
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-08-12,1.0,2001.0,2101.05
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,BC,C00111,Mclaren Lighting - Nanaimo,MR - Luminescence,CAD,2025-03-20,1.0,1300.65,1365.68
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-09-15,1.0,2001.0,2101.05
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-04-30,1.0,2001.0,2101.05
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-04-30,1.0,2001.0,2101.05
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-10-31,1.0,2001.0,2101.05
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-04-25,1.0,2001.0,2101.05
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-09-19,1.0,2001.0,2101.05
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-03-14,1.0,1000.5,1050.53
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,BC,C00444,Robinson - Granville,MR - Luminescence,CAD,2025-10-31,2.0,3401.7,3571.79
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,BC,C00444,Robinson - Granville,MR - Luminescence,CAD,2025-06-04,1.0,2001.0,2101.05
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-09-26,2.0,4002.0,4202.1
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-01,2.0,3401.7,3571.79
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,2.0,3401.7,3571.79
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-20,1.0,2001.0,2101.05
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-20,1.0,2001.0,2101.05
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-11-04,1.0,1800.9,1890.94
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-30,2.0,4002.0,4202.1
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-24,1.0,2001.0,2101.05
+12121-02,"Calcolo, 9 Light Round LED Chandelier, Matte Black",33,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-24,5.0,8004.0,8404.2
+12121-030,"Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",30,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-01-31,1.0,1870.0,1963.5
+12121-030,"Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",30,AB,C00474,Vivid Concepts Inc. - Edmonton,MR - Luminescence,CAD,2025-08-29,1.0,1600.8,1680.84
+12121-030,"Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",30,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-08-22,1.0,2001.0,2101.05
+12121-030,"Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",30,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-08-06,2.0,4002.0,4202.1
+12121-030,"Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",30,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-06-27,1.0,2001.0,2101.05
+12121-030,"Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",30,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-06-27,1.0,2001.0,2101.05
+12121-030,"Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",30,BC,C00444,Robinson - Granville,MR - Luminescence,CAD,2025-10-31,2.0,3401.7,3571.78
+12121-030,"Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",30,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-10-31,4.0,8004.0,8404.2
+12121-030,"Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",30,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-08,2.0,3401.7,3571.79
+12121-030,"Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",30,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-01,1.0,2001.0,2101.05
+12121-030,"Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",30,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-01,1.0,1700.85,1785.89
+12121-030,"Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",30,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,1.0,2001.0,2101.05
+12121-030,"Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",30,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,1.0,1700.85,1785.89
+12121-030,"Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",30,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-05,5.0,8504.25,8929.46
+12121-030,"Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",30,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-30,1.0,2001.0,2101.05
+12121-030,"Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",30,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-24,1.0,2001.0,2101.05
+12121-030,"Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",30,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-24,1.0,1600.8,1680.84
+12121-030,"Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",30,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-27,2.0,3179.0,3337.95
+12121-030,"Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",30,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-21,1.0,1589.5,1668.98
+12121-50-12-030,"Calcolo, 12 Light LED Pendant, Painted Antique Brass",1,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-10-17,1.0,2400.0,2520.0
+12121-C-30-15-02,"Calcolo, 15 Light Round LED Chandelier, Black",1,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-03-13,1.0,3200.0,3360.0
+12121-C-30-15-02-CP,"Calcolo, Part Only, 30"" Round Canopy, Black",1,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-04-01,1.0,0.0,0.0
+12122-02,"Calcolo, 19 Light Round LED Chandelier, Matte Black",13,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-05-23,1.0,4179.0,4387.95
+12122-02,"Calcolo, 19 Light Round LED Chandelier, Matte Black",13,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-09-19,1.0,4179.0,4387.95
+12122-02,"Calcolo, 19 Light Round LED Chandelier, Matte Black",13,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,1.0,3552.15,3729.76
+12122-02,"Calcolo, 19 Light Round LED Chandelier, Matte Black",13,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-05,4.0,14208.6,14919.03
+12122-02,"Calcolo, 19 Light Round LED Chandelier, Matte Black",13,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,1.0,3343.2,3510.36
+12122-02,"Calcolo, 19 Light Round LED Chandelier, Matte Black",13,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-27,4.0,13277.0,13940.85
+12122-02,"Calcolo, 19 Light Round LED Chandelier, Matte Black",13,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-21,1.0,3319.25,3485.22
+12122-030,"Calcolo, 19 Light Round LED Chandelier, Painted Antique Brass",6,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-10-24,1.0,4179.0,4387.95
+12122-030,"Calcolo, 19 Light Round LED Chandelier, Painted Antique Brass",6,BC,C00444,Robinson - Granville,MR - Luminescence,CAD,2025-10-31,1.0,3552.15,3729.75
+12122-030,"Calcolo, 19 Light Round LED Chandelier, Painted Antique Brass",6,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-09-19,1.0,4179.0,4387.95
+12122-030,"Calcolo, 19 Light Round LED Chandelier, Painted Antique Brass",6,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-05,1.0,2716.35,2852.17
+12122-030,"Calcolo, 19 Light Round LED Chandelier, Painted Antique Brass",6,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-27,2.0,6638.5,6970.43
+12123-02,"Calcolo, 31 Light LED Grand Chandelier, Matte Black",4,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-08-01,1.0,6851.0,7193.55
+12123-02,"Calcolo, 31 Light LED Grand Chandelier, Matte Black",4,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-03-14,1.0,6851.0,7193.55
+12123-02,"Calcolo, 31 Light LED Grand Chandelier, Matte Black",4,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-02-18,1.0,4795.7,5035.49
+12123-02,"Calcolo, 31 Light LED Grand Chandelier, Matte Black",4,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,1.0,5823.35,6114.51
+12123-030,"Calcolo, 31 Light LED Grand Chandelier, Painted Antique Brass",2,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-06-30,1.0,4795.7,5035.49
+12123-030,"Calcolo, 31 Light LED Grand Chandelier, Painted Antique Brass",2,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-09-19,1.0,4795.7,5035.49
+12124-02,"Calcolo, 8 Light Rectangular LED Chandelier, Matte Black",12,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-03-28,1.0,1755.0,1842.75
+12124-02,"Calcolo, 8 Light Rectangular LED Chandelier, Matte Black",12,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-19,1.0,1755.0,1842.75
+12124-02,"Calcolo, 8 Light Rectangular LED Chandelier, Matte Black",12,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-01-30,1.0,1639.0,1720.95
+12124-02,"Calcolo, 8 Light Rectangular LED Chandelier, Matte Black",12,BC,C00444,Robinson - Granville,MR - Luminescence,CAD,2025-10-31,2.0,2983.5,3132.68
+12124-02,"Calcolo, 8 Light Rectangular LED Chandelier, Matte Black",12,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,2.0,2983.5,3132.67
+12124-02,"Calcolo, 8 Light Rectangular LED Chandelier, Matte Black",12,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-04-15,1.0,1755.0,1842.75
+12124-02,"Calcolo, 8 Light Rectangular LED Chandelier, Matte Black",12,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-03-21,1.0,1755.0,1842.75
+12124-02,"Calcolo, 8 Light Rectangular LED Chandelier, Matte Black",12,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-03-13,1.0,2035.0,2136.75
+12124-02,"Calcolo, 8 Light Rectangular LED Chandelier, Matte Black",12,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-27,2.0,2786.3,2925.62
+12124-030,"Calcolo,  8 Light Rectangular LED Chandelier, Painted Antique Brass",13,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-09-19,1.0,1755.0,1842.75
+12124-030,"Calcolo,  8 Light Rectangular LED Chandelier, Painted Antique Brass",13,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-03-14,1.0,1755.0,1842.75
+12124-030,"Calcolo,  8 Light Rectangular LED Chandelier, Painted Antique Brass",13,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-08-08,1.0,1755.0,1842.75
+12124-030,"Calcolo,  8 Light Rectangular LED Chandelier, Painted Antique Brass",13,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-08,2.0,3510.0,3685.5
+12124-030,"Calcolo,  8 Light Rectangular LED Chandelier, Painted Antique Brass",13,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-01,1.0,1491.75,1566.34
+12124-030,"Calcolo,  8 Light Rectangular LED Chandelier, Painted Antique Brass",13,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,1.0,1491.75,1566.34
+12124-030,"Calcolo,  8 Light Rectangular LED Chandelier, Painted Antique Brass",13,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-05,2.0,2281.5,2395.57
+12124-030,"Calcolo,  8 Light Rectangular LED Chandelier, Painted Antique Brass",13,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,1.0,1404.0,1474.2
+12124-030,"Calcolo,  8 Light Rectangular LED Chandelier, Painted Antique Brass",13,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-27,2.0,2786.3,2925.61
+12124-030,"Calcolo,  8 Light Rectangular LED Chandelier, Painted Antique Brass",13,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-21,1.0,1393.15,1462.8
+12124-45-10-02,"Calcolo 10 Light Rectangular LED Chandelier, Matte Black",1,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-08-01,1.0,2250.0,2362.5
+12125-02,"Calcolo, 5 Light Linear LED Chandelier, Matte Black",22,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-03-13,1.0,1131.0,1187.55
+12125-02,"Calcolo, 5 Light Linear LED Chandelier, Matte Black",22,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-09-19,2.0,2262.0,2375.1
+12125-02,"Calcolo, 5 Light Linear LED Chandelier, Matte Black",22,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-05-30,1.0,1131.0,1187.55
+12125-02,"Calcolo, 5 Light Linear LED Chandelier, Matte Black",22,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-02-19,1.0,1131.0,1187.55
+12125-02,"Calcolo, 5 Light Linear LED Chandelier, Matte Black",22,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-09-19,1.0,961.35,1009.42
+12125-02,"Calcolo, 5 Light Linear LED Chandelier, Matte Black",22,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,1.0,961.35,1009.41
+12125-02,"Calcolo, 5 Light Linear LED Chandelier, Matte Black",22,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,1.0,961.35,1009.42
+12125-02,"Calcolo, 5 Light Linear LED Chandelier, Matte Black",22,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-11-04,1.0,1017.9,1068.79
+12125-02,"Calcolo, 5 Light Linear LED Chandelier, Matte Black",22,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-09-26,1.0,1131.0,1187.55
+12125-02,"Calcolo, 5 Light Linear LED Chandelier, Matte Black",22,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-09-19,1.0,1131.0,1187.55
+12125-02,"Calcolo, 5 Light Linear LED Chandelier, Matte Black",22,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-09-19,4.0,3845.4,4037.67
+12125-02,"Calcolo, 5 Light Linear LED Chandelier, Matte Black",22,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-30,2.0,2262.0,2375.1
+12125-02,"Calcolo, 5 Light Linear LED Chandelier, Matte Black",22,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-24,1.0,1131.0,1187.55
+12125-02,"Calcolo, 5 Light Linear LED Chandelier, Matte Black",22,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-05-14,4.0,3619.2,3800.16
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-02,1.0,1131.0,1187.55
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-04-25,1.0,1131.0,1187.55
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-02-14,1.0,739.2,776.16
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-08-08,1.0,1131.0,1187.55
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-08-08,1.0,1131.0,1187.55
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-08,2.0,1922.7,2018.84
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-08,2.0,1922.7,2018.83
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-07-07,1.0,985.0,1034.25
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,1.0,1131.0,1187.55
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,2.0,1922.7,2018.84
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-03-13,1.0,1131.0,1187.55
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-01-30,1.0,1056.0,1108.8
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-11-04,1.0,1017.9,1068.8
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-09-19,1.0,1131.0,1187.55
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-18,1.0,961.35,1009.42
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-05,2.0,2262.0,2375.1
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-05,1.0,735.15,771.91
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-30,1.0,1131.0,1187.55
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-24,1.0,1131.0,1187.55
+12125-030,"Calcolo, 5 Light Linear LED Chandelier, Painted Antique Brass",24,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-05-02,1.0,791.7,831.28
+12126-02,"Calcolo, 14 Light Rectangular LED Chandelier, Matte Black",12,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-06-27,1.0,3014.0,3164.7
+12126-02,"Calcolo, 14 Light Rectangular LED Chandelier, Matte Black",12,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-02-19,1.0,2816.0,2956.8
+12126-02,"Calcolo, 14 Light Rectangular LED Chandelier, Matte Black",12,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-02-19,1.0,3364.0,3532.2
+12126-02,"Calcolo, 14 Light Rectangular LED Chandelier, Matte Black",12,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-08-08,1.0,3014.0,3164.7
+12126-02,"Calcolo, 14 Light Rectangular LED Chandelier, Matte Black",12,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-10-03,1.0,3014.0,3164.7
+12126-02,"Calcolo, 14 Light Rectangular LED Chandelier, Matte Black",12,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-11-04,2.0,5425.2,5696.46
+12126-02,"Calcolo, 14 Light Rectangular LED Chandelier, Matte Black",12,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-09-26,2.0,6028.0,6329.4
+12126-02,"Calcolo, 14 Light Rectangular LED Chandelier, Matte Black",12,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-09-19,2.0,6028.0,6329.4
+12126-02,"Calcolo, 14 Light Rectangular LED Chandelier, Matte Black",12,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-30,1.0,3014.0,3164.7
+12126-030,"Calcolo, 14 Light Rectangular LED Chandelier, Painted Antique Brass",5,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-08-22,1.0,2109.8,2215.29
+12126-030,"Calcolo, 14 Light Rectangular LED Chandelier, Painted Antique Brass",5,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-19,2.0,6028.0,6329.4
+12126-030,"Calcolo, 14 Light Rectangular LED Chandelier, Painted Antique Brass",5,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-01-27,1.0,2816.0,2956.8
+12126-030,"Calcolo, 14 Light Rectangular LED Chandelier, Painted Antique Brass",5,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-01-27,1.0,2393.6,2513.28
+12135-02,"Lucidata, 1 Light LED Pendant, Matte Black",2,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-04-02,2.0,566.0,594.3
+12136-030,"Lucidata, 3 Light Round LED Pendant, Painted Antique Brass",3,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-03-13,1.0,541.8,568.89
+12136-030,"Lucidata, 3 Light Round LED Pendant, Painted Antique Brass",3,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-07-03,1.0,774.0,812.7
+12136-030,"Lucidata, 3 Light Round LED Pendant, Painted Antique Brass",3,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-24,1.0,774.0,812.7
+12141-030,"Lucidata, 5 Light Linear LED Chandelier, Painted Antique Brass",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-19,1.0,1237.0,1298.85
+12164-021-4K,"Nettuno, 2 Tier LED Chandelier, Painted Silver, 4000K",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-06-24,1.0,3985.0,4184.25
+12164-040,"Nettuno, 2 Tier LED Chandelier, Painted Brushed Grey",9,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-06-06,1.0,3553.0,3730.65
+12164-040,"Nettuno, 2 Tier LED Chandelier, Painted Brushed Grey",9,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-10,1.0,3553.0,3730.65
+12164-040,"Nettuno, 2 Tier LED Chandelier, Painted Brushed Grey",9,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-06-04,1.0,2842.4,2984.52
+12164-040,"Nettuno, 2 Tier LED Chandelier, Painted Brushed Grey",9,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-03-21,6.0,17054.4,17907.12
+12165-040,"Nettuno, 3 Tier LED Chandelier, Painted Brushed Grey",2,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-03-13,1.0,4835.6,5077.38
+12165-040,"Nettuno, 3 Tier LED Chandelier, Painted Brushed Grey",2,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-07-25,1.0,6908.0,7253.4
+12166-6-2-023-02,"Sorrento, 2 Light LED Pendant, Mixed, Black Canopy ",3,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-19,3.0,1020.0,1071.0
+12166-6-2-023-07,"Sorrento, 2 Light LED Pendant, Mixed, Gold Canopy ",4,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-19,4.0,1352.0,1419.6
+12166-017-01,"Sorrento, 1 Light LED Pendant, Clear, Chrome Canopy ",4,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-09-26,4.0,776.0,814.8
+12166-018-07,"Sorrento, 1 Light LED Pendant, Amber, Gold Canopy ",1,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-03-13,1.0,135.8,142.59
+12166-019-02,"Sorrento, 1 Light LED Pendant, Smoke, Black Canopy ",3,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-08-22,2.0,374.0,392.7
+12166-019-02,"Sorrento, 1 Light LED Pendant, Smoke, Black Canopy ",3,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-03-28,1.0,187.0,196.35
+12166-019-07,"Sorrento, 1 Light LED Pendant, Smoke, Gold Canopy ",2,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-03-13,2.0,271.6,285.18
+12166-020-07,"Sorrento, 1 Light LED Pendant, Copper, Gold Canopy ",2,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-03-13,2.0,329.0,345.45
+12168-037,"Corato, 3 Light Wall Mount, Brushed Brass",10,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-10-17,1.0,245.0,257.25
+12168-037,"Corato, 3 Light Wall Mount, Brushed Brass",10,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-08-22,2.0,490.0,514.5
+12168-037,"Corato, 3 Light Wall Mount, Brushed Brass",10,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-07-23,2.0,490.0,514.5
+12168-037,"Corato, 3 Light Wall Mount, Brushed Brass",10,BC,C00091,Design Lighting,MR - Luminescence,CAD,2025-09-18,2.0,490.0,514.5
+12168-037,"Corato, 3 Light Wall Mount, Brushed Brass",10,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-09-12,1.0,171.5,180.08
+12168-037,"Corato, 3 Light Wall Mount, Brushed Brass",10,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-07-25,1.0,245.0,257.25
+12168-037,"Corato, 3 Light Wall Mount, Brushed Brass",10,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-05-02,1.0,171.5,180.07
+12168-039,"Corato, 3 Light Wall Mount, Brushed Brass with Translucent White Glass",23,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-03-13,1.0,171.5,180.08
+12168-039,"Corato, 3 Light Wall Mount, Brushed Brass with Translucent White Glass",23,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-10-10,1.0,245.0,257.25
+12168-039,"Corato, 3 Light Wall Mount, Brushed Brass with Translucent White Glass",23,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-07-23,2.0,490.0,514.5
+12168-039,"Corato, 3 Light Wall Mount, Brushed Brass with Translucent White Glass",23,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-17,1.0,245.0,257.25
+12168-039,"Corato, 3 Light Wall Mount, Brushed Brass with Translucent White Glass",23,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-08-22,10.0,2450.0,2572.5
+12168-039,"Corato, 3 Light Wall Mount, Brushed Brass with Translucent White Glass",23,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-02,2.0,490.0,514.5
+12168-039,"Corato, 3 Light Wall Mount, Brushed Brass with Translucent White Glass",23,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-09-12,1.0,171.5,180.07
+12168-039,"Corato, 3 Light Wall Mount, Brushed Brass with Translucent White Glass",23,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-10-10,2.0,490.0,514.5
+12168-039,"Corato, 3 Light Wall Mount, Brushed Brass with Translucent White Glass",23,BC,C00444,Robinson - Granville,MR - Luminescence,CAD,2025-10-31,1.0,171.5,180.08
+12168-039,"Corato, 3 Light Wall Mount, Brushed Brass with Translucent White Glass",23,BC,C00444,Robinson - Granville,MR - Luminescence,CAD,2025-10-31,2.0,416.5,437.33
+12169-01,"Corato, 1 Light Wall Mount, Chrome",3,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-08-15,1.0,98.0,102.9
+12169-01,"Corato, 1 Light Wall Mount, Chrome",3,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-10-10,2.0,196.0,205.8
+12169-037,"Corato, 1 Light Wall Mount, Brushed Brass",47,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-08-22,33.0,3432.0,3603.6
+12169-037,"Corato, 1 Light Wall Mount, Brushed Brass",47,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-02-27,2.0,208.0,218.4
+12169-037,"Corato, 1 Light Wall Mount, Brushed Brass",47,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-02-27,1.0,83.2,87.36
+12169-037,"Corato, 1 Light Wall Mount, Brushed Brass",47,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-07-04,3.0,312.0,327.6
+12169-037,"Corato, 1 Light Wall Mount, Brushed Brass",47,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,2.0,208.0,218.4
+12169-037,"Corato, 1 Light Wall Mount, Brushed Brass",47,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-04-15,4.0,416.0,436.8
+12169-037,"Corato, 1 Light Wall Mount, Brushed Brass",47,SK,C00359,Robinson Supply-Saskatoon,MR - Luminescence,CAD,2025-08-15,2.0,208.0,230.88
+12169-039,"Corato, 1 Light Wall Mount, Brushed Brass with Translucent White Glass",21,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-10-10,1.0,104.0,109.2
+12169-039,"Corato, 1 Light Wall Mount, Brushed Brass with Translucent White Glass",21,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-09-26,2.0,208.0,218.4
+12169-039,"Corato, 1 Light Wall Mount, Brushed Brass with Translucent White Glass",21,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-06-25,1.0,104.0,109.2
+12169-039,"Corato, 1 Light Wall Mount, Brushed Brass with Translucent White Glass",21,BC,C00444,Robinson - Granville,MR - Luminescence,CAD,2025-10-31,1.0,72.8,76.44
+12169-039,"Corato, 1 Light Wall Mount, Brushed Brass with Translucent White Glass",21,BC,C00444,Robinson - Granville,MR - Luminescence,CAD,2025-10-31,6.0,530.4,556.92
+12169-039,"Corato, 1 Light Wall Mount, Brushed Brass with Translucent White Glass",21,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-04-15,8.0,832.0,873.6
+12169-039,"Corato, 1 Light Wall Mount, Brushed Brass with Translucent White Glass",21,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-13,2.0,208.0,218.4
+12174-02-4000K,"Nettuno 60"" Oval LED Chandelier, Matte Black ",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-10-17,1.0,2235.0,2346.75
+12175-040,"Nettuno, 72"" Oval LED Chandelier, Painted Brushed Grey",1,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,1.0,2281.0,2395.05
+12176-01,"Bellissima, 1 Light Pendant, Silver Sleeve",2,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-07-30,2.0,404.0,456.52
+12188-030,"Milazzo, Medium Linear Chandelier, Antique Brass",3,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-03-13,1.0,655.9,688.69
+12188-030,"Milazzo, Medium Linear Chandelier, Antique Brass",3,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-06-13,1.0,937.0,983.85
+12188-030,"Milazzo, Medium Linear Chandelier, Antique Brass",3,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-09-05,1.0,937.0,983.85
+12189-030,"Milazzo, Large Linear Chandelier, Antique Brass",2,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-10-10,1.0,1127.0,1183.35
+12189-030,"Milazzo, Large Linear Chandelier, Antique Brass",2,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-03-13,1.0,732.55,769.18
+12194-042,"Torino, 8 Light Linear LED Chandelier, Brushed Vintage Grey",1,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-09-12,1.0,889.0,933.45
+12196-043,"Pisa, 23 Light LED Chandelier, Black with Gold Accent ",1,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-03-21,1.0,3445.0,3617.25
+12205-01,"Corato, 6 Light Flushmount / Pendant, Chrome",1,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,1.0,548.0,575.4
+12205-037,"Corato, 6 Light Flushmount / Pendant, Brushed Brass",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-10,1.0,587.0,616.35
+12205-037,"Corato, 6 Light Flushmount / Pendant, Brushed Brass",2,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-09-05,1.0,587.0,616.35
+12205-039,"Corato, 6 Light Flushmount / Pendant, Brushed Brass with White Translucent",5,BC,C00444,Robinson - Granville,MR - Luminescence,CAD,2025-10-31,2.0,997.9,1047.8
+12205-039,"Corato, 6 Light Flushmount / Pendant, Brushed Brass with White Translucent",5,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-07-25,1.0,587.0,616.35
+12205-039,"Corato, 6 Light Flushmount / Pendant, Brushed Brass with White Translucent",5,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-07-18,1.0,587.0,616.35
+12205-039,"Corato, 6 Light Flushmount / Pendant, Brushed Brass with White Translucent",5,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-07-18,1.0,587.0,616.35
+12214-01,"Castellana, 6 Light Linear Chandelier, Chrome, Clear Crystal",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-21,1.0,2035.5,2137.28
+12220-023-02,"Sorrento, 22 Light Oval LED Chandelier, Mixed, Black Canopy",1,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-07-10,1.0,2343.0,2460.15
+12221-023-07,"Sorrento, 28 Light Oval LED Chandelier, Mixed, Gold Canopy",1,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-03-28,1.0,3671.0,3854.55
+12222-043,"Pisa, 17 Light Oval LED Chandelier, Black with Gold Accent",8,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-03-13,2.0,3532.2,3708.81
+12222-043,"Pisa, 17 Light Oval LED Chandelier, Black with Gold Accent",8,BC,C00111,Mclaren Lighting - Nanaimo,MR - Luminescence,CAD,2025-05-23,1.0,2523.0,2649.15
+12222-043,"Pisa, 17 Light Oval LED Chandelier, Black with Gold Accent",8,BC,C00111,Mclaren Lighting - Nanaimo,MR - Luminescence,CAD,2025-03-20,1.0,1639.95,1721.95
+12222-043,"Pisa, 17 Light Oval LED Chandelier, Black with Gold Accent",8,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-09-05,1.0,2523.0,2649.15
+12222-043,"Pisa, 17 Light Oval LED Chandelier, Black with Gold Accent",8,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-07-18,1.0,2523.0,2649.15
+12222-043,"Pisa, 17 Light Oval LED Chandelier, Black with Gold Accent",8,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-03-20,1.0,1639.95,1721.95
+12222-043,"Pisa, 17 Light Oval LED Chandelier, Black with Gold Accent",8,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-02-14,1.0,1766.1,1854.41
+12224-043,"Pisa, 40 Light LED Grand Chandelier, Black with Gold Accent",2,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-06-30,1.0,7592.0,7971.6
+12224-043,"Pisa, 40 Light LED Grand Chandelier, Black with Gold Accent",2,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-07-10,1.0,7592.0,7971.6
+12232-043,"Modena, 8 Light LED Chandelier, Black with Gold Accent",1,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-22,1.0,1928.0,2024.4
+12233-043,"Modena, 8 Light Oval LED Chandelier,  Black with Gold Accent",6,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-06-06,1.0,1381.1,1450.16
+12233-043,"Modena, 8 Light Oval LED Chandelier,  Black with Gold Accent",6,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-10-10,1.0,1973.0,2071.65
+12233-043,"Modena, 8 Light Oval LED Chandelier,  Black with Gold Accent",6,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-07-15,1.0,1973.0,2071.65
+12233-043,"Modena, 8 Light Oval LED Chandelier,  Black with Gold Accent",6,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-02-14,1.0,1381.1,1450.15
+12233-043,"Modena, 8 Light Oval LED Chandelier,  Black with Gold Accent",6,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-02-19,1.0,1381.1,1450.15
+12233-043,"Modena, 8 Light Oval LED Chandelier,  Black with Gold Accent",6,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-02-14,1.0,1381.1,1450.15
+12234-043,"Modena, 10 Light Oval LED Chandelier,  Black with Gold Accent",2,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-06-27,1.0,2551.0,2678.55
+12234-043,"Modena, 10 Light Oval LED Chandelier,  Black with Gold Accent",2,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-22,1.0,2551.0,2678.55
+12236-08,"Aveah, 4 Light LED Chandelier, Sand Black",2,BC,C00111,Mclaren Lighting - Nanaimo,MR - Luminescence,CAD,2025-03-20,1.0,837.85,879.74
+12236-08,"Aveah, 4 Light LED Chandelier, Sand Black",2,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-03-20,1.0,837.85,879.74
+12238-08,"Aveah, 4 Light Linear LED Chandelier, Sand Black",2,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,1.0,1163.65,1221.83
+12238-08,"Aveah, 4 Light Linear LED Chandelier, Sand Black",2,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-24,1.0,1369.0,1437.45
+12241-030,"Baveno, 23 Light Rectangular LED Chandelier, Painted Antique Brass",1,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-02-18,1.0,3187.8,3347.19
+12242-030,"Adelfia, 20 Light Rectangular Linear  Chandelier, Painted Antique Brass",3,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-21,1.0,2245.1,2357.35
+12242-030,"Adelfia, 20 Light Rectangular Linear  Chandelier, Painted Antique Brass",3,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-21,1.0,2935.9,3082.69
+12242-030,"Adelfia, 20 Light Rectangular Linear  Chandelier, Painted Antique Brass",3,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-02-18,1.0,2245.1,2357.36
+12246-030,"Calcolo, 23 Light Rectangular LED Chandelier, Painted Antique Brass",1,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-08-22,1.0,3940.3,4137.31
+12247-030,"Calcolo, 20 Light Rectangular LED Chandelier, Painted Antique Brass",3,BC,C00444,Robinson - Granville,MR - Luminescence,CAD,2025-10-31,1.0,4103.8,4308.99
+12247-030,"Calcolo, 20 Light Rectangular LED Chandelier, Painted Antique Brass",3,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-11-04,1.0,4345.2,4562.46
+12247-030,"Calcolo, 20 Light Rectangular LED Chandelier, Painted Antique Brass",3,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-02-18,1.0,3138.2,3295.11
+12252-02,"Mantova, 1 Light LED Pendant, Matte Black",1,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-05-02,1.0,253.0,265.65
+12252-030,"Mantova, 1 Light LED Pendant, Painted Antique Brass",3,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-02-14,1.0,177.1,185.96
+12252-030,"Mantova, 1 Light LED Pendant, Painted Antique Brass",3,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-10-03,1.0,253.0,265.65
+12252-030,"Mantova, 1 Light LED Pendant, Painted Antique Brass",3,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-02-19,1.0,177.1,185.96
+12262-02,"Calcolo, 5 Light Round LED Chandelier, Matte Black",21,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-09-19,1.0,1097.0,1151.85
+12262-02,"Calcolo, 5 Light Round LED Chandelier, Matte Black",21,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-08-01,1.0,1097.0,1151.85
+12262-02,"Calcolo, 5 Light Round LED Chandelier, Matte Black",21,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-02-14,1.0,987.3,1036.67
+12262-02,"Calcolo, 5 Light Round LED Chandelier, Matte Black",21,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-02-14,1.0,767.9,806.29
+12262-02,"Calcolo, 5 Light Round LED Chandelier, Matte Black",21,BC,C00444,Robinson - Granville,MR - Luminescence,CAD,2025-10-31,2.0,1864.9,1958.14
+12262-02,"Calcolo, 5 Light Round LED Chandelier, Matte Black",21,BC,C00188,Robinson - Penticton,MR - Luminescence,CAD,2025-04-07,1.0,767.9,867.73
+12262-02,"Calcolo, 5 Light Round LED Chandelier, Matte Black",21,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-10-03,2.0,2194.0,2303.7
+12262-02,"Calcolo, 5 Light Round LED Chandelier, Matte Black",21,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-09-19,2.0,2194.0,2303.7
+12262-02,"Calcolo, 5 Light Round LED Chandelier, Matte Black",21,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-08,1.0,932.45,979.07
+12262-02,"Calcolo, 5 Light Round LED Chandelier, Matte Black",21,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,1.0,932.45,979.08
+12262-02,"Calcolo, 5 Light Round LED Chandelier, Matte Black",21,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,1.0,932.45,979.07
+12262-02,"Calcolo, 5 Light Round LED Chandelier, Matte Black",21,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-05-02,1.0,1097.0,1151.85
+12262-02,"Calcolo, 5 Light Round LED Chandelier, Matte Black",21,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-04-15,1.0,1097.0,1151.85
+12262-02,"Calcolo, 5 Light Round LED Chandelier, Matte Black",21,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-03-13,1.0,1097.0,1151.85
+12262-02,"Calcolo, 5 Light Round LED Chandelier, Matte Black",21,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-09-19,1.0,1097.0,1151.85
+12262-02,"Calcolo, 5 Light Round LED Chandelier, Matte Black",21,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-13,1.0,1097.0,1151.85
+12262-02,"Calcolo, 5 Light Round LED Chandelier, Matte Black",21,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-30,1.0,1097.0,1151.85
+12262-02,"Calcolo, 5 Light Round LED Chandelier, Matte Black",21,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-03-21,1.0,1097.0,1151.85
+12262-030,"Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",23,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-10-03,1.0,1097.0,1151.85
+12262-030,"Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",23,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-02-10,1.0,1097.0,1151.85
+12262-030,"Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",23,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-10-24,1.0,1097.0,1151.85
+12262-030,"Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",23,BC,C00125,Ocean Pacific Lighting Inc.-Showroom,MR - Luminescence,CAD,2025-08-08,1.0,1097.0,1151.85
+12262-030,"Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",23,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-09-19,4.0,4388.0,4607.4
+12262-030,"Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",23,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,1.0,932.45,979.07
+12262-030,"Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",23,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-06-27,2.0,1864.9,1958.14
+12262-030,"Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",23,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-04-25,1.0,1097.0,1151.85
+12262-030,"Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",23,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-04-15,1.0,1097.0,1151.85
+12262-030,"Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",23,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-04-16,1.0,1097.0,1151.85
+12262-030,"Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",23,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-03-21,1.0,767.9,806.3
+12262-030,"Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",23,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-10-10,1.0,1097.0,1151.85
+12262-030,"Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",23,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-09-19,1.0,1097.0,1151.85
+12262-030,"Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",23,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-09-19,1.0,1097.0,1151.85
+12262-030,"Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",23,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-22,1.0,1097.0,1151.85
+12262-030,"Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",23,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-13,1.0,1097.0,1151.85
+12262-030,"Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",23,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-03-13,1.0,1097.0,1151.85
+12262-030,"Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",23,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-02-18,1.0,1097.0,1151.85
+12262-030,"Calcolo, 5 Light Round LED Chandelier, Painted Antique Brass",23,MB,C00267,Robinson Lighting ,MR - Luminescence,CAD,2025-04-25,1.0,1097.0,1151.85
+12265-02,"Adelfia, 5 Light Round LED Chandelier, Matte Black",8,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-02-14,1.0,785.0,824.25
+12265-02,"Adelfia, 5 Light Round LED Chandelier, Matte Black",8,BC,C00111,Mclaren Lighting - Nanaimo,MR - Luminescence,CAD,2025-07-02,1.0,762.0,800.1
+12265-02,"Adelfia, 5 Light Round LED Chandelier, Matte Black",8,BC,C00111,Mclaren Lighting - Nanaimo,MR - Luminescence,CAD,2025-03-20,1.0,495.3,520.07
+12265-02,"Adelfia, 5 Light Round LED Chandelier, Matte Black",8,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-03-20,1.0,495.3,520.07
+12265-02,"Adelfia, 5 Light Round LED Chandelier, Matte Black",8,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-03-21,1.0,762.0,800.1
+12265-02,"Adelfia, 5 Light Round LED Chandelier, Matte Black",8,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-08,1.0,762.0,800.1
+12265-02,"Adelfia, 5 Light Round LED Chandelier, Matte Black",8,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-10-03,1.0,762.0,800.1
+12265-02,"Adelfia, 5 Light Round LED Chandelier, Matte Black",8,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-21,1.0,495.3,520.06
+12265-030,"Adelfia, 5 Light Round LED Chandelier, Painted Antique Brass",2,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-06-06,1.0,762.0,800.1
+12265-030,"Adelfia, 5 Light Round LED Chandelier, Painted Antique Brass",2,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-03-13,1.0,762.0,800.1
+12266-02,"Manarola, 5 Light Round LED Chandelier, Matte Black",1,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-09-05,1.0,828.0,869.4
+12266-030,"Manarola, 5 Light Round LED Chandelier, Painted Antique Brass",3,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-10-31,1.0,828.0,869.4
+12266-030,"Manarola, 5 Light Round LED Chandelier, Painted Antique Brass",3,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-08-22,1.0,828.0,869.4
+12266-030,"Manarola, 5 Light Round LED Chandelier, Painted Antique Brass",3,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-05-09,1.0,828.0,869.4
+12267-02,"Baveno, 5 Light Round LED Chandelier, Matte Black",2,Alberta,C00070,Signature Lighting and Fans,MR - Luminescence,CAD,2025-09-05,1.0,900.0,945.0
+12267-02,"Baveno, 5 Light Round LED Chandelier, Matte Black",2,BC,C00300,Robinson - Surrey,MR - Luminescence,CAD,2025-09-12,1.0,900.0,945.0
+12267-030,"Baveno, 5 Light Round LED Chandelier, Painted Antique Brass",4,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-09-26,1.0,900.0,945.0
+12267-030,"Baveno, 5 Light Round LED Chandelier, Painted Antique Brass",4,Alberta,C00303,Dhillon Lighting - Calgary ,MR - Luminescence,CAD,2025-05-09,1.0,900.0,945.0
+12267-030,"Baveno, 5 Light Round LED Chandelier, Painted Antique Brass",4,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-06-27,1.0,900.0,945.0
+12267-030,"Baveno, 5 Light Round LED Chandelier, Painted Antique Brass",4,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-11,1.0,900.0,945.0
+12269-037,"Gravina, 1 Light LED Pendant, Brushed Brass, Clear Crystal",1,BC,C00426,Robinson Lighting -Kelowna,MR - Luminescence,CAD,2025-03-21,1.0,134.4,141.12
+12272-037,"Gravina, 13 Light LED Chandelier, Brushed Brass, Clear Crystal",3,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-09-12,1.0,2174.0,2282.7
+12272-037,"Gravina, 13 Light LED Chandelier, Brushed Brass, Clear Crystal",3,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-21,1.0,1413.1,1483.76
+12272-037,"Gravina, 13 Light LED Chandelier, Brushed Brass, Clear Crystal",3,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-02-18,1.0,1413.1,1483.75
+12285-02,"Alcamo, 8 Light LED Chandelier, Matte Black",1,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-03-13,1.0,2116.8,2222.64
+12287-030,"Castelo, 1 Light LED Pendant, Painted Antique Brass",6,BC,C00444,Robinson - Granville,MR - Luminescence,CAD,2025-10-31,6.0,1060.8,1113.84
+12289-02,"Castelo, 9 Light Round LED Chandelier, Matte Black",4,BC,C00361,Norburn Lighting ,MR - Luminescence,CAD,2025-02-14,1.0,1161.3,1219.37
+12289-02,"Castelo, 9 Light Round LED Chandelier, Matte Black",4,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-08-05,1.0,1410.15,1480.66
+12289-02,"Castelo, 9 Light Round LED Chandelier, Matte Black",4,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-03-21,1.0,1659.0,1741.95
+12289-02,"Castelo, 9 Light Round LED Chandelier, Matte Black",4,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-02-18,1.0,1078.35,1132.27
+12289-030,"Castelo, 9 Light Round LED Chandelier, Painted Antique Brass",2,BC,C00111,Mclaren Lighting - Nanaimo,MR - Luminescence,CAD,2025-03-20,1.0,1078.35,1132.27
+12289-030,"Castelo, 9 Light Round LED Chandelier, Painted Antique Brass",2,BC,C00095,McLaren Lighting - Victoria,MR - Luminescence,CAD,2025-03-20,1.0,1078.35,1132.27
+12290-02,"Castelo, 19 Light Round LED Chandelier, Matte Black",1,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-10-24,1.0,3450.0,3622.5
+12291-030,"Castelo, 31 Light LED Grand Chandelier, Painted Antique Brass",1,AB,C00345,Dhillon Lighting - Edmonton,MR - Luminescence,CAD,2025-07-09,1.0,3978.1,4177.01
+12294-030,"Castelo, 14 Light Rectangular LED Chandelier, Painted Antique Brass",1,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-07-25,1.0,2468.0,2591.4
+12295-02,"Castelo, 20 Light Rectangular LED Pendant, Matte Black",2,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-07-10,2.0,7414.0,7784.7
+12296-02,"Castelo, 23 Light Rectangular LED Chandelier, Matte Black",1,BC,C00115,The Lighting Warehouse,MR - Luminescence,CAD,2025-06-30,1.0,4352.0,4569.6
+12297-02,"Castelo, 5 Light Round LED Chandelier, Matte Black",2,AB,C00146,Robinson - Edmonton,MR - Luminescence,CAD,2025-02-19,1.0,634.9,666.65
+12297-02,"Castelo, 5 Light Round LED Chandelier, Matte Black",2,BC,C00444,Robinson - Granville,MR - Luminescence,CAD,2025-10-31,1.0,634.9,666.64
+12297-030,"Castelo, 5 Light Round LED Chandelier, Painted Antique Brass",1,AB,C00147,Robinson - Calgary,MR - Luminescence,CAD,2025-02-14,1.0,634.9,666.65

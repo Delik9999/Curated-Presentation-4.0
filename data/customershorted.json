@@ -1,23 +1,384 @@
 [
   {
-    "id": "demo",
-    "name": "Luminous Interiors",
-    "city": "Dallas",
-    "region": "TX",
-    "slug": "luminous-interiors"
+    "id": "starlight-lighting",
+    "name": "Starlight Lighting",
+    "city": "Canmore",
+    "region": "AB",
+    "slug": "starlight-lighting",
+    "authorizedVendors": [
+      "savoy-house",
+      "lib-and-co",
+      "hubbardton-forge"
+    ],
+    "logoUrl": "https://starlightlighting.ca/~/images/logo.png"
   },
   {
-    "id": "aurora-hospitality",
-    "name": "Aurora Hospitality Group",
-    "city": "Austin",
-    "region": "TX",
-    "slug": "aurora-hospitality"
+    "id": "veranda-estate-homes-inc",
+    "name": "Veranda Estate Homes Inc.",
+    "city": "Calgary",
+    "region": "AB",
+    "slug": "veranda-estate-homes-inc",
+    "authorizedVendors": [
+      "savoy-house"
+    ],
+    "logoUrl": null
   },
   {
-    "id": "gallery-one",
-    "name": "Gallery One Residences",
-    "city": "Chicago",
-    "region": "IL",
-    "slug": "gallery-one"
+    "id": "accent-lighting-inc-alberta",
+    "name": "Accent Lighting",
+    "city": "Lloydminster",
+    "region": "AB",
+    "slug": "accent-lighting-inc-alberta",
+    "authorizedVendors": [
+      "savoy-house"
+    ],
+    "logoUrl": "https://chambermaster.blob.core.windows.net/images/members/2737/1204/MemPageHeader_accent_lighting_logo.jpg"
+  },
+  {
+    "id": "carrington-lighting-dba-can-kor",
+    "name": "Carrington Lighting",
+    "city": "Calgary",
+    "region": "AB",
+    "slug": "carrington-lighting-dba-can-kor",
+    "authorizedVendors": [
+      "savoy-house",
+      "hubbardton-forge"
+    ],
+    "logoUrl": "https://carringtonlighting.com/cdn/shop/files/CL_logo_720x.png?v=1614308817"
+  },
+  {
+    "id": "chateau-lighting",
+    "name": "Chateau Lighting",
+    "city": "Edmonton",
+    "region": "AB",
+    "slug": "chateau-lighting",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house",
+      "hubbardton-forge"
+    ],
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhwLS6Am1xfV32LuQFYXIt5VCsnRzv0TEKKQ&s"
+  },
+  {
+    "id": "dhillon-lighting-calgary",
+    "name": "Dhillon Lighting (Calgary)",
+    "city": "Calgary",
+    "region": "AB",
+    "slug": "dhillon-lighting-calgary",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house",
+      "hubbardton-forge"
+    ]
+  },
+  {
+    "id": "dhillon-lighting-inc-edmonton",
+    "name": "Dhillon Lighting Inc (Edmonton)",
+    "city": "Edmonton",
+    "region": "AB",
+    "slug": "dhillon-lighting-inc-edmonton",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ]
+  },
+  {
+    "id": "lights-canada",
+    "name": "Lights Canada",
+    "city": "Calgary",
+    "region": "AB",
+    "slug": "lights-canada",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ]
+  },
+  {
+    "id": "park-lighting-and-furniture-ltd-dba-cartwright-lighting-fu",
+    "name": "Park Cartwright Lighting",
+    "city": "Edmonton",
+    "region": "AB",
+    "slug": "park-lighting-and-furniture-ltd-dba-cartwright-lighting-fu",
+    "authorizedVendors": [
+      "savoy-house"
+    ],
+    "logoUrl": null
+  },
+  {
+    "id": "red-deer-lighting-centre",
+    "name": "Red Deer Lighting",
+    "city": "Red Deer",
+    "region": "AB",
+    "slug": "red-deer-lighting-centre",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ],
+    "logoUrl": null
+  },
+  {
+    "id": "signature-lighting-fans-dba-whitfield-lighting-and-furnitu",
+    "name": "Signature Lighting",
+    "city": "Calgary",
+    "region": "AB",
+    "slug": "signature-lighting-fans-dba-whitfield-lighting-and-furnitu",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ],
+    "logoUrl": null
+  },
+  {
+    "id": "vivid-concepts-lighting",
+    "name": "Vivid Concepts Lighting",
+    "city": "Calgary",
+    "region": "AB",
+    "slug": "vivid-concepts-lighting",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ]
+  },
+  {
+    "id": "acres-market-interiors",
+    "name": "!! Acres Market & Interiors",
+    "city": "Langley",
+    "region": "BC",
+    "slug": "acres-market-interiors",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ]
+  },
+  {
+    "id": "heirloom-home-shop-inc",
+    "name": "!! Heirloom Home Shop Inc.",
+    "city": "Langley",
+    "region": "BC",
+    "slug": "heirloom-home-shop-inc",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ]
+  },
+  {
+    "id": "jenny-martin-design",
+    "name": "!! Jenny Martin Design",
+    "city": "Victoria",
+    "region": "BC",
+    "slug": "jenny-martin-design",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ]
+  },
+  {
+    "id": "0797222-bc-ltd-dba-elumea-lighting-co",
+    "name": "Elumea Lighting",
+    "city": "Victoria",
+    "region": "BC",
+    "slug": "0797222-bc-ltd-dba-elumea-lighting-co",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ],
+    "logoUrl": null
+  },
+  {
+    "id": "aura-interiors-inc-can",
+    "name": "Aura Interiors",
+    "city": "Abbottsford",
+    "region": "BC",
+    "slug": "aura-interiors-inc-can",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ],
+    "logoUrl": null
+  },
+  {
+    "id": "canadian-heritage-designs-ltd-dba-cf-interiors",
+    "name": "Canadian Heritage Designs Ltd. DBA CF Interiors",
+    "city": "North Vancouver",
+    "region": "BC",
+    "slug": "canadian-heritage-designs-ltd-dba-cf-interiors",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ]
+  },
+  {
+    "id": "design-lighting-sales",
+    "name": "Design Lighting Sales",
+    "city": "Surrey",
+    "region": "BC",
+    "slug": "design-lighting-sales",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ]
+  },
+  {
+    "id": "essence-lighting-and-design",
+    "name": "Essence Lighting",
+    "city": "Kamloops",
+    "region": "BC",
+    "slug": "essence-lighting-and-design",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ],
+    "logoUrl": null
+  },
+  {
+    "id": "lights-on-lighting-group",
+    "name": "LightsOn Lighting",
+    "city": "Kelowna",
+    "region": "BC",
+    "slug": "lights-on-lighting-group",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ],
+    "logoUrl": null
+  },
+  {
+    "id": "mainland-lighting-warehouse",
+    "name": "The Lighting Warehouse",
+    "city": "Richmond",
+    "region": "BC",
+    "slug": "mainland-lighting-warehouse",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ],
+    "logoUrl": null
+  },
+  {
+    "id": "maple-ridge-lighting-inc",
+    "name": "Maple Ridge Lighting",
+    "city": "Maple Ridge",
+    "region": "BC",
+    "slug": "maple-ridge-lighting-inc",
+    "authorizedVendors": [
+      "savoy-house"
+    ],
+    "logoUrl": null
+  },
+  {
+    "id": "mclaren-electric",
+    "name": "McLaren Electric",
+    "city": "Victoria",
+    "region": "BC",
+    "slug": "mclaren-electric",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house",
+      "hubbardton-forge"
+    ]
+  },
+  {
+    "id": "mountain-high-designs",
+    "name": "Mountain High Designs",
+    "city": "Castlegar",
+    "region": "BC",
+    "slug": "mountain-high-designs",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ]
+  },
+  {
+    "id": "ocean-pacific-lighting-inc",
+    "name": "Ocean Pacific Lighting",
+    "city": "Surrey",
+    "region": "BC",
+    "slug": "ocean-pacific-lighting-inc",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ],
+    "logoUrl": "https://oceanpacificlighting.com/cdn/shop/files/opl-logo-v2.svg?v=1734130928&width=100"
+  },
+  {
+    "id": "pine-lighting",
+    "name": "Pine Lighting",
+    "city": "Surrey",
+    "region": "BC",
+    "slug": "pine-lighting",
+    "authorizedVendors": [
+      "savoy-house"
+    ]
+  },
+  {
+    "id": "s-n-lighting-mfg-co-ltd",
+    "name": "S & N Lighting",
+    "city": "Burnaby",
+    "region": "BC",
+    "slug": "s-n-lighting-mfg-co-ltd",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ],
+    "logoUrl": null
+  },
+  {
+    "id": "save-more-plumbing-lighting",
+    "name": "Save More",
+    "city": "Kingsway Burnaby",
+    "region": "BC",
+    "slug": "save-more-plumbing-lighting",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ],
+    "logoUrl": null
+  },
+  {
+    "id": "sun-dial-lighting",
+    "name": "Sun Dial Lighting",
+    "city": "Vernon",
+    "region": "BC",
+    "slug": "sun-dial-lighting",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ]
+  },
+  {
+    "id": "the-kamloops-lampost-ltd",
+    "name": "The Kamloops Lampost",
+    "city": "Kamloops",
+    "region": "BC",
+    "slug": "the-kamloops-lampost-ltd",
+    "authorizedVendors": [
+      "savoy-house"
+    ],
+    "logoUrl": null
+  },
+  {
+    "id": "robinson-lighting-ltd-rob-ba-robinson-rob",
+    "name": "B.A. Robinson",
+    "city": "Winnipeg",
+    "region": "MB",
+    "slug": "robinson-lighting-ltd-rob-ba-robinson-rob",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house",
+      "hubbardton-forge"
+    ],
+    "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQF1E7ecxGx9Tg/company-logo_200_200/company-logo_200_200/0/1630581530636/b_a_robinson___electical_logo?e=2147483647&v=beta&t=lNpkPBsmrfEBVE8wDDJmRdhkYYEM9wSjcwfI_wtdLRQ"
+  },
+  {
+    "id": "robinson-lighting-ltd-rob-norburn-lighting-bath-centre",
+    "name": "Robinson Lighting",
+    "city": "Winniepeg",
+    "region": "MB",
+    "slug": "robinson-lighting-ltd-rob-norburn-lighting-bath-centre",
+    "authorizedVendors": [
+      "lib-and-co",
+      "savoy-house"
+    ],
+    "logoUrl": "https://robinsonlightingcentre.com/wp-content/uploads/2023/07/robinson-lighting-logo.jpg"
   }
 ]

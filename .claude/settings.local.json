@@ -1,10 +1,26 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm run build)",
-      "Bash(git checkout:*)",
-      "Bash(npm install:*)",
-      "Bash(npm run lint)"
+      "WebFetch(domain:www.hubbardtonforge.com)",
+      "Bash(curl -s \"https://www.hubbardtonforge.com/products/indoor-lighting/pendants\")",
+      "Bash(curl -s \"https://www.hubbardtonforge.com/products/coral-table-lamp\" -o /tmp/hf-product.html)",
+      "Bash(curl -s \"https://hubbardtonforge.com/about/finish-color-swatches\" -o /tmp/hf-swatches.html)",
+      "Bash(node scripts/scrape-hf-finishes.js)",
+      "Bash(curl -I 'https://hubbardtonforge.com/media/samplerequest/07_oil_rubbed_bronze.jpg')",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" 'https://hubbardtonforge.com/media/samplerequest/07_oil_rubbed_bronze.jpg')",
+      "Bash(node scripts/discover-all-finishes.js)",
+      "Bash(npx tsc --noEmit components/product/configurator-sheet.tsx components/product/finish-swatch.tsx)",
+      "Bash(curl -s http://localhost:300)",
+      "Bash(curl:*)",
+      "Bash(cat:*)",
+      "Bash(jq:*)",
+      "Bash(npx tsc:*)",
+      "Bash(lsof:*)",
+      "Bash(npm run dev:*)",
+      "Bash(xargs kill:*)",
+      "Bash(npm run build:*)",
+      "Bash(node -e:*)",
+      "Bash(pkill:*)"
     ],
     "deny": [],
     "ask": []

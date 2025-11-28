@@ -1,0 +1,81 @@
+{
+  "271201": {
+    "Item SKU": "271201",
+    "Product Name": "Horizon Console Lamp",
+    "Theme": "Horizon",
+    "WSP": "$999.00",
+    "UNIT NET": "$749.00",
+    "Width": "23.1",
+    "Height": "20.6",
+    "Depth": "11.1",
+    "Weight": "29.4",
+    "Finish": "Bronze, Burnished Steel, Black",
+    "Intro Date": "2024"
+  },
+  "271202": {
+    "Item SKU": "271202",
+    "Product Name": "Horizon Table Lamp",
+    "Theme": "Horizon",
+    "WSP": "$899.00",
+    "UNIT NET": "$674.00",
+    "Width": "19.88",
+    "Height": "29.28",
+    "Depth": "12.25",
+    "Weight": "21.5",
+    "Finish": "Bronze, Burnished Steel, Black",
+    "Intro Date": "2024"
+  },
+  "401320": {
+    "Item SKU": "401320",
+    "Product Name": "Aspen Small LED Lantern",
+    "Theme": "Aspen",
+    "WSP": "$1,249.00",
+    "UNIT NET": "$936.00",
+    "Width": "16.6",
+    "Height": "20.0",
+    "Depth": "16.5",
+    "Overall Height": "26.8 to 68.8",
+    "Useable Wire": "10.0 ft",
+    "Finish": "Bronze, Burnished Steel",
+    "Intro Date": "2024"
+  },
+  "401321": {
+    "Item SKU": "401321",
+    "Product Name": "Aspen Large LED Lantern",
+    "Theme": "Aspen",
+    "WSP": "$1,649.00",
+    "UNIT NET": "$1,236.00",
+    "Width": "22.5",
+    "Height": "27.3",
+    "Depth": "22.4",
+    "Overall Height": "34.2 to 76.2",
+    "Finish": "Bronze, Burnished Steel",
+    "Intro Date": "2024"
+  },
+  "401326": {
+    "Item SKU": "401326",
+    "Product Name": "Coral LED Pendant",
+    "Theme": "Coral",
+    "WSP": "$2,899.00",
+    "UNIT NET": "$2,174.00",
+    "Width": "56.0",
+    "Height": "21.2",
+    "Depth": "9.0",
+    "Finish": "Bronze, Burnished Steel, Natural Iron",
+    "Intro Date": "2024"
+  },
+  "401328": {
+    "Item SKU": "401328",
+    "Product Name": "Fusion Pendant",
+    "Theme": "Fusion",
+    "WSP": "$8,499.00",
+    "UNIT NET": "$6,374.00",
+    "Width": "75.8",
+    "Height": "15.0",
+    "Depth": "34.4",
+    "Weight": "305.0",
+    "Overall Height": "20 to 168",
+    "Finish": "Bronze, Burnished Steel, Natural Iron",
+    "Intro Date": "2024"
+  }
+}

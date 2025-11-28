@@ -33,11 +33,23 @@ export const SheetContent = React.forwardRef<
     <DialogPrimitive.Content
       ref={ref}
       className={clsx(
-        'fixed z-50 flex h-full w-full flex-col gap-6 bg-card p-6 shadow-2xl sm:max-w-md',
-        side === 'right' && 'right-0 top-0',
-        side === 'left' && 'left-0 top-0',
+        // Base styles with improved mobile support
+        'fixed z-50 flex h-full w-full flex-col gap-4 md:gap-6 bg-card shadow-2xl overflow-y-auto',
+        // Mobile: Smaller padding, tablet+: Normal padding
+        'p-4 sm:p-5 md:p-6',
+        // ANCHORED DYNAMIC MODAL: Much wider to accommodate 60/40 split layout
+        // Mobile: Full width, Tablet: 90vw, Desktop: Wide enough for Controls + Preview
+        'sm:max-w-[90vw] md:max-w-[920px] lg:max-w-[1100px] xl:max-w-[1200px]',
+        // Animations with better mobile performance
+        'data-[state=open]:animate-in data-[state=closed]:animate-out',
+        'data-[state=open]:duration-300 data-[state=closed]:duration-200',
+        // Side positioning
+        side === 'right' && 'right-0 top-0 data-[state=open]:slide-in-from-right data-[state=closed]:slide-out-to-right',
+        side === 'left' && 'left-0 top-0 data-[state=open]:slide-in-from-left data-[state=closed]:slide-out-to-left',
         className
       )}
+      // Accessibility: Proper ARIA attributes
+      aria-describedby={undefined}
       {...props}
     >
       {children}

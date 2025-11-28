@@ -57,3 +57,7 @@ export const DialogTitle = ({ className, ...props }: React.HTMLAttributes<HTMLHe
 export const DialogDescription = ({ className, ...props }: React.HTMLAttributes<HTMLParagraphElement>) => (
   <p className={clsx('text-sm text-slate-600', className)} {...props} />
 );
+
+export const DialogFooter = ({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) => (
+  <div className={clsx('flex flex-col-reverse sm:flex-row sm:justify-end sm:space-x-2 mt-6', className)} {...props} />
+);

@@ -4,6 +4,7 @@ import * as React from 'react';
 import { Command as CommandPrimitive } from 'cmdk';
 import { clsx } from 'clsx';
 import { MagnifyingGlassIcon } from '@radix-ui/react-icons';
+import * as Dialog from '@radix-ui/react-dialog';
 
 export const Command = React.forwardRef<
   React.ElementRef<typeof CommandPrimitive>,
@@ -64,3 +65,16 @@ export const CommandSeparator = CommandPrimitive.Separator;
 export const CommandShortcut = ({ className, ...props }: React.HTMLAttributes<HTMLSpanElement>) => (
   <span className={clsx('ml-auto text-xs text-slate-400', className)} {...props} />
 );
+
+export const CommandDialog = ({ children, ...props }: Dialog.DialogProps) => {
+  return (
+    <Dialog.Root {...props}>
+      <Dialog.Portal>
+        <Dialog.Overlay className="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm" />
+        <Dialog.Content className="fixed left-[50%] top-[50%] z-50 max-h-[85vh] w-full max-w-[640px] translate-x-[-50%] translate-y-[-50%] overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-2xl">
+          <Command className="border-0 shadow-none">{children}</Command>
+        </Dialog.Content>
+      </Dialog.Portal>
+    </Dialog.Root>
+  );
+};

@@ -18,6 +18,7 @@ const payloadSchema = z.object({
   marketMonth: z.union([z.literal('January'), z.literal('June')]),
   sourceEventId: z.string().min(1),
   name: z.string().optional(),
+  vendor: z.string().optional(),
   items: z.array(itemSchema).min(1),
 });
 
@@ -29,7 +30,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: parsed.error.flatten() }, { status: 400 });
   }
 
-  const { customerId, items, sourceYear, marketMonth, sourceEventId, name } = parsed.data;
+  const { customerId, items, sourceYear, marketMonth, sourceEventId, name, vendor } = parsed.data;
   const enrichedItems = [] as {
     sku: string;
     name: string;
@@ -67,6 +68,7 @@ export async function POST(request: Request) {
     marketMonth,
     sourceEventId,
     name: name ?? `${marketMonth} ${sourceYear} Market Order`,
+    vendor,
     items: enrichedItems,
   });
 

@@ -20,7 +20,7 @@ export default function RootLayout({
           <div className="fixed top-4 right-4 z-50">
             <ThemeToggle />
           </div>
-          <div className="min-h-screen bg-gradient-to-b from-white via-white to-muted dark:from-background dark:via-background dark:to-muted">
+          <div className="min-h-screen bg-gradient-to-b from-background via-background to-muted">
             {children}
           </div>
         </Providers>

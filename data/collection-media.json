@@ -1,0 +1,64 @@
+{
+  "lib-and-co": {
+    "Milazzo": {
+      "mediaType": "mp4",
+      "mp4Url": "https://cdn.shopify.com/videos/c/o/v/92c6ca7e8da34ead84b65d71ebc4112e.mp4"
+    },
+    "Brindisi": {
+      "mediaType": "mp4",
+      "mp4Url": "https://cdn.shopify.com/videos/c/o/v/99a2d80c1a3f4804b0603e131de1c3cd.mp4"
+    },
+    "Catania": {
+      "mediaType": "mp4",
+      "mp4Url": "https://cdn.shopify.com/videos/c/o/v/399e0fa7c4a7492abde61c06129ec25e.mp4"
+    },
+    "Adelfia": {
+      "mediaType": "mp4",
+      "mp4Url": "https://cdn.shopify.com/videos/c/o/v/4d5e05356d394333a5742f9ec0e95ab4.mp4",
+      "mp4StartTime": 5
+    },
+    "Sorrento": {
+      "mediaType": "mp4",
+      "mp4Url": "https://cdn.shopify.com/videos/c/o/v/ecd3b8abb4164141abd6484bba0c5594.mp4",
+      "mp4StartTime": 4
+    },
+    "Calcolo": {
+      "mediaType": "mp4",
+      "mp4Url": "https://cdn.shopify.com/videos/c/o/v/98180c7e41134036a21ec33672c25185.mp4",
+      "mp4StartTime": 4
+    }
+  },
+  "hubbardton-forge": {
+    "Horizon": {
+      "mediaType": "youtube",
+      "youtubeUrl": "youtube:nqOKWA1rKrs",
+      "youtubeStartTime": 32
+    }
+  },
+  "savoy-house": {
+    "Test Collection": {
+      "mediaType": "youtube",
+      "youtubeUrl": "youtube:test123",
+      "youtubeStartTime": 10
+    },
+    "Balsam": {
+      "mediaType": "immersive-slideshow",
+      "photos": [
+        {
+          "url": "https://www.savoyhouse.com/media/catalog/product/cache/71c6b310cc89ac67210d11c3e3a5370a/7/-/7-3098-1-204-f.jpg",
+          "order": 0
+        }
+      ],
+      "immersive": {
+        "slideDurationSec": 8,
+        "fadeDurationSec": 0.8,
+        "kbIntensity": "subtle",
+        "motionSeed": "auto",
+        "order": "as-uploaded",
+        "reduceMotionOnMobile": true,
+        "showProgressDots": true,
+        "globalFocalPoint": "center"
+      }
+    }
+  }
+}

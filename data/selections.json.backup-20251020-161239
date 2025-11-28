@@ -1,0 +1,905 @@
+[
+  {
+    "id": "1918d41f-b2b9-461d-b626-040bf41211c6",
+    "customerId": "starlight-lighting",
+    "name": "January 2025 Market Order",
+    "status": "archived",
+    "source": "dallas",
+    "sourceEventId": "January-2025",
+    "sourceYear": 2025,
+    "marketMonth": "January",
+    "isPublished": false,
+    "isVisibleToCustomer": false,
+    "version": 1,
+    "items": [
+      {
+        "sku": "12180-041",
+        "name": "Arezzo, Large Linear LED Chandelier, Painted Brushed Champagne",
+        "qty": 2,
+        "unitList": 5345,
+        "programDisc": 0,
+        "netUnit": 5345,
+        "extendedNet": 10690,
+        "tags": []
+      },
+      {
+        "sku": "12121-02",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Matte Black",
+        "qty": 1,
+        "unitList": 5003,
+        "programDisc": 0,
+        "netUnit": 5003,
+        "extendedNet": 5003,
+        "tags": []
+      }
+    ],
+    "createdAt": "2025-01-15T10:00:00.000Z",
+    "updatedAt": "2025-10-12T02:39:50.757Z"
+  },
+  {
+    "id": "ad539a4d-256c-4c81-83c7-6b61228e25c1",
+    "customerId": "starlight-lighting",
+    "name": "June 2025 Market Order",
+    "status": "snapshot",
+    "source": "dallas",
+    "sourceEventId": "June-2025",
+    "sourceYear": 2025,
+    "marketMonth": "June",
+    "isPublished": true,
+    "isVisibleToCustomer": false,
+    "version": 1,
+    "items": [
+      {
+        "sku": "12121-02",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Matte Black",
+        "qty": 3,
+        "unitList": 5003,
+        "programDisc": 0.1,
+        "netUnit": 4502.7,
+        "extendedNet": 13508.1,
+        "tags": []
+      },
+      {
+        "sku": "12180-041",
+        "name": "Arezzo, Large Linear LED Chandelier, Painted Brushed Champagne",
+        "qty": 1,
+        "unitList": 5345,
+        "programDisc": 0.1,
+        "netUnit": 4810.5,
+        "extendedNet": 4810.5,
+        "tags": []
+      }
+    ],
+    "createdAt": "2025-06-10T10:00:00.000Z",
+    "updatedAt": "2025-10-12T02:45:32.127Z"
+  },
+  {
+    "id": "5213b1ed-fa28-43ad-be11-f3223d637f60",
+    "customerId": "starlight-lighting",
+    "name": "January 2026 Market Order",
+    "status": "snapshot",
+    "source": "dallas",
+    "sourceEventId": "January-2026",
+    "sourceYear": 2026,
+    "marketMonth": "January",
+    "isPublished": true,
+    "isVisibleToCustomer": true,
+    "version": 1,
+    "items": [
+      {
+        "sku": "12121-02",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Matte Black",
+        "qty": 5,
+        "unitList": 5003,
+        "programDisc": 0.15,
+        "netUnit": 4252.55,
+        "extendedNet": 21262.75,
+        "tags": []
+      },
+      {
+        "sku": "12180-041",
+        "name": "Arezzo, Large Linear LED Chandelier, Painted Brushed Champagne",
+        "qty": 2,
+        "unitList": 5345,
+        "programDisc": 0.15,
+        "netUnit": 4543.25,
+        "extendedNet": 9086.5,
+        "tags": []
+      },
+      {
+        "sku": "10101-01",
+        "name": "Axis, 1 Light Mini Pendant, Matte Black",
+        "qty": 4,
+        "unitList": 412,
+        "programDisc": 0.15,
+        "netUnit": 350.2,
+        "extendedNet": 1400.8,
+        "tags": []
+      }
+    ],
+    "createdAt": "2025-10-11T15:03:12.442Z",
+    "updatedAt": "2025-10-12T02:45:32.127Z"
+  },
+  {
+    "id": "eb50c3f7-88e8-4370-b175-b1032f1096cf",
+    "customerId": "veranda-estate-homes-inc",
+    "name": "January 2025 Market Order",
+    "status": "snapshot",
+    "source": "dallas",
+    "sourceEventId": "January-2025",
+    "sourceYear": 2025,
+    "marketMonth": "January",
+    "isPublished": true,
+    "isVisibleToCustomer": true,
+    "version": 1,
+    "items": [
+      {
+        "sku": "12121-02",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Matte Black",
+        "qty": 1,
+        "unitList": 5003,
+        "programDisc": 0,
+        "netUnit": 5003,
+        "extendedNet": 5003,
+        "tags": []
+      }
+    ],
+    "createdAt": "2025-10-11T15:56:54.761Z",
+    "updatedAt": "2025-10-11T15:56:57.152Z"
+  },
+  {
+    "id": "fe542d3a-525d-493e-9dd3-48606bb14f49",
+    "customerId": "starlight-lighting",
+    "name": "January 2026 Market Order Working",
+    "status": "archived",
+    "source": "manual",
+    "sourceEventId": "January-2026",
+    "sourceYear": 2026,
+    "isPublished": false,
+    "version": 1,
+    "items": [
+      {
+        "sku": "12121-02",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Matte Black",
+        "qty": 5,
+        "unitList": 5003,
+        "programDisc": 0.15,
+        "netUnit": 4252.55,
+        "extendedNet": 21262.75,
+        "tags": []
+      },
+      {
+        "sku": "12180-041",
+        "name": "Arezzo, Large Linear LED Chandelier, Painted Brushed Champagne",
+        "qty": 2,
+        "unitList": 5345,
+        "programDisc": 0.15,
+        "netUnit": 4543.25,
+        "extendedNet": 9086.5,
+        "tags": []
+      },
+      {
+        "sku": "10101-01",
+        "name": "Axis, 1 Light Mini Pendant, Matte Black",
+        "qty": 4,
+        "unitList": 412,
+        "programDisc": 0.15,
+        "netUnit": 350.2,
+        "extendedNet": 1400.8,
+        "tags": []
+      }
+    ],
+    "metadata": {
+      "importMode": "auto",
+      "importedFrom": "Dallas",
+      "snapshotId": "5213b1ed-fa28-43ad-be11-f3223d637f60"
+    },
+    "createdAt": "2025-10-11T16:10:42.552Z",
+    "updatedAt": "2025-10-11T19:32:56.355Z"
+  },
+  {
+    "id": "d425a113-5678-4880-8b73-88b814a64ec5",
+    "customerId": "starlight-lighting",
+    "name": "January 2026 Market Order Working",
+    "status": "archived",
+    "source": "manual",
+    "sourceEventId": "January-2026",
+    "sourceYear": 2026,
+    "isPublished": false,
+    "version": 2,
+    "items": [
+      {
+        "sku": "12121-02",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Matte Black",
+        "qty": 5,
+        "unitList": 5003,
+        "programDisc": 0.15,
+        "netUnit": 4252.55,
+        "extendedNet": 21262.75,
+        "tags": []
+      },
+      {
+        "sku": "12180-041",
+        "name": "Arezzo, Large Linear LED Chandelier, Painted Brushed Champagne",
+        "qty": 2,
+        "unitList": 5345,
+        "programDisc": 0.15,
+        "netUnit": 4543.25,
+        "extendedNet": 9086.5,
+        "tags": []
+      },
+      {
+        "sku": "10101-01",
+        "name": "Axis, 1 Light Mini Pendant, Matte Black",
+        "qty": 4,
+        "unitList": 412,
+        "programDisc": 0.15,
+        "netUnit": 350.2,
+        "extendedNet": 1400.8,
+        "tags": []
+      }
+    ],
+    "metadata": {
+      "importMode": "auto",
+      "importedFrom": "Dallas",
+      "snapshotId": "5213b1ed-fa28-43ad-be11-f3223d637f60",
+      "mergedFrom": "1918d41f-b2b9-461d-b626-040bf41211c6",
+      "mergeStrategy": "addOnlyNew",
+      "mergedAt": "2025-10-11T19:32:56.354Z"
+    },
+    "createdAt": "2025-10-11T16:10:42.552Z",
+    "updatedAt": "2025-10-12T02:46:32.973Z"
+  },
+  {
+    "id": "e6a9bde2-bba0-4085-8a6e-49d26b987e9b",
+    "customerId": "accent-lighting-inc-alberta",
+    "name": "January 2025 Market Order",
+    "status": "snapshot",
+    "source": "dallas",
+    "sourceEventId": "January-2025",
+    "sourceYear": 2025,
+    "marketMonth": "January",
+    "isPublished": true,
+    "isVisibleToCustomer": true,
+    "version": 1,
+    "items": [
+      {
+        "sku": "12121-030",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",
+        "qty": 1,
+        "unitList": 5003,
+        "programDisc": 0,
+        "netUnit": 5003,
+        "extendedNet": 5003,
+        "tags": []
+      }
+    ],
+    "createdAt": "2025-10-12T02:19:47.012Z",
+    "updatedAt": "2025-10-12T02:19:59.904Z"
+  },
+  {
+    "id": "83282cf1-41ac-4b82-942e-0db01985e46a",
+    "customerId": "starlight-lighting",
+    "name": "January 2025 Market Order",
+    "status": "archived",
+    "source": "dallas",
+    "sourceEventId": "January-2025",
+    "sourceYear": 2025,
+    "marketMonth": "January",
+    "isPublished": false,
+    "isVisibleToCustomer": false,
+    "version": 2,
+    "items": [
+      {
+        "sku": "12121-02",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Matte Black",
+        "qty": 1,
+        "unitList": 5003,
+        "programDisc": 0,
+        "netUnit": 5003,
+        "extendedNet": 5003,
+        "tags": []
+      },
+      {
+        "sku": "12121-030",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",
+        "qty": 1,
+        "unitList": 5003,
+        "programDisc": 0,
+        "netUnit": 5003,
+        "extendedNet": 5003,
+        "tags": []
+      }
+    ],
+    "createdAt": "2025-10-12T02:39:50.757Z",
+    "updatedAt": "2025-10-18T00:50:16.323Z"
+  },
+  {
+    "id": "ace7b45e-de0d-4c4a-8160-2711b7734393",
+    "customerId": "starlight-lighting",
+    "name": "January 2026 Market Order Working",
+    "status": "archived",
+    "source": "manual",
+    "sourceEventId": "January-2026",
+    "sourceYear": 2026,
+    "isPublished": false,
+    "version": 3,
+    "items": [
+      {
+        "sku": "12121-02",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Matte Black",
+        "qty": 5,
+        "unitList": 5003,
+        "programDisc": 0.15,
+        "netUnit": 4252.55,
+        "extendedNet": 21262.75,
+        "tags": []
+      },
+      {
+        "sku": "12180-041",
+        "name": "Arezzo, Large Linear LED Chandelier, Painted Brushed Champagne",
+        "qty": 2,
+        "unitList": 5345,
+        "programDisc": 0.15,
+        "netUnit": 4543.25,
+        "extendedNet": 9086.5,
+        "tags": []
+      },
+      {
+        "sku": "10101-01",
+        "name": "Axis, 1 Light Mini Pendant, Matte Black",
+        "qty": 4,
+        "unitList": 412,
+        "programDisc": 0.15,
+        "netUnit": 350.2,
+        "extendedNet": 1400.8,
+        "tags": []
+      }
+    ],
+    "metadata": {
+      "importMode": "auto",
+      "importedFrom": "Dallas",
+      "snapshotId": "5213b1ed-fa28-43ad-be11-f3223d637f60",
+      "mergedFrom": "5213b1ed-fa28-43ad-be11-f3223d637f60",
+      "mergeStrategy": "addOnlyNew",
+      "mergedAt": "2025-10-12T02:46:32.973Z"
+    },
+    "createdAt": "2025-10-11T16:10:42.552Z",
+    "updatedAt": "2025-10-13T16:19:47.830Z"
+  },
+  {
+    "id": "b2d8f6cb-41fc-4a52-95a8-2a3476d32e54",
+    "customerId": "chateau-lighting",
+    "name": "Working Selection",
+    "status": "working",
+    "source": "manual",
+    "isPublished": true,
+    "version": 1,
+    "items": [
+      {
+        "sku": "12088-042",
+        "name": "Belluno, 5 Light LED Pendant, Brushed Vintage Grey",
+        "qty": 1,
+        "unitList": 578,
+        "programDisc": 0,
+        "netUnit": 578,
+        "extendedNet": 578
+      }
+    ],
+    "metadata": {},
+    "createdAt": "2025-10-13T01:42:03.260Z",
+    "updatedAt": "2025-10-13T01:42:03.260Z"
+  },
+  {
+    "id": "c7136440-e551-48fb-921c-109a38ca815c",
+    "customerId": "accent-lighting-inc-alberta",
+    "name": "January 2025 Market Order Working",
+    "status": "archived",
+    "source": "manual",
+    "sourceEventId": "January-2025",
+    "sourceYear": 2025,
+    "isPublished": false,
+    "version": 1,
+    "items": [
+      {
+        "sku": "12121-030",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",
+        "qty": 1,
+        "unitList": 5003,
+        "programDisc": 0,
+        "netUnit": 5003,
+        "extendedNet": 5003,
+        "tags": []
+      }
+    ],
+    "metadata": {
+      "importMode": "auto",
+      "importedFrom": "Dallas",
+      "snapshotId": "e6a9bde2-bba0-4085-8a6e-49d26b987e9b"
+    },
+    "createdAt": "2025-10-13T15:37:57.257Z",
+    "updatedAt": "2025-10-13T15:38:06.843Z"
+  },
+  {
+    "id": "2f0c59b7-e758-40d8-a8d3-e32d041c6652",
+    "customerId": "accent-lighting-inc-alberta",
+    "name": "January 2025 Market Order Working",
+    "status": "working",
+    "source": "manual",
+    "sourceEventId": "January-2025",
+    "sourceYear": 2025,
+    "isPublished": true,
+    "version": 2,
+    "items": [
+      {
+        "sku": "12121-030",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",
+        "qty": 2,
+        "unitList": 5003,
+        "programDisc": 0,
+        "netUnit": 5003,
+        "extendedNet": 10006,
+        "tags": []
+      }
+    ],
+    "metadata": {
+      "importMode": "auto",
+      "importedFrom": "Dallas",
+      "snapshotId": "e6a9bde2-bba0-4085-8a6e-49d26b987e9b",
+      "mergedFrom": "e6a9bde2-bba0-4085-8a6e-49d26b987e9b",
+      "mergeStrategy": "sumQuantities",
+      "mergedAt": "2025-10-13T15:38:06.843Z"
+    },
+    "createdAt": "2025-10-13T15:37:57.257Z",
+    "updatedAt": "2025-10-13T15:38:06.843Z"
+  },
+  {
+    "id": "4f34c61f-94ef-4309-9fa2-6d034deb9476",
+    "customerId": "starlight-lighting",
+    "name": "January 2026 Market Order Working",
+    "status": "archived",
+    "source": "manual",
+    "sourceEventId": "January-2026",
+    "sourceYear": 2026,
+    "isPublished": false,
+    "version": 4,
+    "items": [
+      {
+        "sku": "12121-02",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Matte Black",
+        "qty": 5,
+        "unitList": 5003,
+        "programDisc": 0.15,
+        "netUnit": 4252.55,
+        "extendedNet": 21262.75,
+        "tags": []
+      },
+      {
+        "sku": "12180-041",
+        "name": "Arezzo, Large Linear LED Chandelier, Painted Brushed Champagne",
+        "qty": 2,
+        "unitList": 5345,
+        "programDisc": 0.15,
+        "netUnit": 4543.25,
+        "extendedNet": 9086.5,
+        "tags": []
+      },
+      {
+        "sku": "10101-01",
+        "name": "Axis, 1 Light Mini Pendant, Matte Black",
+        "qty": 4,
+        "unitList": 412,
+        "programDisc": 0.15,
+        "netUnit": 350.2,
+        "extendedNet": 1400.8,
+        "tags": []
+      }
+    ],
+    "metadata": {
+      "importMode": "auto",
+      "importedFrom": "Dallas",
+      "snapshotId": "5213b1ed-fa28-43ad-be11-f3223d637f60",
+      "mergedFrom": "5213b1ed-fa28-43ad-be11-f3223d637f60",
+      "mergeStrategy": "addOnlyNew",
+      "mergedAt": "2025-10-13T16:19:47.830Z"
+    },
+    "createdAt": "2025-10-11T16:10:42.552Z",
+    "updatedAt": "2025-10-18T20:50:45.787Z"
+  },
+  {
+    "id": "2a72a4ae-76bf-43d3-802f-fafdc401c395",
+    "customerId": "lights-canada",
+    "name": "Working Selection",
+    "status": "working",
+    "source": "manual",
+    "isPublished": true,
+    "version": 1,
+    "items": [
+      {
+        "sku": "10194-02",
+        "name": "Adelfia, 3 Light Round LED Pendant, Matte Black",
+        "qty": 1,
+        "unitList": 469,
+        "programDisc": 0,
+        "netUnit": 469,
+        "extendedNet": 469
+      }
+    ],
+    "metadata": {},
+    "createdAt": "2025-10-13T16:33:35.525Z",
+    "updatedAt": "2025-10-13T16:33:35.525Z"
+  },
+  {
+    "id": "cad2505d-7a54-4913-a1d9-bd6e16d6be8e",
+    "customerId": "veranda-estate-homes-inc",
+    "name": "January 2025 Market Order Working",
+    "status": "working",
+    "source": "manual",
+    "sourceEventId": "January-2025",
+    "sourceYear": 2025,
+    "isPublished": true,
+    "version": 1,
+    "items": [
+      {
+        "sku": "12121-02",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Matte Black",
+        "qty": 1,
+        "unitList": 5003,
+        "programDisc": 0,
+        "netUnit": 5003,
+        "extendedNet": 5003,
+        "tags": []
+      }
+    ],
+    "metadata": {
+      "importMode": "auto",
+      "importedFrom": "Dallas",
+      "snapshotId": "eb50c3f7-88e8-4370-b175-b1032f1096cf"
+    },
+    "createdAt": "2025-10-13T16:43:23.808Z",
+    "updatedAt": "2025-10-13T16:43:23.808Z"
+  },
+  {
+    "id": "799f9b7e-9a99-4546-9d12-c66da55ab4f8",
+    "customerId": "starlight-lighting",
+    "name": "January 2025 Market Order",
+    "status": "snapshot",
+    "source": "dallas",
+    "sourceEventId": "January-2025",
+    "sourceYear": 2025,
+    "marketMonth": "January",
+    "isPublished": true,
+    "isVisibleToCustomer": false,
+    "version": 3,
+    "items": [
+      {
+        "sku": "12121-02",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Matte Black",
+        "qty": 1,
+        "unitList": 2001,
+        "programDisc": 0,
+        "netUnit": 2001,
+        "extendedNet": 2001,
+        "tags": []
+      },
+      {
+        "sku": "12121-030",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Painted Antique Brass",
+        "qty": 1,
+        "unitList": 2001,
+        "programDisc": 0,
+        "netUnit": 2001,
+        "extendedNet": 2001,
+        "tags": []
+      }
+    ],
+    "createdAt": "2025-10-18T00:50:16.323Z",
+    "updatedAt": "2025-10-18T00:50:16.323Z"
+  },
+  {
+    "id": "be263a70-39cb-4a08-b874-0431f3234fc6",
+    "customerId": "starlight-lighting",
+    "name": "January 2026 Market Order Working",
+    "status": "archived",
+    "source": "manual",
+    "sourceEventId": "January-2026",
+    "sourceYear": 2026,
+    "isPublished": false,
+    "version": 5,
+    "items": [
+      {
+        "sku": "12121-02",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Matte Black",
+        "qty": 5,
+        "unitList": 5003,
+        "programDisc": 0.15,
+        "netUnit": 4252.55,
+        "extendedNet": 21262.75,
+        "tags": []
+      },
+      {
+        "sku": "12180-041",
+        "name": "Arezzo, Large Linear LED Chandelier, Painted Brushed Champagne",
+        "qty": 2,
+        "unitList": 5345,
+        "programDisc": 0.15,
+        "netUnit": 4543.25,
+        "extendedNet": 9086.5,
+        "tags": []
+      },
+      {
+        "sku": "10101-01",
+        "name": "Axis, 1 Light Mini Pendant, Matte Black",
+        "qty": 4,
+        "unitList": 412,
+        "programDisc": 0.15,
+        "netUnit": 350.2,
+        "extendedNet": 1400.8,
+        "tags": []
+      },
+      {
+        "sku": "12284-02",
+        "name": "Alcamo, 6 Light LED Chandelier, Matte\nBlack",
+        "qty": 1,
+        "unitList": 1483,
+        "programDisc": 0,
+        "netUnit": 1483,
+        "extendedNet": 1483
+      }
+    ],
+    "metadata": {
+      "importMode": "auto",
+      "importedFrom": "Dallas",
+      "snapshotId": "5213b1ed-fa28-43ad-be11-f3223d637f60",
+      "mergedFrom": "5213b1ed-fa28-43ad-be11-f3223d637f60",
+      "mergeStrategy": "addOnlyNew",
+      "mergedAt": "2025-10-13T16:19:47.830Z",
+      "lastAddedSku": "12284-02",
+      "lastAddedAt": "2025-10-18T20:50:45.787Z"
+    },
+    "createdAt": "2025-10-11T16:10:42.552Z",
+    "updatedAt": "2025-10-20T20:42:41.582Z"
+  },
+  {
+    "id": "7b8f01ec-961b-4fc1-b4ef-5549ee5b063b",
+    "customerId": "starlight-lighting",
+    "name": "January 2026 Market Order Working",
+    "status": "archived",
+    "source": "manual",
+    "sourceEventId": "January-2026",
+    "sourceYear": 2026,
+    "isPublished": false,
+    "version": 6,
+    "items": [
+      {
+        "sku": "12121-02",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Matte Black",
+        "qty": 5,
+        "unitList": 5003,
+        "programDisc": 0.15,
+        "netUnit": 4252.55,
+        "extendedNet": 21262.75,
+        "tags": []
+      },
+      {
+        "sku": "12180-041",
+        "name": "Arezzo, Large Linear LED Chandelier, Painted Brushed Champagne",
+        "qty": 2,
+        "unitList": 5345,
+        "programDisc": 0.15,
+        "netUnit": 4543.25,
+        "extendedNet": 9086.5,
+        "tags": []
+      },
+      {
+        "sku": "10101-01",
+        "name": "Axis, 1 Light Mini Pendant, Matte Black",
+        "qty": 4,
+        "unitList": 412,
+        "programDisc": 0.15,
+        "netUnit": 350.2,
+        "extendedNet": 1400.8,
+        "tags": []
+      },
+      {
+        "sku": "12284-02",
+        "name": "Alcamo, 6 Light LED Chandelier, Matte\nBlack",
+        "qty": 1,
+        "unitList": 1483,
+        "programDisc": 0,
+        "netUnit": 1483,
+        "extendedNet": 1483
+      },
+      {
+        "sku": "12292-02",
+        "name": "Castelo, 5 Light Linear LED Chandelier, Matte Black",
+        "qty": 1,
+        "unitList": 929,
+        "programDisc": 0,
+        "netUnit": 929,
+        "extendedNet": 929
+      }
+    ],
+    "metadata": {
+      "importMode": "auto",
+      "importedFrom": "Dallas",
+      "snapshotId": "5213b1ed-fa28-43ad-be11-f3223d637f60",
+      "mergedFrom": "5213b1ed-fa28-43ad-be11-f3223d637f60",
+      "mergeStrategy": "addOnlyNew",
+      "mergedAt": "2025-10-13T16:19:47.830Z",
+      "lastAddedSku": "12292-02",
+      "lastAddedAt": "2025-10-20T20:42:41.582Z"
+    },
+    "createdAt": "2025-10-11T16:10:42.552Z",
+    "updatedAt": "2025-10-20T20:53:53.017Z"
+  },
+  {
+    "id": "e3c1ccd8-a11c-472b-8d4d-3fe9c665c79f",
+    "customerId": "starlight-lighting",
+    "name": "January 2026 Market Order Working",
+    "status": "archived",
+    "source": "manual",
+    "sourceEventId": "January-2026",
+    "sourceYear": 2026,
+    "isPublished": false,
+    "version": 7,
+    "items": [
+      {
+        "sku": "12121-02",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Matte Black",
+        "qty": 4,
+        "unitList": 5003,
+        "programDisc": 0.15,
+        "netUnit": 4252.55,
+        "extendedNet": 17010.2,
+        "notes": "",
+        "tags": []
+      },
+      {
+        "sku": "12180-041",
+        "name": "Arezzo, Large Linear LED Chandelier, Painted Brushed Champagne",
+        "qty": 2,
+        "unitList": 5345,
+        "programDisc": 0.15,
+        "netUnit": 4543.25,
+        "extendedNet": 9086.5,
+        "notes": "",
+        "tags": []
+      },
+      {
+        "sku": "10101-01",
+        "name": "Axis, 1 Light Mini Pendant, Matte Black",
+        "qty": 4,
+        "unitList": 412,
+        "programDisc": 0.15,
+        "netUnit": 350.2,
+        "extendedNet": 1400.8,
+        "notes": "",
+        "tags": []
+      },
+      {
+        "sku": "12284-02",
+        "name": "Alcamo, 6 Light LED Chandelier, Matte\nBlack",
+        "qty": 1,
+        "unitList": 1483,
+        "programDisc": 0,
+        "netUnit": 1483,
+        "extendedNet": 1483,
+        "notes": ""
+      },
+      {
+        "sku": "12292-02",
+        "name": "Castelo, 5 Light Linear LED Chandelier, Matte Black",
+        "qty": 1,
+        "unitList": 929,
+        "programDisc": 0,
+        "netUnit": 929,
+        "extendedNet": 929,
+        "notes": ""
+      }
+    ],
+    "metadata": {
+      "importMode": "auto",
+      "importedFrom": "Dallas",
+      "snapshotId": "5213b1ed-fa28-43ad-be11-f3223d637f60",
+      "mergedFrom": "5213b1ed-fa28-43ad-be11-f3223d637f60",
+      "mergeStrategy": "addOnlyNew",
+      "mergedAt": "2025-10-13T16:19:47.830Z",
+      "lastAddedSku": "12292-02",
+      "lastAddedAt": "2025-10-20T20:42:41.582Z",
+      "updatedVia": "collection-panel",
+      "revisedAt": "2025-10-20T20:53:53.017Z"
+    },
+    "createdAt": "2025-10-11T16:10:42.552Z",
+    "updatedAt": "2025-10-20T21:00:39.227Z"
+  },
+  {
+    "id": "39c36db7-886f-444a-bc1c-53b338114bee",
+    "customerId": "starlight-lighting",
+    "name": "January 2026 Market Order Working",
+    "status": "working",
+    "source": "manual",
+    "sourceEventId": "January-2026",
+    "sourceYear": 2026,
+    "isPublished": true,
+    "version": 8,
+    "items": [
+      {
+        "sku": "12121-02",
+        "name": "Calcolo, 9 Light Round LED Chandelier, Matte Black",
+        "qty": 4,
+        "unitList": 5003,
+        "programDisc": 0.15,
+        "netUnit": 4252.55,
+        "extendedNet": 17010.2,
+        "notes": "",
+        "tags": []
+      },
+      {
+        "sku": "12180-041",
+        "name": "Arezzo, Large Linear LED Chandelier, Painted Brushed Champagne",
+        "qty": 2,
+        "unitList": 5345,
+        "programDisc": 0.15,
+        "netUnit": 4543.25,
+        "extendedNet": 9086.5,
+        "notes": "",
+        "tags": []
+      },
+      {
+        "sku": "10101-01",
+        "name": "Axis, 1 Light Mini Pendant, Matte Black",
+        "qty": 4,
+        "unitList": 412,
+        "programDisc": 0.15,
+        "netUnit": 350.2,
+        "extendedNet": 1400.8,
+        "notes": "",
+        "tags": []
+      },
+      {
+        "sku": "12284-02",
+        "name": "Alcamo, 6 Light LED Chandelier, Matte\nBlack",
+        "qty": 1,
+        "unitList": 1483,
+        "programDisc": 0,
+        "netUnit": 1483,
+        "extendedNet": 1483,
+        "notes": ""
+      },
+      {
+        "sku": "12292-02",
+        "name": "Castelo, 5 Light Linear LED Chandelier, Matte Black",
+        "qty": 1,
+        "unitList": 929,
+        "programDisc": 0,
+        "netUnit": 929,
+        "extendedNet": 929,
+        "notes": ""
+      },
+      {
+        "sku": "12105-02",
+        "name": "Piatto, 25 Light Round LED Chandelier, Matte Black",
+        "qty": 1,
+        "unitList": 2567,
+        "programDisc": 0,
+        "netUnit": 2567,
+        "extendedNet": 2567
+      }
+    ],
+    "metadata": {
+      "importMode": "auto",
+      "importedFrom": "Dallas",
+      "snapshotId": "5213b1ed-fa28-43ad-be11-f3223d637f60",
+      "mergedFrom": "5213b1ed-fa28-43ad-be11-f3223d637f60",
+      "mergeStrategy": "addOnlyNew",
+      "mergedAt": "2025-10-13T16:19:47.830Z",
+      "lastAddedSku": "12105-02",
+      "lastAddedAt": "2025-10-20T21:00:39.226Z",
+      "updatedVia": "collection-panel",
+      "revisedAt": "2025-10-20T20:53:53.017Z"
+    },
+    "createdAt": "2025-10-11T16:10:42.552Z",
+    "updatedAt": "2025-10-20T21:00:39.226Z"
+  }
+]

@@ -67,13 +67,14 @@ const styles = StyleSheet.create({
 });
 
 const columns = [
-  { key: 'sku', label: 'SKU', width: '18%' },
-  { key: 'name', label: 'Name', width: '28%' },
+  { key: 'sku', label: 'SKU', width: '15%' },
+  { key: 'name', label: 'Name', width: '24%' },
+  { key: 'type', label: 'Type', width: '10%' },
   { key: 'qty', label: 'Qty', width: '8%' },
-  { key: 'unitList', label: 'Unit List', width: '12%' },
-  { key: 'programDisc', label: 'Disc', width: '8%' },
-  { key: 'netUnit', label: 'Net Unit', width: '12%' },
-  { key: 'extendedNet', label: 'Extended', width: '14%' },
+  { key: 'unitList', label: 'Unit List', width: '11%' },
+  { key: 'programDisc', label: 'Disc %', width: '8%' },
+  { key: 'netUnit', label: 'Net Unit', width: '11%' },
+  { key: 'extendedNet', label: 'Extended', width: '13%' },
 ];
 
 export function SelectionPdfDocument({
@@ -85,7 +86,81 @@ export function SelectionPdfDocument({
   customerName: string;
   heading: string;
 }) {
-  const totals = calculateTotals(selection.items);
+  // Calculate promotion-aware totals
+  let subtotal = 0;
+  let net = 0;
+
+  selection.items.forEach((item) => {
+    const displayQty = item.displayQty ?? item.qty;
+    const backupQty = item.backupQty ?? 0;
+    const totalQty = displayQty + backupQty;
+
+    subtotal += item.unitList * totalQty;
+
+    const displayDiscount = (item.displayDiscountPercent ?? item.programDisc ?? 0) / 100;
+    const backupDiscount = (item.backupDiscountPercent ?? 0) / 100;
+
+    const displayNet = item.unitList * (1 - displayDiscount) * displayQty;
+    const backupNet = item.unitList * (1 - backupDiscount) * backupQty;
+
+    net += displayNet + backupNet;
+  });
+
+  const discount = subtotal - net;
+
+  // Build rows with display/backup split
+  const rows: Array<{ sku: string; name: string; type: string; qty: number; unitList: number; discountPercent: number; netUnit: number; extendedNet: number }> = [];
+
+  selection.items.forEach((item) => {
+    const hasBackup = (item.backupQty ?? 0) > 0;
+    const displayQty = item.displayQty ?? item.qty;
+    const backupQty = item.backupQty ?? 0;
+
+    const displayDiscount = item.displayDiscountPercent ?? item.programDisc ?? 0;
+    const backupDiscount = item.backupDiscountPercent ?? 0;
+
+    const displayNetUnit = item.unitList * (1 - displayDiscount / 100);
+    const backupNetUnit = item.unitList * (1 - backupDiscount / 100);
+
+    if (hasBackup) {
+      // Display row
+      rows.push({
+        sku: item.sku,
+        name: item.name,
+        type: 'Display',
+        qty: displayQty,
+        unitList: item.unitList,
+        discountPercent: displayDiscount,
+        netUnit: displayNetUnit,
+        extendedNet: displayNetUnit * displayQty,
+      });
+
+      // Backup row
+      rows.push({
+        sku: item.sku,
+        name: item.name,
+        type: 'Backup',
+        qty: backupQty,
+        unitList: item.unitList,
+        discountPercent: backupDiscount,
+        netUnit: backupNetUnit,
+        extendedNet: backupNetUnit * backupQty,
+      });
+    } else {
+      // Single row for display only
+      rows.push({
+        sku: item.sku,
+        name: item.name,
+        type: 'Display',
+        qty: displayQty,
+        unitList: item.unitList,
+        discountPercent: displayDiscount,
+        netUnit: item.netUnit ?? displayNetUnit,
+        extendedNet: item.extendedNet ?? displayNetUnit * displayQty,
+      });
+    }
+  });
+
   return (
     <Document>
       <Page size="A4" style={styles.page} wrap>
@@ -101,28 +176,31 @@ export function SelectionPdfDocument({
               </View>
             ))}
           </View>
-          {selection.items.map((item) => (
-            <View key={`${item.sku}-${item.notes ?? ''}`} style={styles.tableRow}>
+          {rows.map((row, index) => (
+            <View key={`${row.sku}-${row.type}-${index}`} style={styles.tableRow}>
               <View style={{ ...styles.tableCol, width: columns[0]!.width }}>
-                <Text>{item.sku}</Text>
+                <Text>{row.sku}</Text>
               </View>
               <View style={{ ...styles.tableCol, width: columns[1]!.width }}>
-                <Text>{item.name}</Text>
+                <Text>{row.name}</Text>
               </View>
               <View style={{ ...styles.tableCol, width: columns[2]!.width }}>
-                <Text>{item.qty}</Text>
+                <Text>{row.type}</Text>
               </View>
               <View style={{ ...styles.tableCol, width: columns[3]!.width }}>
-                <Text>{formatCurrency(item.unitList)}</Text>
+                <Text>{row.qty}</Text>
               </View>
               <View style={{ ...styles.tableCol, width: columns[4]!.width }}>
-                <Text>{item.programDisc ? `${Math.round(item.programDisc * 100)}%` : '—'}</Text>
+                <Text>{formatCurrency(row.unitList)}</Text>
               </View>
               <View style={{ ...styles.tableCol, width: columns[5]!.width }}>
-                <Text>{formatCurrency(item.netUnit)}</Text>
+                <Text>{row.discountPercent > 0 ? `${row.discountPercent}%` : '—'}</Text>
               </View>
               <View style={{ ...styles.tableCol, width: columns[6]!.width }}>
-                <Text>{formatCurrency(item.extendedNet)}</Text>
+                <Text>{formatCurrency(row.netUnit)}</Text>
+              </View>
+              <View style={{ ...styles.tableCol, width: columns[7]!.width }}>
+                <Text>{formatCurrency(row.extendedNet)}</Text>
               </View>
             </View>
           ))}
@@ -130,15 +208,15 @@ export function SelectionPdfDocument({
         <View style={styles.footer}>
           <View style={styles.totalsRow}>
             <Text>Subtotal</Text>
-            <Text>{formatCurrency(totals.subtotal)}</Text>
+            <Text>{formatCurrency(subtotal)}</Text>
           </View>
           <View style={styles.totalsRow}>
             <Text>Program Discounts</Text>
-            <Text>-{formatCurrency(totals.totalDiscount)}</Text>
+            <Text>-{formatCurrency(discount)}</Text>
           </View>
           <View style={styles.totalsRow}>
             <Text style={{ fontWeight: 600 }}>Net Total</Text>
-            <Text style={{ fontWeight: 600 }}>{formatCurrency(totals.netTotal)}</Text>
+            <Text style={{ fontWeight: 600 }}>{formatCurrency(net)}</Text>
           </View>
           <Text style={styles.footerNote}>Curated Presentation • Prepared for {customerName}</Text>
         </View>

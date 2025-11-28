@@ -1,0 +1,4 @@
+# Ignore all uploaded promotion files
+*
+# But keep this .gitignore file
+!.gitignore
