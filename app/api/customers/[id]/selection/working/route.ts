@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { unstable_noStore as noStore } from 'next/cache';
 import { z } from 'zod';
 import { getWorkingSelection } from '@/lib/selections/store';
 import { loadCatalog } from '@/lib/catalog/loadCatalog';
@@ -6,6 +7,8 @@ import { loadCatalog } from '@/lib/catalog/loadCatalog';
 const paramsSchema = z.object({ id: z.string().min(1) });
 
 export async function GET(request: Request, context: { params: { id: string } }) {
+  // Disable Next.js caching to always get fresh data
+  noStore();
   const params = paramsSchema.safeParse(context.params);
   if (!params.success) {
     return NextResponse.json({ error: 'Invalid customer id' }, { status: 400 });

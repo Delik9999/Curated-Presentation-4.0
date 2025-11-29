@@ -95,6 +95,9 @@ function toDataClientFormat(selection: Selection): SelectionData {
 }
 
 async function loadSelections(): Promise<Selection[]> {
+  // Disable Next.js caching to always get fresh data from Supabase
+  noStore();
+
   if (isSupabaseConfigured()) {
     const data = await loadSelectionsFromDataClient();
     return data.map(fromDataClientFormat);
