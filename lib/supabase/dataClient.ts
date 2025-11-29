@@ -16,15 +16,28 @@ async function getFileUtils() {
 
 // Check if Supabase is configured
 export function isSupabaseConfigured(): boolean {
-  const hasUrl = !!process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const hasKey = !!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+  // Trim to handle accidental whitespace/newlines
+  const trimmedUrl = url?.trim();
+  const trimmedKey = key?.trim();
+
+  const hasUrl = !!trimmedUrl;
+  const hasKey = !!trimmedKey;
   const configured = hasUrl && hasKey;
 
   console.log('[isSupabaseConfigured]', {
     hasUrl,
     hasKey,
     configured,
-    urlPrefix: process.env.NEXT_PUBLIC_SUPABASE_URL?.substring(0, 30),
+    urlLength: url?.length,
+    urlTrimmedLength: trimmedUrl?.length,
+    keyLength: key?.length,
+    keyTrimmedLength: trimmedKey?.length,
+    urlPrefix: trimmedUrl?.substring(0, 30),
+    urlHasNewline: url?.includes('\n'),
+    keyHasNewline: key?.includes('\n'),
   });
 
   return configured;
@@ -38,14 +51,19 @@ function getSupabaseClient(): SupabaseClient<Database> {
     throw new Error('Supabase is not configured');
   }
 
+  // Trim all env vars to handle accidental whitespace/newlines
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL!.trim();
+  const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY?.trim();
+  const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!.trim();
+
   // Use service_role key for server-side operations (bypasses RLS)
-  const hasServiceKey = !!process.env.SUPABASE_SERVICE_ROLE_KEY;
-  const key = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
+  const hasServiceKey = !!serviceKey;
+  const key = serviceKey || anonKey;
 
   console.log('[getSupabaseClient] Using service_role key:', hasServiceKey);
 
   return createSupabaseClient<Database>(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    url,
     key,
     {
       auth: {
