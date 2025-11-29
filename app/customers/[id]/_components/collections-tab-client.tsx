@@ -1099,9 +1099,14 @@ export default function CollectionsTabClient({
   };
 
   const handleAddToSelection = async (sku: string, configuration?: { baseItemCode: string; variantSku: string; options: Record<string, string>; productName: string; oldSkuToReplace?: string }) => {
-    if (isAdding) return; // Prevent double-clicks
+    console.log('[handleAddToSelection] Called with SKU:', sku, 'isAdding:', isAdding);
+    if (isAdding) {
+      console.log('[handleAddToSelection] BLOCKED - already adding');
+      return; // Prevent double-clicks
+    }
 
     setIsAdding(true);
+    console.log('[handleAddToSelection] Starting add process for SKU:', sku);
 
     try {
       // If reconfiguring, remove the old SKU first
@@ -1128,18 +1133,22 @@ export default function CollectionsTabClient({
       }
 
       // Add the new SKU
+      console.log('[handleAddToSelection] Making API call to add-item:', { sku, customerId, vendor: selectedVendor });
       const response = await fetch(`/api/customers/${customerId}/selection/add-item`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ sku, qty: 1, configuration, vendor: selectedVendor }),
       });
+      console.log('[handleAddToSelection] API response status:', response.status);
 
       if (!response.ok) {
         const error = await response.json().catch(() => ({ error: 'Failed to add item' }));
+        console.error('[handleAddToSelection] API error:', error);
         throw new Error(error.error || 'Failed to add item to selection');
       }
 
       const result = await response.json();
+      console.log('[handleAddToSelection] API success:', result);
 
       // Reload selection to get updated list
       await loadSelection();
