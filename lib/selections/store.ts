@@ -4,18 +4,116 @@ import { z } from 'zod';
 import { readJsonFile, writeJsonFile } from '@/lib/utils/file';
 import { selectionSchema, selectionItemSchema } from './schema';
 import type { Selection, SelectionItem, PromotionConfig, PresentationItem, CollectionSelection, Presentation } from './types';
+import {
+  loadSelections as loadSelectionsFromDataClient,
+  saveSelection as saveSelectionToDataClient,
+  isSupabaseConfigured,
+  type SelectionData,
+} from '@/lib/supabase/dataClient';
 
 const COLLECTION_PATH = 'data/selections.json';
 const PROMOTIONS_PATH = 'data/promotions.json';
 
 const selectionsSchema = z.array(selectionSchema);
 
+// Convert from dataClient format to store format
+function fromDataClientFormat(data: SelectionData): Selection {
+  return {
+    id: data.id,
+    customerId: data.customerId,
+    name: data.name,
+    status: data.status,
+    source: data.source || 'manual', // Default to 'manual' if undefined
+    vendor: data.vendor,
+    isPublished: data.isPublished,
+    isVisibleToCustomer: data.isVisibleToCustomer,
+    version: data.version,
+    marketCycle: data.marketCycle,
+    sourceEventId: data.sourceEventId,
+    sourceYear: data.sourceYear,
+    marketMonth: data.marketMonth,
+    items: data.items.map((item) => ({
+      sku: item.sku,
+      name: item.name,
+      imageUrl: item.imageUrl,
+      qty: item.qty,
+      displayQty: item.displayQty,
+      backupQty: item.backupQty,
+      unitList: item.unitList,
+      programDisc: item.programDisc,
+      netUnit: item.netUnit,
+      extendedNet: item.extendedNet,
+      notes: item.notes,
+      tags: item.tags,
+      collection: item.collection,
+      year: item.year,
+      configuration: item.configuration,
+    })),
+    metadata: data.metadata,
+    createdAt: data.createdAt,
+    updatedAt: data.updatedAt,
+  };
+}
+
+// Convert from store format to dataClient format
+function toDataClientFormat(selection: Selection): SelectionData {
+  return {
+    id: selection.id,
+    customerId: selection.customerId,
+    name: selection.name,
+    status: selection.status,
+    source: selection.source,
+    vendor: selection.vendor,
+    isPublished: selection.isPublished,
+    isVisibleToCustomer: selection.isVisibleToCustomer,
+    version: selection.version,
+    marketCycle: selection.marketCycle,
+    sourceEventId: selection.sourceEventId,
+    sourceYear: selection.sourceYear,
+    marketMonth: selection.marketMonth,
+    items: selection.items.map((item) => ({
+      sku: item.sku,
+      name: item.name,
+      imageUrl: item.imageUrl,
+      qty: item.qty,
+      displayQty: item.displayQty,
+      backupQty: item.backupQty,
+      unitList: item.unitList,
+      programDisc: item.programDisc,
+      netUnit: item.netUnit,
+      extendedNet: item.extendedNet,
+      notes: item.notes,
+      tags: item.tags,
+      collection: item.collection,
+      year: item.year,
+      configuration: item.configuration,
+    })),
+    metadata: selection.metadata,
+    createdAt: selection.createdAt,
+    updatedAt: selection.updatedAt,
+  };
+}
+
 async function loadSelections(): Promise<Selection[]> {
+  if (isSupabaseConfigured()) {
+    const data = await loadSelectionsFromDataClient();
+    return data.map(fromDataClientFormat);
+  }
+  // Fallback to JSON
   const selections = await readJsonFile<Selection[]>(COLLECTION_PATH, []);
   return selectionsSchema.parse(selections);
 }
 
 async function persistSelections(selections: Selection[]): Promise<void> {
+  if (isSupabaseConfigured()) {
+    // For Supabase, we save each selection individually
+    // This is a simplified approach - in production you might want batch operations
+    for (const selection of selections) {
+      await saveSelectionToDataClient(toDataClientFormat(selection));
+    }
+    return;
+  }
+  // Fallback to JSON
   const parsed = selectionsSchema.parse(selections);
   await writeJsonFile(COLLECTION_PATH, parsed);
 }
