@@ -20,7 +20,8 @@
       "Bash(xargs kill:*)",
       "Bash(npm run build:*)",
       "Bash(node -e:*)",
-      "Bash(pkill:*)"
+      "Bash(pkill:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []

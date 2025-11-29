@@ -343,11 +343,15 @@ export function ProductCard({
   };
 
   const handleAddToSelection = () => {
+    console.log('[ProductCard] handleAddToSelection called, isConfigurable:', productWithVariants.isConfigurable, 'onAddToSelection defined:', !!onAddToSelection, 'sku:', selectedVariant.sku);
     if (productWithVariants.isConfigurable) {
       // Open configurator dialog for multi-option products
       setConfiguratorOpen(true);
     } else if (onAddToSelection) {
+      console.log('[ProductCard] Calling onAddToSelection with SKU:', selectedVariant.sku);
       onAddToSelection(selectedVariant.sku);
+    } else {
+      console.warn('[ProductCard] onAddToSelection is not defined! Cannot add item.');
     }
   };
 
