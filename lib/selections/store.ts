@@ -597,10 +597,21 @@ export async function addItemToWorkingSelection(
       productName: string;
     };
   },
-  vendor?: string
+  vendor?: string,
+  retryCount = 0
 ): Promise<Selection> {
+  const MAX_RETRIES = 3;
+
+  // Always fetch fresh data to avoid stale reads
   const selections = await loadSelections();
   const working = await getWorkingSelection(customerId, vendor);
+
+  console.log('[addItemToWorkingSelection] Attempt', retryCount + 1, 'of', MAX_RETRIES + 1, {
+    customerId,
+    sku: newItem.sku,
+    currentVersion: working?.version ?? 'none',
+    currentItemCount: working?.items.length ?? 0,
+  });
 
   const now = nextTimestamp();
 
@@ -687,6 +698,47 @@ export async function addItemToWorkingSelection(
   );
   updatedSelections.push(newSelection);
   await persistSelections(updatedSelections);
+
+  // Verify our changes took effect by re-reading
+  // This catches race conditions where another request modified the selection
+  const verifyWorking = await getWorkingSelection(customerId, vendor);
+
+  if (verifyWorking && verifyWorking.id !== newSelection.id) {
+    // Another request beat us - our changes were based on stale data
+    console.log('[addItemToWorkingSelection] Race condition detected!', {
+      expectedId: newSelection.id,
+      actualId: verifyWorking.id,
+      expectedVersion: newSelection.version,
+      actualVersion: verifyWorking.version,
+      retryCount,
+    });
+
+    // Check if our item already exists in the current working selection
+    const itemAlreadyAdded = verifyWorking.items.some(
+      (item) => item.sku === newItem.sku
+    );
+
+    if (itemAlreadyAdded) {
+      console.log('[addItemToWorkingSelection] Item already added by another request, returning current selection');
+      return verifyWorking;
+    }
+
+    if (retryCount < MAX_RETRIES) {
+      console.log('[addItemToWorkingSelection] Retrying with fresh data...');
+      // Small delay with jitter to reduce contention
+      await new Promise((resolve) => setTimeout(resolve, 50 + Math.random() * 100));
+      return addItemToWorkingSelection(customerId, newItem, vendor, retryCount + 1);
+    }
+
+    console.error('[addItemToWorkingSelection] Max retries reached, returning best effort result');
+  }
+
+  console.log('[addItemToWorkingSelection] Success!', {
+    selectionId: newSelection.id,
+    version: newSelection.version,
+    itemCount: newSelection.items.length,
+  });
+
   return newSelection;
 }
 
