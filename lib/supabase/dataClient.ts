@@ -22,15 +22,26 @@ export function isSupabaseConfigured(): boolean {
   );
 }
 
-// Get Supabase client (server-side, non-cookie version for API routes)
+// Get Supabase client for server-side operations
+// Uses service_role key when available to bypass RLS (for API routes)
+// Falls back to anon key for read operations
 function getSupabaseClient(): SupabaseClient<Database> {
   if (!isSupabaseConfigured()) {
     throw new Error('Supabase is not configured');
   }
 
+  // Use service_role key for server-side operations (bypasses RLS)
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
+
   return createSupabaseClient<Database>(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+    key,
+    {
+      auth: {
+        autoRefreshToken: false,
+        persistSession: false,
+      },
+    }
   );
 }
 
