@@ -383,9 +383,31 @@ export async function createWorkingFromSnapshot(
   }
 
   const existingWorking = await getWorkingSelection(customerId);
-  const newVersion = (existingWorking?.version ?? 0) + 1;
   const now = nextTimestamp();
 
+  // If an existing working selection exists, UPDATE IN-PLACE
+  if (existingWorking) {
+    const updatedSelection: Selection = selectionSchema.parse({
+      ...existingWorking,
+      id: existingWorking.id, // Keep the same ID!
+      name: name || `${snapshot.name} Working`,
+      version: existingWorking.version + 1,
+      items: cloneItems(snapshot.items).map((item) => selectionItemSchema.parse(item)),
+      metadata: {
+        ...snapshot.metadata,
+        ...metadata,
+        importedFrom: 'Dallas',
+        snapshotId,
+      },
+      updatedAt: now,
+    });
+
+    // Save (upsert) - this updates the existing row in Supabase
+    await saveSelectionToDataClient(toDataClientFormat(updatedSelection));
+    return updatedSelection;
+  }
+
+  // No existing working selection, create a new one
   const newSelection: Selection = selectionSchema.parse({
     id: randomUUID(),
     customerId,
@@ -395,7 +417,7 @@ export async function createWorkingFromSnapshot(
     sourceEventId: snapshot.sourceEventId,
     sourceYear: snapshot.sourceYear,
     isPublished: true,
-    version: newVersion,
+    version: 1,
     items: cloneItems(snapshot.items).map((item) => selectionItemSchema.parse(item)),
     metadata: {
       ...snapshot.metadata,
@@ -407,11 +429,8 @@ export async function createWorkingFromSnapshot(
     updatedAt: now,
   });
 
-  const updatedSelections = selections.map((selection) =>
-    selection.id === existingWorking?.id ? archiveSelection(selection) : selection
-  );
-  updatedSelections.push(newSelection);
-  await persistSelections(updatedSelections);
+  // Save the new selection
+  await saveSelectionToDataClient(toDataClientFormat(newSelection));
   return newSelection;
 }
 
@@ -477,9 +496,10 @@ export async function mergeDallasIntoWorking(
   const mergedItems = mergeItems(working.items, snapshot.items, strategy);
   const now = nextTimestamp();
 
-  const newSelection: Selection = selectionSchema.parse({
+  // UPDATE IN-PLACE: Keep the same ID
+  const updatedSelection: Selection = selectionSchema.parse({
     ...working,
-    id: randomUUID(),
+    id: working.id, // Keep the same ID!
     items: mergedItems.map((item) => selectionItemSchema.parse(item)),
     version: working.version + 1,
     status: 'working',
@@ -495,12 +515,9 @@ export async function mergeDallasIntoWorking(
     updatedAt: now,
   });
 
-  const updatedSelections = selections.map((selection) =>
-    selection.id === working.id ? archiveSelection(selection) : selection
-  );
-  updatedSelections.push(newSelection);
-  await persistSelections(updatedSelections);
-  return newSelection;
+  // Save (upsert) - this updates the existing row in Supabase
+  await saveSelectionToDataClient(toDataClientFormat(updatedSelection));
+  return updatedSelection;
 }
 
 export async function getSelectionById(selectionId: string): Promise<Selection | null> {
@@ -597,16 +614,12 @@ export async function addItemToWorkingSelection(
       productName: string;
     };
   },
-  vendor?: string,
-  retryCount = 0
+  vendor?: string
 ): Promise<Selection> {
-  const MAX_RETRIES = 3;
-
-  // Always fetch fresh data to avoid stale reads
-  const selections = await loadSelections();
+  // Always fetch fresh data
   const working = await getWorkingSelection(customerId, vendor);
 
-  console.log('[addItemToWorkingSelection] Attempt', retryCount + 1, 'of', MAX_RETRIES + 1, {
+  console.log('[addItemToWorkingSelection] Starting', {
     customerId,
     sku: newItem.sku,
     currentVersion: working?.version ?? 'none',
@@ -642,8 +655,16 @@ export async function addItemToWorkingSelection(
       createdAt: now,
       updatedAt: now,
     });
-    selections.push(newSelection);
-    await persistSelections(selections);
+
+    // Save the new selection (will upsert in Supabase)
+    await saveSelectionToDataClient(toDataClientFormat(newSelection));
+
+    console.log('[addItemToWorkingSelection] Created new working selection', {
+      selectionId: newSelection.id,
+      version: newSelection.version,
+      itemCount: 1,
+    });
+
     return newSelection;
   }
 
@@ -678,9 +699,11 @@ export async function addItemToWorkingSelection(
   // If this selection was restored from Dallas, mark it as modified
   const isRestoredFromDallas = working.metadata?.restoredFrom;
 
-  const newSelection: Selection = selectionSchema.parse({
+  // UPDATE IN-PLACE: Keep the same ID, just increment version and update items
+  const updatedSelection: Selection = selectionSchema.parse({
     ...working,
-    id: randomUUID(),
+    // Keep the same ID - this is the key change!
+    id: working.id,
     version: working.version + 1,
     items: updatedItems.map((item) => selectionItemSchema.parse(item)),
     metadata: {
@@ -693,53 +716,16 @@ export async function addItemToWorkingSelection(
     updatedAt: now,
   });
 
-  const updatedSelections = selections.map((selection) =>
-    selection.id === working.id ? archiveSelection(selection) : selection
-  );
-  updatedSelections.push(newSelection);
-  await persistSelections(updatedSelections);
+  // Save (upsert) - this updates the existing row in Supabase
+  await saveSelectionToDataClient(toDataClientFormat(updatedSelection));
 
-  // Verify our changes took effect by re-reading
-  // This catches race conditions where another request modified the selection
-  const verifyWorking = await getWorkingSelection(customerId, vendor);
-
-  if (verifyWorking && verifyWorking.id !== newSelection.id) {
-    // Another request beat us - our changes were based on stale data
-    console.log('[addItemToWorkingSelection] Race condition detected!', {
-      expectedId: newSelection.id,
-      actualId: verifyWorking.id,
-      expectedVersion: newSelection.version,
-      actualVersion: verifyWorking.version,
-      retryCount,
-    });
-
-    // Check if our item already exists in the current working selection
-    const itemAlreadyAdded = verifyWorking.items.some(
-      (item) => item.sku === newItem.sku
-    );
-
-    if (itemAlreadyAdded) {
-      console.log('[addItemToWorkingSelection] Item already added by another request, returning current selection');
-      return verifyWorking;
-    }
-
-    if (retryCount < MAX_RETRIES) {
-      console.log('[addItemToWorkingSelection] Retrying with fresh data...');
-      // Small delay with jitter to reduce contention
-      await new Promise((resolve) => setTimeout(resolve, 50 + Math.random() * 100));
-      return addItemToWorkingSelection(customerId, newItem, vendor, retryCount + 1);
-    }
-
-    console.error('[addItemToWorkingSelection] Max retries reached, returning best effort result');
-  }
-
-  console.log('[addItemToWorkingSelection] Success!', {
-    selectionId: newSelection.id,
-    version: newSelection.version,
-    itemCount: newSelection.items.length,
+  console.log('[addItemToWorkingSelection] Updated existing selection', {
+    selectionId: updatedSelection.id,
+    version: updatedSelection.version,
+    itemCount: updatedSelection.items.length,
   });
 
-  return newSelection;
+  return updatedSelection;
 }
 
 export async function updateWorkingSelection(
@@ -751,7 +737,6 @@ export async function updateWorkingSelection(
   },
   vendor?: string
 ): Promise<Selection> {
-  const selections = await loadSelections();
   const working = await getWorkingSelection(customerId, vendor);
   if (!working) {
     throw new Error('No working selection to update');
@@ -792,9 +777,10 @@ export async function updateWorkingSelection(
   // If selection was previously restored from Dallas AND this is NOT a fresh restore, mark as modified
   const isRestoredFromDallas = working.metadata?.restoredFrom && !isFreshRestore;
 
-  const newSelection: Selection = selectionSchema.parse({
+  // UPDATE IN-PLACE: Keep the same ID
+  const updatedSelection: Selection = selectionSchema.parse({
     ...working,
-    id: randomUUID(),
+    id: working.id, // Keep the same ID!
     version: working.version + 1,
     name: updates.name ?? working.name,
     items: updatedItems.map((item) => selectionItemSchema.parse(item)),
@@ -808,12 +794,10 @@ export async function updateWorkingSelection(
     updatedAt: now,
   });
 
-  const updatedSelections = selections.map((selection) =>
-    selection.id === working.id ? archiveSelection(selection) : selection
-  );
-  updatedSelections.push(newSelection);
-  await persistSelections(updatedSelections);
-  return newSelection;
+  // Save (upsert) - this updates the existing row in Supabase
+  await saveSelectionToDataClient(toDataClientFormat(updatedSelection));
+
+  return updatedSelection;
 }
 
 /**
@@ -824,7 +808,6 @@ export async function restoreWorkingSelection(
   customerId: string,
   snapshotId: string
 ): Promise<Selection> {
-  const selections = await loadSelections();
   const working = await getWorkingSelection(customerId);
   const snapshot = await getSelectionById(snapshotId);
 
@@ -864,15 +847,16 @@ export async function restoreWorkingSelection(
       createdAt: now,
       updatedAt: now,
     });
-    selections.push(newSelection);
-    await persistSelections(selections);
+
+    // Save the new selection
+    await saveSelectionToDataClient(toDataClientFormat(newSelection));
     return newSelection;
   }
 
-  // Replace the working selection with the snapshot's items
-  const newSelection: Selection = selectionSchema.parse({
+  // UPDATE IN-PLACE: Keep the same ID, replace items with snapshot
+  const updatedSelection: Selection = selectionSchema.parse({
     ...working,
-    id: randomUUID(),
+    id: working.id, // Keep the same ID!
     version: working.version + 1,
     vendor: snapshot.vendor, // Update vendor to match snapshot
     items: cloneItems(snapshot.items), // Completely replace items
@@ -886,12 +870,9 @@ export async function restoreWorkingSelection(
     updatedAt: now,
   });
 
-  const updatedSelections = selections.map((selection) =>
-    selection.id === working.id ? archiveSelection(selection) : selection
-  );
-  updatedSelections.push(newSelection);
-  await persistSelections(updatedSelections);
-  return newSelection;
+  // Save (upsert) - this updates the existing row in Supabase
+  await saveSelectionToDataClient(toDataClientFormat(updatedSelection));
+  return updatedSelection;
 }
 
 // Promotion Config functions
