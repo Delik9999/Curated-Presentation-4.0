@@ -31,7 +31,10 @@ function getSupabaseClient(): SupabaseClient<Database> {
   }
 
   // Use service_role key for server-side operations (bypasses RLS)
+  const hasServiceKey = !!process.env.SUPABASE_SERVICE_ROLE_KEY;
   const key = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
+
+  console.log('[getSupabaseClient] Using service_role key:', hasServiceKey);
 
   return createSupabaseClient<Database>(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -425,10 +428,19 @@ export async function loadSelections(): Promise<SelectionData[]> {
 }
 
 export async function saveSelection(selection: SelectionData): Promise<void> {
+  console.log('[saveSelection] Saving selection:', {
+    id: selection.id,
+    customerId: selection.customerId,
+    status: selection.status,
+    itemCount: selection.items.length,
+    isSupabase: isSupabaseConfigured(),
+  });
+
   if (isSupabaseConfigured()) {
     const supabase = getSupabaseClient();
 
     // Insert/update selection
+    console.log('[saveSelection] Upserting to Supabase selections table...');
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const { error: selectionError } = await (supabase as any)
       .from('selections')
@@ -451,13 +463,22 @@ export async function saveSelection(selection: SelectionData): Promise<void> {
         updated_at: selection.updatedAt,
       });
 
-    if (selectionError) throw selectionError;
+    if (selectionError) {
+      console.error('[saveSelection] Error upserting selection:', selectionError);
+      throw selectionError;
+    }
+    console.log('[saveSelection] Selection upserted successfully');
 
     // Delete existing items and insert new ones
+    console.log('[saveSelection] Deleting existing items for selection:', selection.id);
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    await (supabase as any).from('selection_items').delete().eq('selection_id', selection.id);
+    const { error: deleteError } = await (supabase as any).from('selection_items').delete().eq('selection_id', selection.id);
+    if (deleteError) {
+      console.error('[saveSelection] Error deleting items:', deleteError);
+    }
 
     if (selection.items.length > 0) {
+      console.log('[saveSelection] Inserting', selection.items.length, 'items');
       const itemsToInsert = selection.items.map((item, index) => ({
         selection_id: selection.id,
         sku: item.sku,
@@ -483,7 +504,11 @@ export async function saveSelection(selection: SelectionData): Promise<void> {
         .from('selection_items')
         .insert(itemsToInsert);
 
-      if (itemsError) throw itemsError;
+      if (itemsError) {
+        console.error('[saveSelection] Error inserting items:', itemsError);
+        throw itemsError;
+      }
+      console.log('[saveSelection] Items inserted successfully');
     }
   } else {
     // JSON fallback - load all, update, save

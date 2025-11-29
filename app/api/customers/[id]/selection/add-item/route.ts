@@ -36,15 +36,26 @@ export async function POST(request: Request, context: { params: { id: string } }
   }
 
   try {
+    console.log('[add-item] Request received:', {
+      customerId: params.data.id,
+      sku: parsed.data.sku,
+      qty: parsed.data.qty,
+      vendor: parsed.data.vendor,
+      hasConfiguration: !!parsed.data.configuration,
+    });
+
     // For configurable products (Hubbardton Forge), look up by baseItemCode
     // since the catalog stores products by base item code, not full variant SKU
     const lookupSku = parsed.data.configuration?.baseItemCode || parsed.data.sku;
+    console.log('[add-item] Looking up SKU:', lookupSku);
 
     // Look up product from catalog
     const catalogItem = await findItem(lookupSku);
     if (!catalogItem) {
+      console.error('[add-item] Product not found in catalog:', lookupSku);
       return NextResponse.json({ error: `Product ${lookupSku} not found in catalog` }, { status: 404 });
     }
+    console.log('[add-item] Found catalog item:', { sku: catalogItem.sku, name: catalogItem.name });
 
     // For configurable products, use the product name from configuration
     // (since the SKU might be a base SKU and name should reflect the configured variant)
