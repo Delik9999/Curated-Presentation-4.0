@@ -782,12 +782,12 @@ export default function SelectionTab({ customer, dallasData, workingData, select
               return (
                 <>
                   {/* Primary Row - Display Unit */}
-                  <TableRow key={`${item.sku}-primary`} className={`hover:bg-neutral-50/50 dark:hover:bg-neutral-900/30 transition-colors [&>td]:py-3 ${showBackupRow ? 'border-b-0' : 'border-b border-neutral-200 dark:border-neutral-700'} ${isOnHold ? 'opacity-50' : ''}`}>
-                    <TableCell className="w-16 align-middle" rowSpan={showBackupRow ? 2 : 1}>
+                  <TableRow key={`${item.sku}-primary`} className={`hover:bg-neutral-50/50 dark:hover:bg-neutral-900/30 transition-colors [&>td]:py-1.5 ${showBackupRow ? 'border-b-0' : 'border-b border-neutral-200 dark:border-neutral-700'} ${isOnHold ? 'opacity-50' : ''}`}>
+                    <TableCell className="w-24 align-middle pr-2" rowSpan={showBackupRow ? 2 : 1}>
                       <img
                         src={item.imageUrl || `https://libandco.com/cdn/shop/files/${item.sku}.jpg`}
                         alt={item.name}
-                        className="w-11 h-11 object-cover rounded-md border border-neutral-200 dark:border-neutral-700"
+                        className="w-[88px] max-h-[88px] object-contain rounded-md"
                         loading="lazy"
                         onError={(e) => {
                           e.currentTarget.style.display = 'none';
